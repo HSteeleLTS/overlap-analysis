@@ -1,0 +1,2970 @@
+MMS Id                                                  991001406019703851
+Title (Normalized)                    cassese s international criminal law
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                    [2013]
+Author                                           Cassese, Antonio, author.
+Author (contributor)     Whiting, A. editor. (Alex),; Gosnell, Christop...
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 1104, dtype: object
+=LDR  03764cam a2200517 i 4500
+=001  991001406019703851
+=005  20190425105702.0
+=008  130325t20132013enk\\\\\\b\\\\001\0\eng\c
+=010  \\$a2012540730
+=015  \\$aGBB2A1665$2bnb
+=015  \\$aGBB2A1665$2bnb
+=016  7\$a016185959$2Uk
+=016  7\$a016185959$2Uk
+=019  \\$a812686200
+=019  \\$a812686200
+=020  \\$a9780199694921 (paperback)
+=020  \\$a0199694923 (paperback)
+=035  \\$a(MMeT)b25551231-01tun_inst
+=035  \\$a(OCoLC)832588689
+=040  \\$aUKMGB$beng$erda$cUKMGB$dDLC$dOCLCO$dYDXCP$dYNK$dQGK$dCGU$dGUL$dRCJ$dCOO$dOCLCO$dOCLCQ$dWLL$dOCLCA$dOCLCQ$dONS$dUNBCA
+=042  \\$apcc
+=050  00$aK5000$b.C37 2013
+=082  04$a345.0235$223
+=100  1\$aCassese, Antonio,$eauthor.
+=240  10$aInternational criminal law
+=245  10$aCassese's international criminal law.
+=250  \\$aThird edition /$brev. by Antonio Cassese, Paola Gaeta, Laurel Baig, Mary Fan, Christopher Gosnell and Alex Whiting.
+=264  \1$aOxford :$bOxford University Press,$c[2013]
+=264  \4$c©2013
+=300  \\$alii, 414 pages ;$c25 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=500  \\$aRevised edition of: International criminal law, second edition, 2008.
+=504  \\$aIncludes bibliographical references and index.
+=520  \\$aProvides a clear account of the main substantive and procedural aspects of international criminal law. Adopting a combination of the classic common law and more theoretical approaches to the subject, it discusses: the historical evolution of international criminal law; the legal definition of the so-called core crimes (war crimes, crimes against humanity, genocide) plus aggression, torture and terrorism; the forms and modes of criminal responsibility; and the main issues related to the prosecution and punishment of international crimes at the national and international level, including amnesties, statutes of limitations, and immunities.
+=505  00$tFundamentals of international criminal law --$tThe principal of legality --$tThe elements of international crimes, in particular the mental element --$tWar crimes --$tCrimes against humanity --$tGenocide /$rrevised by Paola Gaeta --$tTorture and aggression /$rrevised by Mary Fan --$tTerrorism --$tPerpetration : in particular joint and indirect perpetration /$rrevised by Laurel Baig --$tOmission liability and superior responsibility /$rrevised by Laurel Baig --$tOther modes of criminal liability and inchoate crimes /$rrevised by Laurel Baig --$tJustifications and excuses /$rrevised by Christopher Gosnell --$tObedience to superior orders and official capacity /$rrevised by Christopher Gosnell and Paola Gaeta --$tInternational criminal courts --$tThe repression of international crimes in domestic jurisdictions /$rrevised by Paola Gaeta --$tInternational versus national jurisdiction /$rrevised by Alex Whiting --$tLegal impediments to the exercise of criminal jurisdiction --$tThe adoption of the essential features of the adversarial system /$rrevised by Christopher Gosnell --$tGeneral principles governing international criminal trials /$rrevised by Christopher Gosnell --$tInvestigation and trial before international criminal courts /$rrevised by Christopher Gosnell --$tAppeals and enforcement /$rrevised by Laurel Baig.
+=650  \0$aInternational crimes.
+=650  \0$aCriminal procedure (International law)
+=650  \0$aCriminal jurisdiction.
+=700  1\$aGaeta, Paola,$eeditor.
+=700  1\$aBaig, L.$q(Laurel),$eeditor.
+=700  1\$aFan, M.$q(Mary),$eeditor.
+=700  1\$aGosnell, Christopher,$eeditor.
+=700  1\$aWhiting, A.$q(Alex),$eeditor.
+=910  \\$a94 10/2013
+=AVA  \\$0991001406019703851$82286741050003851$a01TUN_INST$bGINN$cReserves$dK5000 .C37 2013$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+
+
+
+
+XML:        cassese s international criminal law|cassese, antonio, author.|2013
+Analytics:  cassese s international criminal law|cassese, antonio, author.|2013|
+
+
+=LDR  03764cam a2200517 i 4500
+=001  991001406019703851
+=005  20190425105702.0
+=008  130325t20132013enk\\\\\\b\\\\001\0\eng\c
+=010  \\$a2012540730
+=015  \\$aGBB2A1665$2bnb
+=015  \\$aGBB2A1665$2bnb
+=016  7\$a016185959$2Uk
+=016  7\$a016185959$2Uk
+=019  \\$a812686200
+=019  \\$a812686200
+=020  \\$a9780199694921 (paperback)
+=020  \\$a0199694923 (paperback)
+=035  \\$a(MMeT)b25551231-01tun_inst
+=035  \\$a(OCoLC)832588689
+=040  \\$aUKMGB$beng$erda$cUKMGB$dDLC$dOCLCO$dYDXCP$dYNK$dQGK$dCGU$dGUL$dRCJ$dCOO$dOCLCO$dOCLCQ$dWLL$dOCLCA$dOCLCQ$dONS$dUNBCA
+=042  \\$apcc
+=050  00$aK5000$b.C37 2013
+=082  04$a345.0235$223
+=100  1\$aCassese, Antonio,$eauthor.
+=240  10$aInternational criminal law
+=245  10$aCassese's international criminal law.
+=250  \\$aThird edition /$brev. by Antonio Cassese, Paola Gaeta, Laurel Baig, Mary Fan, Christopher Gosnell and Alex Whiting.
+=264  \1$aOxford :$bOxford University Press,$c[2013]
+=264  \4$c©2013
+=300  \\$alii, 414 pages ;$c25 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=500  \\$aRevised edition of: International criminal law, second edition, 2008.
+=504  \\$aIncludes bibliographical references and index.
+=520  \\$aProvides a clear account of the main substantive and procedural aspects of international criminal law. Adopting a combination of the classic common law and more theoretical approaches to the subject, it discusses: the historical evolution of international criminal law; the legal definition of the so-called core crimes (war crimes, crimes against humanity, genocide) plus aggression, torture and terrorism; the forms and modes of criminal responsibility; and the main issues related to the prosecution and punishment of international crimes at the national and international level, including amnesties, statutes of limitations, and immunities.
+=505  00$tFundamentals of international criminal law --$tThe principal of legality --$tThe elements of international crimes, in particular the mental element --$tWar crimes --$tCrimes against humanity --$tGenocide /$rrevised by Paola Gaeta --$tTorture and aggression /$rrevised by Mary Fan --$tTerrorism --$tPerpetration : in particular joint and indirect perpetration /$rrevised by Laurel Baig --$tOmission liability and superior responsibility /$rrevised by Laurel Baig --$tOther modes of criminal liability and inchoate crimes /$rrevised by Laurel Baig --$tJustifications and excuses /$rrevised by Christopher Gosnell --$tObedience to superior orders and official capacity /$rrevised by Christopher Gosnell and Paola Gaeta --$tInternational criminal courts --$tThe repression of international crimes in domestic jurisdictions /$rrevised by Paola Gaeta --$tInternational versus national jurisdiction /$rrevised by Alex Whiting --$tLegal impediments to the exercise of criminal jurisdiction --$tThe adoption of the essential features of the adversarial system /$rrevised by Christopher Gosnell --$tGeneral principles governing international criminal trials /$rrevised by Christopher Gosnell --$tInvestigation and trial before international criminal courts /$rrevised by Christopher Gosnell --$tAppeals and enforcement /$rrevised by Laurel Baig.
+=650  \0$aInternational crimes.
+=650  \0$aCriminal procedure (International law)
+=650  \0$aCriminal jurisdiction.
+=700  1\$aGaeta, Paola,$eeditor.
+=700  1\$aBaig, L.$q(Laurel),$eeditor.
+=700  1\$aFan, M.$q(Mary),$eeditor.
+=700  1\$aGosnell, Christopher,$eeditor.
+=700  1\$aWhiting, A.$q(Alex),$eeditor.
+=910  \\$a94 10/2013
+=AVA  \\$0991001406019703851$82286741050003851$a01TUN_INST$bGINN$cReserves$dK5000 .C37 2013$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+
+
+
+
+XML:        cassese s international criminal law|cassese, antonio, author.|2013
+Analytics:  cassese s international criminal law|cassese, antonio, author.|2013|
+
+
+=LDR  00235nam  22000853u 4500
+=001  991017842042503851
+=005  20200127144320.0
+=008  200127s\\\\\\\\xx\\\\\\r\\\\\000\0\eng\d
+=100  1\$aCassese, Antonio, author.
+=245  10$aCassese's international criminal law.
+=AVA  \\$0991017842042503851$822227958460003851$a01TUN_INST$bRES_SHARE$cBorrowing Resource Sharing Requests$eunavailable$f1$g1$jOUT_RS_REQ$k0$p1$qResource Sharing Library
+
+
+
+
+XML:        cassese s international criminal law|cassese, antonio, author.|
+Analytics:  cassese s international criminal law|cassese, antonio, author.|2013|
+
+
+=LDR  00235nam  22000853u 4500
+=001  991017842042503851
+=005  20200127144320.0
+=008  200127s\\\\\\\\xx\\\\\\r\\\\\000\0\eng\d
+=100  1\$aCassese, Antonio, author.
+=245  10$aCassese's international criminal law.
+=AVA  \\$0991017842042503851$822227958460003851$a01TUN_INST$bRES_SHARE$cBorrowing Resource Sharing Requests$eunavailable$f1$g1$jOUT_RS_REQ$k0$p1$qResource Sharing Library
+
+
+
+
+XML:        cassese s international criminal law|cassese, antonio, author.|
+Analytics:  cassese s international criminal law|cassese, antonio, author.|2013|
+
+
+MMS Id                                                  991001616109703851
+Title (Normalized)       my neighbor my enemy justice and community in ...
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                     2004.
+Author                                                                 NaN
+Author (contributor)                   Weinstein, Harvey M.; Stover, Eric.
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 1293, dtype: object
+=LDR  05699cam a22009134a 4500
+=001  991001616109703851
+=005  20190425124548.0
+=006  m\\\\\\\\d
+=007  cr\mn|||||n|||
+=008  040303s2004\\\\enka\\\\\b\\\\001\0\eng
+=010  \\$a2004047285
+=015  \\$aGBA470046$2bnb
+=016  7\$a013002012$2Uk
+=019  \\$a56643119$a183926798$a223971654$a847477007$a945787567$a988615648
+=020  \\$a0521834953$q(hb)
+=020  \\$a9780521834957$q(hb)
+=020  \\$a0521542642$q(pb)
+=020  \\$a9780521542647$q(pb)
+=020  \\$a0511720351
+=020  \\$a9780511720352
+=024  3\$a9780521542647
+=029  1\$aAU@$b000025378652
+=029  1\$aAU@$b000026825604
+=029  1\$aCHBIS$b010234424
+=029  1\$aCHDSB$b006310088
+=029  1\$aCHVBK$b324888546
+=029  1\$aCHVBK$b327001771
+=029  1\$aDEBBG$bBV019652251
+=029  1\$aDEBSZ$b11458690X
+=029  1\$aGEBAY$b7525483
+=029  1\$aHR0$b0521834953
+=029  1\$aNLGGC$b262544415
+=029  1\$aNZ1$b16299878
+=029  1\$aNZ1$b8339419
+=029  1\$aYDXCP$b2103759
+=029  1\$aYDXCP$b2103760
+=035  \\$a(MMeT)b18801791-01tun_inst
+=035  \\$a(OCoLC)54753330$z(OCoLC)56643119$z(OCoLC)183926798$z(OCoLC)223971654$z(OCoLC)847477007$z(OCoLC)945787567$z(OCoLC)988615648
+=035  \\$a(OCoLC)ocm54753330
+=040  \\$aDLC$beng$cDLC$dYDX$dUKM$dSYB$dYLS$dBAKER$dNLGGC$dBTCTA$dYDXCP$dLVB$dAU@$dGEBAY$dOCLCQ$dYUS$dTULIB$dDEBBG$dOCLCO$dOCLCF$dZCL$dBDX$dIG#$dOCLCQ$dDEBSZ$dOCLCQ$dCUH$dOCLCQ
+=042  \\$apcc
+=050  00$aK5301$b.M9 2004
+=082  00$a341.6/9$222
+=084  \\$a71.62$2bcl
+=084  \\$aMK 7780$2rvk
+=084  \\$aPR 2210$2rvk
+=245  00$aMy neighbor, my enemy :$bjustice and community in the aftermath of mass atrocity /$cedited by Eric Stover and Harvey M. Weinstein.
+=260  \\$aCambridge, UK ;$aNew York :$bCambridge University Press,$c2004.
+=300  \\$axix, 349 pages :$billustrations ;$c23 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references and index.
+=505  00$gIntroduction: conflict, justice and reclamation /$rHarvey M. Weinstein,$rEric Stover --$gPART I. INSTITUTIONAL APPROACHES TO JUSTICE --$tA world unto itself? The application of international justice in the former Yugoslavia /$rLaurel E. Fletcher,$rHarvey M. Weinstein --$tLegal responses to genocide in Rwanda /$rAlison Des Forges,$rTimothy Longman --$tLocalizing justice: gacaca courts in post-genocide Rwanda /$rUrusaro Alice Karekezi [and others] --$tExhumation of mass graves: balancing legal and humanitarian needs /$rEric Stover,$rRachel Shigekane --$tWitnesses and the promise of justice in The Hague /$rEric Stover --$tReparations in the aftermath of repression and mass violence /$rNaomi Roht-Arriaza --$gPART II. SOCIAL RECONSTRUCTION AND JUSTICE --$tNeighbors again? Intercommunity relations after ethnic cleansing /$rDinka Corkalo [and others] --$tMemory, identity, and community in Rwanda /$rTimothy Longman,$rThéonèste Rutagengwa --$tAttitudes toward justice and social reconstruction in Bosnia and Herzegovina and Croatia /$rMikos Biro [and others] --$tConnecting justice to human experience: attitudes toward accountability and reconciliation in Rwanda /$rTimothy Longman [and others] --$tPublic education and social reconstruction in Bosnia and Herzegovina and Croatia ;$tConfronting the past in Rwandan schools /$rSarah Warshauer Freedman [and others] --$gPART III. SURVIVORS AND JUSTICE --$tArt out of the rubble /$rPamela Blotner --$tTrust and betrayal in war /$rDean Ajdukovic,$rDinka Corkalo --$tEmpathy and rehumanization after mass violence /$rJodi Halpern,$rharvey M. Weinstein --$gConclusion:$ta common objective, a universe of alternatives /$rEric Stover,$rHarvey M. Weinstein.
+=520  1\$a"My Neighbour, My Enemy tackles a crucial and highly topical issue - how do countries rebuild after ethnic cleansing and genocide? And what role do trials and tribunals play in social reconstruction and reconciliation? By talking with people in Rwanda and the former Yugoslavia and carrying out extensive surveys, the authors explore what people think about their past and the future. Their conclusions controversially suggest that international or local trials have little relevance to reconciliation in post-war countries."--Jacket.
+=650  \0$aWar crimes.
+=650  \0$aGenocide.
+=650  \0$aInternational criminal courts.
+=650  \0$aReparations for historical injustices.
+=650  \0$aRetribution.
+=650  \0$aSocial justice.
+=650  \7$aGenocide.$2fast$0(OCoLC)fst00940208
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=650  \7$aReparations for historical injustices$2fast$0(OCoLC)fst01732564
+=650  \7$aRetribution.$2fast$0(OCoLC)fst01096377
+=650  \7$aSocial justice.$2fast$0(OCoLC)fst01122603
+=650  \7$aWar crimes$2fast$0(OCoLC)fst01170465
+=776  18$w(OCoLC)54753330$w(OCoLC)56643119$w(OCoLC)183926798$w(OCoLC)223971654$w(OCoLC)847477007
+=700  1\$aStover, Eric.
+=700  1\$aWeinstein, Harvey M.
+=910  \\$a15 12/2007
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-09-26
+=938  \\$aBaker & Taylor$bBKTY$c70.00$d.00$i0521834953$n0004452920$sactive
+=938  \\$aBaker & Taylor$bBKTY$c32.99$d32.99$i0521542642$n0004452921$sactive
+=938  \\$aBrodart$bBROD$n02780186$c$73.99
+=938  \\$aBaker and Taylor$bBTCP$n2004047285
+=938  \\$aIngram$bINGR$n9780521834957
+=938  \\$aYBP Library Services$bYANK$n2103759
+=959  \\$aWorldShare UPDATED 2017-09-26 -- Master record variable field(s) change: 776
+=AVA  \\$0991001616109703851$822107657830003851$a01TUN_INST$bGINN$cReserves$dK5301 .M9 2004$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+=AVE  \\$853262494920003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        my neighbor my enemy justice and community in the aftermath of mass atrocity|stover, eric.|2004
+Analytics:  my neighbor my enemy justice and community in the aftermath of mass atrocity|weinstein, harvey m.; stover, eric.|2004|temp
+
+
+MMS Id                                                  991002208959703851
+Title (Normalized)       civil war and the rule of law security develop...
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                     2008.
+Author                                                                 NaN
+Author (contributor)                     Huang, Reyko.; Hurwitz, Agnès G.
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 1561, dtype: object
+=LDR  04862cam a22008894a 4500
+=001  991002208959703851
+=005  20190527052833.2
+=008  070913s2008\\\\cou\\\\\\b\\\\001\0\eng
+=010  \\$a2007037868
+=019  \\$a717311579
+=020  \\$a9781588265319$q(hardcover ;$qalk. paper)
+=020  \\$a1588265315$q(hardcover ;$qalk. paper)
+=020  \\$a9781588265074$q(pbk. ;$qalk. paper)
+=020  \\$a1588265072$q(pbk. ;$qalk. paper)
+=029  1\$aAU@$b000042197459
+=029  1\$aCHRRO$bR004749555
+=029  1\$aDEBBG$bBV023253941
+=029  1\$aDEBSZ$b281025649
+=029  1\$aGEBAY$b10359176
+=029  1\$aHEBIS$b208999922
+=029  1\$aNZ1$b12395951
+=035  \\$a(MMeT)b19023418-01tun_inst
+=035  \\$a(OCoLC)172521760$z(OCoLC)717311579
+=035  \\$a(OCoLC)ocn172521760
+=040  \\$aDLC$beng$cDLC$dYDXCP$dBAKER$dBTCTA$dC#P$dRCJ$dBOP$dGEBAY$dOCLCQ$dDEBSZ$dOCLCQ$dCHRRO$dOCLCF$dOCLCO$dOCLCQ$dDEBBG$dOCLCQ$dOCLCO$dUX0$dOCLCQ$dUKUOY$dCEF$dTYC$dFQG$dFML$dOCLCQ$dPAU$dNAM$dGILDS$dJG0$dDXLAW$dYOU$dOCLCQ$dLGG$dOCLCQ$dAZU$dW2U$dOCLCA$dYOR$dTJC$dOCLCQ$dOCLCO
+=050  00$aKZ6355$b.C58 2008
+=072  \7$as1dr$2rero
+=082  00$a341.6$222
+=084  \\$aKC1365$b.C585 2008$2moys
+=084  \\$aMD 8700$2rvk
+=084  \\$aMK 3820$2rvk
+=084  \\$aMK 3000$2rvk
+=084  \\$aPR 2622$2rvk
+=245  00$aCivil war and the rule of law :$bsecurity, development, human rights /$cedited by Agnès Hurwitz with Reyko Huang.
+=260  \\$aBoulder :$bLynne Rienner Publishers,$c2008.
+=300  \\$ax, 351 pages ;$c23 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aA project of the International Peace Academy
+=504  \\$aIncludes bibliographical references (pages 303-329) and index.
+=505  00$tCivil war and the rule of law : toward security, development, and human rights /$rAgnès Hurwitz --$tExploring the rule of law in theory and practice /$rRama Mani --$tInvoking the rule of law : international discourses /$rBalakrishnan Rajagopal --$tPrevention and the rule of law : rhetoric and reality /$rChandra Lekha Sriram --$tUN peacekeeping operations and rule of law programs /$rWilliam G. O'Neill --$tModel codes : laying the foundations of the rule of law /$rColette Rausch and Vivienne O'Connor --$t"Ownership" : the transfer of authority in postconflict operations /$rSimon Chesterman --$tAddressing the past : reparations for gross human rights abuses /$rPablo de Grieff --$tBeyond restitution : housing, land, property, and the rule of law /$rAgnès Hurwitz --$tCorruption : a rule of law agenda? /$rMadalene O'Donnell --$tCounterterrorism and the rule of law /$rReyko Huang --$tThe rule of law and peacebuilding processes /$rAgnès Hurwitz.
+=650  \0$aWar (International law)
+=650  \0$aRule of law.
+=650  \0$aCivil war$xProtection of civilians.
+=650  \0$aWar victims$xLegal status, laws, etc.
+=650  \0$aHuman rights.
+=650  \0$aSecurity, International.
+=650  \0$aConflict management.
+=650  \7$aCivil war$xProtection of civilians.$2fast$0(OCoLC)fst00862886
+=650  \7$aConflict management.$2fast$0(OCoLC)fst00874778
+=650  \7$aHuman rights.$2fast$0(OCoLC)fst00963285
+=650  \7$aRule of law.$2fast$0(OCoLC)fst01101218
+=650  \7$aSecurity, International.$2fast$0(OCoLC)fst01110895
+=650  \7$aWar (International law)$2fast$0(OCoLC)fst01170412
+=650  \7$aWar victims$xLegal status, laws, etc.$2fast$0(OCoLC)fst01170695
+=700  1\$aHurwitz, Agnès G.
+=700  1\$aHuang, Reyko.
+=776  08$iOnline version:$tCivil war and the rule of law.$dBoulder, CO : Lynne Rienner Publishers, 2008$w(OCoLC)594464327
+=776  08$iOnline version:$tCivil war and the rule of law.$dBoulder, CO : Lynne Rienner Publishers, 2008$w(OCoLC)608593460
+=830  \0$aProject of the International Peace Academy.
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-05-25
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-05-26
+=938  \\$aBaker & Taylor$bBKTY$c24.50$d24.50$i1588265072$n0007513600$sactive
+=938  \\$aBaker & Taylor$bBKTY$c59.95$d59.95$i1588265315$n0007513601$sactive
+=938  \\$aBaker and Taylor$bBTCP$nBK0007513601
+=938  \\$aYBP Library Services$bYANK$n2723552
+=959  \\$aWorldShare UPDATED 2019-05-25 -- Master record variable field(s) change: 300, 650
+=959  \\$aWorldShare UPDATED 2019-05-26 -- Master record variable field(s) change: 650
+=AVA  \\$0991002208959703851$82284966860003851$a01TUN_INST$bGINN$cReserves$dKZ6355 .C58 2008$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+=AVA  \\$0991002208959703851$82284966880003851$a01TUN_INST$bTISCH$cBook Stacks$dKZ6355 .C58 2008$eavailable$f1$g0$jTISCHS$k0$p2$qTisch Library
+=AVE  \\$853249787710003851$c61243219940003851$eAvailable$lUNIV$mHathiTrust (free during Covid-19)
+
+
+
+
+XML:        civil war and the rule of law security development human rights|hurwitz, agnès g.|2008
+Analytics:  civil war and the rule of law security development human rights|huang, reyko.; hurwitz, agnès g.|2008|temp
+
+
+MMS Id                                                  991005050659703851
+Title (Normalized)       children and transitional justice truth tellin...
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                    c2010.
+Author                                                                 NaN
+Author (contributor)                                   Parmar, Sharanjeet.
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 2889, dtype: object
+=LDR  02557cam a2200373Ia 4500
+=001  991005050659703851
+=005  20190425113036.0
+=008  100206s2010\\\\maua\\\\\b\\\\000\0\eng\d
+=015  \\$aGBA988824$2bnb
+=015  \\$aGBA988824$2bnb
+=016  7\$a015366407$2Uk
+=016  7\$a015366407$2Uk
+=019  \\$a436264907
+=019  \\$a436264907
+=020  \\$a9780979639548 : PAP
+=020  \\$a0979639549 : PAP
+=035  \\$a(MMeT)b2000963x-01tun_inst
+=035  \\$a(OCoLC)535656277$z(OCoLC)436264907
+=037  \\$bHarvard Univ Pr, C/O Triliteral Llc 100 Maple Ridge Dr, Cumbreland, RI, USA, 02864-1769, (401)6584226
+=040  \\$aTOH$cTOH$dBWX$dUKM$dHLS$dBOP$dWLL$dOCLCQ
+=050  \4$aK639$b.P275 2010
+=082  \4$a341
+=245  00$aChildren and transitional justice :$btruth-telling, accountability and reconciliation /$cedited by Sharanjeet Parmar ... [et al.].
+=260  \\$aCambridge, Mass. :$bHuman Rights Program, Harvard Law School :$bDistributed by Harvard University Press,$cc2010.
+=300  \\$axxvi, 417 p. :$bill. ;$c23 cm.
+=504  \\$aIncludes bibliographical references.
+=505  0\$aChild rights and transitional justice / Saudamini Siegrist -- Basic assumptions of transitional justice and children / Alison Smith -- International criminal justice and child protection / Cécile Aptel -- Children and the South African Truth and Reconciliation Commission / Piers Pigou -- Child participation in the Sierra Leonean Truth and Reconciliation Commission / Philip Cook and Cheryl Heykoop -- Children and the Liberian Truth and Reconciliation Commission / Theo Sowa -- Accountability and reconciliation in Northern Uganda. Accountability for sexual and gender-based crimes by the Lord's Resistance Army / Kristopher Carlson and Dyan Mazurana ; The potential and limits of mato oput as a tool for reconciliation and justice / Prudence Acirokop -- Disappeared children, genetic tracing and justice / Michele Harvey-Blankenship and Rachel Shigekane -- Truth commission and national curricula: the case of record̓̓andonos in Peru / Julia Paulson -- Realizing economic justice for children: the role of transitional justice in post-conflict societies / Sharanjeet Parmar.
+=650  \0$aChildren$xLegal status, laws, etc.
+=650  \0$aTransitional justice$vCross-cultural studies.
+=650  \0$aChildren's rights$vCross-cultural studies.
+=650  \0$aChildren$xLegal status, laws, etc.$vCross-cultural studies.
+=650  \0$aChild witnesses$vCross-cultural studies.
+=700  1\$aParmar, Sharanjeet.
+=910  \\$a15 05/2010
+=AVA  \\$0991005050659703851$82296144840003851$a01TUN_INST$bGINN$cReserves$dK639 .P275 2010$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+
+
+
+
+XML:        children and transitional justice truthtelling accountability and reconciliation|parmar, sharanjeet.|2010
+Analytics:  children and transitional justice truth telling accountability and reconciliation|parmar, sharanjeet.|2010|
+
+
+=LDR  02557cam a2200373Ia 4500
+=001  991005050659703851
+=005  20190425113036.0
+=008  100206s2010\\\\maua\\\\\b\\\\000\0\eng\d
+=015  \\$aGBA988824$2bnb
+=015  \\$aGBA988824$2bnb
+=016  7\$a015366407$2Uk
+=016  7\$a015366407$2Uk
+=019  \\$a436264907
+=019  \\$a436264907
+=020  \\$a9780979639548 : PAP
+=020  \\$a0979639549 : PAP
+=035  \\$a(MMeT)b2000963x-01tun_inst
+=035  \\$a(OCoLC)535656277$z(OCoLC)436264907
+=037  \\$bHarvard Univ Pr, C/O Triliteral Llc 100 Maple Ridge Dr, Cumbreland, RI, USA, 02864-1769, (401)6584226
+=040  \\$aTOH$cTOH$dBWX$dUKM$dHLS$dBOP$dWLL$dOCLCQ
+=050  \4$aK639$b.P275 2010
+=082  \4$a341
+=245  00$aChildren and transitional justice :$btruth-telling, accountability and reconciliation /$cedited by Sharanjeet Parmar ... [et al.].
+=260  \\$aCambridge, Mass. :$bHuman Rights Program, Harvard Law School :$bDistributed by Harvard University Press,$cc2010.
+=300  \\$axxvi, 417 p. :$bill. ;$c23 cm.
+=504  \\$aIncludes bibliographical references.
+=505  0\$aChild rights and transitional justice / Saudamini Siegrist -- Basic assumptions of transitional justice and children / Alison Smith -- International criminal justice and child protection / Cécile Aptel -- Children and the South African Truth and Reconciliation Commission / Piers Pigou -- Child participation in the Sierra Leonean Truth and Reconciliation Commission / Philip Cook and Cheryl Heykoop -- Children and the Liberian Truth and Reconciliation Commission / Theo Sowa -- Accountability and reconciliation in Northern Uganda. Accountability for sexual and gender-based crimes by the Lord's Resistance Army / Kristopher Carlson and Dyan Mazurana ; The potential and limits of mato oput as a tool for reconciliation and justice / Prudence Acirokop -- Disappeared children, genetic tracing and justice / Michele Harvey-Blankenship and Rachel Shigekane -- Truth commission and national curricula: the case of record̓̓andonos in Peru / Julia Paulson -- Realizing economic justice for children: the role of transitional justice in post-conflict societies / Sharanjeet Parmar.
+=650  \0$aChildren$xLegal status, laws, etc.
+=650  \0$aTransitional justice$vCross-cultural studies.
+=650  \0$aChildren's rights$vCross-cultural studies.
+=650  \0$aChildren$xLegal status, laws, etc.$vCross-cultural studies.
+=650  \0$aChild witnesses$vCross-cultural studies.
+=700  1\$aParmar, Sharanjeet.
+=910  \\$a15 05/2010
+=AVA  \\$0991005050659703851$82296144840003851$a01TUN_INST$bGINN$cReserves$dK639 .P275 2010$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+
+
+
+
+XML:        children and transitional justice truthtelling accountability and reconciliation|parmar, sharanjeet.|2010
+Analytics:  children and transitional justice truth telling accountability and reconciliation|parmar, sharanjeet.|2010|
+
+
+MMS Id                                                  991006420029703851
+Title (Normalized)       unspeakable truths transitional justice and th...
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                     2011.
+Author                                                Hayner, Priscilla B.
+Author (contributor)                                                   NaN
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 3306, dtype: object
+=LDR  01189cam a2200361 a 4500
+=001  991006420029703851
+=005  20190425114021.0
+=008  100610s2011\\\\nyua\\\\\b\\\\001\0\eng
+=010  \\$a2010023488
+=020  \\$a9780415872027 (hardback : alk. paper)
+=020  \\$a0415872022 (hardback : alk. paper)
+=020  \\$a9780415806350 (pbk. : alk. paper)
+=020  \\$a0415806356 (pbk. : alk. paper)
+=020  \\$a9780203867822 (ebook)
+=020  \\$a0203867823 (ebook)
+=035  \\$a(MMeT)b20498093-01tun_inst
+=035  \\$a(OCoLC)642351629
+=040  \\$aDLC$cDLC$dC#P$dCDX$dBWX$dYDXCP
+=050  00$aJC580$b.H39 2011
+=082  00$a323/.044$222
+=100  1\$aHayner, Priscilla B.
+=245  10$aUnspeakable truths :$btransitional justice and the challenge of truth commissions /$cPriscilla B. Hayner.
+=250  \\$a2nd ed.
+=260  \\$aNew York :$bRoutledge,$c2011.
+=300  \\$axx, 356 p. :$bill. ;$c23 cm.
+=504  \\$aIncludes bibliographical references and index.
+=650  \0$aTruth commissions.
+=650  \0$aHuman rights.
+=650  \0$aPolitical atrocities.
+=650  \0$aPolitical persecution.
+=650  \0$aAmnesty.
+=650  \0$aReconciliation.
+=910  \\$a94 10/2010
+=AVA  \\$0991006420029703851$82298112190003851$a01TUN_INST$bGINN$cReserves$dJC580 .H39 2011$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+=AVA  \\$0991006420029703851$82298112150003851$a01TUN_INST$bTISCH$cBook Stacks$dJC580 .H39 2011$eavailable$f1$g0$jTISCHS$k0$p2$qTisch Library
+
+
+
+
+XML:        unspeakable truths transitional justice and the challenge of truth commissions|hayner, priscilla b.|2011
+Analytics:  unspeakable truths transitional justice and the challenge of truth commissions|hayner, priscilla b.|2011|
+
+
+=LDR  01189cam a2200361 a 4500
+=001  991006420029703851
+=005  20190425114021.0
+=008  100610s2011\\\\nyua\\\\\b\\\\001\0\eng
+=010  \\$a2010023488
+=020  \\$a9780415872027 (hardback : alk. paper)
+=020  \\$a0415872022 (hardback : alk. paper)
+=020  \\$a9780415806350 (pbk. : alk. paper)
+=020  \\$a0415806356 (pbk. : alk. paper)
+=020  \\$a9780203867822 (ebook)
+=020  \\$a0203867823 (ebook)
+=035  \\$a(MMeT)b20498093-01tun_inst
+=035  \\$a(OCoLC)642351629
+=040  \\$aDLC$cDLC$dC#P$dCDX$dBWX$dYDXCP
+=050  00$aJC580$b.H39 2011
+=082  00$a323/.044$222
+=100  1\$aHayner, Priscilla B.
+=245  10$aUnspeakable truths :$btransitional justice and the challenge of truth commissions /$cPriscilla B. Hayner.
+=250  \\$a2nd ed.
+=260  \\$aNew York :$bRoutledge,$c2011.
+=300  \\$axx, 356 p. :$bill. ;$c23 cm.
+=504  \\$aIncludes bibliographical references and index.
+=650  \0$aTruth commissions.
+=650  \0$aHuman rights.
+=650  \0$aPolitical atrocities.
+=650  \0$aPolitical persecution.
+=650  \0$aAmnesty.
+=650  \0$aReconciliation.
+=910  \\$a94 10/2010
+=AVA  \\$0991006420029703851$82298112190003851$a01TUN_INST$bGINN$cReserves$dJC580 .H39 2011$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+=AVA  \\$0991006420029703851$82298112150003851$a01TUN_INST$bTISCH$cBook Stacks$dJC580 .H39 2011$eavailable$f1$g0$jTISCHS$k0$p2$qTisch Library
+
+
+
+
+XML:        unspeakable truths transitional justice and the challenge of truth commissions|hayner, priscilla b.|2011
+Analytics:  unspeakable truths transitional justice and the challenge of truth commissions|hayner, priscilla b.|2011|
+
+
+MMS Id                                                  991008970089703851
+Title (Normalized)       breaking the cycles of hatred memory law and r...
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                    c2002.
+Author                                                Minow, Martha, 1954-
+Author (contributor)             Rosenblum, Nancy L. 1947- (Nancy Lipton),
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 4111, dtype: object
+=LDR  05766cam a22009254a 4500
+=001  991008342409703851
+=005  20200408074449.9
+=006  m\\\\\o\\d
+=007  cr\|n|||||||||
+=008  020327s2002\\\\njua\\\\ob\\\\001\0\eng\c
+=010  \\$z2002024310
+=019  \\$a505088739$a646805471$a820422694$a961631490$a962693760$a988466457$a991925953$a994899266$a1037497801$a1037925786$a1038673562$a1045452466$a1055357015$a1062876129$a1064164625$a1083603247
+=020  \\$a9781400825387$q(electronic bk.)
+=020  \\$a1400825385$q(electronic bk.)
+=020  \\$z0691096627
+=020  \\$z9780691096629
+=020  \\$z0691096635
+=020  \\$z9780691096636
+=029  1\$aAU@$b000051351924
+=029  1\$aDEBBG$bBV043160829
+=029  1\$aDEBBG$bBV044137043
+=029  1\$aDEBSZ$b396275966
+=029  1\$aDEBSZ$b421996447
+=029  1\$aDEBSZ$b430744633
+=029  1\$aGBVCP$b1003603882
+=029  1\$aHEBIS$b293915539
+=029  1\$aNZ1$b14244611
+=035  \\$a(MMeT)b28216684-01tun_inst
+=035  \\$a(MdBmJHUP)muse36218
+=035  \\$a(MiAaPQ)EBC445432
+=035  \\$a(Au-PeEL)EBL445432
+=035  \\$a(CaPaEBR)ebr10284025
+=035  \\$a(CaONFJC)MIL293530
+=035  \\$a(OCoLC)368302463$z(OCoLC)505088739$z(OCoLC)646805471$z(OCoLC)820422694$z(OCoLC)961631490$z(OCoLC)962693760$z(OCoLC)988466457$z(OCoLC)991925953$z(OCoLC)994899266$z(OCoLC)1037497801$z(OCoLC)1037925786$z(OCoLC)1038673562$z(OCoLC)1045452466$z(OCoLC)1055357015$z(OCoLC)1062876129$z(OCoLC)1064164625$z(OCoLC)1083603247
+=035  \\$a(OCoLC)ocn368302463
+=037  \\$a22573/cttvbd9$bJSTOR
+=040  \\$aCOO$beng$epn$cCOO$dN$T$dUBY$dEBLCP$dIDEBK$dE7B$dOCLCQ$dMHW$dOCLCQ$dYDXCP$dOCLCQ$dJSTOR$dN$T$dOCLCF$dNLGGC$dDEBSZ$dCUS$dOCLCQ$dZMC$dP@U$dOCLCQ$dAZK$dAGLDB$dZ5A$dMOR$dPIFAG$dZCU$dOTZ$dMERUC$dOCLCQ$dJBG$dOCLCQ$dIOG$dU3W$dEZ9$dSTF$dBRL$dWRM$dVTS$dNRAMU$dICG$dVT2$dAU@$dOCLCQ$dWYU$dLVT$dA6Q$dDKC$dOCLCQ$dUKAHL$dOCLCQ
+=042  \\$apcc
+=050  \4$aK5301$b.M56 2002
+=072  \7$aTRU$x000000$2bisacsh
+=072  \7$aLAW052000$2bisacsh
+=082  04$a364.1$221
+=084  \\$a86.46$2bcl
+=100  1\$aMinow, Martha,$d1954-
+=245  10$aBreaking the cycles of hatred :$bmemory, law, and repair /$cMartha Minow ; introduced and with commentaries edited by Nancy L. Rosenblum.
+=260  \\$aPrinceton, N.J. :$bPrinceton University Press,$c©2002.
+=300  \\$a1 online resource (302 pages) :$billustrations
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=347  \\$adata file$2rda
+=520  \\$aViolence so often begets violence. Victims respond with revenge only to inspire seemingly endless cycles of retaliation. Conflicts between nations, between ethnic groups, between strangers, and between family members differ in so many ways and yet often share this dynamic. In this powerful and timely book Martha Minow and others ask: What explains these cycles and what can break them? What lessons can we draw from one form of violence that might be relevant to other forms? Can legal responses to violence provide accountability but avoid escalating vengeance? If so, what kinds of legal institut.
+=504  \\$aIncludes bibliographical references and index.
+=505  00$gIntroduction:$tMemory, law, and repair /$rNancy L. Rosenblum --$tBreaking the cycles of hatred /$rMartha Minow --$tJustice and the experience of injustice /$rNancy L. Rosenblum --$tRighting old wrongs /$rMarc Galanter --$tReluctant redress: the U.S. kidnapping and internment of Japanese Latin Americans /$rEric K. Yamamoto --$tMemory, hate, and the criminalization of bias-motivated violence: lessons from Great Britain /$rFrederick M. Lawrence --$tCollective memory, collective action, and black activism in the 1960s /$rFredrick C. Harris -- Beyond memory: child sexual abuse and the statute of limitations /$rRoss E. Cheit, Carey Jaros --$tPeace on earth begins at home: reflections from the women's liberation movement /$rJudith Lewis Herman --$tThin line between imposition and consent: a critique of birthright membership regimes and their implications /$rAyelet Shachar --$tWhen memory speaks: remembrance and revenge in Unforgiven /$rAustin Sarat --$tPower, violence, and legitimacy: a reading of Hannah Arendt in an age of police brutality and humanitarian intervention /$rIris Marion Young.
+=655  \7$aElectronic books.$2lcgft
+=650  \0$aHate crimes.
+=650  \0$aViolence (Law)
+=650  \0$aReparation (Criminal justice)
+=650  \0$aLaw reform.
+=650  \7$aHate crimes.$2fast$0(OCoLC)fst00951873
+=650  \7$aLaw reform.$2fast$0(OCoLC)fst00994081
+=650  \7$aReparation (Criminal justice)$2fast$0(OCoLC)fst01431240
+=650  \7$aViolence (Law)$2fast$0(OCoLC)fst01167270
+=655  \0$aElectronic book.
+=776  08$iPrint version:$aMinow, Martha, 1954-$tBreaking the cycles of hatred.$dPrinceton, N.J. : Princeton University Press, ©2002$z0691096627$z9780691096629$w(DLC)  2002024310$w(OCoLC)49559051
+=700  1\$aRosenblum, Nancy L.$q(Nancy Lipton),$d1947-
+=856  40$uhttps://www.jstor.org/stable/10.2307/j.ctt7t403$zJSTOR Expanded COVID-19 Books Collection
+=910  \\$aE-BOOK OCLC WMS NEW -- Books at JSTOR Evidence Based Acquisitions 2017-01-23
+=910  \\$aE-BOOK OCLC WMS DELETED -- JSTOR DDA 2017-01-05
+=910  \\$aE-BOOK OCLC WMS UPDATED -- JSTOR DDA 2016-11-11
+=910  \\$aE-BOOK OCLC WMS UPDATED -- JSTOR DDA 2016-05-27
+=910  \\$aE-BOOK OCLC WMS UPDATED -- JSTOR DDA 2016-01-29
+=910  \\$aE-BOOK OCLC WMS UPDATED -- JSTOR DDA 2016-01-22
+=910  \\$aE-BOOK OCLC WMS UPDATED -- JSTOR DDA 2016-01-01
+=910  \\$aE-BOOK OCLC WMS UPDATED -- JSTOR DDA 2015-10-23
+=910  \\$aWorldShare NEW -- Books at JSTOR Evidence Based Acquisitions 2017-09-05
+=910  \\$aWorldShare UPDATED -- Books at JSTOR Evidence Based Acquisitions 2017-09-18
+=910  \\$aWorldShare UPDATED -- Books at JSTOR Evidence Based Acquisitions 2018-06-03
+=910  \\$aWorldShare UPDATED -- Books at JSTOR Evidence Based Acquisitions 2018-11-04
+=910  \\$aWorldShare UPDATED -- Books at JSTOR Evidence Based Acquisitions 2018-11-19
+=910  \\$aWorldShare UPDATED -- Books at JSTOR Evidence Based Acquisitions 2019-07-10
+=910  \\$aWorldShare NEW -- Project Muse Free Covid Books 2020-04-02
+=910  \\$aWorldShare NEW -- JSTOR Expanded COVID-19 Books Collection 2020-04-07
+=938  \\$aEBL - Ebook Library$bEBLB$nEBL445432
+=938  \\$aebrary$bEBRY$nebr10284025
+=938  \\$aEBSCOhost$bEBSC$n273135
+=938  \\$aProject MUSE$bMUSE$nmuse36218
+=938  \\$aYBP Library Services$bYANK$n3000835
+=938  \\$aAskews and Holts Library Services$bASKH$nAH26387228
+=938  \\$aProQuest Ebook Central$bEBLB$nEBL445432
+=945  \\$aProject MUSE - Archive Political Science and Policy Studies Supplement III
+=945  \\$aProject MUSE - Archive Complete Supplement III
+=959  \\$aWorldShare NEW 2017-01-23 --
+=959  \\$aWorldShare NEW 2017-09-05 -- Added to collection jstor.ebookseba
+=959  \\$aWorldShare UPDATED 2017-09-18 -- Master record variable field(s) change: 010
+=959  \\$aWorldShare UPDATED 2018-06-03 -- Master record variable field(s) change: 010
+=959  \\$aWorldShare UPDATED 2018-11-04 -- Master record variable field(s) change: 010
+=959  \\$aWorldShare UPDATED 2018-11-19 -- Master record variable field(s) change: 010
+=959  \\$aWorldShare UPDATED 2019-07-10 -- Added to collection jstor.ebookseba - Removed from collection jstor.ebookseba
+=959  \\$aWorldShare NEW 2020-04-02 -- Added to collection Muse.covidbooks
+=959  \\$aWorldShare NEW 2020-04-07 -- New collection jstor.covidbks
+=AVE  \\$853153092990003851$c61152719270003851$eAvailable$lUNIV$mBooks at JSTOR EBA$tJSTOR
+=AVE  \\$853240231550003851$c61231789090003851$eAvailable$lUNIV$mProject MUSE eBooks (free during Covid-19)
+=AVE  \\$853242039670003851$c61240329550003851$eAvailable$lUNIV$mJSTOR Expanded COVID-19 Books Collection (free during COVID-19)
+
+
+
+
+XML:        breaking the cycles of hatred memory law and repair|minow, martha, 1954-|2002
+Analytics:  breaking the cycles of hatred memory law and repair|minow, martha, 1954-|2002|temp
+
+
+MMS Id                                                 991009089479703851
+Title (Normalized)       introduction to the international criminal court
+Course Code                                                    2202-24246
+Course Name                       Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                       Ginn Reserves
+Publication Date                                                    2011.
+Author                                            Schabas, William, 1950-
+Author (contributor)                                                  NaN
+Bibliographic Level                                                     m
+Resource Type                                             Book - Physical
+Semester                                                             2202
+Name: 4144, dtype: object
+=LDR  00418nam a2200145 a 4500
+=001  991014754799703851
+=005  20190516092551.0
+=008  170607s\\\\\\\\xx\\\\\\r\\\\\000\0\eng\d
+=020  \\$a0521011493
+=035  \\$a(MMeT)b17448785-01tun_inst
+=099  \\$aPC 3938
+=100  \\$aSchabas, William A.
+=245  \0$aIntroduction to the international criminal court
+=260  \\$bCambridge University Press$c2001
+=590  \\$aFOR RESERVE ONLY.
+=AVA  \\$0991014754799703851$82294770660003851$a01TUN_INST$bTISCH$cReserves$dPC 3938$eavailable$f1$g0$jTISCHC$k0$p1$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        introduction to the international criminal court|schabas, william a.|2001
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  00418nam a2200145 a 4500
+=001  991014754799703851
+=005  20190516092551.0
+=008  170607s\\\\\\\\xx\\\\\\r\\\\\000\0\eng\d
+=020  \\$a0521011493
+=035  \\$a(MMeT)b17448785-01tun_inst
+=099  \\$aPC 3938
+=100  \\$aSchabas, William A.
+=245  \0$aIntroduction to the international criminal court
+=260  \\$bCambridge University Press$c2001
+=590  \\$aFOR RESERVE ONLY.
+=AVA  \\$0991014754799703851$82294770660003851$a01TUN_INST$bTISCH$cReserves$dPC 3938$eavailable$f1$g0$jTISCHC$k0$p1$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        introduction to the international criminal court|schabas, william a.|2001
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  00442nam a2200157 a 4500
+=001  991014754839703851
+=005  20190516092548.0
+=008  170607s\\\\\\\\xx\\\\\\r\\\\\000\0\eng\d
+=020  \\$a0521537568
+=035  \\$a(MMeT)b17448803-01tun_inst
+=099  \\$aPC 3936
+=100  \\$aSchabas, William A.
+=245  \0$aIntroduction to the international criminal court
+=250  \\$a2nd ed.
+=260  \\$bCambridge University Press$c2005
+=590  \\$aFOR RESERVE ONLY.
+=AVA  \\$0991014754839703851$82294794390003851$a01TUN_INST$bTISCH$cReserves$dPC 3936$eavailable$f1$g0$jTISCHC$k0$p1$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        introduction to the international criminal court|schabas, william a.|2005
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  00442nam a2200157 a 4500
+=001  991014754839703851
+=005  20190516092548.0
+=008  170607s\\\\\\\\xx\\\\\\r\\\\\000\0\eng\d
+=020  \\$a0521537568
+=035  \\$a(MMeT)b17448803-01tun_inst
+=099  \\$aPC 3936
+=100  \\$aSchabas, William A.
+=245  \0$aIntroduction to the international criminal court
+=250  \\$a2nd ed.
+=260  \\$bCambridge University Press$c2005
+=590  \\$aFOR RESERVE ONLY.
+=AVA  \\$0991014754839703851$82294794390003851$a01TUN_INST$bTISCH$cReserves$dPC 3936$eavailable$f1$g0$jTISCHC$k0$p1$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        introduction to the international criminal court|schabas, william a.|2005
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  03657cam a2200649 i 4500
+=001  991001595769703851
+=005  20190425105604.0
+=008  160726t20172017enk\\\\\\b\\\\001\0\eng\c
+=010  \\$a2011411567
+=020  \\$a110713370X$q(hardback)
+=020  \\$a9781107133709$q(hardback)
+=020  \\$a9781107590175$q(paperback)
+=020  \\$a1107590175$q(paperback)
+=020  \\$a9780521767507
+=020  \\$a0521767504
+=020  \\$a9780521151955
+=020  \\$a0521151953
+=029  1\$aAU@$b000059925333
+=029  1\$aCHBIS$b010712114
+=029  1\$aCHDSB$b006693560
+=029  1\$aCHVBK$b438372166
+=029  1\$aCHVBK$b482676272
+=029  1\$aNLGGC$b407539301
+=035  \\$a(MMeT)b30630630-01tun_inst
+=035  \\$a(OCoLC)954007564
+=035  \\$a(OCoLC)ocn954007564
+=040  \\$aYDXCP$beng$erda$cYDXCP$dOCLCQ$dGZL$dCHVBK$dOCLCO$dLSD$dOCLCA$dOCLCF$dOCLCO$dOCLCA$dGWL$dNDL$dRCJ$dOCLCO$dOCL$dSHS$dDHA$dOCLCQ$dL2U$dUEJ$dEMI$dOCLCQ$dOCLCO$dUKOBU$dPHUST
+=042  \\$apcc
+=050  \4$aKZ7312$b.S33 2017
+=072  \7$aLAW$2eflch
+=072  \7$aLAW$2ukslc
+=082  04$a345/.01$223
+=100  1\$aSchabas, William,$d1950-$eauthor.
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$aFifth edition.
+=264  \1$aCambridge, United Kingdom ;$aNew York, NY, USA :$bCambridge University Press,$c2017.
+=264  \4$c©2017
+=300  \\$axiv, 598 pages ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references (pages 518-576) and index.
+=505  0\$aCreation of the Court -- The Court becomes operational -- Jurisdiction -- Triggering the jurisdiction -- Admissibility -- General principles of criminal law -- Investigation and pre-trial procedure -- Trial and appeal -- Punishment -- Victims of crimes and their concerns -- Structure and administration of the Court.
+=520  \\$a"The International Criminal Court ushered in a new era in the protection of human rights. The Court prosecutes genocide, crimes against humanity, war crimes, and the crime of aggression when national justice systems are either unwilling or unable to do so themselves. This fifth edition ... describes a Court which is no longer in its infancy; the Court is currently examining situations that involve more than twenty countries in every continent of the planet. This book considers the difficulties in the Court's troubled relationship with Africa, the vagaries of the position of the United States, and the challenges the Court may face as it confronts conflicts around the world. It also reviews the history of international criminal prosecution and the Rome Statute."--$cBack cover.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \0$aInternational crimes.
+=650  \7$aInternational crimes.$2fast$0(OCoLC)fst01761758
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=775  08$iRevision of:$aSchabas, William, 1950-$tIntroduction to the International Criminal Court.$b4th ed.$dCambridge, UK ; New York : Cambridge University Press, 2011$z9780521767507$w(DLC)  2011411567$w(OCoLC)665137331
+=910  \\$a15 03/2017
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2018-11-01
+=938  \\$aYBP Library Services$bYANK$n13086291
+=938  \\$aYBP Library Services$bYANK$n13086303
+=959  \\$aWorldShare WCP 2017-03-30 --
+=959  \\$aWorldShare UPDATED 2018-11-01 -- Master record variable field(s) change: 010, 020
+=AVA  \\$0991001595769703851$82283679600003851$a01TUN_INST$bGINN$cStacks$dKZ7312 .S33 2017$eavailable$f1$g0$jGINNS$k0$p1$qGinn Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2017
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  03657cam a2200649 i 4500
+=001  991001595769703851
+=005  20190425105604.0
+=008  160726t20172017enk\\\\\\b\\\\001\0\eng\c
+=010  \\$a2011411567
+=020  \\$a110713370X$q(hardback)
+=020  \\$a9781107133709$q(hardback)
+=020  \\$a9781107590175$q(paperback)
+=020  \\$a1107590175$q(paperback)
+=020  \\$a9780521767507
+=020  \\$a0521767504
+=020  \\$a9780521151955
+=020  \\$a0521151953
+=029  1\$aAU@$b000059925333
+=029  1\$aCHBIS$b010712114
+=029  1\$aCHDSB$b006693560
+=029  1\$aCHVBK$b438372166
+=029  1\$aCHVBK$b482676272
+=029  1\$aNLGGC$b407539301
+=035  \\$a(MMeT)b30630630-01tun_inst
+=035  \\$a(OCoLC)954007564
+=035  \\$a(OCoLC)ocn954007564
+=040  \\$aYDXCP$beng$erda$cYDXCP$dOCLCQ$dGZL$dCHVBK$dOCLCO$dLSD$dOCLCA$dOCLCF$dOCLCO$dOCLCA$dGWL$dNDL$dRCJ$dOCLCO$dOCL$dSHS$dDHA$dOCLCQ$dL2U$dUEJ$dEMI$dOCLCQ$dOCLCO$dUKOBU$dPHUST
+=042  \\$apcc
+=050  \4$aKZ7312$b.S33 2017
+=072  \7$aLAW$2eflch
+=072  \7$aLAW$2ukslc
+=082  04$a345/.01$223
+=100  1\$aSchabas, William,$d1950-$eauthor.
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$aFifth edition.
+=264  \1$aCambridge, United Kingdom ;$aNew York, NY, USA :$bCambridge University Press,$c2017.
+=264  \4$c©2017
+=300  \\$axiv, 598 pages ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references (pages 518-576) and index.
+=505  0\$aCreation of the Court -- The Court becomes operational -- Jurisdiction -- Triggering the jurisdiction -- Admissibility -- General principles of criminal law -- Investigation and pre-trial procedure -- Trial and appeal -- Punishment -- Victims of crimes and their concerns -- Structure and administration of the Court.
+=520  \\$a"The International Criminal Court ushered in a new era in the protection of human rights. The Court prosecutes genocide, crimes against humanity, war crimes, and the crime of aggression when national justice systems are either unwilling or unable to do so themselves. This fifth edition ... describes a Court which is no longer in its infancy; the Court is currently examining situations that involve more than twenty countries in every continent of the planet. This book considers the difficulties in the Court's troubled relationship with Africa, the vagaries of the position of the United States, and the challenges the Court may face as it confronts conflicts around the world. It also reviews the history of international criminal prosecution and the Rome Statute."--$cBack cover.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \0$aInternational crimes.
+=650  \7$aInternational crimes.$2fast$0(OCoLC)fst01761758
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=775  08$iRevision of:$aSchabas, William, 1950-$tIntroduction to the International Criminal Court.$b4th ed.$dCambridge, UK ; New York : Cambridge University Press, 2011$z9780521767507$w(DLC)  2011411567$w(OCoLC)665137331
+=910  \\$a15 03/2017
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2018-11-01
+=938  \\$aYBP Library Services$bYANK$n13086291
+=938  \\$aYBP Library Services$bYANK$n13086303
+=959  \\$aWorldShare WCP 2017-03-30 --
+=959  \\$aWorldShare UPDATED 2018-11-01 -- Master record variable field(s) change: 010, 020
+=AVA  \\$0991001595769703851$82283679600003851$a01TUN_INST$bGINN$cStacks$dKZ7312 .S33 2017$eavailable$f1$g0$jGINNS$k0$p1$qGinn Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2017
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  05364cam a22009014a 4500
+=001  991001684759703851
+=005  20190829065125.5
+=008  080131s2007\\\\enk\\\\\\b\\\\001\0\eng
+=010  \\$a2008271141
+=015  \\$aGBA749235$2bnb
+=016  7\$a013778638$2Uk
+=019  \\$a271182778$a605638004
+=020  \\$a9780521881258$q(hbk.)
+=020  \\$a0521881250$q(hbk.)
+=020  \\$a9780521707541$q(pbk.)
+=020  \\$a0521707544$q(pbk.)
+=024  3\$a9780521707541
+=029  1\$aAU@$b000042363021
+=029  1\$aAU@$b000043575674
+=029  1\$aDEBBG$bBV022551053
+=029  1\$aDEBSZ$b267321996
+=029  1\$aHEBIS$b192594966
+=029  1\$aIG#$b9780521881258
+=029  1\$aNZ1$b11607100
+=029  1\$aUKMGB$b013778638
+=029  1\$aUNITY$b108906434
+=035  \\$a(MMeT)b18824274-01tun_inst
+=035  \\$a(OCoLC)148298527$z(OCoLC)271182778$z(OCoLC)605638004
+=035  \\$a(OCoLC)ocn148298527
+=040  \\$aDLC$beng$cDLC$dUKM$dBTCTA$dBAKER$dYDXCP$dC#P$dNLGGC$dWUL$dMUQ$dIG#$dCUD$dEIP$dDEBBG$dBDX$dOCLCF$dOCLCO$dOCLCQ$dAU@$dDEBSZ$dIOD$dUX0$dOCLCQ$dOCLCO$dFML$dCPO$dOCLCA$dUKMGB$dOCLCQ$dOCLCO$dBUB$dOCLCA$dDCT$dDLC
+=043  \\$ae-ne---
+=050  00$aKZ7312$b.S33 2007
+=082  04$a345.01$222
+=084  \\$a86.84$2bcl
+=084  \\$aKC219.1.I5$bS333 2007$2moys
+=084  \\$aPR 2211$2rvk
+=084  \\$aPR 2210$2rvk
+=084  \\$aKC 219.$2moys
+=100  1\$aSchabas, William,$d1950-
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$a3rd ed.
+=260  \\$aCambridge, UK ;$aNew York :$bCambridge University Press,$c2007.
+=300  \\$axiii, 548 pages ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=583  1\$acommitted to retain$c20170930$duntil 20421231$fHathiTrust Shared Print Program$uhttps://www.hathitrust.org/shared_print_program$zCommitted to retain for HathiTrust until 2042$5MMeT
+=583  1\$acommitted to retain$c20160630$duntil 20310630$fEAST$uhttp://eastlibraries.org/retained-materials$zCommitted to retain for EAST until 2031$5MMeT
+=520  \\$a"The International Criminal Court has ushered in a new era in the protection of human rights. Protecting against genocide, crimes against humanity and war crimes, the Court acts when national justice systems are unwilling or unable to do so. This third edition of this seminal text on the Court considers it in action: its initial rulings by the Pre-Trial Chambers and the Appeals Chamber and those cases it is prosecuting as well as those where it had decided not to proceed, such as Iraq. It also explores the law of the Court up to and including its ruling on a confirmation hearing. It addresses the political context of the court, such as the difficulties created by US opposition and the increasing recognition of the inevitability of the institution. Written by the leading expert in the field, this text is essential reading for any student of the Court and its workings." http://www.loc.gov/catdir/enhancements/fy0810/2008271141-d.html.
+=504  \\$aIncludes bibliographical references (pages 489-528) and index.
+=505  0\$aPreface; 1. Creation of the Court; 2. The Court becomes operational; 3. Jurisdiction; 4. Triggering the Jurisdiction; 5. Admissibility; 6. General principles of criminal law; 7. Investigation and pre-trial procedure; 8. Trial and appeal; 9. Punishment; 10. Victims of crimes and their concerns; 11. Structure and administration of the Court; Appendix 1. Rome statute; Appendix 2. States, parties and signatories; Appendix 3. Declarations and reservations; Appendix 4. Objections; Appendix 5. Judges of the Court.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-08-28
+=938  \\$aBaker & Taylor$bBKTY$c50.00$d50.00$i0521707544$n0007217020$sactive
+=938  \\$aBaker & Taylor$bBKTY$c125.00$d125.00$i0521881250$n0007216818$sactive
+=938  \\$aBrodart$bBROD$n07223889$c$147.00
+=938  \\$aBaker and Taylor$bBTCP$nBK0007217020
+=938  \\$aIngram$bINGR$n9780521881258
+=938  \\$aYBP Library Services$bYANK$n100470144
+=938  \\$aYBP Library Services$bYANK$n2608295
+=959  \\$aWorldShare UPDATED 2019-08-28 -- Master record variable field(s) change: 043
+=AVA  \\$0991001684759703851$822110547670003851$a01TUN_INST$bGINN$cReserves$dKZ6310.S33 2007$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+=AVA  \\$0991001684759703851$822110547690003851$a01TUN_INST$bTISCH$cBook Stacks$dKZ6310 .S33 2007$eavailable$f1$g0$jTISCHS$k0$p2$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2007
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  05364cam a22009014a 4500
+=001  991001684759703851
+=005  20190829065125.5
+=008  080131s2007\\\\enk\\\\\\b\\\\001\0\eng
+=010  \\$a2008271141
+=015  \\$aGBA749235$2bnb
+=016  7\$a013778638$2Uk
+=019  \\$a271182778$a605638004
+=020  \\$a9780521881258$q(hbk.)
+=020  \\$a0521881250$q(hbk.)
+=020  \\$a9780521707541$q(pbk.)
+=020  \\$a0521707544$q(pbk.)
+=024  3\$a9780521707541
+=029  1\$aAU@$b000042363021
+=029  1\$aAU@$b000043575674
+=029  1\$aDEBBG$bBV022551053
+=029  1\$aDEBSZ$b267321996
+=029  1\$aHEBIS$b192594966
+=029  1\$aIG#$b9780521881258
+=029  1\$aNZ1$b11607100
+=029  1\$aUKMGB$b013778638
+=029  1\$aUNITY$b108906434
+=035  \\$a(MMeT)b18824274-01tun_inst
+=035  \\$a(OCoLC)148298527$z(OCoLC)271182778$z(OCoLC)605638004
+=035  \\$a(OCoLC)ocn148298527
+=040  \\$aDLC$beng$cDLC$dUKM$dBTCTA$dBAKER$dYDXCP$dC#P$dNLGGC$dWUL$dMUQ$dIG#$dCUD$dEIP$dDEBBG$dBDX$dOCLCF$dOCLCO$dOCLCQ$dAU@$dDEBSZ$dIOD$dUX0$dOCLCQ$dOCLCO$dFML$dCPO$dOCLCA$dUKMGB$dOCLCQ$dOCLCO$dBUB$dOCLCA$dDCT$dDLC
+=043  \\$ae-ne---
+=050  00$aKZ7312$b.S33 2007
+=082  04$a345.01$222
+=084  \\$a86.84$2bcl
+=084  \\$aKC219.1.I5$bS333 2007$2moys
+=084  \\$aPR 2211$2rvk
+=084  \\$aPR 2210$2rvk
+=084  \\$aKC 219.$2moys
+=100  1\$aSchabas, William,$d1950-
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$a3rd ed.
+=260  \\$aCambridge, UK ;$aNew York :$bCambridge University Press,$c2007.
+=300  \\$axiii, 548 pages ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=583  1\$acommitted to retain$c20170930$duntil 20421231$fHathiTrust Shared Print Program$uhttps://www.hathitrust.org/shared_print_program$zCommitted to retain for HathiTrust until 2042$5MMeT
+=583  1\$acommitted to retain$c20160630$duntil 20310630$fEAST$uhttp://eastlibraries.org/retained-materials$zCommitted to retain for EAST until 2031$5MMeT
+=520  \\$a"The International Criminal Court has ushered in a new era in the protection of human rights. Protecting against genocide, crimes against humanity and war crimes, the Court acts when national justice systems are unwilling or unable to do so. This third edition of this seminal text on the Court considers it in action: its initial rulings by the Pre-Trial Chambers and the Appeals Chamber and those cases it is prosecuting as well as those where it had decided not to proceed, such as Iraq. It also explores the law of the Court up to and including its ruling on a confirmation hearing. It addresses the political context of the court, such as the difficulties created by US opposition and the increasing recognition of the inevitability of the institution. Written by the leading expert in the field, this text is essential reading for any student of the Court and its workings." http://www.loc.gov/catdir/enhancements/fy0810/2008271141-d.html.
+=504  \\$aIncludes bibliographical references (pages 489-528) and index.
+=505  0\$aPreface; 1. Creation of the Court; 2. The Court becomes operational; 3. Jurisdiction; 4. Triggering the Jurisdiction; 5. Admissibility; 6. General principles of criminal law; 7. Investigation and pre-trial procedure; 8. Trial and appeal; 9. Punishment; 10. Victims of crimes and their concerns; 11. Structure and administration of the Court; Appendix 1. Rome statute; Appendix 2. States, parties and signatories; Appendix 3. Declarations and reservations; Appendix 4. Objections; Appendix 5. Judges of the Court.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-08-28
+=938  \\$aBaker & Taylor$bBKTY$c50.00$d50.00$i0521707544$n0007217020$sactive
+=938  \\$aBaker & Taylor$bBKTY$c125.00$d125.00$i0521881250$n0007216818$sactive
+=938  \\$aBrodart$bBROD$n07223889$c$147.00
+=938  \\$aBaker and Taylor$bBTCP$nBK0007217020
+=938  \\$aIngram$bINGR$n9780521881258
+=938  \\$aYBP Library Services$bYANK$n100470144
+=938  \\$aYBP Library Services$bYANK$n2608295
+=959  \\$aWorldShare UPDATED 2019-08-28 -- Master record variable field(s) change: 043
+=AVA  \\$0991001684759703851$822110547670003851$a01TUN_INST$bGINN$cReserves$dKZ6310.S33 2007$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+=AVA  \\$0991001684759703851$822110547690003851$a01TUN_INST$bTISCH$cBook Stacks$dKZ6310 .S33 2007$eavailable$f1$g0$jTISCHS$k0$p2$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2007
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  03598cam a2200781 a 4500
+=001  991009089479703851
+=005  20190829065541.5
+=008  110503s2011\\\\enk\\\\\\b\\\\001\0\eng
+=010  \\$a2011411567
+=015  \\$aGBB0B3888$2bnb
+=015  \\$aGBB0B3702$2bnb
+=016  7\$a015654333$2Uk
+=016  7\$a015654147$2Uk
+=019  \\$a797256744
+=020  \\$a0521767504$q(hbk.)
+=020  \\$a9780521767507$q(hbk.)
+=020  \\$a9780521151955$q(pbk.)
+=020  \\$a0521151953$q(pbk.)
+=029  1\$aAU@$b000046849786
+=029  1\$aCHBIS$b006221409
+=029  1\$aCHDSB$b005603059
+=029  1\$aCHSLU$b000975976
+=029  1\$aCHVBK$b029798353
+=029  1\$aCHVBK$b12445982X
+=029  1\$aCHVBK$b126630372
+=029  1\$aHEBIS$b265274796
+=029  1\$aNLGGC$b329302353
+=029  1\$aUNITY$b122518543
+=029  1\$aUNITY$b122520408
+=029  1\$aUKMGB$b015654147
+=035  \\$a(MMeT)b21485951-01tun_inst
+=035  \\$a(OCoLC)665137331$z(OCoLC)797256744
+=035  \\$a(OCoLC)ocn665137331
+=040  \\$aDLC$beng$cDLC$dUKM$dYDXCP$dCDX$dBWK$dWCL$dBWX$dCOO$dRCJ$dHEBIS$dUKMGB$dMIX$dOCLCF$dBEDGE$dOCLCQ$dCHVBK$dOCLCQ$dBDP$dOCLCQ$dI8M$dOCLCO$dOCLCA$dGWL$dIOD$dQE2$dESU$dLENOT$dUEJ$dOCLCQ$dOCLCO$dLND$dALR$dMM9$dDLC
+=042  \\$apcc
+=043  \\$ae-ne---
+=050  00$aKZ7312$b.S33 2011
+=055  \4$aKZ6310 S33 2011
+=082  04$a345.01$222
+=100  1\$aSchabas, William,$d1950-
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$a4th ed.
+=260  \\$aCambridge, UK ;$aNew York :$bCambridge University Press,$c2011.
+=300  \\$axiv, 579 pages ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references (pages 510-552) and index.
+=505  0\$aCreation of the Court -- The Court becomes operational -- Jurisdiction -- Triggering the jurisdiction -- Admissibility -- General principles of criminal law -- Investigation and pre-trial procedure -- Trial and appeal -- Victims of crimes and their concerns -- Structure and administration of the Court.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=775  08$iRevised as:$aSchabas, William, 1950-$tIntroduction to the International Criminal Court.$bFifth edition.$dCambridge, United Kingdom ; New York, NY, USA : Cambridge University Press, 2017$z110713370X$w(OCoLC)954007564
+=910  \\$a94 05/2011
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-08-28
+=938  \\$aBlackwell Book Service UK$bBBUK$n3572021
+=938  \\$aCoutts Information Services$bCOUT$n14452807
+=938  \\$aYBP Library Services$bYANK$n3572021
+=938  \\$aYBP Library Services$bYANK$n3572019
+=959  \\$aWorldShare UPDATED 2019-08-28 -- Master record variable field(s) change: 043
+=AVA  \\$0991009089479703851$82282165660003851$a01TUN_INST$bGINN$cReserves$dKZ7312 .S33 2011$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2011
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  03598cam a2200781 a 4500
+=001  991009089479703851
+=005  20190829065541.5
+=008  110503s2011\\\\enk\\\\\\b\\\\001\0\eng
+=010  \\$a2011411567
+=015  \\$aGBB0B3888$2bnb
+=015  \\$aGBB0B3702$2bnb
+=016  7\$a015654333$2Uk
+=016  7\$a015654147$2Uk
+=019  \\$a797256744
+=020  \\$a0521767504$q(hbk.)
+=020  \\$a9780521767507$q(hbk.)
+=020  \\$a9780521151955$q(pbk.)
+=020  \\$a0521151953$q(pbk.)
+=029  1\$aAU@$b000046849786
+=029  1\$aCHBIS$b006221409
+=029  1\$aCHDSB$b005603059
+=029  1\$aCHSLU$b000975976
+=029  1\$aCHVBK$b029798353
+=029  1\$aCHVBK$b12445982X
+=029  1\$aCHVBK$b126630372
+=029  1\$aHEBIS$b265274796
+=029  1\$aNLGGC$b329302353
+=029  1\$aUNITY$b122518543
+=029  1\$aUNITY$b122520408
+=029  1\$aUKMGB$b015654147
+=035  \\$a(MMeT)b21485951-01tun_inst
+=035  \\$a(OCoLC)665137331$z(OCoLC)797256744
+=035  \\$a(OCoLC)ocn665137331
+=040  \\$aDLC$beng$cDLC$dUKM$dYDXCP$dCDX$dBWK$dWCL$dBWX$dCOO$dRCJ$dHEBIS$dUKMGB$dMIX$dOCLCF$dBEDGE$dOCLCQ$dCHVBK$dOCLCQ$dBDP$dOCLCQ$dI8M$dOCLCO$dOCLCA$dGWL$dIOD$dQE2$dESU$dLENOT$dUEJ$dOCLCQ$dOCLCO$dLND$dALR$dMM9$dDLC
+=042  \\$apcc
+=043  \\$ae-ne---
+=050  00$aKZ7312$b.S33 2011
+=055  \4$aKZ6310 S33 2011
+=082  04$a345.01$222
+=100  1\$aSchabas, William,$d1950-
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$a4th ed.
+=260  \\$aCambridge, UK ;$aNew York :$bCambridge University Press,$c2011.
+=300  \\$axiv, 579 pages ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references (pages 510-552) and index.
+=505  0\$aCreation of the Court -- The Court becomes operational -- Jurisdiction -- Triggering the jurisdiction -- Admissibility -- General principles of criminal law -- Investigation and pre-trial procedure -- Trial and appeal -- Victims of crimes and their concerns -- Structure and administration of the Court.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=775  08$iRevised as:$aSchabas, William, 1950-$tIntroduction to the International Criminal Court.$bFifth edition.$dCambridge, United Kingdom ; New York, NY, USA : Cambridge University Press, 2017$z110713370X$w(OCoLC)954007564
+=910  \\$a94 05/2011
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-08-28
+=938  \\$aBlackwell Book Service UK$bBBUK$n3572021
+=938  \\$aCoutts Information Services$bCOUT$n14452807
+=938  \\$aYBP Library Services$bYANK$n3572021
+=938  \\$aYBP Library Services$bYANK$n3572019
+=959  \\$aWorldShare UPDATED 2019-08-28 -- Master record variable field(s) change: 043
+=AVA  \\$0991009089479703851$82282165660003851$a01TUN_INST$bGINN$cReserves$dKZ7312 .S33 2011$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2011
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  05267cam a2200937 a 4500
+=001  991010680599703851
+=005  20190829063901.1
+=008  001213s2001\\\\enk\\\\\\b\\\\001\0\eng
+=010  \\$a00069751$z01069751
+=015  \\$aGBA1Y2447$2bnb
+=015  \\$aGBA141845$2bnb
+=016  \\$a000022143023$2AU
+=016  7\$a010384960$2Uk
+=019  \\$a45604052$a46694131$a47637277$a59486017$a223979947$a224074940$a263569355$a1000857469$a1057990664
+=020  \\$a0521804574$q(hardback)
+=020  \\$a9780521804578$q(hardback)
+=020  \\$a0521011493$q(pbk.)
+=020  \\$a9780521011495$q(pbk.)
+=029  1\$aAU@$b000022143023
+=029  1\$aDEBBG$bBV013781806
+=029  1\$aGEBAY$b6774696
+=029  1\$aNZ1$b5981621
+=029  1\$aYDXCP$b100251633
+=029  1\$aYDXCP$b1759448
+=029  1\$aAU@$b000023767253
+=029  1\$aAU@$b000026740209
+=029  1\$aAU@$b000055237854
+=029  1\$aHEBIS$b100131085
+=029  1\$aHR0$b0521804574
+=029  1\$aUNITY$b08916864X
+=035  \\$a(MMeT)b1604907x-01tun_inst
+=035  \\$a(OCoLC)48264359$z(OCoLC)45604052$z(OCoLC)46694131$z(OCoLC)47637277$z(OCoLC)59486017$z(OCoLC)223979947$z(OCoLC)224074940$z(OCoLC)263569355$z(OCoLC)1000857469$z(OCoLC)1057990664
+=035  \\$a(OCoLC)ocm48264359
+=040  \\$aDLC$beng$cDLC$dUKM$dLVB$dBAKER$dBTCTA$dYDXCP$dGEBAY$dDEBBG$dOCLCF$dOCLCO$dOCLCQ$dNAM$dUV1$dUX0$dOCLCQ$dOCLCO$dOCLCA$dLENOT$dUTV$dAU@$dZBL$dMUQ$dUKV3G$dNLGGC$dBTN$dHEBIS$dUKMGB$dTULIB$dDOS$dBEDGE$dBUB$dOCLCO$dDCT$dDLC
+=043  \\$ae-ne---
+=050  00$aKZ7312$b.S33 2001
+=082  00$a341.7/7$221
+=084  \\$aPR 2210$2rvk
+=084  \\$aPR 2211$2rvk
+=084  \\$aKC219.1.I5$bS333 2001$2moys
+=084  \\$a86.84$2bcl
+=084  \\$aKC 219.$2moys
+=100  1\$aSchabas, William,$d1950-
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=260  \\$aCambridge, UK ;$aNew York :$bCambridge University Press,$c2001.
+=300  \\$ax, 406 pages ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aPenguin readers. ;$vLevel 5
+=583  1\$acommitted to retain$c20170930$duntil 20421231$fHathiTrust Shared Print Program$uhttps://www.hathitrust.org/shared_print_program$zCommitted to retain for HathiTrust until 2042$5MMeT
+=583  1\$acommitted to retain$c20160630$duntil 20310630$fEAST$uhttp://eastlibraries.org/retained-materials$zCommitted to retain for EAST until 2031$5MMeT
+=520  1\$a"Arguably the most significant international organization to be created since the United Nations, the International Criminal Court ushers in a new era in the protection of human rights. The direct descendant of the Nuremberg and Tokyo trials, as well as those of the more recent international criminal tribunals for the former Yugoslavia and Rwanda, the International Criminal Court will prosecute genocide, crimes against humanity and war crimes when national justice systems are either unwilling or unable to do so themselves. This volume reviews the history of international criminal prosecution, the drafting of the Rome Statute of the International Criminal Court and the principles of its operation, including the scope of its jurisdiction and the procedural regime. The Court's fundamental documents - the Rome Statute itself, the Rules of Procedure and Evidence, and the Elements of Crimes - form an annex to the book."--Jacket.
+=504  \\$aIncludes bibliographical references (pages 383-395) and index.
+=505  0\$a1. Creation of the Court -- 2. Crimes Prosecuted by the Court -- 3. Jurisdiction and admissibility -- 4. General Principles of criminal law -- 5. Investigation and pre-trial procedure -- 6. Trial and appeal -- 7. Punishment and the rights of victims -- 8. Structure and administration of the Court -- Rome Statute of the International Criminal Court -- Elements of Crimes -- Rules of Procedure and Evidence.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=655  \0$aElectronic books.
+=655  \7$aFiction.$2fast$0(OCoLC)fst01423787
+=830  \0$aPenguin readers.$nLevel 5.
+=910  \\$aWorldShare MERGED -- WorldCat Holdings 2019-04-03
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-08-28
+=935  \\$aAHL-3512
+=938  \\$aBaker & Taylor$bBKTY$c90.00$d90.00$i0521804574$n0003654026$sactive
+=938  \\$aBaker & Taylor$bBKTY$c32.99$d32.99$i0521011493$n0003654027$sactive
+=938  \\$aBaker and Taylor$bBTCP$n00069751
+=938  \\$aYBP Library Services$bYANK$n1759448
+=959  \\$aWorldShare MERGED 2019-04-03 -- Master record variable field(s) change: 010, 490, 830 - OCLC control number change
+=959  \\$aWorldShare UPDATED 2019-08-28 -- Master record variable field(s) change: 043
+=AVA  \\$0991010680599703851$82290798110003851$a01TUN_INST$bTISCH$cBook Stacks$dKZ6310 .S33 2001$eavailable$f1$g0$jTISCHS$k0$p1$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2001
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  05267cam a2200937 a 4500
+=001  991010680599703851
+=005  20190829063901.1
+=008  001213s2001\\\\enk\\\\\\b\\\\001\0\eng
+=010  \\$a00069751$z01069751
+=015  \\$aGBA1Y2447$2bnb
+=015  \\$aGBA141845$2bnb
+=016  \\$a000022143023$2AU
+=016  7\$a010384960$2Uk
+=019  \\$a45604052$a46694131$a47637277$a59486017$a223979947$a224074940$a263569355$a1000857469$a1057990664
+=020  \\$a0521804574$q(hardback)
+=020  \\$a9780521804578$q(hardback)
+=020  \\$a0521011493$q(pbk.)
+=020  \\$a9780521011495$q(pbk.)
+=029  1\$aAU@$b000022143023
+=029  1\$aDEBBG$bBV013781806
+=029  1\$aGEBAY$b6774696
+=029  1\$aNZ1$b5981621
+=029  1\$aYDXCP$b100251633
+=029  1\$aYDXCP$b1759448
+=029  1\$aAU@$b000023767253
+=029  1\$aAU@$b000026740209
+=029  1\$aAU@$b000055237854
+=029  1\$aHEBIS$b100131085
+=029  1\$aHR0$b0521804574
+=029  1\$aUNITY$b08916864X
+=035  \\$a(MMeT)b1604907x-01tun_inst
+=035  \\$a(OCoLC)48264359$z(OCoLC)45604052$z(OCoLC)46694131$z(OCoLC)47637277$z(OCoLC)59486017$z(OCoLC)223979947$z(OCoLC)224074940$z(OCoLC)263569355$z(OCoLC)1000857469$z(OCoLC)1057990664
+=035  \\$a(OCoLC)ocm48264359
+=040  \\$aDLC$beng$cDLC$dUKM$dLVB$dBAKER$dBTCTA$dYDXCP$dGEBAY$dDEBBG$dOCLCF$dOCLCO$dOCLCQ$dNAM$dUV1$dUX0$dOCLCQ$dOCLCO$dOCLCA$dLENOT$dUTV$dAU@$dZBL$dMUQ$dUKV3G$dNLGGC$dBTN$dHEBIS$dUKMGB$dTULIB$dDOS$dBEDGE$dBUB$dOCLCO$dDCT$dDLC
+=043  \\$ae-ne---
+=050  00$aKZ7312$b.S33 2001
+=082  00$a341.7/7$221
+=084  \\$aPR 2210$2rvk
+=084  \\$aPR 2211$2rvk
+=084  \\$aKC219.1.I5$bS333 2001$2moys
+=084  \\$a86.84$2bcl
+=084  \\$aKC 219.$2moys
+=100  1\$aSchabas, William,$d1950-
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=260  \\$aCambridge, UK ;$aNew York :$bCambridge University Press,$c2001.
+=300  \\$ax, 406 pages ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aPenguin readers. ;$vLevel 5
+=583  1\$acommitted to retain$c20170930$duntil 20421231$fHathiTrust Shared Print Program$uhttps://www.hathitrust.org/shared_print_program$zCommitted to retain for HathiTrust until 2042$5MMeT
+=583  1\$acommitted to retain$c20160630$duntil 20310630$fEAST$uhttp://eastlibraries.org/retained-materials$zCommitted to retain for EAST until 2031$5MMeT
+=520  1\$a"Arguably the most significant international organization to be created since the United Nations, the International Criminal Court ushers in a new era in the protection of human rights. The direct descendant of the Nuremberg and Tokyo trials, as well as those of the more recent international criminal tribunals for the former Yugoslavia and Rwanda, the International Criminal Court will prosecute genocide, crimes against humanity and war crimes when national justice systems are either unwilling or unable to do so themselves. This volume reviews the history of international criminal prosecution, the drafting of the Rome Statute of the International Criminal Court and the principles of its operation, including the scope of its jurisdiction and the procedural regime. The Court's fundamental documents - the Rome Statute itself, the Rules of Procedure and Evidence, and the Elements of Crimes - form an annex to the book."--Jacket.
+=504  \\$aIncludes bibliographical references (pages 383-395) and index.
+=505  0\$a1. Creation of the Court -- 2. Crimes Prosecuted by the Court -- 3. Jurisdiction and admissibility -- 4. General Principles of criminal law -- 5. Investigation and pre-trial procedure -- 6. Trial and appeal -- 7. Punishment and the rights of victims -- 8. Structure and administration of the Court -- Rome Statute of the International Criminal Court -- Elements of Crimes -- Rules of Procedure and Evidence.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=655  \0$aElectronic books.
+=655  \7$aFiction.$2fast$0(OCoLC)fst01423787
+=830  \0$aPenguin readers.$nLevel 5.
+=910  \\$aWorldShare MERGED -- WorldCat Holdings 2019-04-03
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-08-28
+=935  \\$aAHL-3512
+=938  \\$aBaker & Taylor$bBKTY$c90.00$d90.00$i0521804574$n0003654026$sactive
+=938  \\$aBaker & Taylor$bBKTY$c32.99$d32.99$i0521011493$n0003654027$sactive
+=938  \\$aBaker and Taylor$bBTCP$n00069751
+=938  \\$aYBP Library Services$bYANK$n1759448
+=959  \\$aWorldShare MERGED 2019-04-03 -- Master record variable field(s) change: 010, 490, 830 - OCLC control number change
+=959  \\$aWorldShare UPDATED 2019-08-28 -- Master record variable field(s) change: 043
+=AVA  \\$0991010680599703851$82290798110003851$a01TUN_INST$bTISCH$cBook Stacks$dKZ6310 .S33 2001$eavailable$f1$g0$jTISCHS$k0$p1$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2001
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  05494cam a2200949 a 4500
+=001  991013654739703851
+=005  20190829065157.2
+=008  030731s2004\\\\enk\\\\\\b\\\\001\0\eng
+=010  \\$a2003055727
+=015  \\$aGBA4Z3338$2bnb
+=015  \\$aGBA440877$2bnb
+=015  \\$aGBA400000$2bnb
+=016  7\$a011618588$2Uk
+=016  7\$a012915547$2Uk
+=019  \\$a53822312$a55723487$a56526783$a59271705$a978081065$a983207864
+=020  \\$a0521830559$q(hb)
+=020  \\$a9780521830553$q(hb)
+=020  \\$a0521537568$q(pb)
+=020  \\$a9780521537568$q(pb)
+=029  1\$aAU@$b000025914459
+=029  1\$aAU@$b000045656045
+=029  1\$aDEBBG$bBV017428397
+=029  1\$aHEBIS$b121100677
+=029  1\$aNZ1$b7891543
+=029  1\$aUKMGB$b011618588
+=029  1\$aUNITY$b070523746
+=029  1\$aYDXCP$b1984208
+=035  \\$a(MMeT)b16833107-01tun_inst
+=035  \\$a(OCoLC)52813799$z(OCoLC)53822312$z(OCoLC)55723487$z(OCoLC)56526783$z(OCoLC)59271705$z(OCoLC)978081065$z(OCoLC)983207864
+=035  \\$a(OCoLC)ocm52813799
+=040  \\$aDLC$beng$cDLC$dBAKER$dMNY$dNLGGC$dBTCTA$dLVB$dYDXCP$dUKM$dGUL$dUKV3G$dDEBBG$dZWZ$dUKMGB$dOCLCO$dOCLCF$dBEDGE$dOCLCQ$dR7R$dCNUTO$dOCLCQ$dUX0$dOCLCQ$dOCLCO$dTYC$dDHA$dMUX$dOCLCQ$dCPO$dOCLCA$dOCLCQ$dOCLCO$dEUM$dOCLCQ$dOCLCO$dBUB$dOCLCA$dHUELT$dDCT$dOCLCQ$dDLC
+=043  \\$ae-ne---
+=050  00$aKZ7312$b.S33 2004
+=080  \\$a341.4
+=080  \\$a341.64
+=082  00$a345/.01$222
+=084  \\$a345.01$222
+=084  \\$a86.84$2bcl
+=084  \\$aKC 219.$2moys
+=084  \\$aKC219.1.I5$bS333 2004$2moys
+=084  \\$aPR 2210$2rvk
+=100  1\$aSchabas, William,$d1950-
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$a2nd ed.
+=260  \\$aCambridge, UK ;$aNew York :$bCambridge University Press,$c2004.
+=300  \\$axii, 481 pages ;$c23 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=520  1\$a"The International Criminal Court ushers in a new era in the protection of human rights. The ICC will prosecute genocide, crimes against humanity and war crimes when national justice systems are either unwilling or unable to do so themselves. Schabas reviews the history of international criminal prosecution, the drafting of the Rome Statute of the International Criminal Court and the principles of its operation, including the scope of its jurisdiction and the procedural regime." "This revised edition considers the Court's start-up preparations, including election of judges and prosecutor. It also addresses the difficulties created by US opposition, and analyses the various measures taken by Washington to obstruct the Court. Three of the Court's fundamental documents - the 1998 Rome Statute, the Rules of Procedure and Evidence, and the Elements of Crimes - are reproduced in the appendices. Indispensable for students and practitioners."--Jacket.
+=504  \\$aIncludes bibliographical references (pages 430-457) and index.
+=505  0\$aCreation of the Court -- Crimes prosecuted by the Court -- Jurisdiction and admissibility -- General principles of criminal law -- Investigation and pre-trial procedure -- Trial and appeal -- Punishment and the rights of victims -- Structure and administration of the Court -- Appendix 1. Rome statute -- Appendix 2. Elements of crimes -- Appendix 3. Rules of procedure and evidence -- Appendix 4. States parties and signatories -- Appendix 5. Declarations and reservations -- Appendix 6. Judges of the Court.
+=506  \\$aOnline version licensed for access by U. of T. users.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=910  \\$a94 06/2004
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-08-28
+=938  \\$aBaker & Taylor$bBKTY$c46.00$d46.00$i0521537568$n0004250852$sactive
+=938  \\$aBaker & Taylor$bBKTY$c120.00$d120.00$i0521830559$n0004250853$sactive
+=938  \\$aBaker and Taylor$bBTCP$n2003055727
+=938  \\$aYBP Library Services$bYANK$n1984208
+=959  \\$aWorldShare UPDATED 2019-08-28 -- Master record variable field(s) change: 043
+=AVA  \\$0991013654739703851$822110764090003851$a01TUN_INST$bTISCH$cBook Stacks$dKZ6310 .S33 2004$eavailable$f1$g0$jTISCHS$k0$p1$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2004
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  05494cam a2200949 a 4500
+=001  991013654739703851
+=005  20190829065157.2
+=008  030731s2004\\\\enk\\\\\\b\\\\001\0\eng
+=010  \\$a2003055727
+=015  \\$aGBA4Z3338$2bnb
+=015  \\$aGBA440877$2bnb
+=015  \\$aGBA400000$2bnb
+=016  7\$a011618588$2Uk
+=016  7\$a012915547$2Uk
+=019  \\$a53822312$a55723487$a56526783$a59271705$a978081065$a983207864
+=020  \\$a0521830559$q(hb)
+=020  \\$a9780521830553$q(hb)
+=020  \\$a0521537568$q(pb)
+=020  \\$a9780521537568$q(pb)
+=029  1\$aAU@$b000025914459
+=029  1\$aAU@$b000045656045
+=029  1\$aDEBBG$bBV017428397
+=029  1\$aHEBIS$b121100677
+=029  1\$aNZ1$b7891543
+=029  1\$aUKMGB$b011618588
+=029  1\$aUNITY$b070523746
+=029  1\$aYDXCP$b1984208
+=035  \\$a(MMeT)b16833107-01tun_inst
+=035  \\$a(OCoLC)52813799$z(OCoLC)53822312$z(OCoLC)55723487$z(OCoLC)56526783$z(OCoLC)59271705$z(OCoLC)978081065$z(OCoLC)983207864
+=035  \\$a(OCoLC)ocm52813799
+=040  \\$aDLC$beng$cDLC$dBAKER$dMNY$dNLGGC$dBTCTA$dLVB$dYDXCP$dUKM$dGUL$dUKV3G$dDEBBG$dZWZ$dUKMGB$dOCLCO$dOCLCF$dBEDGE$dOCLCQ$dR7R$dCNUTO$dOCLCQ$dUX0$dOCLCQ$dOCLCO$dTYC$dDHA$dMUX$dOCLCQ$dCPO$dOCLCA$dOCLCQ$dOCLCO$dEUM$dOCLCQ$dOCLCO$dBUB$dOCLCA$dHUELT$dDCT$dOCLCQ$dDLC
+=043  \\$ae-ne---
+=050  00$aKZ7312$b.S33 2004
+=080  \\$a341.4
+=080  \\$a341.64
+=082  00$a345/.01$222
+=084  \\$a345.01$222
+=084  \\$a86.84$2bcl
+=084  \\$aKC 219.$2moys
+=084  \\$aKC219.1.I5$bS333 2004$2moys
+=084  \\$aPR 2210$2rvk
+=100  1\$aSchabas, William,$d1950-
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$a2nd ed.
+=260  \\$aCambridge, UK ;$aNew York :$bCambridge University Press,$c2004.
+=300  \\$axii, 481 pages ;$c23 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=520  1\$a"The International Criminal Court ushers in a new era in the protection of human rights. The ICC will prosecute genocide, crimes against humanity and war crimes when national justice systems are either unwilling or unable to do so themselves. Schabas reviews the history of international criminal prosecution, the drafting of the Rome Statute of the International Criminal Court and the principles of its operation, including the scope of its jurisdiction and the procedural regime." "This revised edition considers the Court's start-up preparations, including election of judges and prosecutor. It also addresses the difficulties created by US opposition, and analyses the various measures taken by Washington to obstruct the Court. Three of the Court's fundamental documents - the 1998 Rome Statute, the Rules of Procedure and Evidence, and the Elements of Crimes - are reproduced in the appendices. Indispensable for students and practitioners."--Jacket.
+=504  \\$aIncludes bibliographical references (pages 430-457) and index.
+=505  0\$aCreation of the Court -- Crimes prosecuted by the Court -- Jurisdiction and admissibility -- General principles of criminal law -- Investigation and pre-trial procedure -- Trial and appeal -- Punishment and the rights of victims -- Structure and administration of the Court -- Appendix 1. Rome statute -- Appendix 2. Elements of crimes -- Appendix 3. Rules of procedure and evidence -- Appendix 4. States parties and signatories -- Appendix 5. Declarations and reservations -- Appendix 6. Judges of the Court.
+=506  \\$aOnline version licensed for access by U. of T. users.
+=610  20$aInternational Criminal Court.
+=610  27$aInternational Criminal Court.$2fast$0(OCoLC)fst00744466
+=650  \0$aInternational criminal courts.
+=650  \7$aInternational criminal courts.$2fast$0(OCoLC)fst00976876
+=910  \\$a94 06/2004
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-08-28
+=938  \\$aBaker & Taylor$bBKTY$c46.00$d46.00$i0521537568$n0004250852$sactive
+=938  \\$aBaker & Taylor$bBKTY$c120.00$d120.00$i0521830559$n0004250853$sactive
+=938  \\$aBaker and Taylor$bBTCP$n2003055727
+=938  \\$aYBP Library Services$bYANK$n1984208
+=959  \\$aWorldShare UPDATED 2019-08-28 -- Master record variable field(s) change: 043
+=AVA  \\$0991013654739703851$822110764090003851$a01TUN_INST$bTISCH$cBook Stacks$dKZ6310 .S33 2004$eavailable$f1$g0$jTISCHS$k0$p1$qTisch Library
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2004
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  02050nam a22003378i 4500
+=001  991018016272003851
+=005  20160211114404.0
+=006  m|||||o||d||||||||
+=007  cr||||||||||||
+=008  101021s2007||||enk\\\\\o\\\\\||1\0|eng|d
+=020  \\$a9780511801440 (ebook)
+=020  \\$z9780521881258 (hardback)
+=020  \\$z9780521707541 (paperback)
+=035  \\$a(UkCbUP)CR9780511801440
+=040  \\$aUkCbUP$beng$erda$cUkCbUP
+=050  00$aKZ7312$b.S33 2007
+=082  04$a345.01$222
+=100  1\$aSchabas, William,$d1950-$eauthor.
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$aThird edition.
+=264  \1$aCambridge :$bCambridge University Press,$c2007.
+=300  \\$a1 online resource (xiii, 548 pages) :$bdigital, PDF file(s).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=500  \\$aTitle from publisher's bibliographic system (viewed on 05 Oct 2015).
+=520  \\$aThe International Criminal Court has ushered in a new era in the protection of human rights. Protecting against genocide, crimes against humanity and war crimes, the Court acts when national justice systems are unwilling or unable to do so. This third edition of this seminal text on the Court considers it in action: its initial rulings by the Pre-Trial Chambers and the Appeals Chamber and those cases it is prosecuting as well as those where it had decided not to proceed, such as Iraq. It also explores the law of the Court up to and including its ruling on a confirmation hearing. It addresses the political context of the court, such as the difficulties created by US opposition and the increasing recognition of the inevitability of the institution. Written by the leading expert in the field, this text is essential reading for any student of the Court and its workings.
+=610  20$aInternational Criminal Court.
+=650  \0$aInternational criminal courts.
+=655  \7$aElectronic books.$2lcgft
+=776  08$iPrint version:$z9780521881258
+=856  40$uhttps://doi.org/10.1017/CBO9780511801440
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2007
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  02050nam a22003378i 4500
+=001  991018016272003851
+=005  20160211114404.0
+=006  m|||||o||d||||||||
+=007  cr||||||||||||
+=008  101021s2007||||enk\\\\\o\\\\\||1\0|eng|d
+=020  \\$a9780511801440 (ebook)
+=020  \\$z9780521881258 (hardback)
+=020  \\$z9780521707541 (paperback)
+=035  \\$a(UkCbUP)CR9780511801440
+=040  \\$aUkCbUP$beng$erda$cUkCbUP
+=050  00$aKZ7312$b.S33 2007
+=082  04$a345.01$222
+=100  1\$aSchabas, William,$d1950-$eauthor.
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$aThird edition.
+=264  \1$aCambridge :$bCambridge University Press,$c2007.
+=300  \\$a1 online resource (xiii, 548 pages) :$bdigital, PDF file(s).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=500  \\$aTitle from publisher's bibliographic system (viewed on 05 Oct 2015).
+=520  \\$aThe International Criminal Court has ushered in a new era in the protection of human rights. Protecting against genocide, crimes against humanity and war crimes, the Court acts when national justice systems are unwilling or unable to do so. This third edition of this seminal text on the Court considers it in action: its initial rulings by the Pre-Trial Chambers and the Appeals Chamber and those cases it is prosecuting as well as those where it had decided not to proceed, such as Iraq. It also explores the law of the Court up to and including its ruling on a confirmation hearing. It addresses the political context of the court, such as the difficulties created by US opposition and the increasing recognition of the inevitability of the institution. Written by the leading expert in the field, this text is essential reading for any student of the Court and its workings.
+=610  20$aInternational Criminal Court.
+=650  \0$aInternational criminal courts.
+=655  \7$aElectronic books.$2lcgft
+=776  08$iPrint version:$z9780521881258
+=856  40$uhttps://doi.org/10.1017/CBO9780511801440
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2007
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  02398nam a22003378i 4500
+=001  991018016753203851
+=005  20170302104404.0
+=006  m|||||o||d||||||||
+=007  cr||||||||||||
+=008  150511s2017||||enk\\\\\o\\\\\||1\0|eng|d
+=020  \\$a9781316459997 (ebook)
+=020  \\$z9781107133709 (hardback)
+=020  \\$z9781107590175 (paperback)
+=035  \\$a(UkCbUP)CR9781316459997
+=040  \\$aUkCbUP$beng$erda$cUkCbUP
+=050  \4$aKZ7312$b.S33 2017
+=082  04$a345/.01$223
+=100  1\$aSchabas, William,$d1950-$eauthor.
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$aFifth edition.
+=264  \1$aCambridge :$bCambridge University Press,$c2017.
+=300  \\$a1 online resource (xiv, 598 pages) :$bdigital, PDF file(s).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=500  \\$aTitle from publisher's bibliographic system (viewed on 28 Feb 2017).
+=505  0\$aCreation of the Court -- The Court becomes operational -- Jurisdiction -- Triggering the jurisdiction -- Admissibility -- General principles of criminal law -- Investigation and pre-trial procedure -- Trial and appeal -- Punishment -- Victims of crimes and their concerns -- Structure and administration of the Court.
+=520  \\$aThe International Criminal Court ushered in a new era in the protection of human rights. The Court prosecutes genocide, crimes against humanity, war crimes, and the crime of aggression when national justice systems are either unwilling or unable to do so themselves. This fifth edition of the seminal text describes a Court which is no longer in its infancy; the Court is currently examining situations that involve more than twenty countries in every continent of the planet. This book considers the difficulties in the Court's troubled relationship with Africa, the vagaries of the position of the United States, and the challenges the Court may face as it confronts conflicts around the world. It also reviews the history of international criminal prosecution and the Rome Statute. Written by a leading commentator, it is an authoritative and up-to-date introduction to the legal issues involved in the creation and operation of the Court.
+=610  20$aInternational Criminal Court.
+=655  \7$aElectronic books.$2lcgft
+=776  08$iPrint version:$z9781107133709
+=856  40$uhttps://doi.org/10.1017/9781316459997
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2017
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  02398nam a22003378i 4500
+=001  991018016753203851
+=005  20170302104404.0
+=006  m|||||o||d||||||||
+=007  cr||||||||||||
+=008  150511s2017||||enk\\\\\o\\\\\||1\0|eng|d
+=020  \\$a9781316459997 (ebook)
+=020  \\$z9781107133709 (hardback)
+=020  \\$z9781107590175 (paperback)
+=035  \\$a(UkCbUP)CR9781316459997
+=040  \\$aUkCbUP$beng$erda$cUkCbUP
+=050  \4$aKZ7312$b.S33 2017
+=082  04$a345/.01$223
+=100  1\$aSchabas, William,$d1950-$eauthor.
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=250  \\$aFifth edition.
+=264  \1$aCambridge :$bCambridge University Press,$c2017.
+=300  \\$a1 online resource (xiv, 598 pages) :$bdigital, PDF file(s).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=500  \\$aTitle from publisher's bibliographic system (viewed on 28 Feb 2017).
+=505  0\$aCreation of the Court -- The Court becomes operational -- Jurisdiction -- Triggering the jurisdiction -- Admissibility -- General principles of criminal law -- Investigation and pre-trial procedure -- Trial and appeal -- Punishment -- Victims of crimes and their concerns -- Structure and administration of the Court.
+=520  \\$aThe International Criminal Court ushered in a new era in the protection of human rights. The Court prosecutes genocide, crimes against humanity, war crimes, and the crime of aggression when national justice systems are either unwilling or unable to do so themselves. This fifth edition of the seminal text describes a Court which is no longer in its infancy; the Court is currently examining situations that involve more than twenty countries in every continent of the planet. This book considers the difficulties in the Court's troubled relationship with Africa, the vagaries of the position of the United States, and the challenges the Court may face as it confronts conflicts around the world. It also reviews the history of international criminal prosecution and the Rome Statute. Written by a leading commentator, it is an authoritative and up-to-date introduction to the legal issues involved in the creation and operation of the Court.
+=610  20$aInternational Criminal Court.
+=655  \7$aElectronic books.$2lcgft
+=776  08$iPrint version:$z9781107133709
+=856  40$uhttps://doi.org/10.1017/9781316459997
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2017
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  02131nam a22003258i 4500
+=001  991018016999403851
+=005  20151005020621.0
+=006  m|||||o||d||||||||
+=007  cr||||||||||||
+=008  111007s2001||||enk\\\\\o\\\\\||1\0|eng|d
+=020  \\$a9781139164818 (ebook)
+=020  \\$z9780521804578 (hardback)
+=020  \\$z9780521011495 (paperback)
+=035  \\$a(UkCbUP)CR9781139164818
+=040  \\$aUkCbUP$beng$erda$cUkCbUP
+=050  00$aKZ7312$b.S33 2001
+=082  00$a341.7/7$221
+=100  1\$aSchabas, William,$d1950-$eauthor.
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=264  \1$aCambridge :$bCambridge University Press,$c2001.
+=300  \\$a1 online resource (x, 406 pages) :$bdigital, PDF file(s).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=500  \\$aTitle from publisher's bibliographic system (viewed on 05 Oct 2015).
+=520  \\$aArguably the most significant international organization to be created since the United Nations, the International Criminal Court ushers in a new era in the protection of human rights. The direct descendant of the Nuremberg and Tokyo trials, as well as those of the more recent international criminal tribunals for the Former Yugoslavia and Rwanda, the International Criminal Court will prosecute genocide, crimes against humanity and war crimes when national justice systems are either unwilling or unable to do so themselves. This new book reviews the history of international criminal prosecution, the drafting of the Rome Statute of the International Criminal Court and the principles of its operation, including the scope of its jurisdiction and the procedural regime. Three of the Court's fundamental documents - the 1998 Rome Statute itself, the Rules of Procedure and Evidence, and the Elements of Crimes - are reproduced in the Appendix. Indispensable for students and practitioners.
+=610  20$aInternational Criminal Court.
+=650  \0$aInternational criminal courts.
+=655  \7$aElectronic books.$2lcgft
+=776  08$iPrint version:$z9780521804578
+=856  40$uhttps://doi.org/10.1017/CBO9781139164818
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2001
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+=LDR  02131nam a22003258i 4500
+=001  991018016999403851
+=005  20151005020621.0
+=006  m|||||o||d||||||||
+=007  cr||||||||||||
+=008  111007s2001||||enk\\\\\o\\\\\||1\0|eng|d
+=020  \\$a9781139164818 (ebook)
+=020  \\$z9780521804578 (hardback)
+=020  \\$z9780521011495 (paperback)
+=035  \\$a(UkCbUP)CR9781139164818
+=040  \\$aUkCbUP$beng$erda$cUkCbUP
+=050  00$aKZ7312$b.S33 2001
+=082  00$a341.7/7$221
+=100  1\$aSchabas, William,$d1950-$eauthor.
+=245  13$aAn introduction to the International Criminal Court /$cWilliam A. Schabas.
+=264  \1$aCambridge :$bCambridge University Press,$c2001.
+=300  \\$a1 online resource (x, 406 pages) :$bdigital, PDF file(s).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=500  \\$aTitle from publisher's bibliographic system (viewed on 05 Oct 2015).
+=520  \\$aArguably the most significant international organization to be created since the United Nations, the International Criminal Court ushers in a new era in the protection of human rights. The direct descendant of the Nuremberg and Tokyo trials, as well as those of the more recent international criminal tribunals for the Former Yugoslavia and Rwanda, the International Criminal Court will prosecute genocide, crimes against humanity and war crimes when national justice systems are either unwilling or unable to do so themselves. This new book reviews the history of international criminal prosecution, the drafting of the Rome Statute of the International Criminal Court and the principles of its operation, including the scope of its jurisdiction and the procedural regime. Three of the Court's fundamental documents - the 1998 Rome Statute itself, the Rules of Procedure and Evidence, and the Elements of Crimes - are reproduced in the Appendix. Indispensable for students and practitioners.
+=610  20$aInternational Criminal Court.
+=650  \0$aInternational criminal courts.
+=655  \7$aElectronic books.$2lcgft
+=776  08$iPrint version:$z9780521804578
+=856  40$uhttps://doi.org/10.1017/CBO9781139164818
+=AVE  \\$853262282730003851$c61258449790003851$eAvailable$lUNIV$mCambridge EBA$tCambridge Core
+
+
+
+
+XML:        an introduction to the international criminal court|schabas, william, 1950-|2001
+Analytics:  introduction to the international criminal court|schabas, william, 1950-|2011|temp
+
+
+MMS Id                                                  991011909349703851
+Title (Normalized)       unspeakable truths facing the challenge of tru...
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                     2002.
+Author                                                Hayner, Priscilla B.
+Author (contributor)                                                   NaN
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 7478, dtype: object
+=LDR  00251nam  22000853u 4500
+=001  991017855749203851
+=005  20200220124334.0
+=008  200220s\\\\\\\\xx\\\\\\r\\\\\000\0\eng\d
+=100  1\$aPriscilla Hayner
+=245  10$aUnspeakable truths : facing the challenge of truth commissions
+=AVA  \\$0991017855749203851$822230778770003851$a01TUN_INST$bRES_SHARE$cBorrowing Resource Sharing Requests$eunavailable$f1$g1$jOUT_RS_REQ$k0$p1$qResource Sharing Library
+
+
+
+
+XML:        unspeakable truths  facing the challenge of truth commissions|priscilla hayner|
+Analytics:  unspeakable truths facing the challenge of truth commissions|hayner, priscilla b.|2002|
+
+
+=LDR  00251nam  22000853u 4500
+=001  991017855749203851
+=005  20200220124334.0
+=008  200220s\\\\\\\\xx\\\\\\r\\\\\000\0\eng\d
+=100  1\$aPriscilla Hayner
+=245  10$aUnspeakable truths : facing the challenge of truth commissions
+=AVA  \\$0991017855749203851$822230778770003851$a01TUN_INST$bRES_SHARE$cBorrowing Resource Sharing Requests$eunavailable$f1$g1$jOUT_RS_REQ$k0$p1$qResource Sharing Library
+
+
+
+
+XML:        unspeakable truths  facing the challenge of truth commissions|priscilla hayner|
+Analytics:  unspeakable truths facing the challenge of truth commissions|hayner, priscilla b.|2002|
+
+
+=LDR  01021nam a2200337   4500
+=001  991011909349703851
+=005  20190425105903.0
+=008  000418s2002\\\\nyu\\\\\\b\\\\001\0\eng
+=010  \\$a00032315
+=020  \\$a0415924774
+=020  \\$a0415924782 (pbk.)
+=035  \\$a(MMeT)b16346774-01tun_inst
+=035  \\$a(OCoLC)ocm43919718$9ExL
+=035  00$iLCMARC/AYQ-0248/RRESMINI
+=040  \\$aDLC$cDLC$dDLC
+=042  \\$apcc
+=050  00$aJC580$b.H39 2002
+=082  00$a323/.044$221
+=090  \\$aJC571$b.H363 2001
+=100  1\$aHayner, Priscilla B.
+=245  10$aUnspeakable truths :$bfacing the challenge of truth commissions /$cPriscilla B. Hayner.
+=260  \\$aNew York :$bRoutledge ,$c2002.
+=300  \\$axii, 353 p. ;$c23 cm.
+=504  \\$aIncludes bibliographical references (p. 303-304) and index.
+=650  \0$aTruth commissions.
+=650  \0$aHuman rights.
+=650  \0$aPolitical atrocities.
+=650  \0$aPolitical persecution.
+=650  \0$aAmnesty.
+=650  \0$aReconciliation.
+=935  \\$aAJY-6940
+=AVA  \\$0991011909349703851$822110693640003851$a01TUN_INST$bGINN$cReserves$dJC580 .H39 2002$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+=AVA  \\$0991011909349703851$822110693690003851$a01TUN_INST$bTISCH$cBook Stacks$dJC571 .H363 2001$eunavailable$f1$g1$jTISCHS$k0$p2$qTisch Library
+
+
+
+
+XML:        unspeakable truths facing the challenge of truth commissions|hayner, priscilla b.|2002
+Analytics:  unspeakable truths facing the challenge of truth commissions|hayner, priscilla b.|2002|
+
+
+=LDR  01021nam a2200337   4500
+=001  991011909349703851
+=005  20190425105903.0
+=008  000418s2002\\\\nyu\\\\\\b\\\\001\0\eng
+=010  \\$a00032315
+=020  \\$a0415924774
+=020  \\$a0415924782 (pbk.)
+=035  \\$a(MMeT)b16346774-01tun_inst
+=035  \\$a(OCoLC)ocm43919718$9ExL
+=035  00$iLCMARC/AYQ-0248/RRESMINI
+=040  \\$aDLC$cDLC$dDLC
+=042  \\$apcc
+=050  00$aJC580$b.H39 2002
+=082  00$a323/.044$221
+=090  \\$aJC571$b.H363 2001
+=100  1\$aHayner, Priscilla B.
+=245  10$aUnspeakable truths :$bfacing the challenge of truth commissions /$cPriscilla B. Hayner.
+=260  \\$aNew York :$bRoutledge ,$c2002.
+=300  \\$axii, 353 p. ;$c23 cm.
+=504  \\$aIncludes bibliographical references (p. 303-304) and index.
+=650  \0$aTruth commissions.
+=650  \0$aHuman rights.
+=650  \0$aPolitical atrocities.
+=650  \0$aPolitical persecution.
+=650  \0$aAmnesty.
+=650  \0$aReconciliation.
+=935  \\$aAJY-6940
+=AVA  \\$0991011909349703851$822110693640003851$a01TUN_INST$bGINN$cReserves$dJC580 .H39 2002$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+=AVA  \\$0991011909349703851$822110693690003851$a01TUN_INST$bTISCH$cBook Stacks$dJC571 .H363 2001$eunavailable$f1$g1$jTISCHS$k0$p2$qTisch Library
+
+
+
+
+XML:        unspeakable truths facing the challenge of truth commissions|hayner, priscilla b.|2002
+Analytics:  unspeakable truths facing the challenge of truth commissions|hayner, priscilla b.|2002|
+
+
+MMS Id                                        991014217099703851
+Title (Normalized)                         post conflict justice
+Course Code                                           2202-24246
+Course Name              Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                              Ginn Reserves
+Publication Date                                           2002.
+Author                                                       NaN
+Author (contributor)            Bassiouni, M. Cherif, 1937-2017.
+Bibliographic Level                                            m
+Resource Type                                    Book - Physical
+Semester                                                    2202
+Name: 8295, dtype: object
+=LDR  01996cam a2200421Ia 4500
+=001  991008774469703851
+=005  20190425113410.0
+=008  980303s1997\\\\iaua\\\\\\\\\\100\0\eng\d
+=029  1\$aAU@$b000013748761
+=029  1\$aNLGGC$b167682954
+=035  \\$a(MMeT)b15533268-01tun_inst
+=035  \\$a(OCoLC)38538692
+=035  \\$a(OCoLC)ocm38538692
+=040  \\$aNDJ$beng$cNDJ$dBAL$dOCL$dNLGGC$dLVB$dOCLCQ$dOCLCF$dDOS$dOCLCQ$dOCL$dOCLCO$dNJR
+=050  \4$aJX54$b.S75 1997
+=050  \4$aKZ1240$b.S77 1997
+=082  04$a341.6$bAc27
+=084  \\$a86.09$2bcl
+=111  2\$aStrategy for Peace Conference$n(38th :$d1997 :$cWarrenton, Va.)
+=245  10$aAccountability and judicial response :$bbuilding mechanisms for post-conflict justice : report of the thirty-eighth Strategy for Peace, US Foreign Policy Conference /$csponsored by the Stanley Foundation, October 23-25, 1997 ; convened at Airlie Center, Warrenton, Virginia.
+=260  \\$aMuscatine, Iowa :$bStanley Foundation,$c[1997]
+=300  \\$a22 pages :$billustrations ;$c22 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aReport of the ... Strategy for Peace US Foreign Policy Conference,$x0748-9641 ;$v1997 [no. 1]
+=650  \0$aInternational law$vCongresses.
+=650  \0$aWar crimes$vCongresses.
+=650  \0$aJustice, Administration of$vCongresses.
+=650  \7$aInternational law$2fast$0(OCoLC)fst00976984
+=650  \7$aJustice, Administration of.$2fast$0(OCoLC)fst00985154
+=650  \7$aWar crimes$2fast$0(OCoLC)fst01170465
+=655  \7$aConference papers and proceedings.$2fast$0(OCoLC)fst01423772
+=710  2\$aStanley Foundation.
+=811  2\$aStrategy for Peace Conference.$tReport of the ... Strategy for Peace, US Foreign Policy Conference$v38th.
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-11-19
+=935  \\$aAGS-2692
+=959  \\$aWorldShare UPDATED 2017-11-19 -- Master record variable field(s) change: 490, 811
+=AVA  \\$0991008774469703851$822111026340003851$a01TUN_INST$bGINN$cStacks$dJX1974.7.S8 .A32 1997$eavailable$f1$g0$jGINNS$k0$p1$qGinn Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        accountability and judicial response building mechanisms for postconflict justice  report of the thirtyeighth strategy for peace us foreign policy conference||1997
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  01996cam a2200421Ia 4500
+=001  991008774469703851
+=005  20190425113410.0
+=008  980303s1997\\\\iaua\\\\\\\\\\100\0\eng\d
+=029  1\$aAU@$b000013748761
+=029  1\$aNLGGC$b167682954
+=035  \\$a(MMeT)b15533268-01tun_inst
+=035  \\$a(OCoLC)38538692
+=035  \\$a(OCoLC)ocm38538692
+=040  \\$aNDJ$beng$cNDJ$dBAL$dOCL$dNLGGC$dLVB$dOCLCQ$dOCLCF$dDOS$dOCLCQ$dOCL$dOCLCO$dNJR
+=050  \4$aJX54$b.S75 1997
+=050  \4$aKZ1240$b.S77 1997
+=082  04$a341.6$bAc27
+=084  \\$a86.09$2bcl
+=111  2\$aStrategy for Peace Conference$n(38th :$d1997 :$cWarrenton, Va.)
+=245  10$aAccountability and judicial response :$bbuilding mechanisms for post-conflict justice : report of the thirty-eighth Strategy for Peace, US Foreign Policy Conference /$csponsored by the Stanley Foundation, October 23-25, 1997 ; convened at Airlie Center, Warrenton, Virginia.
+=260  \\$aMuscatine, Iowa :$bStanley Foundation,$c[1997]
+=300  \\$a22 pages :$billustrations ;$c22 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aReport of the ... Strategy for Peace US Foreign Policy Conference,$x0748-9641 ;$v1997 [no. 1]
+=650  \0$aInternational law$vCongresses.
+=650  \0$aWar crimes$vCongresses.
+=650  \0$aJustice, Administration of$vCongresses.
+=650  \7$aInternational law$2fast$0(OCoLC)fst00976984
+=650  \7$aJustice, Administration of.$2fast$0(OCoLC)fst00985154
+=650  \7$aWar crimes$2fast$0(OCoLC)fst01170465
+=655  \7$aConference papers and proceedings.$2fast$0(OCoLC)fst01423772
+=710  2\$aStanley Foundation.
+=811  2\$aStrategy for Peace Conference.$tReport of the ... Strategy for Peace, US Foreign Policy Conference$v38th.
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-11-19
+=935  \\$aAGS-2692
+=959  \\$aWorldShare UPDATED 2017-11-19 -- Master record variable field(s) change: 490, 811
+=AVA  \\$0991008774469703851$822111026340003851$a01TUN_INST$bGINN$cStacks$dJX1974.7.S8 .A32 1997$eavailable$f1$g0$jGINNS$k0$p1$qGinn Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        accountability and judicial response building mechanisms for postconflict justice  report of the thirtyeighth strategy for peace us foreign policy conference||1997
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  03235nam a22003618i 4500
+=001  991018016376403851
+=005  20151005020621.0
+=006  m|||||o||d||||||||
+=007  cr||||||||||||
+=008  101012s2011||||enk\\\\\o\\\\\||1\0|eng|d
+=020  \\$a9780511976780 (ebook)
+=020  \\$z9781107002890 (hardback)
+=020  \\$z9780521176118 (paperback)
+=035  \\$a(UkCbUP)CR9780511976780
+=040  \\$aUkCbUP$beng$erda$cUkCbUP
+=050  00$aKZ7075$b.A923 2011
+=082  00$a345/.04$222
+=245  00$aAccountability for collective wrong doing /$cedited byTracy Isaacs, Richard Vernon.
+=264  \1$aCambridge :$bCambridge University Press,$c2011.
+=300  \\$a1 online resource (ix, 310 pages) :$bdigital, PDF file(s).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=500  \\$aTitle from publisher's bibliographic system (viewed on 05 Oct 2015).
+=505  00$tIntroduction /$rTracy Isaacs --$tCollective responsibility and post-conflict justice /$rMark A. Drumbl --$tState criminality and the ambition of international criminal law /$rDavid Luban --$tPunishing genocide : a critical reading of the International Court of Justice /$rAnthony F. Lang --$tJoint criminal enterprise, the Nuremberg precedent, and the concept of "Grotian moment" /$rMichael P. Scharf --$tCollective responsibility and transnational corporate conduct /$rSara L. Seck --$tCollective punishment and mass confinement /$rLarry May --$tReparative justice /$rErin I. Kelly --$tThe distributive effect of collective punishment /$rAvia Pasternak --$tCitizen responsibility and the reactive attitudes : blaming Americans for war crimes in Iraq /$rAmy Sepinwall --$tKicking bodies and damning souls : the danger of harming "innocent" individuals while punishing "delinquent" states /$rToni Erskine --$tPunishing collectives : states or nations? /$rRichard Vernon.
+=520  \\$aIdeas of collective responsibility challenge the doctrine of individual responsibility that is the dominant paradigm in law and liberal political theory. But little attention is given to the consequences of holding groups accountable for wrongdoing. Groups are not amenable to punishment in the way that individuals are. Can they be punished - and if so, how - or are other remedies available? The topic crosses the borders of law, philosophy and political science, and in this volume specialists in all three areas contribute their perspectives. They examine the limits of individual criminal liability in addressing atrocity, the meanings of punishment and responsibility, the distribution of group punishment to a group's members, and the means by which collective accountability can be expressed. In doing so, they reflect on the legacy of the Nuremberg Trials, on the philosophical understanding of collective responsibility, and on the place of collective accountability in international political relations.
+=650  \0$aCriminal liability (International law)
+=650  \0$aCrimes against humanity.
+=650  \0$aGovernment liability.
+=655  \7$aElectronic books.$2lcgft
+=700  1\$aIsaacs, Tracy Lynn,$eeditor.
+=700  1\$aVernon, Richard,$d1945-$eeditor.
+=776  08$iPrint version:$z9781107002890
+=856  40$uhttps://doi.org/10.1017/CBO9780511976780
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        accountability for collective wrong doing|isaacs, tracy lynn, editor.|2011
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  03235nam a22003618i 4500
+=001  991018016376403851
+=005  20151005020621.0
+=006  m|||||o||d||||||||
+=007  cr||||||||||||
+=008  101012s2011||||enk\\\\\o\\\\\||1\0|eng|d
+=020  \\$a9780511976780 (ebook)
+=020  \\$z9781107002890 (hardback)
+=020  \\$z9780521176118 (paperback)
+=035  \\$a(UkCbUP)CR9780511976780
+=040  \\$aUkCbUP$beng$erda$cUkCbUP
+=050  00$aKZ7075$b.A923 2011
+=082  00$a345/.04$222
+=245  00$aAccountability for collective wrong doing /$cedited byTracy Isaacs, Richard Vernon.
+=264  \1$aCambridge :$bCambridge University Press,$c2011.
+=300  \\$a1 online resource (ix, 310 pages) :$bdigital, PDF file(s).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=500  \\$aTitle from publisher's bibliographic system (viewed on 05 Oct 2015).
+=505  00$tIntroduction /$rTracy Isaacs --$tCollective responsibility and post-conflict justice /$rMark A. Drumbl --$tState criminality and the ambition of international criminal law /$rDavid Luban --$tPunishing genocide : a critical reading of the International Court of Justice /$rAnthony F. Lang --$tJoint criminal enterprise, the Nuremberg precedent, and the concept of "Grotian moment" /$rMichael P. Scharf --$tCollective responsibility and transnational corporate conduct /$rSara L. Seck --$tCollective punishment and mass confinement /$rLarry May --$tReparative justice /$rErin I. Kelly --$tThe distributive effect of collective punishment /$rAvia Pasternak --$tCitizen responsibility and the reactive attitudes : blaming Americans for war crimes in Iraq /$rAmy Sepinwall --$tKicking bodies and damning souls : the danger of harming "innocent" individuals while punishing "delinquent" states /$rToni Erskine --$tPunishing collectives : states or nations? /$rRichard Vernon.
+=520  \\$aIdeas of collective responsibility challenge the doctrine of individual responsibility that is the dominant paradigm in law and liberal political theory. But little attention is given to the consequences of holding groups accountable for wrongdoing. Groups are not amenable to punishment in the way that individuals are. Can they be punished - and if so, how - or are other remedies available? The topic crosses the borders of law, philosophy and political science, and in this volume specialists in all three areas contribute their perspectives. They examine the limits of individual criminal liability in addressing atrocity, the meanings of punishment and responsibility, the distribution of group punishment to a group's members, and the means by which collective accountability can be expressed. In doing so, they reflect on the legacy of the Nuremberg Trials, on the philosophical understanding of collective responsibility, and on the place of collective accountability in international political relations.
+=650  \0$aCriminal liability (International law)
+=650  \0$aCrimes against humanity.
+=650  \0$aGovernment liability.
+=655  \7$aElectronic books.$2lcgft
+=700  1\$aIsaacs, Tracy Lynn,$eeditor.
+=700  1\$aVernon, Richard,$d1945-$eeditor.
+=776  08$iPrint version:$z9781107002890
+=856  40$uhttps://doi.org/10.1017/CBO9780511976780
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        accountability for collective wrong doing|isaacs, tracy lynn, editor.|2011
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  01725cam a2200469Ii 4500
+=001  991016244859703851
+=005  20190509130608.0
+=006  m\\\\\o\\d\f
+=007  cr\bn|||||||||
+=008  130325s2011\\\\dcu\\\\\ob\\\f000\0\eng\d
+=035  \\$a(MMeT)b24880528-01tun_inst
+=035  \\$a(GPO)99410363
+=035  \\$a(GPO)20132085
+=035  \\$a(OCoLC)831401121
+=035  \\$a(OCoLC)ocn831401121
+=040  \\$aGPO$beng$erda$cGPO$dOCLCQ$dOCLCF$dTEF$dINT$dOCLCQ
+=050  \4$aKBP144
+=074  \\$a1063-K-19 (online)
+=086  0\$aY 3.P 31:26/87
+=100  1\$aWorden, Scott,$eauthor.
+=245  10$aAnalyzing post-conflict justice and Islamic law /$cScott Worden [and three others].
+=264  \1$aWashington, DC :$bUnited States Institute of Peace,$c2011.
+=300  \\$a1 online resource (5 pages).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=490  1\$aPeace brief ;$v87
+=500  \\$aTitle from title screen (viewed Mar. 25, 2013).
+=500  \\$a"March 23, 2011."
+=504  \\$aIncludes bibliographical references (page 5).
+=655  \7$aElectronic government information.$2lcgft
+=655  \7$aElectronic books.$2lcgft
+=650  \0$aTransitional justice.
+=650  \0$aIslamic law.
+=650  \7$aIslamic law.$2fast$0(OCoLC)fst00979949
+=650  \7$aTransitional justice.$2fast$0(OCoLC)fst01747069
+=710  2\$aUnited States Institute of Peace,$eissuing body.
+=830  \0$aPeace brief ;$v87.
+=910  \\$aE-MARC MARCIVE 2013-05
+=910  \\$aE-MARC MARCIVE 2013-04
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-01-22
+=959  \\$aWorldShare UPDATED 2019-01-22 -- Master record variable field(s) change: 300
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        analyzing postconflict justice and islamic law|worden, scott, author.|2011
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  01725cam a2200469Ii 4500
+=001  991016244859703851
+=005  20190509130608.0
+=006  m\\\\\o\\d\f
+=007  cr\bn|||||||||
+=008  130325s2011\\\\dcu\\\\\ob\\\f000\0\eng\d
+=035  \\$a(MMeT)b24880528-01tun_inst
+=035  \\$a(GPO)99410363
+=035  \\$a(GPO)20132085
+=035  \\$a(OCoLC)831401121
+=035  \\$a(OCoLC)ocn831401121
+=040  \\$aGPO$beng$erda$cGPO$dOCLCQ$dOCLCF$dTEF$dINT$dOCLCQ
+=050  \4$aKBP144
+=074  \\$a1063-K-19 (online)
+=086  0\$aY 3.P 31:26/87
+=100  1\$aWorden, Scott,$eauthor.
+=245  10$aAnalyzing post-conflict justice and Islamic law /$cScott Worden [and three others].
+=264  \1$aWashington, DC :$bUnited States Institute of Peace,$c2011.
+=300  \\$a1 online resource (5 pages).
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=490  1\$aPeace brief ;$v87
+=500  \\$aTitle from title screen (viewed Mar. 25, 2013).
+=500  \\$a"March 23, 2011."
+=504  \\$aIncludes bibliographical references (page 5).
+=655  \7$aElectronic government information.$2lcgft
+=655  \7$aElectronic books.$2lcgft
+=650  \0$aTransitional justice.
+=650  \0$aIslamic law.
+=650  \7$aIslamic law.$2fast$0(OCoLC)fst00979949
+=650  \7$aTransitional justice.$2fast$0(OCoLC)fst01747069
+=710  2\$aUnited States Institute of Peace,$eissuing body.
+=830  \0$aPeace brief ;$v87.
+=910  \\$aE-MARC MARCIVE 2013-05
+=910  \\$aE-MARC MARCIVE 2013-04
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2019-01-22
+=959  \\$aWorldShare UPDATED 2019-01-22 -- Master record variable field(s) change: 300
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        analyzing postconflict justice and islamic law|worden, scott, author.|2011
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  -----cam-a22-----z--4500
+=001  991017590743603851
+=008  190505uuuuuuuuuuuuuu-|-o----u|----|eng-d
+=035  \\$a(CKB)4100000007175478
+=035  \\$a(EXLCZ)994100000007175478
+=245  10$aChicago Principles on Post-Conflict Justice
+=906  \\$aBOOK
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        chicago principles on postconflict justice||
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  -----cam-a22-----z--4500
+=001  991017590743603851
+=008  190505uuuuuuuuuuuuuu-|-o----u|----|eng-d
+=035  \\$a(CKB)4100000007175478
+=035  \\$a(EXLCZ)994100000007175478
+=245  10$aChicago Principles on Post-Conflict Justice
+=906  \\$aBOOK
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        chicago principles on postconflict justice||
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  -----cam-a22-----z--4500
+=001  991017590728003851
+=008  190505u2004uuuuuuuuu-|-o----u|----|eng-d
+=035  \\$a(CKB)4100000007175496
+=035  \\$a(EXLCZ)994100000007175496
+=245  10$aIraq Post-Conflict Justice: A Proposed Comprehensive Plan
+=246  \\$aIraq Post-Conflict Justice
+=906  \\$aBOOK
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        iraq postconflict justice a proposed comprehensive plan||
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  -----cam-a22-----z--4500
+=001  991017590728003851
+=008  190505u2004uuuuuuuuu-|-o----u|----|eng-d
+=035  \\$a(CKB)4100000007175496
+=035  \\$a(EXLCZ)994100000007175496
+=245  10$aIraq Post-Conflict Justice: A Proposed Comprehensive Plan
+=246  \\$aIraq Post-Conflict Justice
+=906  \\$aBOOK
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        iraq postconflict justice a proposed comprehensive plan||
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  04657cam a2200757Ma 4500
+=001  991017913769403851
+=005  20200413071416.3
+=006  m\\\\\o\\d
+=007  cr\cnu---uuuuu
+=008  050816s2007\\\\dcu\\\\\ob\\\i000\0\eng\d
+=019  \\$a647101435
+=029  1\$aNZ1$b14224327
+=035  \\$a(OCoLC)137506647$z(OCoLC)647101435
+=035  \\$a(OCoLC)ocn137506647
+=040  \\$aMNU$beng$epn$cMNU$dOCLCQ$dCEF$dSTF$dOCLCQ$dOCLCE$dCUS$dOCLCF$dOCLCO$dOCLCQ$dOCL$dMERER$dOCLCQ
+=042  \\$adlr
+=050  \4$aHG3881.5.W57$bP63 no.4191
+=100  1\$aLie, Tove Grete.
+=245  10$aPost-conflict justice and sustainable peace /$cTove Grete Lie, Helga Malmin Binningsbø, Scott Gates.
+=260  \\$a[Washington, D.C.] :$bWorld Bank,$c[2007]
+=300  \\$a1 online resource (24 pages)
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=490  1\$aPolicy research working paper ;$v4191
+=490  1\$aPost-conflict transitions working paper ;$vno. 5
+=500  \\$aTitle from PDF file as viewed on 5/31/2007.
+=504  \\$aIncludes bibliographical references.
+=520  3\$aNo systematic study has examined the effect of post-conflict justice on the duration of peace on a global basis. This paper attempts to fill that void by building on a newly constructed dataset (Binningsbo, Elster, and Gates 2005), which reports the presence of various forms of post-conflict justice efforts (trials, purges, reparation to victims, and truth commissions) as well as processes associated with abstaining from post-conflict justice (amnesty and exile). It investigates the long-term effects of post-conflict justice on the duration of peace after conflict. It uses a Cox proportional hazard model to analyze the influence of the various types of post-conflict justice on the length of the peace period before the recurrence of violent conflict. Post-conflict trials as well as other types of justice do lead to a more durable peace in democratic as well as non-democratic societies, but the results are weak and are therefore difficult to generalize. Forms of non-retributive justice (that is, reparations to victims and truth commissions), however, are strongly associated with the duration of peace in democratic societies, but are not significant for non-democratic societies. Amnesty tends to be destabilizing and generally associated with shorter peace duration, but exile tends to lead to a more durable peace.
+=650  \0$aAtrocities.
+=650  \0$aConflict and Development.
+=650  \0$aPeace and Peacekeeping.
+=650  \0$aMassacres.
+=650  \0$aInternational Treaties.
+=650  \0$aInternational law.
+=650  \0$aInternational Community.
+=650  \0$aHuman rights.
+=650  \0$aFighting.
+=650  \0$aDeterrence.
+=650  \0$aCorruption and Anticorruption Law.
+=650  \0$aSocial Development.
+=650  \0$aSocial Conflict and Violence.
+=650  \0$aPost Conflict Reintegration.
+=650  \0$aPostwar reconstruction.
+=650  \0$aConflict.
+=650  \0$aCivil war.
+=650  \0$aCompromise.
+=650  \7$aAtrocities.$2fast$0(OCoLC)fst00820727
+=650  \7$aCivil war.$2fast$0(OCoLC)fst00862883
+=650  \7$aHuman rights.$2fast$0(OCoLC)fst00963285
+=650  \7$aInternational law.$2fast$0(OCoLC)fst00976984
+=650  \7$aMassacres.$2fast$0(OCoLC)fst01011476
+=650  \7$aPostwar reconstruction.$2fast$0(OCoLC)fst01200084
+=776  08$iPrint version:$aLie, Tove Grete.$tPost-conflict justice and sustainable peace.$d[Washington, D.C.] : World Bank, Development Research Group, Growth and Macroeconomics Team, [2007]$w(OCoLC)137506653
+=830  \0$aPost-conflict transitions working paper (Online) ;$vno. 5.
+=830  \0$aPolicy research working papers (Online);$v4191.
+=856  40$uhttps://www.jstor.org/stable/resrep02503$zJSTOR Archive Complimentary Collection
+=910  \\$aWorldShare NEW -- JSTOR Archive Complimentary Collection 2020-04-12
+=959  \\$aWorldShare NEW 2020-04-12 -- Added to collection jstor.archive
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        postconflict justice and sustainable peace|lie, tove grete.|2007
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  04657cam a2200757Ma 4500
+=001  991017913769403851
+=005  20200413071416.3
+=006  m\\\\\o\\d
+=007  cr\cnu---uuuuu
+=008  050816s2007\\\\dcu\\\\\ob\\\i000\0\eng\d
+=019  \\$a647101435
+=029  1\$aNZ1$b14224327
+=035  \\$a(OCoLC)137506647$z(OCoLC)647101435
+=035  \\$a(OCoLC)ocn137506647
+=040  \\$aMNU$beng$epn$cMNU$dOCLCQ$dCEF$dSTF$dOCLCQ$dOCLCE$dCUS$dOCLCF$dOCLCO$dOCLCQ$dOCL$dMERER$dOCLCQ
+=042  \\$adlr
+=050  \4$aHG3881.5.W57$bP63 no.4191
+=100  1\$aLie, Tove Grete.
+=245  10$aPost-conflict justice and sustainable peace /$cTove Grete Lie, Helga Malmin Binningsbø, Scott Gates.
+=260  \\$a[Washington, D.C.] :$bWorld Bank,$c[2007]
+=300  \\$a1 online resource (24 pages)
+=336  \\$atext$btxt$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=490  1\$aPolicy research working paper ;$v4191
+=490  1\$aPost-conflict transitions working paper ;$vno. 5
+=500  \\$aTitle from PDF file as viewed on 5/31/2007.
+=504  \\$aIncludes bibliographical references.
+=520  3\$aNo systematic study has examined the effect of post-conflict justice on the duration of peace on a global basis. This paper attempts to fill that void by building on a newly constructed dataset (Binningsbo, Elster, and Gates 2005), which reports the presence of various forms of post-conflict justice efforts (trials, purges, reparation to victims, and truth commissions) as well as processes associated with abstaining from post-conflict justice (amnesty and exile). It investigates the long-term effects of post-conflict justice on the duration of peace after conflict. It uses a Cox proportional hazard model to analyze the influence of the various types of post-conflict justice on the length of the peace period before the recurrence of violent conflict. Post-conflict trials as well as other types of justice do lead to a more durable peace in democratic as well as non-democratic societies, but the results are weak and are therefore difficult to generalize. Forms of non-retributive justice (that is, reparations to victims and truth commissions), however, are strongly associated with the duration of peace in democratic societies, but are not significant for non-democratic societies. Amnesty tends to be destabilizing and generally associated with shorter peace duration, but exile tends to lead to a more durable peace.
+=650  \0$aAtrocities.
+=650  \0$aConflict and Development.
+=650  \0$aPeace and Peacekeeping.
+=650  \0$aMassacres.
+=650  \0$aInternational Treaties.
+=650  \0$aInternational law.
+=650  \0$aInternational Community.
+=650  \0$aHuman rights.
+=650  \0$aFighting.
+=650  \0$aDeterrence.
+=650  \0$aCorruption and Anticorruption Law.
+=650  \0$aSocial Development.
+=650  \0$aSocial Conflict and Violence.
+=650  \0$aPost Conflict Reintegration.
+=650  \0$aPostwar reconstruction.
+=650  \0$aConflict.
+=650  \0$aCivil war.
+=650  \0$aCompromise.
+=650  \7$aAtrocities.$2fast$0(OCoLC)fst00820727
+=650  \7$aCivil war.$2fast$0(OCoLC)fst00862883
+=650  \7$aHuman rights.$2fast$0(OCoLC)fst00963285
+=650  \7$aInternational law.$2fast$0(OCoLC)fst00976984
+=650  \7$aMassacres.$2fast$0(OCoLC)fst01011476
+=650  \7$aPostwar reconstruction.$2fast$0(OCoLC)fst01200084
+=776  08$iPrint version:$aLie, Tove Grete.$tPost-conflict justice and sustainable peace.$d[Washington, D.C.] : World Bank, Development Research Group, Growth and Macroeconomics Team, [2007]$w(OCoLC)137506653
+=830  \0$aPost-conflict transitions working paper (Online) ;$vno. 5.
+=830  \0$aPolicy research working papers (Online);$v4191.
+=856  40$uhttps://www.jstor.org/stable/resrep02503$zJSTOR Archive Complimentary Collection
+=910  \\$aWorldShare NEW -- JSTOR Archive Complimentary Collection 2020-04-12
+=959  \\$aWorldShare NEW 2020-04-12 -- Added to collection jstor.archive
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        postconflict justice and sustainable peace|lie, tove grete.|2007
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  04054cam a22006614a 4500
+=001  991014217099703851
+=005  20190423084716.0
+=008  020618s2002\\\\nyu\\\\\\b\\\\001\0\eng
+=010  \\$a2002026614
+=020  \\$a1571051538
+=020  \\$a9781571051530
+=029  1\$aAU@$b000023702131
+=029  1\$aDEBBG$bBV014542022
+=029  1\$aDEBSZ$b099946076
+=029  1\$aGEBAY$b7140543
+=029  1\$aHEBIS$b112944728
+=029  1\$aIG#$b9781571051530
+=029  1\$aNLGGC$b239066081
+=029  1\$aNZ1$b6999174
+=035  \\$a(MMeT)b17112928-01tun_inst
+=035  \\$a(OCoLC)50041670
+=035  \\$a(OCoLC)ocm50041670
+=040  \\$aDLC$beng$cDLC$dC#P$dPL#$dMUQ$dBAKER$dNLGGC$dBTCTA$dYDXCP$dOCLCG$dIG#$dEMC$dGEBAY$dEXW$dDEBSZ$dOCLCA$dOCLCF$dOCLCO$dBEDGE$dOCLCQ$dOCLCO$dDEBBG$dOCLCO$dUX0$dOCLCQ$dOCLCA
+=042  \\$apcc
+=050  00$aK5001$b.P67 2002
+=050  14$aPQ4113.U5$bT4 1950
+=082  00$a341.6/7$221
+=084  \\$a86.46$2bcl
+=084  \\$aPR 2210$2rvk
+=084  \\$aPR 2569$2rvk
+=084  \\$aKC1420$b.P678 2002$2moys
+=245  00$aPost-conflict justice /$cedited by M. Cherif Bassiouni.
+=260  \\$aArdsley, N.Y. :$bTransnational Publishers,$c2002.
+=300  \\$axx, 1041 pages ;$c24 cm.
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aInternational and comparative criminal law series
+=504  \\$aIncludes bibliographical references and index.
+=505  00$tAccountability: Policy Issues --$tAccountability for Violations of International Humanitarian Law and Other Serious Violations of Human Rights /$rM. Cherif Bassiouni --$tProgress and Humility: The Ongoing Search for Post-Conflict Justice /$rNeil J. Kritz --$tInternational Law Principles on Accountability /$rMichael P. Scharf, Nigel Rodley --$tCivil Society in Processes of Accountability /$rNaomi Roht-Arriaza --$tThe Role of Justice in Peace Negotiations /$rPaul R. Williams --$tLacking a Leviathan: The Quandaries of Peace and Accountability /$rMadeline Morris --$tA Philosophical Perspective on Accountability and Post-Conflict Justice: Setting Up the Premises /$rAnja Matwijkiw --$tPsychology of Impunity and Injustice: Implications for Social Reconciliation /$rSusan Opotow --$tMaking Whole What Has Been Smashed: Reflections on Reparations /$rJohn Torpey --$tCommission on Human Rights Resolution 2002/44 (23 April 2002); The Right to Restitution, Compensation and Rehabilitation for Victims of Gross Violations of Human Rights and Fundamental Freedoms, U.N. Doc. E/CN. 4/2000/62 (18 Jan. 2000) --$tAssessing Accountability Mechanisms --$tProposed Guiding Principles for Combating Impunity for International Crimes /$rM. Cherif Bassiouni --$tDocumenting, Acknowledging and Publicizing the Truth /$rJason S. Abrams, Priscilla Hayner --$tTruth Commissions /$rRodolfo Mattarollo --$tDo Truth Commissions Promote Accountability or Impunity? The Case of the South African Truth and Reconciliation Commission /$rBenjamin N. Schiff.
+=650  \0$aRestorative justice.
+=650  \0$aWar crimes.
+=650  \0$aHumanitarian law.
+=650  \0$aCriminal justice, Administration of$xInternational cooperation.
+=650  \7$aCriminal justice, Administration of$xInternational cooperation.$2fast$0(OCoLC)fst00883281
+=650  \7$aHumanitarian law.$2fast$0(OCoLC)fst00963577
+=650  \7$aRestorative justice.$2fast$0(OCoLC)fst01096003
+=650  \7$aWar crimes$2fast$0(OCoLC)fst01170465
+=700  1\$aBassiouni, M. Cherif,$d1937-2017.
+=830  \0$aInternational and comparative criminal law series.
+=910  \\$a94 04/2005
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-09-28
+=938  \\$aBaker & Taylor$bBKTY$c181.00$d181.00$i1571051538$n0004004446$sactive
+=938  \\$aBaker and Taylor$bBTCP$n2002026614
+=938  \\$aIngram$bINGR$n9781571051530
+=938  \\$aPuvill Libros$bPUVL$n1571051538$c$226.92
+=938  \\$aYBP Library Services$bYANK$n1870093
+=959  \\$aWorldShare UPDATED 2017-09-28 -- Master record variable field(s) change: 700
+=AVA  \\$0991014217099703851$82285623840003851$a01TUN_INST$bGINN$cReserves$dK5001 .P67 2002$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        postconflict justice|bassiouni, m. cherif, 1937-2017.|2002
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  04054cam a22006614a 4500
+=001  991014217099703851
+=005  20190423084716.0
+=008  020618s2002\\\\nyu\\\\\\b\\\\001\0\eng
+=010  \\$a2002026614
+=020  \\$a1571051538
+=020  \\$a9781571051530
+=029  1\$aAU@$b000023702131
+=029  1\$aDEBBG$bBV014542022
+=029  1\$aDEBSZ$b099946076
+=029  1\$aGEBAY$b7140543
+=029  1\$aHEBIS$b112944728
+=029  1\$aIG#$b9781571051530
+=029  1\$aNLGGC$b239066081
+=029  1\$aNZ1$b6999174
+=035  \\$a(MMeT)b17112928-01tun_inst
+=035  \\$a(OCoLC)50041670
+=035  \\$a(OCoLC)ocm50041670
+=040  \\$aDLC$beng$cDLC$dC#P$dPL#$dMUQ$dBAKER$dNLGGC$dBTCTA$dYDXCP$dOCLCG$dIG#$dEMC$dGEBAY$dEXW$dDEBSZ$dOCLCA$dOCLCF$dOCLCO$dBEDGE$dOCLCQ$dOCLCO$dDEBBG$dOCLCO$dUX0$dOCLCQ$dOCLCA
+=042  \\$apcc
+=050  00$aK5001$b.P67 2002
+=050  14$aPQ4113.U5$bT4 1950
+=082  00$a341.6/7$221
+=084  \\$a86.46$2bcl
+=084  \\$aPR 2210$2rvk
+=084  \\$aPR 2569$2rvk
+=084  \\$aKC1420$b.P678 2002$2moys
+=245  00$aPost-conflict justice /$cedited by M. Cherif Bassiouni.
+=260  \\$aArdsley, N.Y. :$bTransnational Publishers,$c2002.
+=300  \\$axx, 1041 pages ;$c24 cm.
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aInternational and comparative criminal law series
+=504  \\$aIncludes bibliographical references and index.
+=505  00$tAccountability: Policy Issues --$tAccountability for Violations of International Humanitarian Law and Other Serious Violations of Human Rights /$rM. Cherif Bassiouni --$tProgress and Humility: The Ongoing Search for Post-Conflict Justice /$rNeil J. Kritz --$tInternational Law Principles on Accountability /$rMichael P. Scharf, Nigel Rodley --$tCivil Society in Processes of Accountability /$rNaomi Roht-Arriaza --$tThe Role of Justice in Peace Negotiations /$rPaul R. Williams --$tLacking a Leviathan: The Quandaries of Peace and Accountability /$rMadeline Morris --$tA Philosophical Perspective on Accountability and Post-Conflict Justice: Setting Up the Premises /$rAnja Matwijkiw --$tPsychology of Impunity and Injustice: Implications for Social Reconciliation /$rSusan Opotow --$tMaking Whole What Has Been Smashed: Reflections on Reparations /$rJohn Torpey --$tCommission on Human Rights Resolution 2002/44 (23 April 2002); The Right to Restitution, Compensation and Rehabilitation for Victims of Gross Violations of Human Rights and Fundamental Freedoms, U.N. Doc. E/CN. 4/2000/62 (18 Jan. 2000) --$tAssessing Accountability Mechanisms --$tProposed Guiding Principles for Combating Impunity for International Crimes /$rM. Cherif Bassiouni --$tDocumenting, Acknowledging and Publicizing the Truth /$rJason S. Abrams, Priscilla Hayner --$tTruth Commissions /$rRodolfo Mattarollo --$tDo Truth Commissions Promote Accountability or Impunity? The Case of the South African Truth and Reconciliation Commission /$rBenjamin N. Schiff.
+=650  \0$aRestorative justice.
+=650  \0$aWar crimes.
+=650  \0$aHumanitarian law.
+=650  \0$aCriminal justice, Administration of$xInternational cooperation.
+=650  \7$aCriminal justice, Administration of$xInternational cooperation.$2fast$0(OCoLC)fst00883281
+=650  \7$aHumanitarian law.$2fast$0(OCoLC)fst00963577
+=650  \7$aRestorative justice.$2fast$0(OCoLC)fst01096003
+=650  \7$aWar crimes$2fast$0(OCoLC)fst01170465
+=700  1\$aBassiouni, M. Cherif,$d1937-2017.
+=830  \0$aInternational and comparative criminal law series.
+=910  \\$a94 04/2005
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-09-28
+=938  \\$aBaker & Taylor$bBKTY$c181.00$d181.00$i1571051538$n0004004446$sactive
+=938  \\$aBaker and Taylor$bBTCP$n2002026614
+=938  \\$aIngram$bINGR$n9781571051530
+=938  \\$aPuvill Libros$bPUVL$n1571051538$c$226.92
+=938  \\$aYBP Library Services$bYANK$n1870093
+=959  \\$aWorldShare UPDATED 2017-09-28 -- Master record variable field(s) change: 700
+=AVA  \\$0991014217099703851$82285623840003851$a01TUN_INST$bGINN$cReserves$dK5001 .P67 2002$eavailable$f2$g0$jGINNC$k0$p1$qGinn Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        postconflict justice|bassiouni, m. cherif, 1937-2017.|2002
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  01446nam a2200301   4500
+=001  991007396339703851
+=005  20190628131955.0
+=008  971001s1997\\\\iau\\\\\\\\\\\000\0\eng\d
+=035  \\$a(MMeT)b15151529-01tun_inst
+=035  \\$a(OCoLC)ocm37715713$9ExL
+=040  \\$aARL$cARL
+=090  \\$aJX1932$b.V36 1997
+=100  1\$aGoldberg, Eliot.
+=245  10$aPost-conflict justice :$bthe role of the international community: April 4-6, 1997, convened at Wye River Conference Centers, Queenstown, Md. /$c[prepared by Eliot Goldberg and Mary C. Theisen ; sponsored by the Stanley Foundation.
+=246  14$aVantage conference 1997
+=260  \\$aMuscative, Iowa :$bStanley Foundation,$c1997.
+=300  \\$a28 p. ;$c22 cm.
+=490  1\$aReport of a Vantage conference,$x0748-0571
+=583  1\$acommitted to retain$c20170930$duntil 20421231$fHathiTrust Shared Print Program$uhttps://www.hathitrust.org/shared_print_program$zCommitted to retain for HathiTrust until 2042$5MMeT
+=583  1\$acommitted to retain$c20160630$duntil 20310630$fEAST$uhttp://eastlibraries.org/retained-materials$zCommitted to retain for EAST until 2031$5MMeT
+=650  \0$aInternational law$vCongresses.
+=650  \0$aInternational organization$vCongresses.
+=650  \0$aInternational police$vCongresses.
+=650  \0$aWar crimes$vCongresses.
+=700  1\$aTheisen, Mary C.
+=710  2\$aStanley Foundation.
+=830  \0$aReport of a Vantage conference
+=935  \\$aAGF-2597
+=AVA  \\$0991007396339703851$82280371390003851$a01TUN_INST$bGINN$cStacks$dJX1932 .V36 1997$eavailable$f1$g0$jGINNS$k0$p1$qGinn Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        postconflict justice the role of the international community april 46 1997 convened at wye river conference centers queenstown md|goldberg, eliot.|1997
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  01446nam a2200301   4500
+=001  991007396339703851
+=005  20190628131955.0
+=008  971001s1997\\\\iau\\\\\\\\\\\000\0\eng\d
+=035  \\$a(MMeT)b15151529-01tun_inst
+=035  \\$a(OCoLC)ocm37715713$9ExL
+=040  \\$aARL$cARL
+=090  \\$aJX1932$b.V36 1997
+=100  1\$aGoldberg, Eliot.
+=245  10$aPost-conflict justice :$bthe role of the international community: April 4-6, 1997, convened at Wye River Conference Centers, Queenstown, Md. /$c[prepared by Eliot Goldberg and Mary C. Theisen ; sponsored by the Stanley Foundation.
+=246  14$aVantage conference 1997
+=260  \\$aMuscative, Iowa :$bStanley Foundation,$c1997.
+=300  \\$a28 p. ;$c22 cm.
+=490  1\$aReport of a Vantage conference,$x0748-0571
+=583  1\$acommitted to retain$c20170930$duntil 20421231$fHathiTrust Shared Print Program$uhttps://www.hathitrust.org/shared_print_program$zCommitted to retain for HathiTrust until 2042$5MMeT
+=583  1\$acommitted to retain$c20160630$duntil 20310630$fEAST$uhttp://eastlibraries.org/retained-materials$zCommitted to retain for EAST until 2031$5MMeT
+=650  \0$aInternational law$vCongresses.
+=650  \0$aInternational organization$vCongresses.
+=650  \0$aInternational police$vCongresses.
+=650  \0$aWar crimes$vCongresses.
+=700  1\$aTheisen, Mary C.
+=710  2\$aStanley Foundation.
+=830  \0$aReport of a Vantage conference
+=935  \\$aAGF-2597
+=AVA  \\$0991007396339703851$82280371390003851$a01TUN_INST$bGINN$cStacks$dJX1932 .V36 1997$eavailable$f1$g0$jGINNS$k0$p1$qGinn Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        postconflict justice the role of the international community april 46 1997 convened at wye river conference centers queenstown md|goldberg, eliot.|1997
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  03436cam a22005414a 4500
+=001  991004899989703851
+=005  20190425115543.0
+=008  100521s2010\\\\be\a\\\\\b\\\\000\0\eng\d
+=010  \\$a2010459016
+=016  7\$a015818939$2Uk
+=020  \\$a9400000170
+=020  \\$a9789400000179
+=029  1\$aAU@$b000045797708
+=029  1\$aNZ1$b14942755
+=029  1\$aOHX$bhar105001697
+=035  \\$a(MMeT)b19953793-01tun_inst
+=035  \\$a(OCoLC)497573622
+=035  \\$a(OCoLC)ocn497573622
+=040  \\$aYDXCP$beng$cDLC$dYDXCP$dOHX$dCLL$dYLS$dCDX$dGWL$dWLL$dUKMGB$dOCLCO$dOCLCQ$dOCLCA$dS3O$dOCLCQ$dUX0$dOCLCA
+=042  \\$alccopycat
+=050  00$aKZ7139$b.P87 2010
+=082  04$a341.69$222
+=084  \\$aKC219$b.P877 2010$2moys
+=245  04$aThe pursuit of international criminal justice :$ba world study on conflicts, victimization, and post-conflict justice /$cedited by M. Cherif Bassiouni.
+=260  \\$aAntwerp ;$aPortland [Or.] :$bIntersentia,$c©2010.
+=300  \\$a2 volumes :$billustrations ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references.
+=505  0\$aAssessing conflict outcomes : accountability and impunity / M. Cherif Bassiouni -- International guidelines on post-conflict justice : the Chicago Principles -- Conflict victimization and post-conflict justice 1945-2008 / Christopher Mullins -- Summary of regional and thematic studies / Eric Wiebelhaus-Brahm -- Statements of the Presidents of the ICJ and of the International Criminal Tribunals -- Justice versus revenge : the philosophical underpinnings of the Chicago Principles on post-conflict justice / Anja Matwijkiw -- Political philosophy and global principles of justice / Simon Caney -- International and domestic prosecutions / Nadia Bernaz and Rémy Prouvèze -- The International Criminal Court / Christopher W. Mullins -- Mixed models of international criminal justice / M. Cherif Bassiouni -- Truth commissions and other investigative bodies / Eric Wiebelhaus-Brahm -- Victim's rights -- Lustration / Monika Nalepa -- Apologies / Mark Gibney -- Amnesties / Louise Mallinder -- Arab world -- Central and South America -- Africa -- Asia -- Europe -- Summary of the International Conference held at the Peace Palace, The Hague, June 8, 2009.
+=500  \\$a"The international guidelines developed and contained in this publication are referred to as the Chicago Principles on Post-Conflict Justice"--Vol. 1, p. 3.
+=610  20$aInternational Criminal Court.
+=650  \0$aInternational crimes.
+=650  \0$aProsecution$xInternational cooperation.
+=650  \0$aJudicial assistance.
+=650  \0$aTransitional justice.
+=650  \0$aRestorative justice.
+=650  \0$aInternational criminal courts.
+=740  0\$aChicago principles on post-conflict justice.
+=776  08$iOnline version:$tPursuit of international criminal justice.$dAntwerp ; Portland [Or.] : Intersentia, ©2010$w(OCoLC)795606734
+=700  1\$aBassiouni, M. Cherif,$d1937-2017.
+=910  \\$a15 05/2010
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-09-28
+=938  \\$aCoutts Information Services$bCOUT$n12343614
+=938  \\$aOtto Harrassowitz$bHARR$nhar105001697
+=938  \\$aYBP Library Services$bYANK$n3149215
+=959  \\$aWorldShare UPDATED 2017-09-28 -- Master record variable field(s) change: 700
+=AVA  \\$0991004899989703851$822116051600003851$a01TUN_INST$bGINN$cStacks$dK5001 .P87 2010$eavailable$f2$g0$jGINNS$k0$p1$qGinn Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        the pursuit of international criminal justice a world study on conflicts victimization and postconflict justice|bassiouni, m. cherif, 1937-2017.|2010
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  03436cam a22005414a 4500
+=001  991004899989703851
+=005  20190425115543.0
+=008  100521s2010\\\\be\a\\\\\b\\\\000\0\eng\d
+=010  \\$a2010459016
+=016  7\$a015818939$2Uk
+=020  \\$a9400000170
+=020  \\$a9789400000179
+=029  1\$aAU@$b000045797708
+=029  1\$aNZ1$b14942755
+=029  1\$aOHX$bhar105001697
+=035  \\$a(MMeT)b19953793-01tun_inst
+=035  \\$a(OCoLC)497573622
+=035  \\$a(OCoLC)ocn497573622
+=040  \\$aYDXCP$beng$cDLC$dYDXCP$dOHX$dCLL$dYLS$dCDX$dGWL$dWLL$dUKMGB$dOCLCO$dOCLCQ$dOCLCA$dS3O$dOCLCQ$dUX0$dOCLCA
+=042  \\$alccopycat
+=050  00$aKZ7139$b.P87 2010
+=082  04$a341.69$222
+=084  \\$aKC219$b.P877 2010$2moys
+=245  04$aThe pursuit of international criminal justice :$ba world study on conflicts, victimization, and post-conflict justice /$cedited by M. Cherif Bassiouni.
+=260  \\$aAntwerp ;$aPortland [Or.] :$bIntersentia,$c©2010.
+=300  \\$a2 volumes :$billustrations ;$c24 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references.
+=505  0\$aAssessing conflict outcomes : accountability and impunity / M. Cherif Bassiouni -- International guidelines on post-conflict justice : the Chicago Principles -- Conflict victimization and post-conflict justice 1945-2008 / Christopher Mullins -- Summary of regional and thematic studies / Eric Wiebelhaus-Brahm -- Statements of the Presidents of the ICJ and of the International Criminal Tribunals -- Justice versus revenge : the philosophical underpinnings of the Chicago Principles on post-conflict justice / Anja Matwijkiw -- Political philosophy and global principles of justice / Simon Caney -- International and domestic prosecutions / Nadia Bernaz and Rémy Prouvèze -- The International Criminal Court / Christopher W. Mullins -- Mixed models of international criminal justice / M. Cherif Bassiouni -- Truth commissions and other investigative bodies / Eric Wiebelhaus-Brahm -- Victim's rights -- Lustration / Monika Nalepa -- Apologies / Mark Gibney -- Amnesties / Louise Mallinder -- Arab world -- Central and South America -- Africa -- Asia -- Europe -- Summary of the International Conference held at the Peace Palace, The Hague, June 8, 2009.
+=500  \\$a"The international guidelines developed and contained in this publication are referred to as the Chicago Principles on Post-Conflict Justice"--Vol. 1, p. 3.
+=610  20$aInternational Criminal Court.
+=650  \0$aInternational crimes.
+=650  \0$aProsecution$xInternational cooperation.
+=650  \0$aJudicial assistance.
+=650  \0$aTransitional justice.
+=650  \0$aRestorative justice.
+=650  \0$aInternational criminal courts.
+=740  0\$aChicago principles on post-conflict justice.
+=776  08$iOnline version:$tPursuit of international criminal justice.$dAntwerp ; Portland [Or.] : Intersentia, ©2010$w(OCoLC)795606734
+=700  1\$aBassiouni, M. Cherif,$d1937-2017.
+=910  \\$a15 05/2010
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-09-28
+=938  \\$aCoutts Information Services$bCOUT$n12343614
+=938  \\$aOtto Harrassowitz$bHARR$nhar105001697
+=938  \\$aYBP Library Services$bYANK$n3149215
+=959  \\$aWorldShare UPDATED 2017-09-28 -- Master record variable field(s) change: 700
+=AVA  \\$0991004899989703851$822116051600003851$a01TUN_INST$bGINN$cStacks$dK5001 .P87 2010$eavailable$f2$g0$jGINNS$k0$p1$qGinn Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        the pursuit of international criminal justice a world study on conflicts victimization and postconflict justice|bassiouni, m. cherif, 1937-2017.|2010
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  03975cam a2200781 i 4500
+=001  991004423519703851
+=005  20200422074840.7
+=008  131031s2014\\\\nyu\\\\\\b\\\\001\0\eng
+=010  \\$a2013039978
+=015  \\$aGBB410631$2bnb
+=016  7\$a016612392$2Uk
+=019  \\$a881130415$a1148169905
+=020  \\$a9781137383440$q(hardback ;$qalk. paper)
+=020  \\$a1137383445$q(hardback ;$qalk. paper)
+=020  \\$a9781349480548 (pbk.)
+=020  \\$a1349480541 (pbk.)
+=029  1\$aNLGGC$b371114195
+=029  1\$aNZ1$b15690089
+=029  1\$aUKMGB$b016612392
+=035  \\$a(MMeT)b26809837-01tun_inst
+=035  \\$a(OCoLC)862066423$z(OCoLC)881130415$z(OCoLC)1148169905
+=035  \\$a(OCoLC)ocn862066423
+=040  \\$aDLC$beng$erda$cDLC$dYDX$dBDX$dYDXCP$dBTCTA$dCDX$dQGK$dNLE$dCLU$dOCLCQ$dS3O$dOCLCA$dOCLCF$dOCLCA$dCEF$dFQG$dOCLCQ$dUKMGB$dUKUOY$dVLW$dL2U$dUMF
+=042  \\$apcc
+=043  \\$as-pe---
+=050  00$aHV6569.P4$bB64 2014
+=082  00$a364.15/320985$223
+=084  \\$a18.33$2bcl
+=100  1\$aBoesten, Jelke$eauthor.
+=245  10$aSexual violence during war and peace :$bgender, power, and post-conflict justice in Peru /$cJelke Boesten.
+=250  \\$aFirst edition.
+=264  \1$aNew York, NY :$bPalgrave Macmillan,$c2014.
+=264  \4$c©2014
+=300  \\$axi, 231 pages ;$c23 cm.
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aStudies of the Americas
+=520  \\$aThe idea that rape is widely used as a weapon of war has taken root in international institutions, influencing how post-conflict justice and transitional justice are perceived and pursued. Despite this global attention, there has been no progress eradicating or even mitigating sexual violence in war or in peace and very little progress prosecuting crimes of sexual violence. With particular reference to post-conflict justice, this book asks what sexual violence means from a socio-political perspective and in what ways contemporary "peacetime" violence is linked to wartime rape. Evidence from Peru and the internal armed conflict of 1980-2000 shows that acts of wartime rape are deeply embedded in existing configurations of gender and power and that sexual violence serves not only wartime terror but also peacetime hierarchies. -- Amazon.com.
+=500  \\$a"United States Institute of Peace."
+=504  \\$aIncludes bibliographical references (pages 207-223) and index.
+=505  0\$aIntroduction -- Sexual violence in war -- Sexual violence and the reproduction of inequalities -- Transitional justice, truths, and narratives of violence -- Impunity -- Peacetime violence -- Sexual violence and post-conflict justice.
+=650  \0$aRape$zPeru.
+=650  \0$aRape as a weapon of war$zPeru.
+=650  \0$aSex crimes$xPolitical aspects$zPeru.
+=650  \0$aWar crimes$zPeru.
+=650  \0$aWomen$xViolence against$zPeru.
+=650  \7$aRape.$2fast$0(OCoLC)fst01089970
+=650  \7$aRape as a weapon of war.$2fast$0(OCoLC)fst01740558
+=650  \7$aWar crimes.$2fast$0(OCoLC)fst01170465
+=650  \7$aWomen$xViolence against.$2fast$0(OCoLC)fst01427006
+=651  \7$aPeru.$2fast$0(OCoLC)fst01205190
+=710  2\$aUnited States Institute of Peace.
+=830  \0$aStudies of the Americas.
+=910  \\$a94 08/2014
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2020-04-21
+=938  \\$aBrodart$bBROD$n108361160
+=938  \\$aBaker and Taylor$bBTCP$nBK0014181711
+=938  \\$aCoutts Information Services$bCOUT$n26593349
+=938  \\$aYBP Library Services$bYANK$n11399232
+=959  \\$aWorldShare UPDATED 2020-04-21 -- Master record variable field(s) change: 020
+=AVA  \\$0991004423519703851$82296685760003851$a01TUN_INST$bTISCH$cBook Stacks$dHV6569.P4 B64 2014$eunavailable$f1$g1$jTISCHS$k0$p1$qTisch Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        sexual violence during war and peace gender power and postconflict justice in peru|boesten, jelke author.|2014
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+=LDR  03975cam a2200781 i 4500
+=001  991004423519703851
+=005  20200422074840.7
+=008  131031s2014\\\\nyu\\\\\\b\\\\001\0\eng
+=010  \\$a2013039978
+=015  \\$aGBB410631$2bnb
+=016  7\$a016612392$2Uk
+=019  \\$a881130415$a1148169905
+=020  \\$a9781137383440$q(hardback ;$qalk. paper)
+=020  \\$a1137383445$q(hardback ;$qalk. paper)
+=020  \\$a9781349480548 (pbk.)
+=020  \\$a1349480541 (pbk.)
+=029  1\$aNLGGC$b371114195
+=029  1\$aNZ1$b15690089
+=029  1\$aUKMGB$b016612392
+=035  \\$a(MMeT)b26809837-01tun_inst
+=035  \\$a(OCoLC)862066423$z(OCoLC)881130415$z(OCoLC)1148169905
+=035  \\$a(OCoLC)ocn862066423
+=040  \\$aDLC$beng$erda$cDLC$dYDX$dBDX$dYDXCP$dBTCTA$dCDX$dQGK$dNLE$dCLU$dOCLCQ$dS3O$dOCLCA$dOCLCF$dOCLCA$dCEF$dFQG$dOCLCQ$dUKMGB$dUKUOY$dVLW$dL2U$dUMF
+=042  \\$apcc
+=043  \\$as-pe---
+=050  00$aHV6569.P4$bB64 2014
+=082  00$a364.15/320985$223
+=084  \\$a18.33$2bcl
+=100  1\$aBoesten, Jelke$eauthor.
+=245  10$aSexual violence during war and peace :$bgender, power, and post-conflict justice in Peru /$cJelke Boesten.
+=250  \\$aFirst edition.
+=264  \1$aNew York, NY :$bPalgrave Macmillan,$c2014.
+=264  \4$c©2014
+=300  \\$axi, 231 pages ;$c23 cm.
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aStudies of the Americas
+=520  \\$aThe idea that rape is widely used as a weapon of war has taken root in international institutions, influencing how post-conflict justice and transitional justice are perceived and pursued. Despite this global attention, there has been no progress eradicating or even mitigating sexual violence in war or in peace and very little progress prosecuting crimes of sexual violence. With particular reference to post-conflict justice, this book asks what sexual violence means from a socio-political perspective and in what ways contemporary "peacetime" violence is linked to wartime rape. Evidence from Peru and the internal armed conflict of 1980-2000 shows that acts of wartime rape are deeply embedded in existing configurations of gender and power and that sexual violence serves not only wartime terror but also peacetime hierarchies. -- Amazon.com.
+=500  \\$a"United States Institute of Peace."
+=504  \\$aIncludes bibliographical references (pages 207-223) and index.
+=505  0\$aIntroduction -- Sexual violence in war -- Sexual violence and the reproduction of inequalities -- Transitional justice, truths, and narratives of violence -- Impunity -- Peacetime violence -- Sexual violence and post-conflict justice.
+=650  \0$aRape$zPeru.
+=650  \0$aRape as a weapon of war$zPeru.
+=650  \0$aSex crimes$xPolitical aspects$zPeru.
+=650  \0$aWar crimes$zPeru.
+=650  \0$aWomen$xViolence against$zPeru.
+=650  \7$aRape.$2fast$0(OCoLC)fst01089970
+=650  \7$aRape as a weapon of war.$2fast$0(OCoLC)fst01740558
+=650  \7$aWar crimes.$2fast$0(OCoLC)fst01170465
+=650  \7$aWomen$xViolence against.$2fast$0(OCoLC)fst01427006
+=651  \7$aPeru.$2fast$0(OCoLC)fst01205190
+=710  2\$aUnited States Institute of Peace.
+=830  \0$aStudies of the Americas.
+=910  \\$a94 08/2014
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2020-04-21
+=938  \\$aBrodart$bBROD$n108361160
+=938  \\$aBaker and Taylor$bBTCP$nBK0014181711
+=938  \\$aCoutts Information Services$bCOUT$n26593349
+=938  \\$aYBP Library Services$bYANK$n11399232
+=959  \\$aWorldShare UPDATED 2020-04-21 -- Master record variable field(s) change: 020
+=AVA  \\$0991004423519703851$82296685760003851$a01TUN_INST$bTISCH$cBook Stacks$dHV6569.P4 B64 2014$eunavailable$f1$g1$jTISCHS$k0$p1$qTisch Library
+=AVE  \\$853197698130003851$c61145543670003851$eAvailable$mHeinOnline Foreign and International Law Resources$tHein Online
+
+
+
+
+XML:        sexual violence during war and peace gender power and postconflict justice in peru|boesten, jelke author.|2014
+Analytics:  post conflict justice|bassiouni, m. cherif, 1937-2017.|2002|temp
+
+
+MMS Id                                                  991015558069703851
+Title (Normalized)       justice cascade how human rights prosecutions ...
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                     2011.
+Author                                             Sikkink, Kathryn, 1955-
+Author (contributor)                                                   NaN
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 8671, dtype: object
+=LDR  03621cam a2200541 a 4500
+=001  991015558069703851
+=005  20190425124709.0
+=008  110505s2011\\\\nyua\\\\\b\\\\001\0\eng
+=010  \\$a2011018827
+=016  7\$a015851070$2Uk
+=020  \\$a9780393079937$q(hardcover)
+=020  \\$a0393079937$q(hardcover)
+=020  \\$a9780393919363
+=020  \\$a0393919366
+=024  8\$a99944565170
+=029  1\$aAU@$b000047032028
+=029  1\$aNZ1$b13889169
+=035  \\$a(MMeT)b24303069-01tun_inst
+=035  \\$a(OCoLC)711051792
+=035  \\$a(OCoLC)ocn711051792
+=040  \\$aDLC$beng$cDLC$dBTCTA$dUKMGB$dVP@$dYDXCP$dCLU$dBUR$dBWX$dCDX$dPUL$dBDX$dIAK$dSUC$dHEBIS$dOCLCQ$dLRP$dOCLCO$dMMV$dOCLCA$dOCLCQ$dCSJ$dWLU
+=042  \\$apcc
+=050  00$aKZ7145$b.S57 2011
+=082  00$a345/.0235$223
+=100  1\$aSikkink, Kathryn,$d1955-
+=245  14$aThe justice cascade :$bhow human rights prosecutions are changing world politics /$cKathryn Sikkink.
+=250  \\$a1st ed.
+=260  \\$aNew York :$bW.W. Norton & Co.,$c2011.
+=300  \\$aviii, 342 pages :$billustrations ;$c25 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references (pages 307-322) and index.
+=505  0\$aNavigating without a map : human rights trials in Southern Europe -- Argentina : from pariah state to global protagonist -- The streams of the justice cascade -- The effects of human rights prosecutions in Latin America -- Global deterrence and human rights prosecutions -- Is the United States immune to the justice cascade? -- Policy, theory, and the justice cascade.
+=520  \\$aOver the past three decades, hundreds of government officials have gone from being immune to any accountability for their human rights violations to being the subjects of highly publicized trials in Latin America, Europe, and Africa, resulting in enormous media attention and severe consequences. Here, renowned scholar Kathryn Sikkink brings to light the groundbreaking emergence of these human rights trials as a modern political tool, one that is changing the face of global politics as we know it. Drawing on personal experience and extensive research, Sikkink explores the building of this movement toward justice, from its roots in Nuremberg to the watershed trials in Greece and Argentina. She shows how the foundations for the stunning, public indictments of Slobodan Milosevic and Augusto Pinochet were laid by the long, tireless activism of civilians, many of whose own families had been destroyed, and whose fight for justice sometimes came at the risk of their own lives and careers. She also illustrates what effect the justice cascade has had on democracy, conflict, and repression, and what it means for leaders and citizens everywhere, including the policymakers behind our own "war on terror."--Publisher description.
+=650  \0$aCrimes against humanity.
+=650  \0$aCriminal liability (International law)
+=650  \0$aProsecution$xInternational cooperation.
+=650  \0$aCriminal justice, Administration of$xInternational cooperation.
+=650  \0$aInternational criminal courts.
+=650  \0$aWorld politics$y1989-
+=910  \\$a94 01/2013
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-10-24
+=938  \\$aBrodart$bBROD$n12976660$c$27.95
+=938  \\$aBaker and Taylor$bBTCP$nBK0012448118
+=938  \\$aCoutts Information Services$bCOUT$n17469377
+=938  \\$aYBP Library Services$bYANK$n6824168
+=959  \\$aWorldShare UPDATED 2017-10-24 -- Master record variable field(s) change: 024
+=AVA  \\$0991015558069703851$822200448150003851$a01TUN_INST$bGINN$cReserves$dKZ7145 .S57 2011$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+=AVA  \\$0991015558069703851$822115044460003851$a01TUN_INST$bTISCH$cBook Stacks$dKZ7145 .S57 2011$eavailable$f1$g0$jTISCHS$k0$p2$qTisch Library
+
+
+
+
+XML:        the justice cascade how human rights prosecutions are changing world politics|sikkink, kathryn, 1955-|2011
+Analytics:  justice cascade how human rights prosecutions are changing world politics|sikkink, kathryn, 1955-|2011|
+
+
+=LDR  03621cam a2200541 a 4500
+=001  991015558069703851
+=005  20190425124709.0
+=008  110505s2011\\\\nyua\\\\\b\\\\001\0\eng
+=010  \\$a2011018827
+=016  7\$a015851070$2Uk
+=020  \\$a9780393079937$q(hardcover)
+=020  \\$a0393079937$q(hardcover)
+=020  \\$a9780393919363
+=020  \\$a0393919366
+=024  8\$a99944565170
+=029  1\$aAU@$b000047032028
+=029  1\$aNZ1$b13889169
+=035  \\$a(MMeT)b24303069-01tun_inst
+=035  \\$a(OCoLC)711051792
+=035  \\$a(OCoLC)ocn711051792
+=040  \\$aDLC$beng$cDLC$dBTCTA$dUKMGB$dVP@$dYDXCP$dCLU$dBUR$dBWX$dCDX$dPUL$dBDX$dIAK$dSUC$dHEBIS$dOCLCQ$dLRP$dOCLCO$dMMV$dOCLCA$dOCLCQ$dCSJ$dWLU
+=042  \\$apcc
+=050  00$aKZ7145$b.S57 2011
+=082  00$a345/.0235$223
+=100  1\$aSikkink, Kathryn,$d1955-
+=245  14$aThe justice cascade :$bhow human rights prosecutions are changing world politics /$cKathryn Sikkink.
+=250  \\$a1st ed.
+=260  \\$aNew York :$bW.W. Norton & Co.,$c2011.
+=300  \\$aviii, 342 pages :$billustrations ;$c25 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references (pages 307-322) and index.
+=505  0\$aNavigating without a map : human rights trials in Southern Europe -- Argentina : from pariah state to global protagonist -- The streams of the justice cascade -- The effects of human rights prosecutions in Latin America -- Global deterrence and human rights prosecutions -- Is the United States immune to the justice cascade? -- Policy, theory, and the justice cascade.
+=520  \\$aOver the past three decades, hundreds of government officials have gone from being immune to any accountability for their human rights violations to being the subjects of highly publicized trials in Latin America, Europe, and Africa, resulting in enormous media attention and severe consequences. Here, renowned scholar Kathryn Sikkink brings to light the groundbreaking emergence of these human rights trials as a modern political tool, one that is changing the face of global politics as we know it. Drawing on personal experience and extensive research, Sikkink explores the building of this movement toward justice, from its roots in Nuremberg to the watershed trials in Greece and Argentina. She shows how the foundations for the stunning, public indictments of Slobodan Milosevic and Augusto Pinochet were laid by the long, tireless activism of civilians, many of whose own families had been destroyed, and whose fight for justice sometimes came at the risk of their own lives and careers. She also illustrates what effect the justice cascade has had on democracy, conflict, and repression, and what it means for leaders and citizens everywhere, including the policymakers behind our own "war on terror."--Publisher description.
+=650  \0$aCrimes against humanity.
+=650  \0$aCriminal liability (International law)
+=650  \0$aProsecution$xInternational cooperation.
+=650  \0$aCriminal justice, Administration of$xInternational cooperation.
+=650  \0$aInternational criminal courts.
+=650  \0$aWorld politics$y1989-
+=910  \\$a94 01/2013
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-10-24
+=938  \\$aBrodart$bBROD$n12976660$c$27.95
+=938  \\$aBaker and Taylor$bBTCP$nBK0012448118
+=938  \\$aCoutts Information Services$bCOUT$n17469377
+=938  \\$aYBP Library Services$bYANK$n6824168
+=959  \\$aWorldShare UPDATED 2017-10-24 -- Master record variable field(s) change: 024
+=AVA  \\$0991015558069703851$822200448150003851$a01TUN_INST$bGINN$cReserves$dKZ7145 .S57 2011$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+=AVA  \\$0991015558069703851$822115044460003851$a01TUN_INST$bTISCH$cBook Stacks$dKZ7145 .S57 2011$eavailable$f1$g0$jTISCHS$k0$p2$qTisch Library
+
+
+
+
+XML:        the justice cascade how human rights prosecutions are changing world politics|sikkink, kathryn, 1955-|2011
+Analytics:  justice cascade how human rights prosecutions are changing world politics|sikkink, kathryn, 1955-|2011|
+
+
+MMS Id                                                  991017249947703851
+Title (Normalized)       understanding transitional justice a struggle ...
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                    [2017]
+Author                                             Girelli, Giada, author.
+Author (contributor)                                                   NaN
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 9066, dtype: object
+=LDR  03772cam a2200541 i 4500
+=001  991017249947703851
+=005  20200110073537.7
+=008  170116t20172017sz\\\\\\\b\\\\001\0\eng\c
+=010  \\$a2017940426
+=015  \\$aGBB777656$2bnb
+=016  7\$a018332682$2Uk
+=020  \\$a9783319536057$q(hardcover)
+=020  \\$a3319536052$q(hardcover)
+=020  \\$z9783319536064$q(eBook)
+=029  1\$aNLGGC$b410846724
+=029  1\$aUKMGB$b018332682
+=035  \\$a(OCoLC)968448254
+=035  \\$a(OCoLC)ocn968448254
+=040  \\$aYDX$beng$erda$cYDX$dTXQ$dOCLCF$dNDL$dCUI$dL2U$dUKMGB$dWSL
+=042  \\$apcc
+=050  \4$aK5250$b.G57 2017
+=082  04$a340/.115$223
+=100  1\$aGirelli, Giada,$eauthor.
+=245  10$aUnderstanding transitional justice :$ba struggle for peace, reconciliation, and rebuilding /$cGiada Girelli.
+=264  \1$aCham, Switzerland :$bPalgrave Macmillan,$c[2017]
+=264  \4$c©2017
+=300  \\$axvi, 335 pages ;$c22 cm.
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=490  1\$aPhilosophy, public policy, and transnational law
+=520  \\$aThe book is an accurate and accessible introduction to the complex and dynamic field of transitional and post-conflict justice, providing an overview of its recurring concepts and debated issues. Particular attention is reserved to how these concepts and issues have been addressed, both theoretically and literally, by lawyers, policy-makers, international bodies, and other actors informing the practice. By presenting significant, if undeniably disputable, alternatives to mainstream theories and past methods of addressing past injustice and (re)building a democratic state, the work aims to illustrate some foundational themes of transitional justice that have emerged from a diverse set of discussions. The author's position thus arrives from a careful analysis of the advantages and disadvantages of answers to the question: how, after a traumatic social experience, is justice restored?
+=504  \\$aIncludes bibliographical references (pages 303-326) and index.
+=505  00$g1. Introduction:$tBuilding justice in the wake of atrocities --$g2.$tA fight for inclusion : the transforming role of victims in transitional justice processes --$g3.$tTruth : chasing an illusion? --$g4.$tReconciliation : a journey "from madness to hope" --$g5.$tAmnesties : juggling tensions within the transitional justice discourse --$g6.$tThe origins of international criminal accountability : the Nuremberg and Tokyo Tribunals --$g7.$tInternational criminal justice revisited : the ad hoc tribunals for the former Yugoslavia and Rwanda --$g8.$tThe hybrid experiment: assessing the Special Court for Sierra Leone --$g9.$tHealing a wound nation: the reconciliatory paradigm of truth commissions --$g10.$tAdapting the perspective : the role of bottom-up initiatives --$g11.$t"No hay paz sin trabajo" : incorporating indigenous perspectives in the struggle for a more meaningful justice --$g12. Conclusions:$tJustice beyond rhetoric.
+=650  \0$aTransitional justice.
+=650  \0$aRestorative justice.
+=650  \7$aRestorative justice.$2fast$0(OCoLC)fst01096003
+=650  \7$aTransitional justice.$2fast$0(OCoLC)fst01747069
+=830  \0$aPhilosophy, public policy, and transnational law.
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2017-11-05
+=910  \\$aWorldShare UPDATED -- WorldCat Holdings 2020-01-09
+=938  \\$aBrodart$bBROD$n120116987
+=938  \\$aYBP Library Services$bYANK$n13355248
+=938  \\$aBaker and Taylor$bBTCP$nBK0020095342
+=938  \\$aOtto Harrassowitz$bHARR$nhar170349429
+=959  \\$aWorldShare UPDATED 2017-11-05 -- Master record variable field(s) change: 008, 010, 020, 042, 050, 264
+=959  \\$aWorldShare UPDATED 2020-01-09 -- Master record variable field(s) change: 300
+=AVA  \\$0991017249947703851$822153619140003851$a01TUN_INST$bGINN$cReserves$dK5250 .G57 2017$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+=AVE  \\$853157628910003851$c61156330000003851$eAvailable$lUNIV$mSpringer English/International eBooks$tSpringer Link
+
+
+
+
+XML:        understanding transitional justice a struggle for peace reconciliation and rebuilding|girelli, giada, author.|2017
+Analytics:  understanding transitional justice a struggle for peace reconciliation and rebuilding|girelli, giada, author.|2017|temp
+
+
+MMS Id                                                  991017629944503851
+Title (Normalized)       some kind of justice the icty s impact in bosn...
+Course Code                                                     2202-24246
+Course Name                        Sp20-ILO- L214M-01-Transitional Justice
+Processing Department                                        Ginn Reserves
+Publication Date                                                     2018.
+Author                                         Orentlicher, Diane, author.
+Author (contributor)                                                   NaN
+Bibliographic Level                                                      m
+Resource Type                                              Book - Physical
+Semester                                                              2202
+Name: 10217, dtype: object
+=LDR  02873cam a2200565 i 4500
+=001  991017629944503851
+=005  20190412112653.0
+=008  171010t20182018nyua\\\\\b\\\\001\0\eng
+=010  \\$a2017048647
+=015  \\$aGBB859652$2bnb
+=016  7\$a018812451$2Uk
+=020  \\$a9780190882273$qhardcover
+=020  \\$a0190882271$qhardcover
+=029  1\$aNLGGC$b416800408
+=029  1\$aCHVBK$b513116214
+=029  1\$aCHBIS$b011061267
+=029  1\$aUKMGB$b018812451
+=035  \\$a(OCoLC)1006521311
+=035  \\$a(OCoLC)on1006521311
+=040  \\$aDLC$beng$erda$cDLC$dOCLCO$dOCLCF$dBDX$dYDX$dWCL$dOCLCQ$dOCLCO$dYDX$dOCLCO$dOCLCA$dGZL$dRCJ$dCHVBK$dGUL$dOCLCO$dOCLCA$dUKMGB$dOCLCA
+=042  \\$apcc
+=043  \\$ae-yu---$ae-rb---
+=050  00$aKZ1203.A12$bO74 2018
+=082  00$a341.6/90268$223
+=100  1\$aOrentlicher, Diane,$eauthor.
+=245  10$aSome kind of justice :$bthe ICTY's impact in Bosnia and Serbia /$cDiane Orentlicher.
+=264  \1$aNew York, NY :$bOxford University Press,$c2018.
+=264  \4$c©2018
+=300  \\$axviii, 476 pages :$billustrations ;$c25 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references (pages [443]-460) and index.
+=505  00$gIntroduction --$tForged in war : Bosnia's relationship with the ICTY --$tCoerced cooperation : Serbia's relationship with the ICTY --$tSome kind of injustice : Bosnian expectations of the ICTY --$tThe quality of justice : Bosnian assessments --$tDenial and acknowledgement in Serbia --$tLiving in compulsory denial (Bosnia) --$tWar crimes prosecutions in Bosnia-Herzegovina --$tWar crimes prosecutions in Serbia --$tThe afterlife of a tribunal.
+=610  20$aInternational Tribunal for the Prosecution of Persons Responsible for Serious Violations of International Humanitarian Law Committed in the Territory of the Former Yugoslavia since 1991.
+=650  \0$aWar crime trials$zYugoslavia.
+=650  \0$aWar crime trials$zSerbia.
+=650  \0$aWar crime trials$zBosnia and Herzegovina.
+=610  27$aInternational Tribunal for the Prosecution of Persons Responsible for Serious Violations of International Humanitarian Law Committed in the Territory of the Former Yugoslavia since 1991.$2fast$0(OCoLC)fst00700762
+=650  \7$aWar crime trials.$2fast$0(OCoLC)fst01170459
+=651  \7$aBosnia and Herzegovina.$2fast$0(OCoLC)fst01212749
+=651  \7$aSerbia.$2fast$0(OCoLC)fst01692602
+=651  \7$aYugoslavia.$2fast$0(OCoLC)fst01279262
+=910  \\$a15 02/2019
+=938  \\$aYBP Library Services$bYANK$n15013091
+=938  \\$aBrodart$bBROD$n121294854
+=938  \\$aOxford University Press USA$bOUPR$nEDZ0001845182
+=938  \\$aEBL - Ebook Library$bEBLB$nEBL5326208
+=938  \\$aYBP Library Services$bYANK$n15227906
+=938  \\$aEBSCOhost$bEBSC$n1735498
+=AVA  \\$0991017629944503851$822200447280003851$a01TUN_INST$bGINN$cReserves$dKZ1203.A12 O74 2018$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+
+
+
+
+XML:        some kind of justice the icty s impact in bosnia and serbia|orentlicher, diane, author.|2018
+Analytics:  some kind of justice the icty s impact in bosnia and serbia|orentlicher, diane, author.|2018|
+
+
+=LDR  02873cam a2200565 i 4500
+=001  991017629944503851
+=005  20190412112653.0
+=008  171010t20182018nyua\\\\\b\\\\001\0\eng
+=010  \\$a2017048647
+=015  \\$aGBB859652$2bnb
+=016  7\$a018812451$2Uk
+=020  \\$a9780190882273$qhardcover
+=020  \\$a0190882271$qhardcover
+=029  1\$aNLGGC$b416800408
+=029  1\$aCHVBK$b513116214
+=029  1\$aCHBIS$b011061267
+=029  1\$aUKMGB$b018812451
+=035  \\$a(OCoLC)1006521311
+=035  \\$a(OCoLC)on1006521311
+=040  \\$aDLC$beng$erda$cDLC$dOCLCO$dOCLCF$dBDX$dYDX$dWCL$dOCLCQ$dOCLCO$dYDX$dOCLCO$dOCLCA$dGZL$dRCJ$dCHVBK$dGUL$dOCLCO$dOCLCA$dUKMGB$dOCLCA
+=042  \\$apcc
+=043  \\$ae-yu---$ae-rb---
+=050  00$aKZ1203.A12$bO74 2018
+=082  00$a341.6/90268$223
+=100  1\$aOrentlicher, Diane,$eauthor.
+=245  10$aSome kind of justice :$bthe ICTY's impact in Bosnia and Serbia /$cDiane Orentlicher.
+=264  \1$aNew York, NY :$bOxford University Press,$c2018.
+=264  \4$c©2018
+=300  \\$axviii, 476 pages :$billustrations ;$c25 cm
+=336  \\$atext$btxt$2rdacontent
+=337  \\$aunmediated$bn$2rdamedia
+=338  \\$avolume$bnc$2rdacarrier
+=504  \\$aIncludes bibliographical references (pages [443]-460) and index.
+=505  00$gIntroduction --$tForged in war : Bosnia's relationship with the ICTY --$tCoerced cooperation : Serbia's relationship with the ICTY --$tSome kind of injustice : Bosnian expectations of the ICTY --$tThe quality of justice : Bosnian assessments --$tDenial and acknowledgement in Serbia --$tLiving in compulsory denial (Bosnia) --$tWar crimes prosecutions in Bosnia-Herzegovina --$tWar crimes prosecutions in Serbia --$tThe afterlife of a tribunal.
+=610  20$aInternational Tribunal for the Prosecution of Persons Responsible for Serious Violations of International Humanitarian Law Committed in the Territory of the Former Yugoslavia since 1991.
+=650  \0$aWar crime trials$zYugoslavia.
+=650  \0$aWar crime trials$zSerbia.
+=650  \0$aWar crime trials$zBosnia and Herzegovina.
+=610  27$aInternational Tribunal for the Prosecution of Persons Responsible for Serious Violations of International Humanitarian Law Committed in the Territory of the Former Yugoslavia since 1991.$2fast$0(OCoLC)fst00700762
+=650  \7$aWar crime trials.$2fast$0(OCoLC)fst01170459
+=651  \7$aBosnia and Herzegovina.$2fast$0(OCoLC)fst01212749
+=651  \7$aSerbia.$2fast$0(OCoLC)fst01692602
+=651  \7$aYugoslavia.$2fast$0(OCoLC)fst01279262
+=910  \\$a15 02/2019
+=938  \\$aYBP Library Services$bYANK$n15013091
+=938  \\$aBrodart$bBROD$n121294854
+=938  \\$aOxford University Press USA$bOUPR$nEDZ0001845182
+=938  \\$aEBL - Ebook Library$bEBLB$nEBL5326208
+=938  \\$aYBP Library Services$bYANK$n15227906
+=938  \\$aEBSCOhost$bEBSC$n1735498
+=AVA  \\$0991017629944503851$822200447280003851$a01TUN_INST$bGINN$cReserves$dKZ1203.A12 O74 2018$eavailable$f1$g0$jGINNC$k0$p1$qGinn Library
+
+
+
+
+XML:        some kind of justice the icty s impact in bosnia and serbia|orentlicher, diane, author.|2018
+Analytics:  some kind of justice the icty s impact in bosnia and serbia|orentlicher, diane, author.|2018|
+
+
