@@ -4,6 +4,7 @@ import sys
 import requests
 import json
 import os
+import sys
 import time
 import csv
 import re
@@ -19,8 +20,9 @@ import pymarc as pym
 import io
 # from django.utils.encoding import smart_str
 
-# from openpyxl import load_workbook
-
+from openpyxl import load_workbook
+from openpyxl.utils import get_column_letter
+import openpyxl
 
 
 oDir = "./Output"
@@ -36,6 +38,38 @@ if not os.path.isdir(oDir) or not os.path.exists(oDir):
 
 semester = input("Enter the course code prefix for the semester you'd like analyze: ")
 
+
+
+chosen_proc_dept_integer = input("\n\nWhat library's reserve lists do you want to analyze.  (blank for all)?\n\n      1) Ginn\n      2) Hirsh\n      3) Music\n      4) SMFA\n      5) Tisch\n      6) Vet\n\nSelect an option: ")
+
+chosen_proc_dept_integer = str(chosen_proc_dept_integer)
+chosen_proc_dept = ""
+if chosen_proc_dept_integer == "1":
+    chosen_proc_dept = "Ginn Reserves"
+elif chosen_proc_dept_integer == "2":
+    chosen_proc_dept = "Hirsh Health Sciences Reserves"
+elif chosen_proc_dept_integer == "3":
+    chosen_proc_dept = "Music Reserves"
+elif chosen_proc_dept_integer == "4":
+    chosen_proc_dept = "SMFA Reserves"
+elif chosen_proc_dept_integer == "5":
+    chosen_proc_dept = "Tisch Reserves"
+elif chosen_proc_dept_integer == "6":
+    chosen_proc_dept = "Vet Reserves"
+elif chosen_proc_dept_integer == "":
+    chosen_proc_dept == ""
+else:
+    print("You made an invalid selection")
+    exit(1)
+
+
+# Ginn Reserves
+# Hirsh Health Sciences Reserves
+# Hirsh Reserves
+# Music Reserves
+# SMFA Reserves
+# Tisch Reserves
+# Vet Reserves
 semester = str(semester)
 
 reserves_filename = askopenfilename(title = "Select reserves filename")
@@ -64,24 +98,56 @@ reserves_df_selected = reserves_df_selected.sort_values(by=['Processing Departme
 column_list = reserves_df_selected.columns
 proc_dept_df_list = []
 proc_dept_list = []
-for proc_dept, proc_dept_df in reserves_df_selected.groupby('Processing Department'):
 
-    proc_dept_df_list.append(proc_dept_df)
-    proc_dept_list.append(proc_dept)
+if chosen_proc_dept == "Hirsh Health Sciences Reserves":
+    hhsl_proc_dept_df = reserves_df_selected[reserves_df_selected['Processing Department'] == 'Hirsh Health Sciences Reserves']
+    hhsl_proc_dept_df.append(reserves_df_selected[reserves_df_selected['Processing Department'] == 'Hirsh Reserves'])
+    hhsl_proc_dept = "All Hirsh Reserves"
+    proc_dept_df_list.append(hhsl_proc_dept_df)
+    proc_dept_list.append(hhsl_proc_dept)
+
+elif chosen_proc_dept != "":
+    proc_dept_df_list.append(reserves_df_selected[reserves_df_selected['Processing Department'] == chosen_proc_dept])
+    proc_dept_list.append(chosen_proc_dept)
+
+else:
+    for proc_dept, proc_dept_df in reserves_df_selected.groupby('Processing Department'):
+        proc_dept_df_list.append(proc_dept_df)
+        proc_dept_list.append(proc_dept)
+
+
 
 d = 0
 
-print("got to line 68\n")
-test_file = open(oDir + '/Test File.txt', 'w+', encoding='utf-8')
+# print("got to line 68\n")
+# test_file = open(oDir + '/Test File.txt', 'w+', encoding='utf-8')
+# print(proc_dept_df_list)
+# print(str(type(proc_dept_df_list)))
+# print(str(d))
+# print(proc_dept_df_list[d])
+# sys.exit()
 for dept in proc_dept_df_list:
+
     processing_dept = proc_dept_list[d]
+    if processing_dept == 'Hirsh Reserves' or processing_dept == 'Hirsh Health Sciences Reserves':
+        processing_dept = "All Hirsh Reserves"
     date = datetime.datetime.now().strftime("%m-%d-%Y")
     filename = oDir + '/Electronic Copy Counts for - ' + processing_dept + ' - ' + date + '.xlsx'
 
-    writer = pd.ExcelWriter(filename, engine='xlsxwriter')
 
-    workbook = writer.book
-    # counts_sheet = workbook.add_worksheet('Counts')
+    wb = openpyxl.Workbook()
+    wb.save(filename)
+    workbook = load_workbook(filename)
+    writer = pd.ExcelWriter(filename, engine='openpyxl')
+    writer.book = workbook
+    # workbook = writer.book
+    # counts_sheet = workbook.create_sheet('Counts')
+    # counts_sheet = workbook.create_sheet('InRepo')
+    # counts_sheet = workbook.create_sheet('InRepoDifferentYear')
+    # counts_sheet = workbook.create_sheet('TempColl')
+    # counts_sheet = workbook.create_sheet('TempCollDiffYear')
+    # counts_sheet = workbook.create_sheet('ForPurchase')
+
     #
     #
     #
@@ -105,9 +171,9 @@ for dept in proc_dept_df_list:
 
     x = 0
 
-    counts_df = pd.DataFrame(columns=['Processing Department', 'Course Name', 'Course Code', 'Books on Course', 'Physical Books on Course', 'No Ebook in Collection', 'Electronic Copies for Physical on Course', 'COVID Temporary Electronic Copies for Physical on Course - Subset', 'Electronic Copies for Physical on Course - Different Year', 'Ebook Copy for Physical in Repo - Add', 'Ebook Copy for Physical in Repo - Potentially Add - Different Year'])
-    ebooks_to_add = pd.DataFrame(columns=['MMS ID', 'Title', 'Author', 'Publication Year', 'URL or Collection'])
-    ebooks_to_add_different_year = pd.DataFrame(columns=['MMS ID', 'Title', 'Author', 'Publication Year', 'URL or Collection'])
+    counts_df = pd.DataFrame(columns=['Processing Department', 'Books on Course', 'Physical Books on Course', 'No Ebook in Collection', 'Electronic Copies for Physical on Course', 'COVID Temporary Electronic Copies for Physical on Course - Subset', 'COVID Temporary Electronic Copies for Physical - on Course - Different Year', 'Electronic Copies for Physical on Course - Different Year', 'Ebook Copy for Physical in Repo - Add', 'Ebook Copy for Physical in Repo - Potentially Add - Different Year'])
+    ebooks_to_add = pd.DataFrame(columns=['Course Code', 'Course Name', 'MMS ID', 'Title', 'Author', 'Publication Year', 'URL or Collection'])
+    ebooks_to_add_different_year = pd.DataFrame(columns=['Course Code', 'Course Name', 'MMS ID', 'Title', 'Author', 'Publication Year', 'URL or Collection'])
     ebooks_we_need = pd.DataFrame(columns=column_list)
     #temporary_physical_record_ebooks = pd.DataFrame(columns=column_list)
 
@@ -115,22 +181,23 @@ for dept in proc_dept_df_list:
     # covid_column_list = column_list
     # covid_column_list = covid_column_list.append(['URL or Collection'])
 
-    covid_e_books_df = pd.DataFrame(columns=column_list)
-    covid_e_books_df['URL or Collection'] = ""
-    covid_e_books_near_match_df = covid_e_books_df.copy()
-    while x < len(course_df_list):
+    covid_e_books_df = pd.DataFrame(columns=['Course Code', 'Course Name', 'MMS ID', 'Title', 'Author', 'Publication Year', 'URL or Collection'])
 
-        print("Got into course_df_list loop")
+    covid_e_books_near_match_df = pd.DataFrame(columns=['Course Code', 'Course Name', 'MMS ID', 'Title', 'Author', 'Publication Year', 'URL or Collection'])
+    while x < len(course_df_list):
+        print(course_df_list[x])
+        # print("Got into course_df_list loop")
         # print(course_df_list)
         # print("\n\n\n\n\n")
         # print(course_df_list[x])
         course_name = course_df_list[x]['Course Name']
 
-        if x >= 1:
+        if x >= 5:
             break
         y = 0
         temporary_collections_portfolio_counter = 0
         temporary_collections_portfolio_counter_on_course = 0
+        temporary_collections_counter_on_course_near_match = 0
         temporary_collections_portfolio_counter_near_match = 0
         ebook_counter = 0
         ebook_for_physical_counter = 0
@@ -150,7 +217,8 @@ for dept in proc_dept_df_list:
 
         # print("Items on course: " + str(len(course_df_list[x])))
         course_ebook_count = 0
-        course_code = ""
+        course_code = course_df_list[x].iloc[0]['Course Code']
+        course_name = course_df_list[x].iloc[0]['Course Name']
 
 
         physical_list = course_df_list[x][course_df_list[x]['Resource Type'] == 'Book - Physical']
@@ -166,13 +234,14 @@ for dept in proc_dept_df_list:
                 match = False
                 course_df = physical_list.copy()
                 # print(course_df)
+                # print(course_df)
                 # if pd.isnull(course_df['Title (Normalized)']):
                 #     print("Null: " + course_df[y]['Title (Normalized)'])
                 # print(physical_list)
                 # if x > 20:
                 #     break
                 print(course_df.iloc[y])
-                test_file.write(str(course_df.iloc[y]) + "\n")
+                # test_file.write(str(course_df.iloc[y]) + "\n")
 
                 # if y > 2:
                 #     break
@@ -213,7 +282,7 @@ for dept in proc_dept_df_list:
                     ebook_match_on_list_counter += 1
                     match = True
                     y += 1
-                    continue
+
                 elif len(electronic_match_without_year) >= 1:
                      ebook_match_on_list_counter_without_year += 1
                      different_year_ebook_for_physical_counter
@@ -231,6 +300,7 @@ for dept in proc_dept_df_list:
                     # print(root)
                     z = 0
                     # result_df = pd.DataFrame(columns=['MMS Id', 'Title', 'Author', 'Year'])
+
                     for elem in root.iter():
 
 
@@ -239,7 +309,7 @@ for dept in proc_dept_df_list:
                             # print(et.tostring(elem))
                             bib_record = pym.parse_xml_to_array(io.StringIO(et.tostring(elem).decode('utf-8')))
                             print(bib_record[0])
-                            test_file.write(str(bib_record[0]) + "\n")
+                            # test_file.write(str(bib_record[0]) + "\n")
                             # print(course_df.iloc[y])
                             # print(bib_record[0])
                             if '001' in bib_record[0]:
@@ -266,8 +336,8 @@ for dept in proc_dept_df_list:
                                 #         print("S: " + str(s))
 
                                 xml_mms_id = bib_record[0]['001'].value()
-                                print('Analytics ID: ' + str(mms_id))
-                                print('XML MMS ID:   ' + str(xml_mms_id))
+                                # print('Analytics ID: ' + str(mms_id))
+                                # print('XML MMS ID:   ' + str(xml_mms_id))
 
 
                                 xml_url = ""
@@ -326,50 +396,63 @@ for dept in proc_dept_df_list:
                                     if 'm' in bib_record[0]['AVE']:
                                         collection = bib_record[0]['AVE']['m']
                                         type = 'temp'
+                                url = ""
+                                if collection != "" and xml_url != "":
+                                    url =  xml_url + "|" + collection
+                                elif collection != "":
+                                    url = collection
+                                elif xml_url != "":
+                                    url = xml_url
 
 
-                                elif '655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower():
+
+
+                                if '655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower():
                                     type = 'ebook'
-                                print("\n\n\nXML:        " + str(xml_title) + "|" + str(xml_author) + "|" + str(xml_year))
-                                print(      "Analytics:  " + str(title) + "|" + str(author) + "|" + str(year) + "|" + type + "\n\n\n")
-                                test_file.write("\n\n\nXML:        " + str(xml_title) + "|" + str(xml_author) + "|" + str(xml_year) + "\n")
-                                test_file.write(      "Analytics:  " + str(title) + "|" + str(author) + "|" + str(year) + "|" + type + "\n\n\n")
+                                # print("\n\n\nXML:        " + str(xml_title) + "|" + str(xml_author) + "|" + str(xml_year))
+                                # print(      "Analytics:  " + str(title) + "|" + str(author) + "|" + str(year) + "|" + type + "\n\n\n")
+                                # test_file.write("\n\n\nXML:        " + str(xml_title) + "|" + str(xml_author) + "|" + str(xml_year) + "\n")
+                                # test_file.write(      "Analytics:  " + str(title) + "|" + str(author) + "|" + str(year) + "|" + type + "\n\n\n")
 
-                                if ('AVE' in bib_record[0] and str(title) == str(xml_title) and xml_author in author and str(year) == str(xml_year) and str(mms_id) == str(xml_mms_id)):
+                                if ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(year) == str(xml_year) and str(mms_id) == str(xml_mms_id)):
                                     ebook_match_on_list_counter += 1
                                     temporary_collections_portfolio_counter_on_course += 1
                                     match = True
                                     break
-                                elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and xml_author in author and str(year) == str(xml_year)):
-                                    ebooks_to_add = ebooks_to_add.append({'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': xml_url}, ignore_index=True)
+                                elif ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(mms_id) == str(xml_mms_id)):
+                                    ebook_match_on_list_counter_without_year += 1
+                                    temporary_collections_counter_on_course_near_match += 1
+                                    match = True
+                                    break
+                                elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(year) == str(xml_year)):
+                                    ebooks_to_add = ebooks_to_add.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': url}, ignore_index=True)
                                     ebook_for_physical_counter += 1
                                     match = True
                                     break
-                                elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and xml_author in author and quasi_match_bool == False):
-                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append({'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': xml_url}, ignore_index=True)
+                                elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and quasi_match_bool == False):
+                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': url}, ignore_index=True)
                                     different_year_ebook_for_physical_counter += 1
                                     match = True
                                     break
-                                elif ('AVE' in bib_record[0] and str(title) == str(xml_title) and xml_author in author and str(year) == str(xml_year)):
+                                elif ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(year) == str(xml_year)):
                                     # print("got into AVE")
-                                    ebooks_to_add = ebooks_to_add.append({'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year}, ignore_index=True)
+                                    ebooks_to_add = ebooks_to_add.append({'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': xml_url + "|" + collection}, ignore_index=True)
                                     temporary_collections_portfolio_counter += 1
                                     ebook_for_physical_counter += 1
                                     #ebook_match_on_list_counter += 1
+                                    #
 
+                                    covid_e_books_df = covid_e_books_df.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection':  url}, ignore_index=True)
 
-                                    covid_e_books_df = covid_e_books_df.append(course_df.iloc[y], ignore_index=True)
-                                    covid_e_books_df.iloc[len(covid_e_books_df) - 1]['URL or Collection'] = collection
                                     match = True
                                     break
 
-                                elif ('AVE' in bib_record[0] and title == xml_title and xml_author in author and quasi_match_bool == False):
+                                elif ('AVE' in bib_record[0] and title == xml_title and (xml_author in author or author in xml_author) and quasi_match_bool == False):
                                     temporary_collections_portfolio_counter_near_match += 1
-                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append({'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year}, ignore_index=True)
-                                    covid_e_books_near_match_df = covid_e_books_near_match_df.append(course_df.iloc[y], ignore_index=True)
+                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection':  url}, ignore_index=True)
+                                    covid_e_books_near_match_df = covid_e_books_near_match_df.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': collection}, ignore_index=True)
                                     different_year_ebook_for_physical_counter += 1
-                                    covid_e_books_near_match_df = covid_e_books_near_match_df.append(course_df.iloc[y], ignore_index=True)
-                                    covid_e_books_near_match_df.iloc[len(covid_e_books_near_match_df) - 1]['URL or Collection'] = collection
+
                                     match=True
                                     break
 
@@ -377,13 +460,14 @@ for dept in proc_dept_df_list:
                 if match == False:
                     ebooks_we_need = ebooks_we_need.append(course_df.iloc[y], ignore_index=True)
                     no_match_counter += 1
+
                 #print(ebooks_on_this_course)
                 y += 1
-        print("Course ebook count:               " + str(course_ebook_count))
-        print("Different:                        " + str(different_year_ebook_for_physical_counter))
-        print("Temporary:                        " + str(temporary_collections_portfolio_counter_near_match))
-        print("Ebook for physical:               " + str(ebook_for_physical_counter))
-
+        # print("Course ebook count:               " + str(course_ebook_count))
+        # print("Different:                        " + str(different_year_ebook_for_physical_counter))
+        # print("Temporary:                        " + str(temporary_collections_portfolio_counter_near_match))
+        # print("Ebook for physical:               " + str(ebook_for_physical_counter))
+        #
 
         # print("Number of books on course:                                                " + str(number_of_books_on_course))
         # print("Number of books for which there's an electronic copy on reading list:     " + str(ebook_match_on_list counter))
@@ -396,7 +480,7 @@ for dept in proc_dept_df_list:
 
         #counts_file = open(oDir + '/Counts - ' + str(course_name) + ' - ' + date + '.txt', 'w+')
 
-        counts_df = counts_df.append({'Processing Department': processing_dept, 'Course Name': course_name, 'Course Code': course_code, 'Books on Course': number_of_books_on_course, 'No Ebook in Collection': no_match_counter, 'Physical Books on Course': number_of_physical_books_on_course, 'Electronic Copies for Physical on Course': ebook_match_on_list_counter, 'COVID Temporary Electronic Copies for Physical on Course - Subset': temporary_collections_portfolio_counter_on_course,  'Electronic Copies for Physical on Course - Different Year': ebook_match_on_list_counter_without_year, 'Ebook Copy for Physical in Repo - Add': ebook_for_physical_counter, 'Ebook Copy for Physical in Repo - Potentially Add - Different Year': different_year_ebook_for_physical_counter}, ignore_index=True)
+        counts_df = counts_df.append({'Processing Department': processing_dept, 'Course Name': course_name, 'Course Code': course_code, 'Books on Course': number_of_books_on_course, 'No Ebook in Collection': no_match_counter, 'Physical Books on Course': number_of_physical_books_on_course, 'Electronic Copies for Physical on Course': ebook_match_on_list_counter, 'COVID Temporary Electronic Copies for Physical on Course - Subset': temporary_collections_portfolio_counter_on_course,  'Electronic Copies for Physical on Course - Different Year': ebook_match_on_list_counter_without_year, 'COVID Temporary Electronic Copies for Physical - on Course - Different Year': temporary_collections_counter_on_course_near_match,'Ebook Copy for Physical in Repo - Add': ebook_for_physical_counter, 'Ebook Copy for Physical in Repo - Potentially Add - Different Year': different_year_ebook_for_physical_counter}, ignore_index=True)
 
 
 
@@ -427,37 +511,73 @@ for dept in proc_dept_df_list:
 
 
         # counts_df.drop(['Processing Department', 'Ebook Copy for Physical in Repo - Potentially Add - Different Year'])
-        if d == 0:
-            counts_df.to_excel(writer, sheet_name='Counts', startrow=0, index=False)
-            ebooks_to_add.to_excel(writer, sheet_name='InRepo',  startrow=0, index=False)
-            ebooks_to_add_different_year.to_excel(writer, sheet_name='InRepoDifferentYear', startrow=0, index=False)
-            covid_e_books_df.to_excel(writer, sheet_name='TempColl', startrow=0, index=False)
-            covid_e_books_near_match_df.to_excel(writer, sheet_name='TempCollDiffYear', startrow=0, index=False)
-            ebooks_to_add.to_excel(writer, sheet_name='ForPurchase', startrow=0, index=False)
-
-        else:
-
-            counts_max_row = workbook.sheet['Counts'].dim_rowmax
-            in_repo_max_row = workbook.sheet['InRepo'].dim_rowmax
-            in_repo_diff_max_row = workbook.sheet['InRepoDifferentYear'].dim_rowmax
-            temp_coll_max_row = workbook.sheet['TempColl'].dim_rowmax
-            temp_coll_diff_year_max_row = workbook.sheet['InRepoDifferentYear'].dim_rowmax
-            to_order_max_row = workbook.sheet['ForPurchase'].dim_rowmax
-
-
-            counts_df.to_excel(writer, sheet_name='Counts', startrow=counts_max_row, index=False, header=False)
-            ebooks_to_add.to_excel(writer, sheet_name='InRepo', startrow=in_repo_max_row, index=False, header=False)
-            ebooks_to_add_different_year.to_excel(writer, sheet_name='InRepoDifferentYear', startrow=in_repo_diff_max_row, index=False, header=False)
-            covid_e_books_df.to_excel(writer, sheet_name='TempColl', startrow=temp_coll_max_row, index=False, header=False)
-            covid_e_books_near_match_df.to_excel(writer, sheet_name='TempCollDiffYear', startrow=temp_coll_diff_year_max_row, index=False, header=False)
-            ebooks_to_add.to_excel(writer, sheet_name='ForPurchase', startrow=to_order_max_row, index=False, header=False)
-
-
-
-        writer.save()
-
+        # if x == 0:
+        #     counts_df.to_excel(writer, sheet_name='Counts', startrow=0, index=False)
+        #     ebooks_to_add.to_excel(writer, sheet_name='InRepo',  startrow=0, index=False)
+        #     ebooks_to_add_different_year.to_excel(writer, sheet_name='InRepoDifferentYear', startrow=0, index=False)
+        #     covid_e_books_df.to_excel(writer, sheet_name='TempColl', startrow=0, index=False)
+        #     covid_e_books_near_match_df.to_excel(writer, sheet_name='TempCollDiffYear', startrow=0, index=False)
+        #     ebooks_to_add.to_excel(writer, sheet_name='ForPurchase', startrow=0, index=False)
+        #     writer.save()
+        # else:
+        #
+        #     counts_max_row = writer.book['Counts'].max_row + 1
+        #     in_repo_max_row = writer.book['InRepo'].max_row + 1
+        #     in_repo_diff_max_row = writer.book['InRepoDifferentYear'].max_row + 1
+        #     temp_coll_max_row = writer.book['TempColl'].max_row + 1
+        #     temp_coll_diff_year_max_row = writer.book['InRepoDifferentYear'].max_row + 1
+        #     to_order_max_row = writer.book['ForPurchase'].max_row + 1
+        #     print(
+        #     "Counts - Type: " + str(counts_max_row) + "\n" +
+        #     "InRepo: " + str(in_repo_max_row) + "\n" +
+        #     "InRepoDifferentYear: " + str(in_repo_diff_max_row) + "\n" +
+        #     "TempColl: " + str(temp_coll_max_row) + "\n" +
+        #     "InRepoDifferentYear: " + str(temp_coll_max_row) + "\n"
+        #     "ForPurchase: " + str(to_order_max_row) + "\n"
+        #     )
+        #
+        #     max_counts_row_by_x = x + 1
+        #     counts_df.to_excel(writer, sheet_name='Counts', startrow=x + 1, index=False, header=False, engine='openpyxl')
+        #     ebooks_to_add.to_excel(writer, sheet_name='InRepo', startrow=in_repo_max_row, index=False, header=False, engine='openpyxl')
+        #     ebooks_to_add_different_year.to_excel(writer, sheet_name='InRepoDifferentYear', startrow=in_repo_diff_max_row, index=False, header=False, engine='openpyxl')
+        #     covid_e_books_df.to_excel(writer, sheet_name='TempColl', startrow=temp_coll_max_row, index=False, header=False, engine='openpyxl')
+        #     covid_e_books_near_match_df.to_excel(writer, sheet_name='TempCollDiffYear', startrow=temp_coll_diff_year_max_row, index=False, header=False, engine='openpyxl')
+        #     ebooks_to_add.to_excel(writer, sheet_name='ForPurchase', startrow=to_order_max_row, index=False, header=False, engine='openpyxl')
+        #     writer.save()
+        #     book.save(filename)
         x += 1
+    # This section moves the last two columns, course data, to the first two positions
+    cols = counts_df.columns.tolist()
+    cols = cols[-1:] + cols[:-1]
+    counts_df = counts_df[cols]
+    cols = cols[-1:] + cols[:-1]
+    counts_df = counts_df[cols]
+    cols.remove('Processing Department')
+    cols.insert(0, 'Processing Department')
+    counts_df = counts_df[cols]
 
+
+
+    counts_df.to_excel(writer, sheet_name='Counts', index=False, engine='openpyxl')
+    ebooks_to_add.to_excel(writer, sheet_name='InRepo', index=False, engine='openpyxl')
+    ebooks_to_add_different_year.to_excel(writer, sheet_name='InRepoDifferentYear', index=False, engine='openpyxl')
+    covid_e_books_df.to_excel(writer, sheet_name='TempColl', index=False, engine='openpyxl')
+    covid_e_books_near_match_df.to_excel(writer, sheet_name='TempCollDiffYear', index=False, engine='openpyxl')
+    ebooks_we_need.to_excel(writer, sheet_name='ForPurchase', index=False, engine='openpyxl')
+
+
+
+
+    for sheet in writer.sheets:
+        e = 0
+        for column in writer.sheets[sheet].iter_cols():
+            writer.sheets[sheet].column_dimensions[get_column_letter(e + 1)].width = "20"
+            e += 1
+    first_sheet = workbook.get_sheet_by_name('Sheet')
+
+    workbook.remove_sheet(first_sheet)
+    writer.save()
+    workbook.save(filename)
 
     # print(proc_dept_df_list)
     # print(proc_dept_df_list[d])
@@ -506,7 +626,7 @@ for dept in proc_dept_df_list:
 #
 #
 end = datetime.datetime.now() - start
-test_file.close()
+# test_file.close()
 
 print("Execution time for creating COVID dataframe: " + str(end) + "\n")
 
