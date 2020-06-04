@@ -170,11 +170,13 @@ for dept in proc_dept_df_list:
 
 
     x = 0
+    output_cols = reserves_df_selected.columns.tolist()
 
+    output_cols.extend(['Match MMS ID', 'Match Title', 'Match Author', 'Match Publication Year', 'Match URL or Collection'])
     counts_df = pd.DataFrame(columns=['Processing Department', 'Books on Course', 'Physical Books on Course', 'No Ebook in Collection', 'Electronic Copies for Physical on Course', 'COVID Temporary Electronic Copies for Physical on Course - Subset', 'COVID Temporary Electronic Copies for Physical - on Course - Different Year', 'Electronic Copies for Physical on Course - Different Year', 'Ebook Copy for Physical in Repo - Add', 'Ebook Copy for Physical in Repo - Potentially Add - Different Year'])
-    ebooks_to_add = pd.DataFrame(columns=['Course Code', 'Course Name', 'MMS ID', 'Title', 'Author', 'Publication Year', 'URL or Collection'])
-    ebooks_to_add_different_year = pd.DataFrame(columns=['Course Code', 'Course Name', 'MMS ID', 'Title', 'Author', 'Publication Year', 'URL or Collection'])
-    ebooks_we_need = pd.DataFrame(columns=column_list)
+    ebooks_to_add = pd.DataFrame(columns=output_cols)
+    ebooks_to_add_different_year = pd.DataFrame(columns=output_cols)
+    ebooks_we_need = pd.DataFrame(columns=output_cols)
     #temporary_physical_record_ebooks = pd.DataFrame(columns=column_list)
 
     sru_url_prefix = "https://tufts.alma.exlibrisgroup.com/view/sru/01TUN_INST?version=1.2&operation=searchRetrieve&recordSchema=marcxml&query="
@@ -425,32 +427,53 @@ for dept in proc_dept_df_list:
                                     match = True
                                     break
                                 elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(year) == str(xml_year)):
-                                    ebooks_to_add = ebooks_to_add.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': url}, ignore_index=True)
+                                    base_series = course_df.iloc[y]
+                                    add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    series_to_add = base_series.append(add_series)
+                                    ebooks_to_add = ebooks_to_add.append(series_to_add, ignore_index=True)
                                     ebook_for_physical_counter += 1
                                     match = True
                                     break
                                 elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and quasi_match_bool == False):
-                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': url}, ignore_index=True)
+                                    base_series = course_df.iloc[y]
+                                    add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    series_to_add = base_series.append(add_series)
+                                    #series_to_add = base_series.append( Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append(series_to_add, ignore_index=True)
+                                    #ebooks_to_add_different_year = ebooks_to_add_different_year.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': url}, ignore_index=True)
                                     different_year_ebook_for_physical_counter += 1
                                     match = True
                                     break
                                 elif ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(year) == str(xml_year)):
                                     # print("got into AVE")
-                                    ebooks_to_add = ebooks_to_add.append({'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': xml_url + "|" + collection}, ignore_index=True)
+                                    base_series = course_df.iloc[y]
+                                    add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    series_to_add = base_series.append(add_series)
+                                    #series_to_add = base_series.append({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    ebooks_to_add = ebooks_to_add.append(series_to_add, ignore_index=True)
+                                    #ebooks_to_add = ebooks_to_add.append({'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': xml_url + "|" + collection}, ignore_index=True)
                                     temporary_collections_portfolio_counter += 1
                                     ebook_for_physical_counter += 1
                                     #ebook_match_on_list_counter += 1
                                     #
-
-                                    covid_e_books_df = covid_e_books_df.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection':  url}, ignore_index=True)
+                                    #series_to_add = base_series.append({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    covid_e_books_df = covid_e_books_df.append(series_to_add, ignore_index=True)
+                                    #covid_e_books_df = covid_e_books_df.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection':  url}, ignore_index=True)
 
                                     match = True
                                     break
 
                                 elif ('AVE' in bib_record[0] and title == xml_title and (xml_author in author or author in xml_author) and quasi_match_bool == False):
+                                    base_series = course_df.iloc[y]
+                                    add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    series_to_add = base_series.append(add_series)
                                     temporary_collections_portfolio_counter_near_match += 1
-                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection':  url}, ignore_index=True)
-                                    covid_e_books_near_match_df = covid_e_books_near_match_df.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': collection}, ignore_index=True)
+                                    #series_to_add = base_series.append({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append(series_to_add, ignore_index=True)
+                                    #ebooks_to_add_different_year = ebooks_to_add_different_year.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection':  url}, ignore_index=True)
+                                    #series_to_add = base_series.append({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    covid_e_books_near_match_df = covid_e_books_near_match_df.append(series_to_add, ignore_index=True)
+                                    #covid_e_books_near_match_df = covid_e_books_near_match_df.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': collection}, ignore_index=True)
                                     different_year_ebook_for_physical_counter += 1
 
                                     match=True
@@ -458,7 +481,12 @@ for dept in proc_dept_df_list:
 
                                 z += 1
                 if match == False:
-                    ebooks_we_need = ebooks_we_need.append(course_df.iloc[y], ignore_index=True)
+                    base_series = course_df.iloc[y]
+                    add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                    series_to_add = base_series.append(add_series)
+                    #series_to_add = base_series.append({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                    ebooks_we_need = ebooks_we_need.append(series_to_add, ignore_index=True)
+                    #ebooks_we_need = ebooks_we_need.append(course_df.iloc[y], ignore_index=True)
                     no_match_counter += 1
 
                 #print(ebooks_on_this_course)
