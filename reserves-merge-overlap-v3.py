@@ -20,9 +20,11 @@ import pymarc as pym
 import io
 # from django.utils.encoding import smart_str
 
+import openpyxl
 from openpyxl import load_workbook
 from openpyxl.utils import get_column_letter
-import openpyxl
+from openpyxl.styles import Alignment, Font
+
 
 
 oDir = "./Output"
@@ -92,6 +94,12 @@ pd.set_option('display.max_columns', None)
 # print(reserves_df_total)
 reserves_df_total['Semester'] = reserves_df_total['Course Code'].apply(lambda x: re.sub(r'^(\d{4}).+', r'\1', x))
 reserves_df_selected = reserves_df_total[reserves_df_total['Semester'] == semester]
+
+reserves_df_selected = reserves_df_selected.fillna("")
+for column in reserves_df_selected.columns:
+    reserves_df_selected[column] = reserves_df_selected[column].apply(lambda x: str(x))
+    print(column)
+    reserves_df_selected[column] = reserves_df_selected[column].apply(lambda x: re.sub(r'[\(\)]', '', x))
 
 reserves_df_selected = reserves_df_selected.sort_values(by=['Processing Department', 'Course Code'])
 # print(reserves_df_selected)
@@ -170,13 +178,16 @@ for dept in proc_dept_df_list:
 
 
     x = 0
+    col_list = reserves_df_selected.columns.tolist()
     output_cols = reserves_df_selected.columns.tolist()
 
     output_cols.extend(['Match MMS ID', 'Match Title', 'Match Author', 'Match Publication Year', 'Match URL or Collection'])
-    counts_df = pd.DataFrame(columns=['Processing Department', 'Books on Course', 'Physical Books on Course', 'No Ebook in Collection', 'Electronic Copies for Physical on Course', 'COVID Temporary Electronic Copies for Physical on Course - Subset', 'COVID Temporary Electronic Copies for Physical - on Course - Different Year', 'Electronic Copies for Physical on Course - Different Year', 'Ebook Copy for Physical in Repo - Add', 'Ebook Copy for Physical in Repo - Potentially Add - Different Year'])
+    counts_df = pd.DataFrame(columns=['Processing Department', 'Books on Course', 'Physical Books on Course', 'No Electronic Version for Physical Book', 'Electronic - Already on Course', 'Electronic - Already on Course - Different Year', 'Electronic - Already on Course - COVID Temporary Electronic Collection', 'Electronic - Already on Course - COVID Temporary Electronic Collection - Different Year', 'Electronic - In Collection - Add to Course', 'Electronic - In Collection - Potentially Add to Course - Different Year'])
     ebooks_to_add = pd.DataFrame(columns=output_cols)
     ebooks_to_add_different_year = pd.DataFrame(columns=output_cols)
-    ebooks_we_need = pd.DataFrame(columns=output_cols)
+    #ebooks_we_need = pd.DataFrame(columns=output_cols)
+
+    ebooks_we_need = pd.DataFrame(columns=col_list)
     #temporary_physical_record_ebooks = pd.DataFrame(columns=column_list)
 
     sru_url_prefix = "https://tufts.alma.exlibrisgroup.com/view/sru/01TUN_INST?version=1.2&operation=searchRetrieve&recordSchema=marcxml&query="
@@ -187,15 +198,15 @@ for dept in proc_dept_df_list:
 
     covid_e_books_near_match_df = pd.DataFrame(columns=output_cols)
     while x < len(course_df_list):
-        print(course_df_list[x])
+        # print(course_df_list[x])
         # print("Got into course_df_list loop")
         # print(course_df_list)
         # print("\n\n\n\n\n")
         # print(course_df_list[x])
         course_name = course_df_list[x]['Course Name']
 
-        if x >= 5:
-            break
+        # if x >= 5:
+        #     break
         y = 0
         temporary_collections_portfolio_counter = 0
         temporary_collections_portfolio_counter_on_course = 0
@@ -222,6 +233,8 @@ for dept in proc_dept_df_list:
         course_code = course_df_list[x].iloc[0]['Course Code']
         course_name = course_df_list[x].iloc[0]['Course Name']
 
+        print(course_code + "\n" + course_name + "\n")
+
 
         physical_list = course_df_list[x][course_df_list[x]['Resource Type'] == 'Book - Physical']
 
@@ -229,6 +242,7 @@ for dept in proc_dept_df_list:
         electronic_list = course_df_list[x][course_df_list[x]['Resource Type'] == 'Book - Electronic']
 
         number_of_physical_books_on_course = len(physical_list)
+
         # print(physical_list)
         if len(physical_list) > 0:
 
@@ -242,7 +256,7 @@ for dept in proc_dept_df_list:
                 # print(physical_list)
                 # if x > 20:
                 #     break
-                print(course_df.iloc[y])
+
                 # test_file.write(str(course_df.iloc[y]) + "\n")
 
                 # if y > 2:
@@ -256,11 +270,11 @@ for dept in proc_dept_df_list:
                 # print(str(author) + "Type: " + str(type(author)))
                 if course_df.iloc[y]['Author'] != "" and course_df.iloc[y]['Author'] is not np.nan:
                     #author = re.sub(r'([^,;]+,\s+[^,;],*\s*[^;,]*).+', r'\1', course_df.iloc[y]['Author'])
-                    author = re.sub(r'(,\sauthor|,\scontributor|\scontributor|\sauthor)', '', course_df.iloc[y]['Author'])
-                    author = course_df.iloc[y]['Author'].lower()
+                    author = re.sub(r'(,\sauthor\.?|,\scontributor\.?|\scontributor\.?|\sauthor\.?)', '', course_df.iloc[y]['Author'])
+                    author = author.lower()
                 elif course_df.iloc[y]['Author (contributor)'] != "" and course_df.iloc[y]['Author (contributor)'] is not np.nan:
                     author = re.sub(r'(,\sauthor|,\scontributor|\scontributor|\sauthor)', '', course_df.iloc[y]['Author (contributor)'])
-                    author = course_df.iloc[y]['Author (contributor)'].lower()
+                    author = author.lower()
                 #author_for_query = '\"' + re.sub(r'\s', '%20', author) + '\"'
                 year = course_df.iloc[y]['Publication Date']
                 year = re.sub(r'\D', '', year)
@@ -282,19 +296,22 @@ for dept in proc_dept_df_list:
 
 
                 if len(electronic_list) >= 1:
+                    # if course_code == "2202-20870":
+                    #     print(electronic_list)
+
                     electronic_list['Author'] = electronic_list['Author'].apply(lambda x: re.sub(r'(,\sauthor|,\scontributor|\scontributor|\sauthor)', '', x).lower())
                     electronic_list['Author (contributor)'] = electronic_list['Author (contributor)'].apply(lambda x: re.sub(r'(,\sauthor|,\scontributor|\scontributor|\sauthor)', '', x).lower())
-                if course_code == "2202-20859":
-                    print("################\n################\n################\n################\n################\n")
+                # if course_code == "2202-20859":
+                #     print("################\n################\n################\n################\n################\n")
+                #
+                #     print(electronic_list['Author'])
+                #     print(electronic_list['Author (contributor)'])
+                #     print("################\n")
+                #     print(author)
+                #     print("################\n")
 
-                    print(electronic_list['Author'])
-                    print(electronic_list['Author (contributor)'])
-                    print("################\n")
-                    print(author)
-                    print("################\n")
-
-                electronic_match = electronic_list[(electronic_list['Title (Normalized)'] == title) & (electronic_list['Author'].str.contains(author) | electronic_list['Author (contributor)'].str.contains(author)) & (electronic_list['Publication Date'] == year)]
-                electronic_match_without_year = electronic_list[(electronic_list['Title (Normalized)'] == title) & (electronic_list['Author'].str.contains(author) | electronic_list['Author (contributor)'].str.contains(author))]
+                electronic_match = electronic_list[(electronic_list['Title (Normalized)'] == title) & (electronic_list['Author (contributor)'].str.contains(author) | electronic_list['Author'].str.contains(author)) & (electronic_list['Publication Date'] == year)]
+                electronic_match_without_year = electronic_list[(electronic_list['Title (Normalized)'] == title) & (electronic_list['Author (contributor)'].str.contains(author) | electronic_list['Author'].str.contains(author))]
                 quasi_match_bool = False
 
                 if len(electronic_match) >= 1:
@@ -330,7 +347,7 @@ for dept in proc_dept_df_list:
                             # print(elem.tag)
                             # print(et.tostring(elem))
                             bib_record = pym.parse_xml_to_array(io.StringIO(et.tostring(elem).decode('utf-8')))
-                            print(bib_record[0])
+                            # print(bib_record[0])
                             # test_file.write(str(bib_record[0]) + "\n")
                             # print(course_df.iloc[y])
                             # print(bib_record[0])
@@ -384,6 +401,8 @@ for dept in proc_dept_df_list:
                                 xml_title = re.sub(r'\'', ' ', xml_title)
                                 xml_title = re.sub(r'[^a-z0-9 ]', '', xml_title)
                                 xml_title = re.sub(r'\.$', '', xml_title)
+                                xml_title = re.sub(r'^the\s', '', xml_title)
+                                xml_title = re.sub(r'\s{2,}', '\s', xml_title)
 
                                 xml_author = ""
 
@@ -392,18 +411,19 @@ for dept in proc_dept_df_list:
                                         xml_author = bib_record[0]['100']['a']
                                     if 'd' in bib_record[0]['100']:
                                         xml_author += " " + bib_record[0]['100']['d']
-                                    elif 'e' in bib_record[0]['100']:
+                                    if 'e' in bib_record[0]['100']:
                                         xml_author += " " + bib_record[0]['100']['e']
                                 elif '700' in bib_record[0]:
                                     if 'a' in bib_record[0]['700']:
                                         xml_author = bib_record[0]['700']['a']
                                     if 'd' in bib_record[0]['700']:
                                         xml_author += " " + bib_record[0]['700']['d']
-                                    elif 'e' in bib_record[0]['700']:
+                                    if 'e' in bib_record[0]['700']:
                                         xml_author += " " + bib_record[0]['700']['e']
+                                # xml_author = xml_author.lower()
+                                # xml_author = re.sub(r',$', '', xml_author)
+                                xml_author = re.sub(r'(,\sauthor\.?|,\scontributor\.?|\scontributor\.?|\sauthor\.?)', '', xml_author)
                                 xml_author = xml_author.lower()
-                                xml_author = re.sub(r',$', '', xml_author)
-
 
                                 xml_year = ""
 
@@ -433,43 +453,28 @@ for dept in proc_dept_df_list:
 
 
 
-                                if '655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower():
-                                    type = 'ebook'
+                                # if '655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower():
+                                #     type = 'ebook'
                                 # print("\n\n\nXML:        " + str(xml_title) + "|" + str(xml_author) + "|" + str(xml_year))
                                 # print(      "Analytics:  " + str(title) + "|" + str(author) + "|" + str(year) + "|" + type + "\n\n\n")
                                 # test_file.write("\n\n\nXML:        " + str(xml_title) + "|" + str(xml_author) + "|" + str(xml_year) + "\n")
                                 # test_file.write(      "Analytics:  " + str(title) + "|" + str(author) + "|" + str(year) + "|" + type + "\n\n\n")
 
-                                if ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(year) == str(xml_year) and str(mms_id) == str(xml_mms_id)):
+                                if ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author == author or xml_author in author or author in xml_author) and str(year) == str(xml_year) and str(mms_id) == str(xml_mms_id)):
+                                    print('Got into temp colleciton match on course')
                                     ebook_match_on_list_counter += 1
                                     temporary_collections_portfolio_counter_on_course += 1
                                     match = True
                                     break
-                                elif ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(mms_id) == str(xml_mms_id)):
+                                elif ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author == author or xml_author in author or author in xml_author) and str(mms_id) == str(xml_mms_id)):
+                                    print('Got into temp colleciton match on course without year')
                                     ebook_match_on_list_counter_without_year += 1
                                     temporary_collections_counter_on_course_near_match += 1
                                     match = True
                                     break
-                                elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(year) == str(xml_year)):
-                                    base_series = course_df.iloc[y]
-                                    add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
-                                    series_to_add = base_series.append(add_series)
-                                    ebooks_to_add = ebooks_to_add.append(series_to_add, ignore_index=True)
-                                    ebook_for_physical_counter += 1
-                                    match = True
-                                    break
-                                elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and quasi_match_bool == False):
-                                    base_series = course_df.iloc[y]
-                                    add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
-                                    series_to_add = base_series.append(add_series)
-                                    #series_to_add = base_series.append( Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
-                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append(series_to_add, ignore_index=True)
-                                    #ebooks_to_add_different_year = ebooks_to_add_different_year.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': url}, ignore_index=True)
-                                    different_year_ebook_for_physical_counter += 1
-                                    match = True
-                                    break
-                                elif ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and str(year) == str(xml_year)):
+                                elif ('AVE' in bib_record[0] and str(title) == str(xml_title) and (xml_author == author or xml_author in author or author in xml_author) and str(year) == str(xml_year)):
                                     # print("got into AVE")
+                                    print('Got into temp colleciton match in repo')
                                     base_series = course_df.iloc[y]
                                     add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
                                     series_to_add = base_series.append(add_series)
@@ -487,7 +492,8 @@ for dept in proc_dept_df_list:
                                     match = True
                                     break
 
-                                elif ('AVE' in bib_record[0] and title == xml_title and (xml_author in author or author in xml_author) and quasi_match_bool == False):
+                                elif ('AVE' in bib_record[0] and title == xml_title and (xml_author == author or xml_author in author or author in xml_author) and quasi_match_bool == False):
+                                    print('Got into temp colleciton match in repo without year')
                                     base_series = course_df.iloc[y]
                                     add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
                                     series_to_add = base_series.append(add_series)
@@ -502,16 +508,41 @@ for dept in proc_dept_df_list:
 
                                     match=True
                                     break
+                                elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and (xml_author == author or xml_author in author or author in xml_author) and str(year) == str(xml_year)):
+                                    base_series = course_df.iloc[y]
+                                    add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    series_to_add = base_series.append(add_series)
+                                    ebooks_to_add = ebooks_to_add.append(series_to_add, ignore_index=True)
+                                    ebook_for_physical_counter += 1
+                                    match = True
+                                    break
+                                elif ('655' in bib_record[0] and "Electronic books".lower() in bib_record[0]['655']['a'].lower() and str(title) == str(xml_title) and (xml_author in author or author in xml_author) and quasi_match_bool == False):
+                                    base_series = course_df.iloc[y]
+                                    add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    series_to_add = base_series.append(add_series)
+                                    #series_to_add = base_series.append( Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                                    ebooks_to_add_different_year = ebooks_to_add_different_year.append(series_to_add, ignore_index=True)
+                                    #ebooks_to_add_different_year = ebooks_to_add_different_year.append({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': xml_mms_id, 'Title': xml_title, 'Author': xml_author, 'Publication Year': xml_year, 'URL or Collection': url}, ignore_index=True)
+                                    different_year_ebook_for_physical_counter += 1
+                                    match = True
+                                    break
+
 
                                 z += 1
-                    if match == False:
-                        base_series = course_df.iloc[y]
-                        add_series = pd.Series({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
-                        series_to_add = base_series.append(add_series)
-                        #series_to_add = base_series.append({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
-                        ebooks_we_need = ebooks_we_need.append(series_to_add, ignore_index=True)
-                        #ebooks_we_need = ebooks_we_need.append(course_df.iloc[y], ignore_index=True)
-                        no_match_counter += 1
+                    print("Match after of XML loop:" + str(match))
+
+                print("Match after else statement: " + str(match))
+                print("XML:        " + str(xml_title) + "|" + str(xml_author) + "|" + str(xml_year))
+                print("Analytics:  " + str(title) + "|" + str(author) + "|" + str(year) + "|" + type)
+                if not match:
+                    print("Defaulted into not found")
+                    # base_series = course_df.iloc[y]
+                    #add_series = pd.Series({'Course Code': course_code, 'Course Name': course_name, 'MMS ID': mms_id, 'Title': title, 'Author': author, 'Publication Year': year, 'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                    # series_to_add = base_series.append(add_series)
+                    # series_to_add = base_series.append({'Match MMS ID': xml_mms_id, 'Match Title': xml_title, 'Match Author': xml_author, 'Match Publication Year': xml_year, 'Match URL or Collection': url})
+                    ebooks_we_need = ebooks_we_need.append(course_df.iloc[y], ignore_index=True)
+                    #ebooks_we_need = ebooks_we_need.append(course_df.iloc[y], ignore_index=True)
+                    no_match_counter += 1
 
                 #print(ebooks_on_this_course)
                 y += 1
@@ -532,10 +563,7 @@ for dept in proc_dept_df_list:
 
         #counts_file = open(oDir + '/Counts - ' + str(course_name) + ' - ' + date + '.txt', 'w+')
 
-        counts_df = counts_df.append({'Processing Department': processing_dept, 'Course Name': course_name, 'Course Code': course_code, 'Books on Course': number_of_books_on_course, 'No Ebook in Collection': no_match_counter, 'Physical Books on Course': number_of_physical_books_on_course, 'Electronic Copies for Physical on Course': ebook_match_on_list_counter, 'COVID Temporary Electronic Copies for Physical on Course - Subset': temporary_collections_portfolio_counter_on_course,  'Electronic Copies for Physical on Course - Different Year': ebook_match_on_list_counter_without_year, 'COVID Temporary Electronic Copies for Physical - on Course - Different Year': temporary_collections_counter_on_course_near_match,'Ebook Copy for Physical in Repo - Add': ebook_for_physical_counter, 'Ebook Copy for Physical in Repo - Potentially Add - Different Year': different_year_ebook_for_physical_counter}, ignore_index=True)
-
-
-
+        counts_df = counts_df.append({'Processing Department': processing_dept, 'Course Name': course_name, 'Course Code': course_code, 'Books on Course': number_of_books_on_course,  'Physical Books on Course' :number_of_physical_books_on_course,  'No Electronic Version for Physical Book': no_match_counter, 'Electronic - Already on Course': ebook_match_on_list_counter, 'Electronic - Already on Course - Different Year': different_year_ebook_for_physical_counter, 'Electronic - Already on Course - COVID Temporary Electronic Collection': temporary_collections_portfolio_counter_on_course,  'Electronic - Already on Course - COVID Temporary Electronic Collection - Different Year': temporary_collections_portfolio_counter_near_match, 'Electronic - In Collection - Add to Course': ebook_for_physical_counter, 'Electronic - In Collection - Potentially Add to Course - Different Year': different_year_ebook_for_physical_counter}, ignore_index=True)
 
         # processing_dept_master = proc_dept_df_list[d].iloc[0]['Processing Department']
         #
@@ -625,7 +653,19 @@ for dept in proc_dept_df_list:
         for column in writer.sheets[sheet].iter_cols():
             writer.sheets[sheet].column_dimensions[get_column_letter(e + 1)].width = "20"
             e += 1
+    f = 0
+    for row in writer.sheets['Counts']:
+        print(row)
+        if f == 0:
+            for cell in row:
+                #cell.style.alignment.wrap_text=True
+                cell.alignment = Alignment(wrap_text=True)
+
+        f += 1
+
     first_sheet = workbook.get_sheet_by_name('Sheet')
+
+
 
     workbook.remove_sheet(first_sheet)
     writer.save()
