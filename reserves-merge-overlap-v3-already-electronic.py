@@ -485,7 +485,7 @@ for dept in proc_dept_df_list:
     output_cols = reserves_df_selected.columns.tolist()
 
     output_cols.extend(['Match MMS ID', 'Match Title', 'Match Author', 'Match Publication Year', 'Match URL or Collection'])
-    counts_df = pd.DataFrame(columns=['Processing Department', 'Books on Course', 'Physical Books on Course', 'No Electronic Version for Physical Book', 'Electronic - Already on Course', 'Electronic - Already on Course - Different Year', 'Electronic - Already on Course - COVID Temporary Electronic Collection', 'Electronic - Already on Course - COVID Temporary Electronic Collection - Different Year', 'Electronic - In Collection - Add to Course', 'Electronic - In Collection - Potentially Add to Course - Different Year', 'Electronic - Temporarily in Collection', 'Electronic - Temporarily in Collection - Different Year'])
+    counts_df = pd.DataFrame(columns=['Processing Department', 'Books on Course', 'Physical Books on Course', 'No Electronic Version for Physical Book', 'Electronic - Already on Course - Different Year', 'Electronic - Already on Course - COVID Temporary Electronic Collection', 'Electronic - Already on Course - COVID Temporary Electronic Collection - Different Year', 'Electronic - In Collection - Add to Course', 'Electronic - In Collection - Potentially Add to Course - Different Year', 'Electronic - Temporarily in Collection', 'Electronic - Temporarily in Collection - Different Year'])
     ebooks_to_add = pd.DataFrame(columns=output_cols)
     ebooks_to_add_different_year = pd.DataFrame(columns=output_cols)
 
@@ -941,7 +941,7 @@ for dept in proc_dept_df_list:
         #counts_file = open(oDir + '/Counts - ' + str(course_name) + ' - ' + date + '.txt', 'w+')
 
 
-        counts_df = counts_df.append({'Processing Department': processing_dept, 'Course Name': course_name, 'Course Code': course_code, 'Books on Course': number_of_books_on_course,  'Physical Books on Course' :number_of_physical_books_on_course,  'No Electronic Version for Physical Book': no_match_counter, 'Non-Repository - on Course': non_repository_citation_counter, 'Electronic - Match on Course': ebook_match_on_list_counter, 'Electronic - Already on Course - Different Year': ebook_match_on_list_counter_without_year, 'Non-Match Ebooks on Course': ebook_on_list_counter, 'Non-Match Temporary Collection Books on Course': temporary_collection_ebook_on_list_counter, 'Non-Repository Citation Matches': non_repository_citation_counter_match, 'Electronic - Already on Course - COVID Temporary Electronic Collection': temporary_collections_portfolio_counter_on_course,  'Electronic - Already on Course - COVID Temporary Electronic Collection - Different Year': temporary_collections_counter_on_course_near_match, 'Electronic - In Collection - Add to Course': ebook_for_physical_counter, 'Electronic - In Collection - Potentially Add to Course - Different Year': different_year_ebook_for_physical_counter, 'Electronic - Temporarily in Collection': temporary_collections_portfolio_counter, 'Electronic - Temporarily in Collection - Different Year': temporary_collections_portfolio_counter_near_match}, ignore_index=True)
+        counts_df = counts_df.append({'Processing Department': processing_dept, 'Course Name': course_name, 'Course Code': course_code, 'Books on Course': number_of_books_on_course,  'Physical Books on Course' :number_of_physical_books_on_course,  'No Electronic Version for Physical Book': no_match_counter, 'Non-Repository - on Course': non_repository_citation_counter, 'Electronic - Match on Course': ebook_match_on_list_counter, 'Electronic - Already on Course - Different Year': ebook_match_on_list_counter_without_year, 'Non-Repository Citation Matches': non_repository_citation_counter_match, 'Electronic - Already on Course - COVID Temporary Electronic Collection': temporary_collections_portfolio_counter_on_course,  'Electronic - Already on Course - COVID Temporary Electronic Collection - Different Year': temporary_collections_counter_on_course_near_match, 'Electronic - In Collection - Add to Course': ebook_for_physical_counter, 'Electronic - In Collection - Potentially Add to Course - Different Year': different_year_ebook_for_physical_counter, 'Electronic - Temporarily in Collection': temporary_collections_portfolio_counter, 'Electronic - Temporarily in Collection - Different Year': temporary_collections_portfolio_counter_near_match}, ignore_index=True)
 
 
         x += 1
@@ -952,7 +952,13 @@ for dept in proc_dept_df_list:
     cols = cols[-1:] + cols[:-1]
     counts_df = counts_df[cols]
     cols.remove('Processing Department')
+    cols.remove('Course Code')
+    cols.remove('Course Name')
+    cols.remove('Electronic - Match on Course')
     cols.insert(0, 'Processing Department')
+    cols.insert(1, 'Course Code')
+    cols.insert(2, 'Course Name')
+    cols.insert(6, 'Electronic - Match on Course')
     counts_df = counts_df[cols]
 
 
@@ -1011,8 +1017,10 @@ for dept in proc_dept_df_list:
     writer.sheets['Counts'].cell(row = counts_max_row + 2, column = 10).value = '= SUM(J1:J' + str(counts_max_row) + ')'
     writer.sheets['Counts'].cell(row = counts_max_row + 2, column = 11).value = '= SUM(K1:K' + str(counts_max_row) + ')'
     writer.sheets['Counts'].cell(row = counts_max_row + 2, column = 12).value =  '= SUM(L1:L' + str(counts_max_row) + ')'
-    writer.sheets['Counts'].cell(row = counts_max_row + 2, column = 11).value = '= SUM(M1:M' + str(counts_max_row) + ')'
-    writer.sheets['Counts'].cell(row = counts_max_row + 2, column = 12).value =  '= SUM(N1:N' + str(counts_max_row) + ')'
+    writer.sheets['Counts'].cell(row = counts_max_row + 2, column = 13).value = '= SUM(M1:M' + str(counts_max_row) + ')'
+    writer.sheets['Counts'].cell(row = counts_max_row + 2, column = 14).value =  '= SUM(N1:N' + str(counts_max_row) + ')'
+    writer.sheets['Counts'].cell(row = counts_max_row + 2, column = 15).value =  '= SUM(O1:P' + str(counts_max_row) + ')'
+    writer.sheets['Counts'].cell(row = counts_max_row + 2, column = 16).value =  '= SUM(P1:P' + str(counts_max_row) + ')'
 
     #
     #
