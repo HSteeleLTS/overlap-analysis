@@ -29,7 +29,8 @@ citation_record = requests.get(citation_url).text
 
 print(citation_record)
 citation_record = json.loads(citation_record)
+
 citation_title = citation_record['metadata']['title']
 citation_author = citation_record['metadata']['author']
 
-print("Title: " + citation_title + "; Author: " + citation_author + "\n" )
+#print("Title: " + citation_title + "; Author: " + citation_author + "\n" )

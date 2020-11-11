@@ -1,0 +1,278 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DEBUG:
+<li>http://tufts.userservices.exlibrisgroup.com/view/uresolver/01TUN_INST/openurl?svc_dat=CTO&debug=true&debug=true&ctx_enc=info:ofi/enc:UTF-8</li>
+
+END DEBUG-->
+
+ <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 	<title>Home</title>
+
+	<link href="/view/skins/default/css/otb_mashup.css?version=November2020" rel="stylesheet" type="text/css" />
+				<link href="/view/branding_skin/css/mashup.css?skinName=skin_OTB&amp;version=November2020&amp;skinVersion=1591516324&amp;customerId=3850&amp;institutionId=3851" rel="stylesheet" type="text/css" />
+			<script type="text/javascript" src="/view/javascript/jquery-mashup.js?version=November2020"></script>
+	<script language="javascript" type="text/javascript" src="/view/javascript/uresolverScripts.js?version=November2020"></script>
+	<script type="text/javascript" src="/view/javascript/jquery.js?version=November2020"></script>
+
+	<script>
+		var usePopUp = false;
+
+		function receiveMessage(event) {
+			var isInIFrame = (window.location != window.parent.location) ? true : false;
+			if (event.data.command == 'setflag' && isInIFrame)
+				usePopUp = true;
+		}
+
+		$(document).ready(function() {
+
+			var showLessLine = document.getElementById('showLessLine');
+			showLessLine.style.display = 'none';
+			if (PAGINATION_CUST_PARAM) {
+				if (ALL_SERVICES_COUNTER <= 25) {
+					var showAllLink = document.getElementById('showAllLink');
+					showAllLink.style.display = 'none';
+				}
+				var contextServiceList = document.getElementById('contextServiceList');
+				if (contextServiceList != null) {
+	    			contextServiceList.style.display = 'none';
+				}
+				var contextServiceRelatedList = document.getElementById('contextServiceRelatedList');
+				if (contextServiceRelatedList != null) {
+					contextServiceRelatedList.style.display = 'none';
+				}
+				var contextServiceRelatedListLabel = document.getElementById('contextServiceRelatedListLabel');
+				if (contextServiceRelatedListLabel != null) {
+					contextServiceRelatedListLabel.style.display = 'none';
+				}
+			} else {
+				var showAllLine = document.getElementById('showAllLine');
+				showAllLine.style.display = 'none';
+				var shortContextServiceList = document.getElementById('shortContextServiceList');
+				if (shortContextServiceList != null) {
+					shortContextServiceList.style.display = 'none';
+				}
+				var shortContextServiceRelatedList = document.getElementById('shortContextServiceRelatedList');
+				if (shortContextServiceRelatedList != null) {
+					shortContextServiceRelatedList.style.display = 'none';
+				}
+				var shortContextServiceRelatedListLabel = document.getElementById('shortContextServiceRelatedListLabel');
+				if (shortContextServiceRelatedListLabel != null) {
+					shortContextServiceRelatedListLabel.style.display = 'none';
+				}
+			}
+
+
+			$(".representation-link").click(function(){
+				if (COUNT_REP_SVC_LINK_RESOLVER){
+			        var package_service_id = $(this).attr('context-service');
+			        var url = "/view/action/uresolver.do?operation=resolveService&package_service_id=" + package_service_id + "&institutionId=" + INSTITUTION_ID + "&customerId=" + CUSTOMER_ID;
+					$.ajax({
+							type : "GET",
+						    url : url,
+						    dataType : "html",
+					});
+				}
+			});
+			$('a.digital-lightbox').click(function(e){
+				e.preventDefault();
+
+				// For the lightbox (URM-44958) we need complete URL (URM-52394)
+				// http://stackoverflow.com/questions/6941533/get-protocol-domain-and-port-from-url
+				//console.log ( "a.digital-lightbox has: " + $(this).attr('href') );
+				var completeUrl = window.location.href
+				var arr = completeUrl.split("/");
+				var currentUrl = arr[0] + "//" + arr[2]
+				var url = currentUrl + $(this).attr('href');
+				var hrefUrl = $(this).attr('href');
+				if(hrefUrl.substring(0,1) != "/"){
+					url = $(this).attr('href');
+				}
+				//console.log ( "Complete URL:" + url );
+
+				try {
+					if (usePopUp) {
+						parent.postMessage({"command": "popup", "url": url}, "*");
+					} else {
+						window.open(url);
+						return false;
+					}
+				}
+				catch(err) {
+					window.open(url);
+					return false;
+				}
+			}); // click
+			$('a.digital-direct-link').click(digitalNewWindow); // click
+
+			window.addEventListener("message", receiveMessage, false);
+			if (false) {
+				setTimeout(function() {
+					$('a.digital-lightbox').first().trigger('click');
+				}, 200);
+				$('a.digital-direct-link').first().trigger('click');
+			}
+			parent.postMessage({"command": "setflag"}, "*");
+		});
+
+		 function digitalNewWindow(e){
+				e.preventDefault();
+				var url = $(this).attr('href');
+				window.open(url);
+		 }
+
+		 function showAll() {
+			 	var showAllLine = document.getElementById('showAllLine');
+			 	showAllLine.style.display = 'none';
+				var showLessLine = document.getElementById('showLessLine');
+				showLessLine.style.display = 'block';
+		    	var contextServiceList = document.getElementById('contextServiceList');
+		    	if (contextServiceList != null) {
+		    		contextServiceList.style.display = 'block';
+		    	}
+		       	var contextServiceRelatedList = document.getElementById('contextServiceRelatedList');
+		       	if (contextServiceRelatedList != null) {
+		       		contextServiceRelatedList.style.display = 'block';
+		       	}
+		       	var contextServiceRelatedListLabel = document.getElementById('contextServiceRelatedListLabel');
+		       	if (contextServiceRelatedListLabel != null) {
+		       		contextServiceRelatedListLabel.style.display = 'block';
+		       	}
+		       	var shortContextServiceList = document.getElementById('shortContextServiceList');
+		       	if (shortContextServiceList != null) {
+		       		shortContextServiceList.style.display = 'none'
+		       	}
+		       	var shortContextServiceRelatedList = document.getElementById('shortContextServiceRelatedList');
+		       	if (shortContextServiceRelatedList != null) {
+		       		shortContextServiceRelatedList.style.display = 'none'
+		       	}
+		       	var shortContextServiceRelatedListLabel = document.getElementById('shortContextServiceRelatedListLabel');
+		       	if (shortContextServiceRelatedListLabel != null) {
+		       		shortContextServiceRelatedListLabel.style.display = 'none'
+		       	}
+		    	return true;
+		}
+
+		 function showLess() {
+				var showLessLine = document.getElementById('showLessLine');
+				showLessLine.style.display = 'none';
+			 	var showAllLine = document.getElementById('showAllLine');
+			 	showAllLine.style.display = 'block';
+		    	var contextServiceList = document.getElementById('contextServiceList');
+		    	if (contextServiceList != null) {
+		    		contextServiceList.style.display = 'none';
+		    	}
+		       	var contextServiceRelatedList = document.getElementById('contextServiceRelatedList');
+		       	if (contextServiceRelatedList != null) {
+		       		contextServiceRelatedList.style.display = 'none';
+		       	}
+		       	var contextServiceRelatedListLabel = document.getElementById('contextServiceRelatedListLabel');
+		       	if (contextServiceRelatedListLabel != null) {
+		       		contextServiceRelatedListLabel.style.display = 'none';
+		       	}
+		       	var shortContextServiceList = document.getElementById('shortContextServiceList');
+		       	if (shortContextServiceList != null) {
+		       		shortContextServiceList.style.display = 'block'
+		       	}
+		       	var shortContextServiceRelatedList = document.getElementById('shortContextServiceRelatedList');
+		       	if (shortContextServiceRelatedList != null) {
+		       		shortContextServiceRelatedList.style.display = 'block'
+		       	}
+		       	var shortContextServiceRelatedListLabel = document.getElementById('shortContextServiceRelatedListLabel');
+		       	if (shortContextServiceRelatedListLabel != null) {
+		       		shortContextServiceRelatedListLabel.style.display = 'block'
+		       	}
+		    	return true;
+		}
+	</script>
+
+</head>
+ <body>
+<form name="uResolverViewItForm" method="post" action="/view/action/uresolverViewit.do;jsessionid=6D70421CBF7DE7DA00F746772C4C0700.app05.na01.prod.alma.dc04.hosted.exlibrisgroup.com:1801"><div class="tabContent viewIt ">
+<!-- Placeholder for view it long form meta data and controls -->
+
+	<div id="repDataLong">
+		<div id="screenMsgContainer" class="repViewItNoBorder">
+
+		</div>
+
+		<div id="mmsMetadata">
+		</div>
+                <div id="repControls" class="typeJ repViewItNoBorder"">
+
+                </div>
+
+	</div>
+	<script>window.addEventListener("load", function() {var body = document.getElementsByTagName("body")[0];body.insertAdjacentHTML('beforeend','<img style="display:none" alt="Invisible image"src="https://beacon01.alma.exlibrisgroup.com/boom/apache_pb.gif?A=Alma&amp;I=3851&amp;S=6D70421CBF7DE7DA00F746772C4C0700.app05.na01.prod.alma.dc04.hosted.exlibrisgroup.com:1801&amp;SRVR=app05.na01.prod.alma.dc04.hosted.exlibrisgroup.com&amp;P=ViewIt&amp;O5=142&amp;OP=LOAD&amp;T=&amp;TYP=&amp;O1=0&amp;IGNORE=1604601675357" />')})</script><!-- Only display the metadata for view it long form when view it displays in a new window -->
+	<!-- current representation info -->
+	<script>
+	    // sort field definition per entity type
+            var AUDIOVISUAL_SORT_FIELDS = ['repCreator', 'repTitle', 'repTrack', 'repStartTime', 'repEndTime'];
+            var ARTICLE_SORT_FIELDS = ['repAuthor', 'repTitle', 'repVolume', 'repIssue', 'repDate', 'repStartPage', 'repEndPage'];
+            var CHAPTER_SORT_FIELDS = ['repAuthor', 'repTitle', 'repNumber', 'repStartPage', 'repEndPage'];
+            var ISSUE_SORT_FIELDS = ['repVolume', 'repIssue', 'repDate'];
+            var ISSUE_DET_SORT_FIELDS = ['repVolume', 'repIssue', 'repNumber', 'repYear', 'repSeasonMonth', 'repDayInMonth'];
+            var ALL_SORT_FIELDS = {};
+            ALL_SORT_FIELDS["AUDIOVISUAL"] = AUDIOVISUAL_SORT_FIELDS;
+            ALL_SORT_FIELDS["ARTICLE"] = ARTICLE_SORT_FIELDS;
+            ALL_SORT_FIELDS["CHAPTER"] = CHAPTER_SORT_FIELDS;
+            ALL_SORT_FIELDS["ISSUE"] = ISSUE_SORT_FIELDS;
+            ALL_SORT_FIELDS["IssueDet"] = ISSUE_DET_SORT_FIELDS;
+	    var SORT_RESULTS_BY_LABEL = "Sort results by";
+            var FIND_LABEL = "Find";
+            var IN_LABEL = "in";
+            var GO_LABEL = "Go";
+            var ENTER_SEARCH_TERM_MSG = "Please enter a search term";
+            var ENTER_ET_OPTION_MSG = "Please select an entity type option";
+            var RESULT_NO_MATCH_MSG = "Your search result returns no match";
+            var ALL_LABEL = "ALL";
+            var CLEAR_LABEL = "Clear";
+            var DATE_LABEL = "Date";
+            var VOLUME_LABEL = "Volume";
+            var YEAR_LABEL = "Year";
+            var CUSTOMER_ID  = 3850;
+            var INSTITUTION_ID = 3851;
+            var COUNT_REP_SVC_LINK_RESOLVER  = false;
+            var PAGINATION_CUST_PARAM = true;
+            var ALL_SERVICES_COUNTER = 0;
+
+
+	     var repInfo = [];
+	    
+	     var relatedRepInfo = [];
+		    
+			
+	      
+	      var esploroRepInfo = [];
+	    </script>
+<c id = "showAllLine">
+		0 - 0 of 0<a id = "showAllLink" href="#" onclick="showAll();">
+			Show All</a>
+		<br/>
+		<br/>
+	</c>
+
+	<c id = "showLessLine">
+		0 - 0 of 0<a id = "showLessLink" href="#" onclick="showLess();">
+			Show Less</a>
+		<br/>
+		<br/>
+	</c>
+
+	<!-- if no electronic & no digital available & no esploro - show this -->
+	<ul>
+		<li>No full text available</li>
+		</ul>
+	<!-- TODO add DigitalServiceWrapper -->
+<br/>
+
+</div>
+
+
+<!-- DEBUG:
+ []
+ END DEBUG-->
+	</form><input type='hidden' id='mobidgetit' class='mobClass' value='1604601675361,146,26,72,0,0,0,0,0,7'/>
+ 
+</body>
+</html>
+

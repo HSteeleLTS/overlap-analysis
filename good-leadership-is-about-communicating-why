@@ -1,0 +1,981 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="ie8 ">
+<![endif]-->
+<!--[if IE 9]>
+<html class="ie9 ">
+<![endif]-->
+<!--[if !IE]><!-->
+<html class="">
+<!--<![endif]--><!--
+ _____________    _    _                       hbr.org _
+|/////////////|  | |  | |                             | |
+|:\/E:R|:T/\S:|  | |__| | __ _ _ ____   ____ _ _ __ __| |
+|+++++++++++++|  |  __  |/ _` | '__\ \ / / _` | '__/ _` |
+|\:+:\   /:+:/|  | |  | | (_| | |   \ V / (_| | | | (_| |
+| \:::\ /:::/ |  |_|__|_|\__,_|_| _  \_/ \__,_|_|  \__,_|
+\  \ ::+:: /  /  |  _ \          (_)
+ \ /::/ \::\ /   | |_) |_   _ ___ _ _ __   ___  ___ ___
+  \+:/   \:+/    |  _ <| | | / __| | '_ \ / _ \/ __/ __|
+   \/_____\/     | |_) | |_| \__ \ | | | |  __/\__ \__ \
+To improve the   |____/ \__,_|___/_|_| |_|\___||___/___/
+practice of      |  __ \          (_)
+management and   | |__) |_____   ___  _____      __
+its impact in a  |  _  // _ \ \ / / |/ _ \ \ /\ / /
+changing world.  | | \ \  __/\ V /| |  __/\ V  V /
+est. 1922        |_|  \_\___| \_/ |_|\___| \_/\_/
+-->
+    <head>
+        <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="msapplication-config" content="none"/>
+<title>Good Leadership Is About Communicating &ldquo;Why&rdquo;</title>
+  <meta name="item-id" content="tag:blogs.harvardbusiness.org,2007-03-31:999.260890"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:section" content="Motivating people"/>
+  <meta name="twitter:site" content="@harvardbiz"/>
+  <meta name="item-name" content="Good Leadership Is About Communicating &ldquo;Why&rdquo;"/>
+  <meta name="page-category-name" content="Motivating people"/>
+  <meta name="description" content="It&rsquo;s easy to get bogged down in &ldquo;what&rdquo; and &ldquo;how.&rdquo;"/>
+  <meta property="article:publisher" content="https://www.facebook.com/HBR"/>
+  <meta property="article:modified_time" content="2020-08-17T14:48:14Z"/>
+  <meta property="og:image" content="https://hbr.org/resources/images/article_assets/2020/05/May20_06_1210471414.jpg"/>
+  <meta property="og:image" content="https://hbr.org/resources/images/article_assets/2020/05/May20_06_1210471414-383x215.jpg"/>
+  <meta property="og:image" content="https://hbr.org/resources/images/hbr_opengraph_940x490.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="article:published_time" content="2020-05-06T12:15:31Z"/>
+  <meta property="og:url" content="https://hbr.org/2020/05/good-leadership-is-about-communicating-why"/>
+  <meta property="article:tag" content="Motivating people"/>
+  <meta property="article:tag" content="Communication"/>
+  <meta property="article:tag" content="Presentations"/>
+  <meta name="twitter:image" content="https://hbr.org/resources/images/article_assets/2020/05/May20_06_1210471414.jpg"/>
+  <meta name="primary-editor" content="26"/>
+  <meta property="og:description" content="It&rsquo;s easy to get bogged down in &ldquo;what&rdquo; and &ldquo;how.&rdquo;"/>
+  <meta name="twitter:creator" content="@harvardbiz"/>
+  <meta name="article-content-type" content="Digital Article"/>
+  <meta property="og:site_name" content="Harvard Business Review"/>
+  <meta name="viewport" content="initial-scale=1,width=device-width"/>
+  <meta name="page-category-id" content="105784"/>
+<meta name="uid" content="0698EA46DA93326FEE8D5C0D48FA14B1"/>
+<meta name="sid" content="f80253ee-86e1-444a-bc5c-92987faea6f8"/>
+<meta name="shopper-attributes" content="state:guest"/>
+<meta property="og:title" content="Good Leadership Is About Communicating &ldquo;Why&rdquo;"/>
+  <meta name="page-type" content="ITEM"/>
+  <meta name="page-id" content="300"/>
+      <meta name="ox-group" content="537063787"/>
+
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/resources/js/support/hbr/elements.js"></script>
+<script type="text/javascript" src="/resources/js/support/foundation/foundation.js"></script>
+<![endif]-->
+<link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style_4e8afee17678f594.css"/>
+<script type="text/javascript">
+  if (document.cookie.match(/hbr_f=true/)) {
+    window.document.documentElement.className += " fonts-loaded";
+  }
+</script>
+<script type="text/javascript" src="//cdn.tinypass.com/api/tinypass.min.js"></script>
+<script type="text/javascript">
+
+var tp = window["tp"] || [];
+tp.push(["setDebug", true]);
+tp.push(["setAid", "mbs77qtzUz"]);
+tp.push(["setEndpoint", "https://buy.tinypass.com/api/v3"]);
+tp.push(["setUseTinypassAccounts", false]);
+tp.push(["setUsePianoIdUserProvider", false]);
+
+</script>
+
+<script type="text/javascript">
+    document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+    var setNptTechAdblockerCookie = function(adblocker) {
+        var d = new Date();
+        d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
+        document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
+    }
+    var script = document.createElement("script");
+    script.setAttribute("async", true);
+    script.setAttribute("src", "//www.npttech.com/advertising.js");
+    script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
+    document.getElementsByTagName("head")[0].appendChild(script);
+</script>
+
+<script type="text/javascript">
+  window.digitalData = {"page":{"pageInfo":{"language":"en","contentType":"Digital Article","pageName":"Good Leadership Is About Communicating &ldquo;Why&rdquo;","pageCategoryID":"105784","pageCategoryName":"Motivating people","pageType":"ITEM","pageDescription":"It&rsquo;s easy to get bogged down in &ldquo;what&rdquo; and &ldquo;how.&rdquo;","onsiteSearchResults":0,"date":"11-06-2020","time":"10:09 AM"},"attributes":{"articleContentType":"Digital Article","articleType":"Digital Article","articleTitle":"Good Leadership Is About Communicating &ldquo;Why&rdquo;","articleID":"tag:blogs.harvardbusiness.org,2007-03-31:999.260890","articlePrimaryTopic":"Motivating people","articlePublishDate":"2020-05-06","articlePostingDate":"May - 2020","articlePrimaryEditor":"26","primaryAuthor":"Nancy Duarte","articleAuthor":[{"authorName":"Nancy Duarte"}],"articleSubTopic1":"Motivating people","articleSubTopic2":"Communication","articleSubTopic3":"Presentations","articleSubTopic4":"Digital Article","articleTags":"Motivating people|Communication|Presentations|Digital Article"}},"users":[{"profile":{"sessionID":"f80253ee-86e1-444a-bc5c-92987faea6f8","accountID":"0698EA46DA93326FEE8D5C0D48FA14B1","dateLastVisit":"2020-11-06","quota":{"limit":2,"remaining":1},"userState":"Guest","secondsSinceLastVisit":0,"daysSinceLastVisit":0,"guid":"0698EA46DA93326FEE8D5C0D48FA14B1"}}],"version":"2.2","siteID":"hbrprod","siteType":"Desktop","pageInstanceID":"Good Leadership Is About Communicating &ldquo;Why&rdquo;:beanstalk-prod"};
+  if (window.digitalData && window.digitalData.page && window.digitalData.page.pageInfo) {
+    if (!window.digitalData.page.pageInfo.deviceType) {
+      !function (a) {
+        var b = /iPhone/i, c = /iPod/i, d = /iPad/i, e = /(?=.*\bAndroid\b)(?=.*\bMobile\b)/i, f = /Android/i,
+            g = /(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,
+            h = /(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,
+            i = /Windows Phone/i, j = /(?=.*\bWindows\b)(?=.*\bARM\b)/i, k = /BlackBerry/i, l = /BB10/i,
+            m = /Opera Mini/i, n = /(CriOS|Chrome)(?=.*\bMobile\b)/i, o = /(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,
+            p = new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)", "i"), q = function (a, b) {
+              return a.test(b)
+            }, r = function (a) {
+              var r = a || navigator.userAgent, s = r.split("[FBAN");
+              if ("undefined" != typeof s[1] && (r = s[0]), s = r.split("Twitter"), "undefined" != typeof s[1]
+                  && (r = s[0]), this.apple = {
+                    phone: q(b, r),
+                    ipod: q(c, r),
+                    tablet: !q(b, r) && q(d, r),
+                    device: q(b, r) || q(c, r) || q(d, r)
+                  }, this.amazon = {
+                    phone: q(g, r),
+                    tablet: !q(g, r) && q(h, r),
+                    device: q(g, r) || q(h, r)
+                  }, this.android = {
+                    phone: q(g, r) || q(e, r),
+                    tablet: !q(g, r) && !q(e, r) && (q(h, r) || q(f, r)),
+                    device: q(g, r) || q(h, r) || q(e, r) || q(f, r)
+                  }, this.windows = {
+                    phone: q(i, r),
+                    tablet: q(j, r),
+                    device: q(i, r) || q(j, r)
+                  }, this.other = {
+                    blackberry: q(k, r),
+                    blackberry10: q(l, r),
+                    opera: q(m, r),
+                    firefox: q(o, r),
+                    chrome: q(n, r),
+                    device: q(k, r) || q(l, r) || q(m, r) || q(o, r) || q(n, r)
+                  }, this.seven_inch = q(p, r), this.any = this.apple.device || this.android.device || this.windows.device
+                      || this.other.device || this.seven_inch, this.phone = this.apple.phone || this.android.phone
+                      || this.windows.phone, this.tablet = this.apple.tablet || this.android.tablet
+                      || this.windows.tablet, "undefined" == typeof window) {
+                return this
+              }
+            }, s = function () {
+              var a = new r;
+              return a.Class = r, a
+            };
+        "undefined" != typeof module && module.exports && "undefined" == typeof window ? module.exports = r
+            : "undefined" != typeof module && module.exports && "undefined" != typeof window ? module.exports = s()
+            : "function" == typeof define && define.amd ? define("isMobile", [], a.isMobile = s()) : a.isMobile = s()
+      }(this);
+      window.digitalData.page.pageInfo.sysEnv = "Desktop";
+      window.digitalData.page.pageInfo.deviceType = "Desktop";
+      if (isMobile.phone || isMobile.tablet) {
+        window.digitalData.page.pageInfo.sysEnv = "Mobile";
+        if (isMobile.phone) {
+          window.digitalData.page.pageInfo.deviceType = "Mobile";
+        }
+        if (isMobile.tablet) {
+          window.digitalData.page.pageInfo.deviceType = "Tablet";
+        }
+      }
+      window.digitalData.siteType = window.digitalData.page.pageInfo.deviceType;
+    }
+    window.digitalData.page.pageInfo.pageURL = window.location.origin + window.location.pathname;
+    if (document.referrer) {
+      window.digitalData.page.pageInfo.referringURL = document.referrer;
+    }
+  }
+
+</script>
+
+	<link rel="amphtml" href="https://hbr.org/amp/2020/05/good-leadership-is-about-communicating-why">
+
+<script src="/resources/js/components/overlay-intromercial/gdpr_2de6398703b7e694.js"></script>
+<script src="//assets.adobedtm.com/c0857d0b892a/fccd631ba54c/launch-68b2fecf2e9e.min.js"></script>
+<script type="text/javascript" src="/resources/js/components/overlay-intromercial/intromercial_e1d88ad7973845de.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://hbr.org/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://hbr.org/search?term={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+    <script>
+        function createEvent(name, data) {
+            var event;
+
+            if (typeof window.CustomEvent === 'function') {
+                event = new CustomEvent(name, { detail: data });
+            } else {
+                event = document.createEvent('Event');
+                event.initEvent(name, false, false, data);
+            }
+
+            return event;
+        }
+
+        function captchaCallback() {
+            grecaptcha.render("captchaTarget", {
+                sitekey: "6LcpmX4UAAAAANrOrsaCHmMw5UNaCYgeE0l7Kyjl",
+                size: "invisible",
+                callback: function (captchaToken) {
+                    var captchaSuccessEvent = createEvent("captcha:success", { token: captchaToken });
+                    document.dispatchEvent(captchaSuccessEvent);
+                },
+                "expired-callback": function () {
+                    var captchaExpiredEvent = createEvent("captcha:expired");
+                    document.dispatchEvent(captchaExpiredEvent);
+                },
+                "error-callback": function () {
+                    var captchaErrorEvent = createEvent("captcha:error");
+                    document.dispatchEvent(captchaErrorEvent);
+                },
+            });
+        }
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=captchaCallback&render=explicit" async defer></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			if (typeof generateIntromercial === 'function') {
+				generateIntromercial();
+			}
+		</script>
+<!-- column -->
+	<div id="main" class="container">
+				<div id="" class="component" data-order="0" data-type="webscript" data-moveable="false" data-params="region=openx;location=leaderboard">
+		<section js-target="openx-container">
+			<div class="row">
+				<div class="small-12 column text-center ad-container-column">
+					<div class="mts mbm ad-container">
+						<div id='DFP_ARTICLE_pos1'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_ARTICLE_pos1'); });</script></div>
+					</div>
+				</div>
+			</div>
+		</section>
+				</div>
+				<div id="" class="component" data-order="1" data-type="webscript" data-moveable="false" data-params="region=header">
+
+<div class="sticky-top-header global-nav-container">
+	<header class="top-header hide-for-print global-nav-container" role="banner" tabindex="1">
+
+		<!-- first row of the global nav -->
+		<div class="top-header--bar flex-row backdrop-white top-header--row has-border-bottom">
+			<div id="top-header--panel-icon" class="flex-row top-header--menu-link">
+				<a href="#" class="link--black hamburger-icon-container" js-target="global-header--search-overlay">
+	<svg class="hamburger-icon top-header--menu-icon-open" alt="Navigation Menu" aria-labelledby="title">
+	<title>Navigation Menu</title>
+	<use xlink:href="/resources/css/images/hbr-icons.svg#hamburger"></use></svg>
+				</a>
+			</div>
+			<!-- logo -->
+			<div class="top-header--logo has-border-left">
+				<a href="/">
+					<img src="/resources/css/images/HBR_logo_black.svg" alt="Harvard Business Review Home">
+				</a>
+			</div>
+			<div class="top-header--headline-container">
+				<article-headline class="article-headline hide-medium-down">
+				</article-headline>
+			</div>
+			<!-- right aligned items -->
+			<div class="flex-row top-header--bottom-left-align">
+				<personalization-placement class="flex-row mrl top-header--subscribe hide-small" data-placement-id="topbar_subscribe_engage">
+					<a href="/subscriptions?ab=topbar-subtout" target="_blank" rel="noopener" class="baseline-shift-down-more">Subscribe</a>
+				</personalization-placement>
+				<a href="/shopping-cart" class="link--black flex-row top-header--shopping-cart mrl do-not-show"
+					js-target="global-header-menu-toggle" data-menu="cart" data-cart-badge="0">
+					<img class="cart-icon" src="/resources/css/images/cart-icon.png" alt="Cart">
+				</a>
+				<a href="#" class="link--black global-header-button flex-row mrm prl has-border-right sign-in " js-target="sign-in-register">
+					<span class="baseline-shift-down-more">Sign In</span>
+				</a>
+				<div class="top-header--user-dropdown-container link--black flex-row mrm prl mls has-border-right sign-in  do-not-show " js-target="global-header-menu-toggle" data-menu="user">
+	<svg class="unfilled-user-icon mrs" alt="Account Menu" aria-labelledby="title">
+	<title>Account Menu</title>
+	<use xlink:href="/resources/css/images/hbr-icons.svg#user-nav"></use></svg>
+				</div>
+				<a id="top-header--open-search-overlay" href="#" class="link--black flex-row top-header--search-container mls hide-small" js-target="global-header--search-overlay">
+	<svg class="search-icon size-24x24" alt="Search Menu" aria-labelledby="title">
+	<title>Search Menu</title>
+	<use xlink:href="/resources/css/images/hbr-icons.svg#search"></use></svg>
+				</a>
+			</div>
+		</div>
+
+		<!-- header search overlay -->
+		<div class="top-header--overlay do-not-show">
+			<div class="header-menu--overlay opacity-0-small-only" js-target="global-header--search-overlay"></div>
+			<div class="left close-button absolute hide-small-up">
+				<a href="#" class="link--black flex-row top-header--close-search-overlay" js-target="global-header--search-overlay">
+					<svg class="size-24x24 top-header--menu-icon-close svg-ie"><use xlink:href="/resources/css/images/hbr-icons.svg#x"></use></svg>
+				</a>
+			</div>
+			<div class="hide-small flex-row overlay--first-row">
+				<a id="top-header--close-search-overlay" href="#" class="link--black" js-target="global-header--search-overlay">
+					<svg class="size-24x24 top-header--menu-icon-close svg-ie" aria-labelledby="title">
+						<title>Close menu</title>
+						<use xlink:href="/resources/css/images/hbr-icons.svg#x"></use></svg>
+				</a>
+			</div>
+			<div class="top-header--overlay-centered mtl">
+				<div class="top-header--overlay-search opacity-0-small-only">
+					<form action="/search" method="get">
+						<div class="search-container opacity-0-medium-up">
+							<input type="hidden" name="search_type" value="search-all">
+							<input class="pts pbm search-box-desktop" autocomplete="off" name="term" data-type="search-input" placeholder="Search hbr.org"></input>
+							<input class="search-box-mobile" autocomplete="off" name="term" placeholder="Search hbr.org"></input>
+							<button>
+								<svg aria-labelledby="title"><title>Search</title><use xlink:href="/resources/css/images/hbr-icons.svg#search"></use></svg>
+							</button>
+							<a href="#" class="clear-search-box do-not-show" js-target="clear-search-box">CLEAR</a>
+						</div>
+						<div class="backdrop-white width-100pct zindex-highest hide top-header--search-suggest" data-purpose="search-auto-suggest">
+							<div class="font-gt-america">
+								<ul class="no-bullet ptm mbs" data-container="results">
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbl pts line-height-normal font-size-15 darker-medium-gray has-border-bottom"></li>
+
+									<li class="ptl font-size-xsmall text-gray-light font-bold">SUGGESTED TOPICS</li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray no-bullet"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray no-bullet"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray no-bullet"></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="top-header--overlay-footer">
+					<div class="flex-row-wrap flex-row justify-between">
+						<div class="flex-col hide-small opacity-0 nav--explore">
+							<span class="mbm font-bold">Explore HBR</span>
+							<ul class="no-bullet tidy-list">
+								<li><a href="/insight-center/race-equity-and-power-at-work">Diversity</a></li>
+								<li><a href="/the-latest">Latest</a></li>
+								<li><a href="/magazine">The Magazine</a></li>
+								<li><a href="/most-popular">Most Popular</a></li>
+								<li><a href="/podcasts">Podcasts</a></li>
+								<li><a href="/video">Video</a></li>
+								<li><a href="/store">Store</a></li>
+								<li><a href="/webinars">Webinars</a></li>
+								<li><a href="/email-newsletters">Newsletters</a></li>
+							</ul>
+						</div>
+					<div class="flex-col hide-small opacity-0 nav--popular">
+						<span class="mbm font-bold">Popular Topics</span>
+						<ul class="no-bullet tidy-list">
+							<li><a href="/topic/managing-yourself">Managing Yourself</a></li>
+							<li><a href="/topic/leadership">Leadership</a></li>
+							<li><a href="/topic/strategy">Strategy</a></li>
+							<li><a href="/topic/managing-people">Managing Teams</a></li>
+							<li><a href="/topic/gender">Gender</a></li>
+							<li><a href="/topic/innovation">Innovation</a></li>
+							<li><a href="/topic/work-life-balance">Work-life Balance</a></li>
+							<li><a href="/topics">All Topics</a></li>
+						</ul>
+					</div>
+					<div class="flex-col hide-small opacity-0 nav--subscribers">
+						<span class="mbm font-bold">For Subscribers</span>
+						<ul class="no-bullet tidy-list">
+							<li><a href="/big-ideas">The Big Idea</a></li>
+							<li><a href="/visual-library">Visual Library</a></li>
+							<li><a href="/reading-lists" track-target="global-nav-link--editors-choice">Reading Lists</a></li>
+							<li><a href="/case-selections" track-target="global-nav-link--case-selection">Case Selections</a></li>
+							<li>
+								<personalization-placement data-placement-id="mag_cover_engage">
+									<a href="/subscriptions?ab=leftnav-subtout" target="_blank" rel="noopener" class="subscribe-link">Subscribe</a>
+								</personalization-placement>
+							</li>
+						</ul>
+					</div>
+					<div class="flex-col hide-small opacity-0 nav--account">
+						<span class="mbm font-bold">My Account</span>
+						<ul class="no-bullet tidy-list">
+							<li><a href="/my-library" js-target="validate-user-signed">My Library</a></li>
+							<li><a href="/my-library/topics" js-target="validate-user-signed">Topic Feeds</a></li>
+							<li><a href="/my-library/orders" js-target="validate-user-signed">Orders</a></li>
+							<li><a href="/my-library/settings" js-target="validate-user-signed">Account Settings</a></li>
+							<li><a href="/my-library/preferences" js-target="validate-user-signed">Email Preferences</a></li>
+							<li><a href="/logout" js-target="logout" class="do-not-show">Log Out</a></li>
+							<li><a href="#" js-target="sign-in-register" class="">Sign In</a></li>
+						</ul>
+					</div>
+					<div class="small-flex-col hide-small opacity-0 nav--social">
+						<ul class="no-bullet tidy-list">
+							<li><a href="http://twitter.com/HarvardBiz" class="link--black" target="_blank" rel="noopener"><i class="icon icon-twitter" title="Twitter"></i></a></li>
+							<li><a href="http://www.facebook.com/HBR" class="link--black" target="_blank" rel="noopener"><i class="icon icon-facebook" title="Facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/harvard-business-review?trk=biz-companies-cym" class="link--black" target="_blank" rel="noopener"><i class="icon icon-linkedin" title="Linkedin"></i></a></li>
+							<li><a href="https://www.instagram.com/harvard_business_review/?hl=en" class="link--black" target="_blank" rel="noopener"><i class="icon icon-instagram" title="Instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="top-header--mobile-mega-menu opacity-0">
+					<personalization-placement data-placement-id="mag_cover_engage">
+						<a href="/subscriptions?ab=leftnav-subtout" target="_blank" rel="noopener" class="subscribe-link">Subscribe</a>
+					</personalization-placement>
+					<a href="/insight-center/race-equity-and-power-at-work" class="is-block">Diversity</a>
+					<a href="/the-latest" class="is-block">Latest</a>
+					<a href="/podcasts" class="is-block">Podcasts</a>
+					<a href="/video" class="is-block">Video</a>
+					<a href="/magazine" class="is-block">The Magazine</a>
+					<a href="/store" class="is-block">Store</a>
+					<a href="/webinars" class="is-block">Webinars</a>
+					<a href="/email-newsletters" class="is-block">Newsletters</a>
+					<a href="/topics" class="is-block">All Topics</a>
+					<a href="/big-ideas" class="is-block">The Big Idea</a>
+					<a href="/visual-library" class="is-block">Visual Library</a>
+					<a href="/reading-lists" class="is-block" track-target="global-nav-link--editors-choice">Reading Lists</a>
+					<a href="/case-selections" class="is-block" track-target="global-nav-link--case-selection">Case Selections</a>
+					<a href="/my-library" class="is-block" js-target="validate-user-signed">My Library</a>
+					<a href="/my-library/settings" class="is-block" js-target="validate-user-signed">Account Settings</a>
+					<a href="/logout" js-target="logout" class="do-not-show is-block last-link">Log Out</a>
+					<a href="#" js-target="sign-in-register" class=" is-block last-link">Sign In</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<div class="header-menu header-menu--cart-dropdown absolute" js-target="global-header-menu" data-menu="cart">
+			<div class="header-menu--overlay opacity-0" js-target="global-header-menu-toggle" data-menu="cart"></div>
+	<svg class="border-caret-white absolute bottom-100pct hide-small" width="24px" height="16px" js-target="global-header-menu-caret"><path stroke-width="2px" d="M 0 16 l 12 -14 l 12 14" /></svg>
+			<div class="right close-button" js-target="global-header-menu-toggle" data-menu="cart">
+				<a href="#" class="link--black">
+					<svg class="size-24x24 top-header--menu-icon-close svg-ie"><use xlink:href="/resources/css/images/hbr-icons.svg#x"></use></svg>
+				</a>
+			</div>
+			<h3 class="pbl subheader has-border-bottom flyout-title">Your Cart</h3>
+			<div class="cart-container opacity-0" js-target="global-header-cart-contents">
+					<div class="message mbs mtm">Your Shopping Cart is empty.</div>
+					<a href="/store" class="button button--tight expand mbn mtm">Visit Our Store</a>
+			</div>
+		</div>
+		<div class="header-menu header-menu--user-dropdown absolute" js-target="global-header-menu" data-menu="user">
+			<div class="header-menu--overlay opacity-0" js-target="global-header-menu-toggle" data-menu="user"></div>
+	<svg class="border-caret-white absolute bottom-100pct hide-small" width="24px" height="16px" js-target="global-header-menu-caret"><path stroke-width="2px" d="M 0 16 l 12 -14 l 12 14" /></svg>
+			<div class="right close-button" js-target="global-header-menu-toggle" data-menu="user">
+				<a href="#" class="link--black">
+					<svg class="size-24x24 top-header--menu-icon-close svg-ie"><use xlink:href="/resources/css/images/hbr-icons.svg#x"></use></svg>
+				</a>
+			</div>
+			<div class="mbl is-block has-border-bottom user-data-container">
+				<div class="font-bold flyout-title" js-target="user-menu-name">Guest User</div>
+				<div class="subscription-access do-not-show" js-target="user-menu-subscription-access">
+					<span js-target="user-menu-subscription-access-level"></span> Subscriber
+				</div>
+			</div>
+			<div class="header--user-flyout-links opacity-0">
+					<a href="/my-library/library" class="is-block"  >My Library</a>
+					<a href="/my-library/topics" class="is-block"  js-target="global-topic-feeds-anchor">Topic Feeds</a>
+					<a href="/my-library/orders" class="is-block"  >Orders</a>
+					<a href="/my-library/settings" class="is-block"  >Account Settings</a>
+					<a href="/my-library/preferences" class="is-block"  >Email Preferences</a>
+
+				<a href="/logout" js-target="logout" class="is-block">Log Out</a>
+			</div>
+		</div>
+		<div class="right trigger do-not-show">
+			<reading-list class="reading-list hide-small">
+				<div style="display: flex;" class="reading-list-top" js-target="open-reading-list-overlay">
+					<div style="text-align: center; width: 30px; height: 100%;"><i style="padding: 6px 0px 6px;" class="icon icon-caret-left font-size-default"></i></div>
+					<div style="flex-grow: 1; padding: 4px 0px 4px 6px; color: #888888;" class="font-bold font-size-large baseline-shift-up">Reading List</div>
+				</div>
+			</reading-list>
+			<reading-list-mobile class="reading-list-mobile hide-medium hide-large-up">
+				<div class="mobile-top" js-target="open-reading-list-overlay">
+					<div class="right" style="padding-right: 10px;">
+						<span style="color: #888888;" class="font-bold baseline-shift-up">Reading Lists</span>
+						<span><i class="icon icon-caret-down" style="font-size: 18px;"></i></span>
+					</div>
+				</div>
+			</reading-list-mobile>
+		</div>
+	</header>
+</div>
+
+<!-- End .header -->
+				</div>
+				<div id="" class="component" data-order="2" data-type="webscript" data-moveable="false" data-params="region=persistent-banner">
+
+	<persistent-banner>
+		<section class="persistent-banner hide-for-print deactivated do-not-show" aria-label="Article count" aria-live="polite" role="dialog" aria-hidden="true">
+			<div class="banner--inner-container">
+				<div class="banner-tile article-count-message quota-msg ">
+					You have <span class="article-count"><span js-target="quota-remaining">1</span> free</span> article<span js-target="quota-plural" class="do-not-show" class="aria-hidden="true"">s</span> left this month.
+					<div class="lh-decoupled-separator"></div>
+				</div>
+				<div class="banner-tile article-count-message last-article-msg do-not-show">
+					You are reading your <span class="article-count">last free article</span> for this month.
+					<div class="lh-decoupled-separator"></div>
+				</div>
+				<div class="banner-tile sign-up-message">
+					<div class="text-cta--wrapper">
+						<div class="banner-subscribe do-not-show">
+							<a href="/subscriptions?ab=redstrip-subtout" target="_blank" rel="noopener" class="sign-up-cta" role="link">Subscribe</a> for unlimited access.
+						</div>
+						<div class="banner-register ">
+							<a href="#" class="sign-up-cta" js-target="sign-in-register--register" role="button">Create an account</a> to read 2 more.
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="icon icon-times white font-size-large" js-target="close-persistent-banner" aria-label="Close" role="button"></a>
+		</section>
+	</persistent-banner>
+				</div>
+				<div id="" class="component" data-order="4" data-type="webscript" data-moveable="false" data-params="region=article;ad-placements=title-300">
+
+
+<article-content-flex2019 class="article-content-flex2019" page-subtype="standard">
+
+
+
+	<div js-target="article-content-flex2019" class=" content-area--left-aligned">
+
+			<div class="pre-container">
+<div class="headline-wrapper">
+	<div class="top-components article-width-wrapper">
+			<div class="slug-container">
+		<a class="slug-content" href="/topic/motivating-people">
+			Motivating people
+		</a>
+	</div>
+
+
+		<div class="headline-container">
+			<h1 class="article-hed">
+				Good Leadership Is About Communicating “Why”
+			</h1>
+		</div>
+
+<div class="article-dek-group">
+	<div class="article-dek">It’s easy to get bogged down in “what” and “how.”
+		<div class="article-byline ">
+			<span class="by-prefix">by </span>
+			<ul class="article-byline-list">
+					<li class="article-author"><a href="/search?term=nancy%20duarte">Nancy Duarte</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+		<div class="article-byline detached">
+			<span class="by-prefix">by </span>
+			<ul class="article-byline-list">
+					<li class="article-author"><a href="/search?term=nancy%20duarte">Nancy Duarte</a></li>
+			</ul>
+		</div>
+
+
+<div class="pub-date">
+	May 06, 2020
+</div>
+	</div>
+</div>
+			</div>
+
+			<div class="standard--container">
+				<div class="article-width-wrapper flexed">
+
+
+<hero-image>
+	<div class="hero-image-content ">
+				<img src="/resources/images/article_assets/2020/05/May20_06_1210471414.jpg"/>
+
+
+
+	</div>
+</hero-image>
+
+
+
+	<page-utils class="article-utils--horizontal-topbar hide-small hide-for-print" data-js-target="page-utils"
+		data-id="tag:blogs.harvardbusiness.org,2007-03-31:999.260890"
+		data-title="Good Leadership Is About Communicating “Why”"
+		data-url="/2020/05/good-leadership-is-about-communicating-why"
+		data-topic="Motivating people"
+		data-authors="Nancy Duarte"
+		data-content-type="Digital Article"
+		data-content-image="/resources/images/article_assets/2020/05/May20_06_1210471414-383x215.jpg"
+		data-summary="<p>It&#8217;s easy to get bogged down in &#8220;what&#8221; and &#8220;how.&#8221;</p>
+">
+		<ul>
+			<li>
+				<a href="http://twitter.com/HarvardBiz" target="_blank" rel="noopener noreferrer" js-target="twitter-share">
+					<i class="icon icon-twitter"></i>
+					<div class="utility--icon-label">Tweet</div>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/HBR" target="_blank" rel="noopener noreferrer" js-target="facebook-share">
+					<i class="icon icon-facebook"></i>
+					<div class="utility--icon-label">Post</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/company/harvard-business-review?trk=biz-companies-cym" target="_blank" rel="noopener noreferrer" js-target="linkedin-share">
+					<i class="icon icon-linkedin"></i>
+					<div class="utility--icon-label">Share</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank" rel="noopener noreferrer" js-target="save-flyout">
+					<i class="icon icon-save"></i>
+					<div class="utility--icon-label">Save</div>
+				</a>
+			</li>
+				<li class="pdf-download hide-for-non-subscriber">
+					<a target="_blank" rel="noopener noreferrer" href="#" js-target="pdf-download-link" data-reprint-product-id="H05LAY-PDF-ENG">
+						<i class="icon icon-download-pdf"></i>
+						<div class="utility--icon-label">Get PDF</div>
+					</a>
+				</li>
+				<li class="buy-copies">
+					<a target="_blank" rel="noopener noreferrer" href="/product/good-leadership-is-about-communicating-why/H05LAY-PDF-ENG" js-target="buy-reprint-link" data-reprint-product-id="H05LAY-PDF-ENG">
+						<i class="icon icon-buy-copies"></i>
+						<div class="utility--icon-label">Buy Copies</div>
+					</a>
+				</li>
+			<li class="print-page">
+				<a href="javascript:window.print();" js-target="print-article">
+					<i class="icon icon-print"></i>
+					<div class="utility--icon-label">Print</div>
+				</a>
+			</li>
+		</ul>
+	</page-utils>
+
+
+
+
+	<div class="article-summary" more-caption="more" close-caption="close">
+		<span class="summary-header font-bold">Summary.&nbsp;&nbsp;&nbsp;</span>
+		<span class="summary-text"><p>If your boss comes to you and says, &#8220;I need you take on this additional project on top of your current work load.&#8221; What is your first question? It probably has nothing to do with the mechanics of setting your alarm or re-arranging your schedule. When someone asks you to alter a current behavior, your first question is usually <em>why</em>? Because you&#8217;re not going to try something new or hard unless you&#8217;re <em>motivated</em> to do so. Your audience is no different. If they don&#8217;t know <em>why</em> a new action is necessary, they won&#8217;t be motivated to help you.&#160;The author offers&#160;three strategies to help you get to the heart of the <em>why</em> in your next presentation.</p>
+<p>&#160;</p>
+</span>
+	</div>
+
+					<div class="article-body standard-content">
+						<div class="left-rail--container">
+	<page-utils class="article-utils--vertical hide-for-print" data-js-target="page-utils"
+		data-id="tag:blogs.harvardbusiness.org,2007-03-31:999.260890"
+		data-title="Good Leadership Is About Communicating “Why”"
+		data-url="/2020/05/good-leadership-is-about-communicating-why"
+		data-topic="Motivating people"
+		data-authors="Nancy Duarte"
+		data-content-type="Digital Article"
+		data-content-image="/resources/images/article_assets/2020/05/May20_06_1210471414-383x215.jpg"
+		data-summary="<p>It&#8217;s easy to get bogged down in &#8220;what&#8221; and &#8220;how.&#8221;</p>
+">
+		<ul>
+			<li>
+				<a href="http://twitter.com/HarvardBiz" target="_blank" rel="noopener noreferrer" js-target="twitter-share">
+					<i class="icon icon-twitter"></i>
+					<div class="utility--icon-label">Tweet</div>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/HBR" target="_blank" rel="noopener noreferrer" js-target="facebook-share">
+					<i class="icon icon-facebook"></i>
+					<div class="utility--icon-label">Post</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/company/harvard-business-review?trk=biz-companies-cym" target="_blank" rel="noopener noreferrer" js-target="linkedin-share">
+					<i class="icon icon-linkedin"></i>
+					<div class="utility--icon-label">Share</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank" rel="noopener noreferrer" js-target="save-flyout">
+					<i class="icon icon-save"></i>
+					<div class="utility--icon-label">Save</div>
+				</a>
+			</li>
+				<li class="pdf-download hide-for-non-subscriber">
+					<a target="_blank" rel="noopener noreferrer" href="#" js-target="pdf-download-link" data-reprint-product-id="H05LAY-PDF-ENG">
+						<i class="icon icon-download-pdf"></i>
+						<div class="utility--icon-label">Get PDF</div>
+					</a>
+				</li>
+				<li class="buy-copies">
+					<a target="_blank" rel="noopener noreferrer" href="/product/good-leadership-is-about-communicating-why/H05LAY-PDF-ENG" js-target="buy-reprint-link" data-reprint-product-id="H05LAY-PDF-ENG">
+						<i class="icon icon-buy-copies"></i>
+						<div class="utility--icon-label">Buy Copies</div>
+					</a>
+				</li>
+			<li class="print-page">
+				<a href="javascript:window.print();" js-target="print-article">
+					<i class="icon icon-print"></i>
+					<div class="utility--icon-label">Print</div>
+				</a>
+			</li>
+		</ul>
+	</page-utils>
+						</div>
+
+							<article-promo class="article-promo promo--inline"> 
+ <div class="translate-message translate-message-margin-bottom">
+  <a href="/2020/05/good-leadership-is-about-communicating-why?language=es">Leer en español</a>
+ </div>
+ <p class="font-sans-serif font-size-small line-height-loose font-light"><span class="font-weight-medium">In these difficult times, we’ve made <a href="/2020/08/working-through-the-covid-19-pandemic-a-reading-list">a number of our coronavirus articles</a> free for all readers.</span> To get all of HBR’s content delivered to your inbox, sign up for the <a href="/email-newsletters?ab=articlewidget-newsletter-coronavirus&amp;movetile=dailyalert">Daily Alert</a> newsletter.</p> 
+</article-promo> 
+<p>In an ongoing crisis, clear communication is more important and more difficult than when things seem normal. Employees and customers are hungry for information, so we’re tempted to pull together presentations and communicate with urgency instead of with careful planning. But if we present without addressing our audience’s core questions of <em>what</em>, <em>how</em>, and <em>why</em>, we’ll sow more confusion than we bring clarity.</p> 
+<p>At my company, we rework thousands of talks each year for large brands and high-powered executives. When their communications are high-stakes, most of our clients come to us prepared with <em>what</em> needs to happen and <em>how</em>, but they’ve rarely answered the question <em>why</em>.</p> 
+<p>So, <em>why</em> answer <em>why</em>?</p> 
+<p>Let’s put it this way: If your boss comes to you and says, “I need you take on this additional project on top of your current work load,” what is your first question going to be? It probably has nothing to do with setting your alarm, re-arranging your schedule, or any other version of <em>how</em> you’re going to get the extra work done. When someone asks you to alter a current behavior, your first question is usually <em>why</em>? Because you’re not going to try something new or hard unless you’re <em>motivated</em> to do so.</p> 
+<p>Your audience is no different. If they don’t know <em>why</em> a new action is necessary, they won’t be motivated to help you. They’ll continue with their current comfortable behaviors, thank you very much.</p> 
+<p>Communicators often overlook answering <em>why</em> for two key reasons:</p> 
+<ul> 
+ <li>They assume explaining <em>what</em> and <em>how</em> is the fastest way to influence their audience.</li> 
+ <li>They think the answer to <em>why</em> is so self-evident it doesn’t need unpacking.</li> 
+</ul> 
+<p>Think about a difficult situation where it’s critical for people to rally and align. Something as simple as a team-defining internal initiative or something as grand as pulling out of the economic crisis we’re in right now. Let’s say you are confident that if your audience executes your plan, your company will pull out unscathed. You know how to do it. You pour all those insights into a passionate presentation. You get a smattering of applause and then…nothing happens.</p> 
+<p>Have you been there? You’ve worked through your scenarios, planning, research, validation and poured energy into communicating “what” needs to happen and “how” to do it. You’ve walked away disappointed by the lack of response from the very people whose lives will be improved if they would simply do “what” you said “how” you said to do it.</p> 
+<p>Let’s dissect this example a bit more.</p> 
+<article-promo class="article-promo promo--half"> 
+ <h4 class="promo-title">Further Reading</h4> 
+ <div class="promo-contents"> 
+  <ul> 
+   <li> 
+    <div class="overflow-auto"> 
+     <figure class="left product-thumb"> 
+      <img src="/resources/images/article_assets/2020/06/10449_500.png"> 
+     </figure> 
+     <div class="product-thumb-margin"> 
+      <h6 class="hed mbs"><a href="https://store.hbr.org/product/coronavirus-leadership-and-recovery-the-insights-you-need-from-harvard-business-review/10449?referral=02560">Coronavirus: Leadership and Recovery</a></h6> 
+      <div class="stream-item-info"> 
+       <span class="topic">Leadership &amp; Managing People</span> 
+       <span class="content-type">Book</span> 
+       <ul class="byline byline-list line-height-tight"></ul> 
+       <!-- author could be none, one or many. If none, delete the full line above. If many, add <li>AUTHOR</li> before final </ul> for each additional author. No spaces or commas. --> 
+       <div class="mvs"> 
+        <span class="price">22.95</span> 
+        <add-to-cart class="add-to-cart is-inline-block" data-type="Digital" data-product-title="Coronavirus: Leadership and Recovery" data-product-major-topic="Leadership &amp; Managing People" data-product-author="" data-product-price="22.95" data-product-image="/resources/images/article_assets/2020/06/10449_500.png" data-product-id="10449-KND-ENG" data-product-url="https://store.hbr.org/product/coronavirus-leadership-and-recovery-the-insights-you-need-from-harvard-business-review/10449?referral=02560" data-product-content-type="Book" data-product-format="English Paperback"> 
+         <input type="hidden" js-target="item-quantity" value="1"> 
+         <a href="#" js-target="add" class="alt-action pts mls">Add to Cart</a> 
+        </add-to-cart> 
+       </div> 
+       <stream-item class="stream-item" data-id="10449-KND-ENG" data-title="Coronavirus: Leadership and Recovery" data-url="https://store.hbr.org/product/coronavirus-leadership-and-recovery-the-insights-you-need-from-harvard-business-review/10449?referral=02560" data-topic="Leadership &amp; Managing People" data-image="/resources/images/article_assets/2020/06/10449_500.png" data-summary="" data-authors="" data-content-type="Book" data-item-selectable="false" data-item-activity="false"> 
+        <!-- utility --> 
+        <ul class="stream-utility"> 
+         <li class="utility util-save"><a href="#" js-target="save-flyout"><i class="icon icon-file-text-o"></i> Save</a></li> 
+         <li class="utility util-share"><a href="#" js-target="share-flyout"><i class="icon icon-share-square-o"></i> Share</a></li> 
+        </ul> 
+       </stream-item> 
+      </div> 
+     </div> 
+    </div></li> 
+  </ul> 
+ </div> 
+</article-promo> 
+<div class="promo--right"> 
+ <div class="advertising"> 
+  <div id="DFP_IC_pos3"> 
+   <script type="text/javascript">googletag.cmd.push(function() { googletag.display("DFP_IC_pos3"); });</script> 
+  </div> 
+ </div> 
+</div> 
+<p>Leaders explain the <em>what</em> of their insights and the <em>how</em> of applying the findings. This is how most leaders approach their talks, especially professionals who are <a href="/2016/09/how-experts-can-help-a-general-audience-understand-their-ideas">deep subject matter experts</a>. They focus on the content they want to share. Many leaders don’t even consider the <em>why</em> from the audience perspective because it seems so self-evident to them, they think it’s obvious to everyone.</p> 
+<p>On the other hand, let’s say you inject your talk with a compelling <em>why </em>— “We can reduce secondary infection rates by 40%, saving thousands of lives” or “We can reach more people and help them advance their careers if we release our content for free.” Answering “why” often leads to a human, who will benefit from the action you’re asking people to take. It suddenly matters.</p> 
+<p>There’s a good chance your <em>why</em> won’t be as clear cut as the example above. So here are three strategies to help you get to the heart of the <em>why</em> in your next presentation.</p> 
+<h3><strong>Ask some good <em>what</em> questions.</strong></h3> 
+<p>The answers to <em>why</em> often hide in our subconscious, and you may have to coax them out. Sometimes, you can get to <em>why</em> by asking yourself a few good “<em>what” </em>questions such as: What is at stake if we do or do not do this? What will the future look like if we get this done? What would the state of the human condition be if we did or didn’t do this?&nbsp;Another way to get to why is to have someone else ask you “so what” until you can’t answer it anymore. That’ll get you to the root of “why.”</p> 
+<h3><strong>Follow up with <em>because.</em></strong></h3> 
+<p>Just <em>considering</em> the <em>why </em>isn’t enough — you have to clearly articulate the <em>why</em>. Think about what action you’re asking your audience to take, and then follow it with “because.”</p> 
+<p>For example, “We need to improve our process, because ____.” Whatever reason follows a “we need to ______, because _______ .” Whatever that second blank is, will answer the question of “why.”</p> 
+<h3><strong>State alternate perspectives.</strong></h3> 
+<p>Address skeptics and resistance by addressing potential perspectives you’ve eliminated. It might sound counterintuitive to reveal anything <em>other</em> than the action you’re influencing them to take, but you can better persuade an audience by sharing ideas you abandoned and, you guessed it, “why” you’ve eliminated them. By sharing the ideas that you considered, explored, tested, and then abandoned, you’ll demonstrate that you’ve thought through all the possibilities.</p> 
+<p>Answering <em>why</em> is an act of empathy and adds a layer of persuasion to your communications. When people know <em>why</em> they’re being asked to do something, they’re much more likely to do it.</p> 
+<p>In times like these, your customers and your employees need your wisdom and leadership more than ever, and you have a unique opportunity to move them forward in the midst of uncertainty. As you seek to inspire and motivate them to do the next right thing, don’t forget to include the <em>why.&nbsp;</em></p> 
+<article-promo class="article-promo promo--inline"> 
+ <p class="font-sans-serif font-size-small line-height-loose font-light ptxl has-no-border"><span class="font-weight-medium">If our content helps you to contend with coronavirus and other challenges, please consider <a href="https://w1.buysub.com/servlet/ConvertibleGateway?cds_mag_code=HVR&amp;cds_page_id=238054&amp;cds_response_key=I91NWEB3&amp;ab=articlewidget-subtout-coronavirus">subscribing to HBR</a>.</span> A subscription purchase is the best way to support the creation of these resources.</p> 
+</article-promo>
+					</div>
+				</div>
+
+				<div class="right-rail--container">
+					<div class="right-rail--inner">
+		<div class="advertising hide-for-article-small hide-for-print">
+			<div id='DFP_TITLE_pos2'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_TITLE_pos2'); });</script></div>
+		</div>
+
+<div class="ecommerce-module hide-for-article-small hide-for-print">
+	<personalization-placement class="personalization-placement" data-placement-id="right_rail3"></personalization-placement>
+</div>
+
+      <div class="related-topics--common related-topics--textnotmobile hide-for-print">
+        <span class="related-topics--links">Read more on <a href="/topic/motivating-people?ab=articlepage-topic"><strong>Motivating people</strong></a>
+            or related topics
+            <a href="/topic/communication?ab=articlepage-topic"><strong>Communication</strong></a> and <a href="/topic/presentations?ab=articlepage-topic"><strong>Presentations</strong></a>
+        </span>
+      </div>
+					</div>
+				</div>
+			</div>
+
+
+		<div class="post-container">
+
+			<div class="article-width-wrapper">
+
+	<ul class="author-bio author-bio--mobile-only">
+	<li>
+		<div>
+				<author-avatar data-url data-author-name="Nancy Duarte" data-js-target="author-avatar">
+					ND
+				</author-avatar>
+		</div>
+		<div>
+					<span>
+						<a href="/search?term=nancy%20duarte&search_type=search-all">Nancy Duarte</a> is a best-selling author with thirty years of CEO-ing under her belt. She&#8217;s driven her firm, <a href="https://www.duarte.com/" target="_blank">Duarte, Inc.,</a> to be the global leader behind some of the most influential messages and visuals in business and culture. Duarte, Inc., is the largest design firm in Silicon Valley, as well as one of the top woman-owned businesses in the area. Nancy has written six best-selling books, four have won awards, and her new book, <em><a href="https://www.amazon.com/DataStory-Explain-Inspire-Action-Through/dp/1940858984" target="_blank">DataStory: Explain Data and Inspire Action Through Story</a>,</em> is available now. Follow Duarte on Twitter: <a href="http://twitter.com/nancyduarte/" target="_blank">@nancyduarte</a> or <a href="https://www.linkedin.com/in/nancyduarte/" target="_blank">LinkedIn</a>.
+					</span>
+		</div>
+	</li>
+	</ul>
+
+	<page-utils class="article-utils--horizontal hide-for-print" data-js-target="page-utils"
+		data-id="tag:blogs.harvardbusiness.org,2007-03-31:999.260890"
+		data-title="Good Leadership Is About Communicating “Why”"
+		data-url="/2020/05/good-leadership-is-about-communicating-why"
+		data-topic="Motivating people"
+		data-authors="Nancy Duarte"
+		data-content-type="Digital Article"
+		data-content-image="/resources/images/article_assets/2020/05/May20_06_1210471414-383x215.jpg"
+		data-summary="<p>It&#8217;s easy to get bogged down in &#8220;what&#8221; and &#8220;how.&#8221;</p>
+">
+		<ul>
+			<li>
+				<a href="http://twitter.com/HarvardBiz" target="_blank" rel="noopener noreferrer" js-target="twitter-share">
+					<i class="icon icon-twitter"></i>
+					<div class="utility--icon-label">Tweet</div>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/HBR" target="_blank" rel="noopener noreferrer" js-target="facebook-share">
+					<i class="icon icon-facebook"></i>
+					<div class="utility--icon-label">Post</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/company/harvard-business-review?trk=biz-companies-cym" target="_blank" rel="noopener noreferrer" js-target="linkedin-share">
+					<i class="icon icon-linkedin"></i>
+					<div class="utility--icon-label">Share</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank" rel="noopener noreferrer" js-target="save-flyout">
+					<i class="icon icon-save"></i>
+					<div class="utility--icon-label">Save</div>
+				</a>
+			</li>
+				<li class="pdf-download hide-for-non-subscriber">
+					<a target="_blank" rel="noopener noreferrer" href="#" js-target="pdf-download-link" data-reprint-product-id="H05LAY-PDF-ENG">
+						<i class="icon icon-download-pdf"></i>
+						<div class="utility--icon-label">Get PDF</div>
+					</a>
+				</li>
+				<li class="buy-copies">
+					<a target="_blank" rel="noopener noreferrer" href="/product/good-leadership-is-about-communicating-why/H05LAY-PDF-ENG" js-target="buy-reprint-link" data-reprint-product-id="H05LAY-PDF-ENG">
+						<i class="icon icon-buy-copies"></i>
+						<div class="utility--icon-label">Buy Copies</div>
+					</a>
+				</li>
+			<li class="print-page">
+				<a href="javascript:window.print();" js-target="print-article">
+					<i class="icon icon-print"></i>
+					<div class="utility--icon-label">Print</div>
+				</a>
+			</li>
+		</ul>
+	</page-utils>
+			</div>
+			
+
+			<div class="article-width-wrapper">
+      <div class="related-topics--common related-topics--textmobile hide-for-print">
+        <span class="related-topics--links">Read more on <a href="/topic/motivating-people?ab=articlepage-topic"><strong>Motivating people</strong></a>
+            or related topics
+            <a href="/topic/communication?ab=articlepage-topic"><strong>Communication</strong></a> and <a href="/topic/presentations?ab=articlepage-topic"><strong>Presentations</strong></a>
+        </span>
+      </div>
+
+					<div class="next-in-placement hide-for-print">
+						<personalization-placement class="personalization-placement" data-placement-id="bottom1"></personalization-placement>
+					</div>
+			</div>
+		</div>
+	</div>
+
+</article-content-flex2019>
+				</div>
+				<div id="" class="component" data-order="5" data-type="webscript" data-moveable="false" data-params="region=site-paywall">
+
+
+				</div>
+				<div id="" class="component" data-order="97" data-type="webscript" data-moveable="false" data-params="region=openx;location=partner-center">
+		<section class="partner-center row clearfix" js-target="openx-container">
+			<div class="column cushion partner-center__container">
+				<div class="row">
+					<div class="small-12 column">
+						<h4 class="section-label">Partner Center</h4>
+					</div>
+				</div>
+				<div class="partner-center__ads-container">
+						<div class="ad-container ad-230 partner-center__ad">
+							<div id='DFP_PC_pos11'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_PC_pos11'); });</script></div>
+						</div>
+						<div class="ad-container ad-230 partner-center__ad">
+							<div id='DFP_PC_pos12'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_PC_pos12'); });</script></div>
+						</div>
+						<div class="ad-container ad-230 partner-center__ad">
+							<div id='DFP_PC_pos13'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_PC_pos13'); });</script></div>
+						</div>
+						<div class="ad-container ad-230 partner-center__ad">
+							<div id='DFP_PC_pos14'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_PC_pos14'); });</script></div>
+						</div>
+				</div>
+			</div>
+		</section>
+				</div>
+				<div id="" class="component" data-order="98" data-type="webscript" data-moveable="false" data-params="region=global-nav">
+<!-- Global Navigation -->
+<global-nav class="global-nav flex-col  hide-for-print hide-medium-down" data-state="" data-page="article" role="navigation">
+	<div class="phl top-header--horizontal-list ">
+			<a href="/insight-center/race-equity-and-power-at-work" class="link--black " track-target="global-nav-link--diversity" >Diversity</a>
+			<a href="/the-latest" class="link--black " track-target="global-nav-link--the-latest" >Latest</a>
+			<a href="/magazine" class="link--black " track-target="global-nav-link--magazine" >Magazine</a>
+			<a href="/most-popular" class="link--black " track-target="global-nav-link--most-popular" >Popular</a>
+			<a href="/topics" class="link--black " track-target="global-nav-link--topics" >Topics</a>
+			<a href="/podcasts" class="link--black " track-target="global-nav-link--podcasts" >Podcasts</a>
+			<a href="/video" class="link--black " track-target="global-nav-link--video" >Video</a>
+			<a href="/store" class="link--black " track-target="global-nav-link--store" >Store</a>
+			<a href="/big-ideas" class="link--black " track-target="global-nav-link--big-idea" >The Big Idea</a>
+			<a href="/visual-library" class="link--black " track-target="global-nav-link--visual-library" >Visual Library</a>
+			<a href="/case-selections" class="link--black " track-target="global-nav-link--case-selection" >Case Selections</a>
+	</div>
+</global-nav>
+				</div>
+				<div id="" class="component" data-order="99" data-type="static-content" data-moveable="false" data-params="document=footer">
+     <!-- Begin Footer -->   <footer class="footer hide-for-print flex-row justify-center">   <div class="has-border-top footer-container">    <div class="backdrop-white hide-for-print mbs">     <div class="footer-container--top mt-large2 mb-large2">      <span class="footer-logo"><a href="/"><img src="/resources/css/images/hbr_logo.svg" alt="Harvard Business Review Home" class="logo"></a>      </span>      <div class="panel-container">       <div class="panel-inner-container">        <span class="panel nowrap flex-col text-center justify-center">         <personalization-placement class="personalization-placement is-inline-block no" data-placement-id="subscribe_now_footer_engage">          <a href="/subscriptions?ab=footer-subtout" class="link--black justify-center align-items-center flex-row nowrap font-size-large font-heavy"><b class="top-header--subscribe">Subscribe</b></a>         </personalization-placement>        </span>        <span class="placeholder">        </span>       </div>      </div>     </div>     <footer-menu>      <div class="footer-content--container flex-row-wrap justify-between flex-direction--row">       <div js-target="footer-item" class="footer-content--list flex-col">        <div class="flex-row justify-between">         <h6>Explore HBR</h6>         <span class="footer-item--arrow icon icon-caret-right font-size-medium mbm mtm"></span>        </div>        <ul class="no-bullet tidy-list--small hide-for-small--list mbn">         <li><a href="/the-latest">The Latest</a></li>         <li><a href="/most-popular">Most Popular</a></li>         <li><a href="/topics">All Topics</a></li>         <li><a href="/magazine">Magazine Archive</a></li>         <li><a href="/big-ideas">The Big Idea</a></li>         <li><a href="/reading-lists">Reading Lists</a></li>         <li><a href="/case-selections">Case Selections</a></li>         <li><a href="/video">Video</a></li>         <li><a href="/podcasts">Podcasts</a></li>         <li><a href="/webinars">Webinars</a></li>         <li><a href="/visual-library">Visual Library</a></li>         <li><a href="/my-library">My Library</a></li>         <li><a href="/email-newsletters">Newsletters</a></li>         <li><a href="/hbrpress">HBR Press</a></li>         <li><a href="/insight-center/ascend">HBR Ascend</a></li>        </ul>       </div>       <div js-target="footer-item" class="footer-content--list flex-col">        <div class="flex-row justify-between">         <h6>HBR Store</h6>         <span class="footer-item--arrow icon icon-caret-right font-size-medium mbm mtm"></span>        </div>        <ul class="no-bullet tidy-list--small hide-for-small--list mbn">         <li><a href="/store/articles">Article Reprints</a></li>         <li><a href="/store/books">Books</a></li>         <li><a href="/store/case-studies">Cases</a></li>         <li><a href="/store/collections">Collections</a></li>         <li><a href="/store/magazine-issues">Magazine Issues</a></li>         <li><a href="/store/landing/guides">HBR Guide Series</a></li>         <li><a href="/store/landing/20-minute-managers">HBR 20-Minute Managers</a></li>         <li><a href="/store/landing/emotional-intelligence-series">HBR Emotional Intelligence Series</a></li>         <li><a href="/store/landing/mustreads">HBR Must Reads</a></li>         <li><a href="/store/tools">Tools</a></li>        </ul>       </div>       <div js-target="footer-item" class="footer-content--list flex-col">        <div class="flex-row justify-between">         <h6>About HBR</h6>         <span class="footer-item--arrow icon icon-caret-right font-size-medium mbm mtm"></span>        </div>        <ul class="no-bullet tidy-list--small hide-for-small--list mbn">         <li><a href="/contact-us">Contact Us</a></li>         <li><a href="/hbr-advertising-sales">Advertise with Us</a></li>         <li><a href="/booksellers-retailers">Information for Booksellers/Retailers</a></li>         <li><a href="/about-hbr">Masthead</a></li>         <li><a href="/global-editions">Global Editions</a></li>         <li><a href="/media-inquiries">Media Inquiries</a></li>         <li><a href="/guidelines-for-authors-web">Guidelines for Authors</a></li>         <li><a href="/hbr-analytic-services">HBR Analytic Services</a></li>         <li><a href="/permissions">Copyright Permissions</a></li>        </ul>       </div>       <div js-target="footer-item" class="footer-content--list flex-col">        <div class="flex-row justify-between">         <h6>Manage My Account</h6>         <span class="footer-item--arrow icon icon-caret-right font-size-medium mbm mtm"></span>        </div>        <ul class="no-bullet tidy-list--small hide-for-small--list mbn">         <li><a href="/my-library" js-target="validate-user-signed">My Library</a></li>         <li><a href="/my-library/topics" js-target="validate-user-signed">Topic Feeds</a></li>         <li><a href="/my-library/orders" js-target="validate-user-signed">Orders</a></li>         <li><a href="/my-library/settings" js-target="validate-user-signed">Account Settings</a></li>         <li><a href="/my-library/preferences" js-target="validate-user-signed">Email Preferences</a></li>         <li><a href="/subscriber-help">Account FAQ</a></li>         <li><a href="https://hbphelp.zendesk.com/hc/en-us">Help Center</a></li>         <li><a href="/subscriber-help#contact-customer-service">Contact Customer Service</a></li>        </ul>       </div>       <div class="footer-content--list footer-content--last-list flex-col">        <div class="flex-row justify-between">         <h6>Follow HBR</h6>        </div>        <ul class="icon-ul tidy-list--small mbn">         <li><i class="icon-li icon icon-facebook"></i> <a href="http://www.facebook.com/HBR">Facebook</a></li>         <li><i class="icon-li icon icon-twitter"></i> <a href="http://twitter.com/HarvardBiz">Twitter</a></li>         <li><i class="icon-li icon icon-linkedin"></i> <a href="https://www.linkedin.com/company/harvard-business-review?trk=biz-companies-cym">LinkedIn</a></li>         <li><i class="icon-li icon icon-instagram"></i> <a href="https://www.instagram.com/harvard_business_review/?hl=en">Instagram</a></li>         <li><i class="icon-li icon line-height-very-very-tight icon-newsreader"></i> <a href="http://feeds.hbr.org/harvardbusiness/">Your Newsreader</a></li>        </ul>       </div>      </div>     </footer-menu>    <div class="flex-row mbl mt-large2">     <div class="footer-logo hide-for-small">      <figure class="mts">       <img src="/resources/images/2018/new_logo_May11.png" alt="Harvard Business Publishing" class="medium-6" />      </figure>     </div>     <div class="flex-direction--row mbl hide-for-small--list copyright-block">      <ul class="piped-inline-list is-inline mbn pbn hide-for-small flex-row flex-direction--row copyright">       <li><a href="/corporate/about" class="copyright">About Us</a></li>       <li><a href="/corporate/careers" class="copyright">Careers</a></li>       <li><a href="/privacy-policy" class="copyright">Privacy Policy</a></li>       <li><a href="/corporate/copyright" class="copyright">Copyright Information</a></li>       <li><a href="http://trademark.harvard.edu/pages/trademark-notice" class="copyright">Trademark Policy</a></li>      </ul><br />     <div class="copyright is-inline mrs hide-for-small">Harvard Business Publishing:</div>      <ul class="piped-inline-list is-inline copyright hide-for-small flex-row flex-direction--row">       <li><a href="http://hbsp.harvard.edu/" class="copyright">Higher Education</a></li>       <li><a href="http://www.harvardbusiness.org" class="copyright">Corporate Learning</a></li>       <li><a href="http://hbr.org/" class="copyright">Harvard Business Review</a></li>       <li><a href="http://www.hbs.edu" class="copyright">Harvard Business School</a></li>      </ul>      <div class="copyright flex-row flex-direction--row">Copyright &copy; 2020 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Business School.</div>      </div>    </div>   </div>   </div>   </footer>   <!-- End Footer -->    
+				</div>
+	</div><!-- javascript -->
+		<script src="/resources/js/common_c4cf5d8c20f12b15.js"></script>
+			<script src="https://embed-player.newsoveraudio.com/scripts/embed-audio-player.js"></script>
+			<script src="/resources/js/pages/article_54785f360fe09568.js"></script>
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "14457509" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=14457509&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+<script type="text/javascript">_satellite.pageBottom();</script>
+    <div id="captchaTarget" class="captcha-container is-hidden"></div>
+	</body>
+</html>

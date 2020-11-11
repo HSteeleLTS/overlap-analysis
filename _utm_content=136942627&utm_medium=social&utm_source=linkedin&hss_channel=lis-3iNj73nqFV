@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie lt-ie-modern lt-ie8 lt-ie7 mit-user " lang="en-US" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie lt-ie-modern lt-ie8 mit-user " lang="en-US" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie lt-ie-modern mit-user " lang="en-US" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><![endif]-->
+<!--[if gt IE 8]><html class="no-js ie ie-modern mit-user " lang="en-US" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><![endif]-->
+<!--[if !IE]><!--><html class="no-js mit-user " lang="en-US" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><!--<![endif]-->
+<head>
+
+    
+	<title>Four Storytelling Techniques to Bring Your Data to Life</title>
+
+	<meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwUEV1ZWGwICUlRTAQIEXg==",licenseKey:"2362c7daf3",applicationID:"126516338"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(23),c={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,i.indexOf("dev")!==-1&&(c.dev=!0),i.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&o.on("internal-error",function(t){r(t.stack)}),c.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{p?p-=1:i(c||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:s.now();o("err",[t,n])}var o=t("handle"),a=t(24),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),s.xhrWrappable&&t(10),d=!0)}c.on("fn-start",function(t,e,n){d&&(p+=1)}),c.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),c.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),c.on("internal-error",function(t){o("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var i=t("ee"),o=t("handle"),a=t(9),c=t(8),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;i.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),i.on(w,function(t,e){var n=t[0];n instanceof x&&o("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),this.bstType])}),c.on(m,function(){this.bstStart=y.now()}),c.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),i.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),i.on(g+h,function(t){o("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){c.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),c=t("wrap-function")(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var c=r.apply(this,t);return i.emit(n+"start",[t,a],c),c.then(function(t){return i.emit(n+"end",[null,t],c),t},function(t){throw i.emit(n+"end",[t],c),t})})}var i=t("ee").get("fetch"),o=t(24),a=t(23);e.exports=i;var c=window,s="fetch-",f=s+"body-",u=["arrayBuffer","blob","json","text","formData"],d=c.Request,l=c.Response,p=c.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(c,"fetch",s),i.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(s+"done",[null,e],n)}else i.emit(s+"done",[t],n)}))},{}],7:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],9:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(s+u,r),o.on(c+u,i)},{}],10:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",c)}function o(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(v,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,e,n){function r(t){if(!c(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),w=Date.now(),v={spanId:h,traceId:m,timestamp:w};return(t.sameOrigin||s(t)&&l())&&(v.traceContextParentHeader=i(h,m),v.traceContextStateHeader=o(h,w,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&s(t)&&d())&&(v.newrelicHeader=a(h,m,w,n,r,f)),v}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",c=1,s="",f="";return i+"@nr="+o+"-"+c+"-"+n+"-"+r+"-"+t+"-"+a+"-"+s+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var c={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(c.d.tk=o),btoa(JSON.stringify(c))}function c(t){return f()&&s(t)}function s(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(20),h=t(13);e.exports={generateTracePayload:r,shouldGenerateTrace:c}},{}],12:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime]))}}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=s(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function o(t,e){t.params.status=e.status;var n=w(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<l;c++)e.addEventListener(d[c],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof v&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url&&(n=t[0].url),n&&(this.parsedOrigin=s(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)})}},{}],13:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,c=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||c),"/"===i.pathname&&(r[t]=i),i}},{}],14:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(16);e.exports=r},{}],15:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(23),c=t(24),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],16:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],17:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],18:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(25);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],19:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!w){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),w=!0,d("timing",["fi",e,n])}}function c(t){d("pageHide",[l.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var s,f,u,d=t("handle"),l=t("loader"),p=t(22),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var w=!1,v=["click","keydown","mousedown","pointerdown","touchstart"];v.forEach(function(t){document.addEventListener(t,a,!1)})}p(c)}},{}],20:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)i=o[c],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],21:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,s=c.match(a);s&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=s[1])}e.exports={agent:i,version:o,match:r}},{}],22:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],23:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],24:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],25:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?s(t,c,o):o()}function n(n,r,i,o){if(!l.aborted||o){t&&t(n,r,i);for(var a=e(i),c=m(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([x,n,r,a]),a}}function p(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function w(t){return d[t]=d[t]||i(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var g={},y={},x={on:p,addEventListener:p,removeEventListener:h,emit:n,get:w,listeners:m,context:e,buffer:v,abort:a,aborted:!1};return x}function o(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(23),u={},d={},l=e.exports=i();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(g,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+x.offset],null,"api"),c("timing",["load",n]);var r=l.createElement("script");r.src="https://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+x.offset],null,"api")}var a=t(18),c=t("handle"),s=t(23),f=t("ee"),u=t(21),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},y=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:a.getLastTimestamp(),now:a,origin:v,features:{},xhrWrappable:y,userAgent:u};t(15),t(19),l[p]?(l[p]("DOMContentLoaded",o,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",i),d[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var b=0},{}],"wrap-function":[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var i=t("ee"),o=t(24),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,i){function nrWrapper(){var r,a,c,s;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,i],c])}u(e+"start",[r,a,i],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,i,o){i||(i="");var a,c,s,f="-"===i.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+i:i,o,c))}function u(n,r,i){if(!s||e){var o=s;s=!0;try{t.emit(n,r,i,e)}catch(a){l([a,n,r,i])}s=o}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var i in t)c.call(t,i)&&(e[i]=t[i]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=i),n.inPlace=f,n.flag=a,n}},{}]},{},["loader",2,12,4,3]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<meta name="apple-mobile-web-app-title" content="Four Storytelling Techniques to Bring Your Data to Life">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+	<meta http-equiv="cleartype" content="on" />
+
+    	<script>
+
+		var pixelRatio = ((window.devicePixelRatio === undefined) ? 1 : window.devicePixelRatio);
+		var date = new Date();
+		date.setTime( date.getTime() + (365 * 24 * 60 * 60 * 1000) );
+		var expires = "" + date.toGMTString();
+		document.cookie = 'devicePixelRatio=' + pixelRatio + '; expires=' + expires + '; path=/';
+
+	</script>
+	
+    <meta name="title" property="og:title" content="Four Storytelling Techniques to Bring Your Data to Life | Nancy Duarte" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sloanreview.mit.edu/article/four-storytelling-techniques-to-bring-your-data-to-life/" />
+<meta property="og:image" content="https://sloanreview.mit.edu/wp-content/uploads/2020/01/nancy-duarte_headshot-1200x627-1200x627.jpg" />
+<meta property="og:site_name" content="MIT Sloan Management Review" />
+<meta property="fb:admins" content="713188" />
+<meta property="fb:app_id" content="137774170174516" />
+<meta name="description" property="og:description"  content="Leaders can have more influence if they emphasize the people behind the numbers." />
+	<meta property="article:author" content="Nancy Duarte" />
+	<meta property="article:image" content="https://sloanreview.mit.edu/wp-content/uploads/2020/01/GEN-Duarte-People-Data-Storytelling-2400-382x255.jpg" />
+
+<meta name="contenttype" content="Blog/Column" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Four Storytelling Techniques to Bring Your Data to Life | Nancy Duarte | MIT Sloan Management Review" />
+<meta name="twitter:url" content="https://sloanreview.mit.edu/article/four-storytelling-techniques-to-bring-your-data-to-life/" />
+<meta name="twitter:image" content="https://sloanreview.mit.edu/wp-content/uploads/2020/01/nancy-duarte_headshot-1200x627-1200x627.jpg" />
+<meta name="twitter:description" content="Leaders can have more influence if they emphasize the people behind the numbers." />
+<meta name="twitter:site" content="@mitsmr">
+<meta name="twitter:site:id" content="15692087" />
+
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://sloanreview.mit.edu/wp-content/themes/smr/img/apple-touch-icon-144x144-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://sloanreview.mit.edu/wp-content/themes/smr/img/apple-touch-icon-114x114-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://sloanreview.mit.edu/wp-content/themes/smr/img/apple-touch-icon-72x72-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" href="https://sloanreview.mit.edu/wp-content/themes/smr/img/apple-touch-icon-precomposed.png" />
+	<link rel="shortcut icon" href="https://sloanreview.mit.edu/wp-content/themes/smr/img/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="https://sloanreview.mit.edu/wp-content/themes/smr/img/favicon.ico" type="image/x-icon" />
+    
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/rok1zwb.css"> -->
+
+    <link rel='dns-prefetch' href='//api.queryly.com' />
+
+            <link rel="amphtml" href="https://sloanreview.mit.edu/article/four-storytelling-techniques-to-bring-your-data-to-life/amp">
+	
+	<link rel="alternate" type="application/rss+xml" title="MIT Sloan Management Review RSS Feed" href="http://feeds.feedburner.com/mitsmr" />
+
+
+	<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//www.queryly.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="MIT Sloan Management Review &raquo; Four Storytelling Techniques to Bring Your Data to Life Comments Feed" href="https://sloanreview.mit.edu/article/four-storytelling-techniques-to-bring-your-data-to-life/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/sloanreview.mit.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://sloanreview.mit.edu/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='smr-css'  href='https://sloanreview.mit.edu/wp-content/themes/smr/assets/css/smr.css?ver=1.0.40' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css-css'  href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css?ver=5.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-content/themes/smr/src/scripts/skrollr.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://code.jquery.com/jquery-1.8.3.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://www.googletagservices.com/tag/js/gpt.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-content/themes/smr/assets/js/scripts.js?ver=1.0.40'></script>
+<script type='text/javascript' src='https://www.queryly.com/js/queryly.v4.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://www.queryly.com/js/mitsloan-advanced-search.js?ver=5.4.2'></script>
+<link rel='https://api.w.org/' href='https://sloanreview.mit.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sloanreview.mit.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sloanreview.mit.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='The Best of This Week' href='https://sloanreview.mit.edu/article/best-of-this-week-disruptive-innovation-crowds/' />
+<link rel='next' title='The Future of Platforms' href='https://sloanreview.mit.edu/article/the-future-of-platforms/' />
+<link rel="canonical" href="https://sloanreview.mit.edu/article/four-storytelling-techniques-to-bring-your-data-to-life/" />
+<link rel='shortlink' href='https://sloanreview.mit.edu/?p=73004' />
+			<meta property="fb:pages" content="160225016065" />
+			<link rel='amphtml' href='https://sloanreview.mit.edu/article/four-storytelling-techniques-to-bring-your-data-to-life/amp/' />	<style>
+		.wpsp_arrow_pagi {
+			cursor: pointer;
+		}
+	</style>
+
+	<script>
+    document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+    var setNptTechAdblockerCookie = function(adblocker) {
+        var d = new Date();
+        d.setTime(d.getTime() + 60 * 5 * 1000);
+        document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
+    };
+    var script = document.createElement("script");
+    script.setAttribute("async", true);
+    script.setAttribute("src", "//www.npttech.com/advertising.js");
+    script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
+    document.getElementsByTagName("head")[0].appendChild(script);
+</script>		<!-- Begin dataLayer Handler -->
+		<script type="text/javascript">
+			function tagLinkEvent(name)
+			{
+				dataLayer.push({'event': name});
+			}
+						dataLayer = [{
+				'Paywall Type':'Free'			}];
+		</script>
+	
+    <script>
+			var googletag = googletag || {};
+			googletag.cmd = googletag.cmd || [];
+		</script>
+		<script> 
+		var desktopMapping = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([801, 200], [300, 250]).
+		build();
+
+		var desktopMappingTall = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([801, 200], [300, 600]).
+		build();
+	   
+	  	var mobileMapping = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([300, 200], [300, 250]).
+		addSize([801, 200], []).
+		build();
+
+		var desktopMappingLp = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([971, 200], [300, 250]).
+		build();
+
+		var desktopMappingThinLp = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([971, 200], [970, 90]).
+		build();
+
+		var desktopMappingTallLp = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([971, 200], [300, 600]).
+		build();
+
+		var desktopMappingLargeLp = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([971, 200], [970, 250]).
+		build();
+
+		var desktopMappingInterLp = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([801, 200], [640, 480]).
+		build();
+	   
+	  	var mobileMappingLp = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([300, 200], [300, 250]).
+		addSize([971, 200], []).
+		build();
+
+		var mobileMappingThinLp = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([300, 200], [320, 50]).
+		addSize([971, 200], []).
+		build();
+
+		var mobileMappingInterLp = googletag.sizeMapping().
+		addSize([0, 0], []).
+		addSize([300, 200], [300, 110]).
+		addSize([801, 200], []).
+		build();
+		</script>
+		<script> 
+			googletag.cmd.push(function() {googletag.defineSlot('/21804951364/dfp_article_pos1', [[970, 250], [970, 90]], 'div-gpt-ad-1582570989952-0').defineSizeMapping(desktopMappingLargeLp).addService(googletag.pubads());googletag.defineSlot('/21804951364/dfp_pos1', [970, 90], 'div-gpt-ad-1582571941736-0').defineSizeMapping(desktopMappingThinLp).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_Mobile_pos1_320x50', [320, 50], 'div-gpt-ad-1582855066616-0').defineSizeMapping(mobileMappingThinLp).addService(googletag.pubads());googletag.defineSlot('/21804951364/dfp_interstitial_640x480', [640, 480], 'div-gpt-ad-1582850354638-0').defineSizeMapping(desktopMappingInterLp).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_Mobile_Interstitial_300x110', [300, 110], 'div-gpt-ad-1555621206875-0').defineSizeMapping(mobileMappingInterLp).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_FOOTER_pos8_300x250', [300, 250], 'div-gpt-ad-1582853550534-0').defineSizeMapping(desktopMappingLp).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_Mobile_Footer_pos8_320x50', [320, 50], 'div-gpt-ad-1582855851170-0').defineSizeMapping(mobileMappingThinLp).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_TITLE_pos2_300x250', [300, 250], 'div-gpt-ad-1582853918972-0').defineSizeMapping(desktopMapping).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_IC_pos3_300x600', [300, 600], 'div-gpt-ad-1582901433465-0').defineSizeMapping(desktopMappingTall).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_IC_pos4_300x250', [300, 250], 'div-gpt-ad-1582854141821-0').defineSizeMapping(desktopMapping).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_IC_pos5_300x600', [300, 600], 'div-gpt-ad-1582854289930-0').defineSizeMapping(desktopMappingTall).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_Mobile_pos2_300x250', [300, 250], 'div-gpt-ad-1582855116148-0').defineSizeMapping(mobileMapping).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_Mobile_pos3_300x250', [300, 250], 'div-gpt-ad-1582855229074-0').defineSizeMapping(mobileMapping).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_Mobile_pos4_300x250', [300, 250], 'div-gpt-ad-1582855371987-0').defineSizeMapping(mobileMapping).addService(googletag.pubads());googletag.defineSlot('/21804951364/DFP_Mobile_pos5_300x250', [300, 250], 'div-gpt-ad-1582855484012-0').defineSizeMapping(mobileMapping).addService(googletag.pubads());googletag.pubads().setTargeting("PageType","four-storytelling-techniques-to-bring-yo");
+				googletag.pubads().enableSingleRequest();
+				googletag.pubads().collapseEmptyDivs();
+				googletag.enableServices();
+			});
+		</script>    
+    <!-- ADSENSE -->
+    <script data-ad-client="ca-pub-4303534217748065" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+
+<body class="article-template-default single single-article postid-73004">
+
+    <div class="no-mobile--ad">
+        <!-- /21804951364/dfp_article_pos1 -->
+        <div id='div-gpt-ad-1582570989952-0' style="width: 970px;display:none;">
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582570989952-0'); });
+        </script>
+        </div>
+    </div>
+
+   <div class="no-desktop--ad">
+<!-- /21804951364/DFP_Mobile_pos1_320x50 -->
+<div id='div-gpt-ad-1582855066616-0' style='width: 320px;display:none;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582855066616-0'); });
+  </script>
+</div>
+</div>
+    
+
+    			<!-- Google Tag Manager -->
+			<noscript><iframesrc="//www.googletagmanager.com/ns.html?id=GTM-VS2S"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-VS2S');</script>
+			<!-- End Google Tag Manager -->
+		
+<header class="site-header site-header--stick" role="banner">
+    <nav class="site-nav" role="navigation" aria-label="Main Navigation">
+    
+        <a class="smr-logo" href="https://sloanreview.mit.edu" title="MIT Sloan Management Review" rel="home">
+    <img src="https://sloanreview.mit.edu/wp-content/themes/smr/assets/images/smr-logo.png" class="smr-logo__image" alt="MIT Sloan Management Review Logo"/>
+</a>
+        <nav class="secondary-menu secondary-menu--sections">
+            <button class="secondary-menu__button">Sections <svg id="i-dropdown" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="fill" id="Video" transform="translate(-565.000000, -32.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="NAV">
+                <g id="special-features" transform="translate(433.000000, 22.749996)">
+                    <polygon id="c" transform="translate(137.210100, 12.905000) scale(1, -1) rotate(-90.000000) translate(-137.210100, -12.905000) " points="138.93 12.9239 133.7136 7.6949 135.4902 7.6949 140.7066 12.9239 135.528 18.1151 133.7136 18.1151"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg></button>
+            <ul class="secondary-menu__options"><li id="menu-item-85058" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85058"><a href="/topic/data-ai-machine-learning/">Data, AI, &#038; Machine Learning</a></li>
+<li id="menu-item-44546" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-44546"><a href="https://sloanreview.mit.edu/topic/innovation-3/">Innovation</a></li>
+<li id="menu-item-44542" class="menu-item menu-item-type-taxonomy menu-item-object-topic current-article-ancestor current-menu-parent current-article-parent menu-item-44542"><a href="https://sloanreview.mit.edu/topic/leadership/">Leadership</a></li>
+<li id="menu-item-85060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85060"><a href="/topic/managing-technology/">Managing Technology</a></li>
+<li id="menu-item-44548" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-44548"><a href="https://sloanreview.mit.edu/topic/marketing/">Marketing</a></li>
+<li id="menu-item-44549" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-44549"><a href="https://sloanreview.mit.edu/topic/operations/">Operations</a></li>
+<li id="menu-item-85061" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85061"><a href="/topic/social-responsibility/">Social Responsibility</a></li>
+<li id="menu-item-44544" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-44544"><a href="https://sloanreview.mit.edu/topic/strategy/">Strategy</a></li>
+<li id="menu-item-59261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59261"><a href="/topic/workplace-teams-culture/">Workplace, Teams, &#038; Culture</a></li>
+</ul>        </nav>
+
+        <nav class="secondary-menu secondary-menu--features">
+            <button class="secondary-menu__button">Special Features  <svg id="i-dropdown" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="fill" id="Video" transform="translate(-565.000000, -32.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="NAV">
+                <g id="special-features" transform="translate(433.000000, 22.749996)">
+                    <polygon id="c" transform="translate(137.210100, 12.905000) scale(1, -1) rotate(-90.000000) translate(-137.210100, -12.905000) " points="138.93 12.9239 133.7136 7.6949 135.4902 7.6949 140.7066 12.9239 135.528 18.1151 133.7136 18.1151"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg></button>
+            <ul class="secondary-menu__options"><li id="menu-item-44552" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44552"><a href="https://sloanreview.mit.edu/big-ideas/artificial-intelligence-business-strategy/">Artificial Intelligence and Business Strategy</a></li>
+<li id="menu-item-44554" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44554"><a href="https://sloanreview.mit.edu/big-ideas/digital-leadership/">Digital Leadership</a></li>
+<li id="menu-item-64664" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64664"><a href="https://sloanreview.mit.edu/big-ideas/future-of-leadership">Future of Leadership</a></li>
+<li id="menu-item-74802" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-74802"><a href="/big-ideas/future-of-the-workforce/">Future of the Workforce</a></li>
+<li id="menu-item-73184" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73184"><a href="https://sloanreview.mit.edu/culture500">MIT SMR / Glassdoor Culture 500</a></li>
+<li id="menu-item-62241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62241"><a href="https://sloanreview.mit.edu/mitsmr-strategy-forum/">MIT SMR Strategy Forum</a></li>
+<li id="menu-item-65821" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65821"><a href="https://sloanreview.mit.edu/big-ideas/performance-management/">Performance Management</a></li>
+<li id="menu-item-59348" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59348"><a href="/big-ideas/strategic-measurement/">Strategic Measurement</a></li>
+</ul>        </nav>
+
+        
+
+<button class="site-nav__option queryly_search_button "> 
+    <label for="queryly_toggle">
+        <svg id="i-search" width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="fill" id="Video" transform="translate(-1032.000000, -30.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="NAV">
+                <path d="M1045.91794,43.5742174 C1045.97262,43.6289048 1045.99997,43.7018214 1045.99997,43.7929669 C1045.99997,43.8841123 1045.97262,43.9661434 1045.91794,44.03906 L1045.28903,44.6406211 C1045.21611,44.7135377 1045.13408,44.7499958 1045.04294,44.7499958 C1044.95179,44.7499958 1044.87888,44.7135377 1044.82419,44.6406211 L1041.48826,41.3320352 C1041.43357,41.2591186 1041.40623,41.1862024 1041.40623,41.1132857 L1041.40623,40.7304742 C1040.89581,41.1679731 1040.32159,41.5097692 1039.68358,41.7558623 C1039.04556,42.0019555 1038.38019,42.1250021 1037.68749,42.1250021 C1036.64843,42.1250021 1035.69595,41.8697945 1034.83007,41.3593789 C1033.96419,40.8489633 1033.27604,40.1608142 1032.76562,39.2949307 C1032.25521,38.4290472 1032,37.4765757 1032,36.4375156 C1032,35.3984556 1032.25521,34.4459841 1032.76562,33.5801006 C1033.27604,32.7142171 1033.96419,32.026068 1034.83007,31.5156524 C1035.69595,31.0052368 1036.64843,30.7500292 1037.68749,30.7500292 C1038.72655,30.7500292 1039.67902,31.0052368 1040.5449,31.5156524 C1041.41078,32.026068 1042.09893,32.7142171 1042.60935,33.5801006 C1043.11977,34.4459841 1043.37497,35.3984556 1043.37497,36.4375156 C1043.37497,37.1302222 1043.25193,37.7955855 1043.00583,38.4336046 C1042.75974,39.0716238 1042.41794,39.6458412 1041.98044,40.1562568 L1042.36326,40.1562568 C1042.4544,40.1562568 1042.52732,40.1836005 1042.58201,40.2382878 L1045.91794,43.5742174 Z M1037.68749,40.8125052 C1038.47134,40.8125052 1039.2005,40.616542 1039.87498,40.224616 C1040.54946,39.83269 1041.08266,39.2994881 1041.47459,38.6250104 C1041.86651,37.9505327 1042.06248,37.2213681 1042.06248,36.4375156 C1042.06248,35.6536632 1041.86651,34.9244986 1041.47459,34.2500209 C1041.08266,33.5755432 1040.54946,33.0423413 1039.87498,32.6504153 C1039.2005,32.2584893 1038.47134,32.0625261 1037.68749,32.0625261 C1036.90363,32.0625261 1036.17447,32.2584893 1035.49999,32.6504153 C1034.82551,33.0423413 1034.29231,33.5755432 1033.90039,34.2500209 C1033.50846,34.9244986 1033.3125,35.6536632 1033.3125,36.4375156 C1033.3125,37.2213681 1033.50846,37.9505327 1033.90039,38.6250104 C1034.29231,39.2994881 1034.82551,39.83269 1035.49999,40.224616 C1036.17447,40.616542 1036.90363,40.8125052 1037.68749,40.8125052 Z" id="Search-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg> <span>Search</span>
+    </label>
+</button>
+
+<a href="https://shop.sloanreview.mit.edu/" class="site-nav__option "> <svg id="i-buy" width="22px" height="16px" viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="fill" id="004" transform="translate(-397.000000, -719.000000)" fill="#ffffff" fill-rule="nonzero">
+            <g id="Article-Info-and-Share" transform="translate(397.000000, 677.000000)">
+                <g id="Buy-Icon" transform="translate(0.666667, 42.439024)">
+                    <path d="M20.3841043,2.96085254 C16.6778812,2.96085254 12.9716581,2.96085254 9.26543496,2.96085254 C9.08467953,2.96085254 8.94739382,3.0266711 8.84915717,3.12539893 C8.84326297,3.13055635 8.83785995,3.13620496 8.83196576,3.14160797 C8.82680833,3.14725658 8.82115972,3.152414 8.81624789,3.1583082 C8.71752006,3.25654485 8.65170151,3.39407616 8.65170151,3.57483159 C8.65170151,3.65612241 8.65170151,3.73741324 8.65170151,3.81845847 C8.65170151,4.15319985 8.93093918,4.43243752 9.26568055,4.43243752 C12.5941837,4.43243752 15.9226869,4.43243752 19.2514357,4.43243752 C18.7636908,6.1645952 18.2754546,7.89650728 17.7874641,9.62866496 C14.3287973,9.62866496 10.8701306,9.62866496 7.41146384,9.62866496 C6.56785663,6.62336034 5.74905418,3.62198518 4.72395477,0.671938666 C4.63333146,0.41136596 4.41868439,0.221278048 4.13183338,0.221278048 C3.0001472,0.221278048 1.86870662,0.221278048 0.737020445,0.221278048 C0.40227907,0.221278048 0.1230414,0.500515717 0.1230414,0.835257092 C0.1230414,0.916547917 0.1230414,0.997593151 0.1230414,1.07888398 C0.1230414,1.41362535 0.40227907,1.69286302 0.737020445,1.69286302 C1.6641288,1.69286302 2.59123716,1.69286302 3.51834551,1.69286302 C4.51864017,4.64487427 5.32418068,7.64845975 6.16926144,10.6498349 C6.2434301,10.9128635 6.4868114,11.1004955 6.76138283,11.1004955 C10.6535188,11.1004955 14.5456547,11.1004955 18.4375451,11.1004955 C18.7118709,11.1004955 18.9552522,10.9128635 19.0296665,10.6498349 C19.6785196,8.34593994 20.3273726,6.04204498 20.9764712,3.73815001 C21.0847772,3.35306236 20.7814715,2.96085254 20.3841043,2.96085254 Z" id="Path"></path>
+                    <path d="M9.56530233,11.4563578 C9.50906185,11.4428502 9.44938308,11.4345001 9.3815998,11.438184 C9.31504447,11.4345001 9.25634807,11.4428502 9.20108996,11.455621 C8.15118579,11.5899596 7.41195502,12.3819926 7.35350422,13.466034 C7.29186072,14.6085262 8.32948531,15.4371523 9.3815998,15.4941296 C10.524092,15.5557731 11.3527181,14.5181485 11.4096954,13.466034 C11.467655,12.3900971 10.5508615,11.5931523 9.56530233,11.4563578 Z M9.3815998,14.0230358 C8.66348991,13.9842323 8.66324431,12.9485725 9.3815998,12.909769 C10.1004465,12.8707199 10.0962714,13.9842323 9.3815998,14.0230358 Z" id="Shape"></path>
+                    <path d="M16.0000483,11.4563578 C15.9438078,11.4428502 15.8841291,11.4345001 15.8165914,11.438184 C15.750036,11.4345001 15.6913396,11.4428502 15.6360815,11.455621 C14.5864229,11.5899596 13.8471922,12.3822382 13.7887414,13.466034 C13.7270979,14.6085262 14.7647225,15.4371523 15.816837,15.4941296 C16.9593292,15.5557731 17.7879553,14.5183941 17.8449325,13.466034 C17.9026466,12.3900971 16.9860986,11.5931523 16.0000483,11.4563578 Z M15.8165914,14.0230358 C15.0984815,13.9842323 15.0982359,12.9485725 15.8165914,12.909769 C16.5359292,12.8707199 16.5315086,13.9842323 15.8165914,14.0230358 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg> <span>Store</span></a>
+
+
+    <a href="#" class="site-nav__option p-login"><svg id="i-profile" width="16px" height="16px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="fill" id="004" transform="translate(-296.000000, -5287.000000)" fill="#ffffff">
+            <g id="Comments" transform="translate(283.000000, 4917.000000)">
+                <g id="Person-icon" transform="translate(0.000000, 357.254797)">
+                    <g id="Group-3" transform="translate(13.218471, 13.000000)">
+                        <path d="M17.1287065,34.257413 C26.5737251,34.257413 34.257413,26.5733162 34.257413,17.1287065 C34.257413,7.68409681 26.5737251,-3.12638804e-13 17.1287065,-3.12638804e-13 C7.68368787,-3.12638804e-13 3.97903932e-13,7.68409681 3.97903932e-13,17.1287065 C3.97903932e-13,26.5733162 7.68409681,34.257413 17.1287065,34.257413 Z M17.1287065,1.4857011 C25.7541972,1.4857011 32.7717119,8.50321581 32.7717119,17.1287065 C32.7717119,21.3060907 31.1224324,25.103155 28.4450624,27.9117967 C25.1550912,25.5489062 21.2018094,24.2599082 17.1197097,24.2599082 C13.0412904,24.2599082 9.09128027,25.5444078 5.8033538,27.9023909 C3.13130012,25.0945672 1.48611005,21.3015923 1.48611005,17.1287065 C1.48611005,8.50321581 8.50362475,1.4857011 17.1287065,1.4857011 Z" id="Shape" fill-rule="nonzero"></path>
+                        <path d="M17.1287065,23.3455048 C21.3756115,23.3455048 24.8312059,19.8903194 24.8312059,15.6430054 C24.8312059,11.3961004 21.3756115,7.94091495 17.1287065,7.94091495 C12.8818015,7.94091495 9.42620711,11.3961004 9.42620711,15.6430054 C9.42661605,19.8899104 12.8822104,23.3455048 17.1287065,23.3455048 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg> <span>Sign In</span></a>
+    <a href="https://sloanreview.mit.edu/subscribe/" class="btn btn--subscribe">Subscribe</a>
+
+
+<script>
+    jQuery(document).ready(function() {
+
+        jQuery(".user-menu__button").on("click", function(e){
+            var $currentItem = jQuery(this).parents('.user-menu');
+            if ( !$currentItem.hasClass('isOpened')){ // if opening, hide all the rest
+                jQuery('.secondary-menu, .main-menu, .user-menu').removeClass('isOpened');
+                $currentItem.addClass('isOpened');
+            }
+            else{
+                $currentItem.removeClass('isOpened');
+            }
+            e.stopImmediatePropagation();
+        });
+
+    });
+</script>
+        <nav class="main-menu">
+    <button class="main-menu__button" data-state="closed">
+        <svg id="i-menu" width="28px" height="20px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g  id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g class="stroke" id="001" transform="translate(-25.000000, -20.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="NAV">
+                <g id="Menu" transform="translate(26.000000, 20.699996)">
+                    <line x1="0.5" y1="17.6" x2="25.5" y2="17.6" id="Line-2"></line>
+                    <line x1="0.5" y1="9.1" x2="25.5" y2="9.1" id="Line-2"></line>
+                    <line x1="0.5" y1="0.6" x2="25.5" y2="0.6" id="Line-2"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>        <span class="main-menu__label">Menu</span>
+    </button>
+    <div class="main-menu__container" style="display:none;">
+        <aside class="main-menu__summary"><p>Management research and ideas to transform how people lead and innovate.</p></aside><ul class="main-menu__options"><li id="menu-item-36941" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-36941"><a href="http://#">Sections</a>
+<ul class="sub-menu">
+	<li id="menu-item-36948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36948"><a href="/topic/data-ai-machine-learning/">Data, AI, &#038; Machine Learning</a></li>
+	<li id="menu-item-36943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36943"><a href="/topic/innovation-3/">Innovation</a></li>
+	<li id="menu-item-36944" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36944"><a href="/topic/leadership/">Leadership</a></li>
+	<li id="menu-item-85057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85057"><a href="/topic/managing-technology/">Managing Technology</a></li>
+	<li id="menu-item-36946" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36946"><a href="/topic/marketing/">Marketing</a></li>
+	<li id="menu-item-36947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36947"><a href="/topic/operations/">Operations</a></li>
+	<li id="menu-item-36949" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36949"><a href="/topic/social-responsibility/">Social Responsibility</a></li>
+	<li id="menu-item-36942" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36942"><a href="/topic/strategy/">Strategy</a></li>
+	<li id="menu-item-85059" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85059"><a href="/topic/workplace-teams-culture/">Workplace, Teams, &#038; Culture</a></li>
+</ul>
+</li>
+<li id="menu-item-36952" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-36952"><a href="http://#">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-60090" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60090"><a href="https://sloanreview.mit.edu/issue/2020-fall/">Current Issue</a></li>
+	<li id="menu-item-42599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42599"><a href="https://sloanreview.mit.edu/big-ideas/artificial-intelligence-business-strategy/">Artificial Intelligence and Business Strategy</a></li>
+	<li id="menu-item-36960" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36960"><a href="https://sloanreview.mit.edu/big-ideas/digital-leadership/">Digital Leadership</a></li>
+	<li id="menu-item-64730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64730"><a href="/big-ideas/future-of-leadership">Future of Leadership</a></li>
+	<li id="menu-item-74801" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-74801"><a href="/big-ideas/future-of-the-workforce/">Future of the Workforce</a></li>
+	<li id="menu-item-59644" class="menu-item menu-item-type-taxonomy menu-item-object-big_idea menu-item-59644"><a href="https://sloanreview.mit.edu/big-ideas/sustainability/">Leading Sustainable Organizations</a></li>
+	<li id="menu-item-65819" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65819"><a href="https://sloanreview.mit.edu/big-ideas/performance-management/">Performance Management</a></li>
+	<li id="menu-item-61302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61302"><a href="/big-ideas/strategic-measurement/">Strategic Measurement</a></li>
+	<li id="menu-item-71621" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71621"><a href="/audio-series/three-big-points/">Podcast: Three Big Points</a></li>
+	<li id="menu-item-59279" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59279"><a href="https://sloanreview.mit.edu/issue/">Magazine Archive</a></li>
+	<li id="menu-item-59281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59281"><a href="https://sloanreview.mit.edu/tag/webinars-videos/">Webinars &#038; Videos</a></li>
+	<li id="menu-item-59283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59283"><a href="https://sloanreview.mit.edu/case-study/">Case Studies</a></li>
+	<li id="menu-item-59296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59296"><a href="https://sloanreview.mit.edu/columns/column/">Columns</a></li>
+	<li id="menu-item-59284" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59284"><a href="https://sloanreview.mit.edu/?content_type=interview">Interviews</a></li>
+</ul>
+</li>
+<li id="menu-item-36963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-36963"><a href="http://#">MIT SMR</a>
+<ul class="sub-menu">
+	<li id="menu-item-36964" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36964"><a href="/about/">About</a></li>
+	<li id="menu-item-36965" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36965"><a href="/advertise/">Advertise</a></li>
+	<li id="menu-item-36962" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36962"><a href="/authors/">Author Guidelines</a></li>
+	<li id="menu-item-36966" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36966"><a href="/contact/">Contact</a></li>
+	<li id="menu-item-36969" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36969"><a href="/follow/">Get Updates</a></li>
+	<li id="menu-item-36968" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36968"><a href="/help/">Help</a></li>
+	<li id="menu-item-37173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37173"><a href="/masthead/">Masthead</a></li>
+	<li id="menu-item-63216" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63216"><a href="https://shop.sloanreview.mit.edu/">Store</a></li>
+	<li id="menu-item-36967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36967"><a href="/subscribe/">Subscribe</a></li>
+</ul>
+</li>
+</ul>    </div>
+</nav>
+
+<script>
+    jQuery(document).ready(function() {
+
+        jQuery(".main-menu__button").on("click", function(e){
+            var $currentItem = jQuery(this).parents('.main-menu');
+            if ( !$currentItem.hasClass('isOpened')){ // if opening, hide all the rest
+                jQuery('.secondary-menu, .main-menu, .user-menu').removeClass('isOpened');
+                $currentItem.addClass('isOpened');
+            }
+            else{
+                $currentItem.removeClass('isOpened');
+            }
+            e.stopImmediatePropagation();
+        });
+
+        jQuery(".main-menu__options > li > a").on("click", function(e){
+            e.preventDefault();
+        });
+
+    });
+</script>        
+    </nav>
+    <div id="piano-top-bar"></div>
+</header>
+
+<script>
+    jQuery(document).ready(function() {
+        
+        jQuery(".secondary-menu__button").on("click", function(e){
+            var $currentItem = jQuery(this).parents('.secondary-menu');
+            if ( !$currentItem.hasClass('isOpened')){ // if opening, hide all the rest
+                jQuery('.secondary-menu, .main-menu, .user-menu').removeClass('isOpened');
+                $currentItem.addClass('isOpened');
+            }
+            else{
+                $currentItem.removeClass('isOpened');
+            }
+            
+            e.preventDefault();
+        });
+
+    });
+</script>
+<div id="mit-smr-content">
+    <img class="print p-logo" alt="MIT Sloan Management Review Logo" src="https://sloanreview.mit.edu/wp-content/themes/smr/img/print-logo.png"/>
+
+<style>
+    </style>
+
+<article
+        class="article ">
+    
+    <div class="content content--narrow">
+
+        <header class="article-header">
+            <a
+                href="https://sloanreview.mit.edu/series/column/"
+                class="article-header__content-meta"><span>Column</span></a>             <h1 class="article-header__title">Four Storytelling Techniques to Bring Your Data to Life</h1>
+            <div class="article-header__deck"></div>
+
+                            <div class="article-header__columnists">                        <img src="https://sloanreview.mit.edu/wp-content/uploads/2020/01/nancy-duarte_headshot-240.jpg"
+                             class="article-header__headshot" alt=""/>
+                    </div>
+                <div class="article-header__columnists-info">
+                    <a href="#article-authors"
+                       class="article-header__byline">Nancy Duarte</a>
+                    <time class="article-header__date pub-date-dimension"
+                          datetime="2020-02-10T07:00:36-05:00"
+                          pubdate="">
+                        <abbr class="published updated"
+                              title="2020-02-10T07:00:36-05:00">February 10, 2020</abbr>
+                    </time>
+                    <span class="article-header__reading-time">Reading Time: 5 min&nbsp;</span>
+                </div>
+
+                    </header>
+
+        <div class="standard-content article-content">
+
+            <div class="article-left-col">
+                <section class="article-topics">
+    <h4 class="article-topics__title">Topics</h4>
+    <ul class="article-topics__list">
+                    <li class="article-topics__item">
+                <a href="https://sloanreview.mit.edu/topic/data-ai-machine-learning/">Data, AI, &amp; Machine Learning</a>
+            </li>
+                    <li class="article-topics__item">
+                <a href="https://sloanreview.mit.edu/topic/leadership/">Leadership</a>
+            </li>
+                    <li class="article-topics__item">
+                <a href="https://sloanreview.mit.edu/topic/leadership-skills/">Leadership Skills</a>
+            </li>
+            </ul>
+</section>
+                    <section class="article-section">
+
+        <h4 class="article-section__title">Column</h4>
+        <div class="article-section__description">
+            Our expert columnists offer opinion and analysis on important issues facing modern businesses and managers.        </div>
+        
+        
+        <a href="https://sloanreview.mit.edu/series/column/"
+           class="article-section__link">See All Articles in This Series</a>
+
+    </section>
+            </div>
+
+
+            <div class="article-options">
+    <div class="article-options__container">
+                    <a href="https://sloanreview.mit.edu/subscribe/"
+               id="Subscribe[article-tools]"
+               class="article-options__option article-options__option--subscribe marketing-click"><svg id="subscribe_icon" class="svg-subscribe" width="17px" height="20px" data-name="subscribe icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.56 38.05"><defs></defs><title>subscribe-icon</title><path class="fill" fill="#005b9c" d="M39.2,12.77a1.91,1.91,0,0,0-1.79-1.9C30.72,10.19,24,6.41,24,6.37a1.8,1.8,0,0,1,.27.22,1.58,1.58,0,0,0-.78-.4,1.87,1.87,0,0,0-.91,0A1.55,1.55,0,0,0,22,6.3l-.1.06c-1.17.65-7.34,3.92-13.46,4.51a1.91,1.91,0,0,0-1.8,1.88c-.07,2-.22,20,15.15,31.05a1.13,1.13,0,0,0,.21.12,1.87,1.87,0,0,0,1.87,0,.82.82,0,0,0,.2-.12c15.19-10.89,15.21-28.31,15.09-31ZM22.7,9.09h0a1,1,0,0,1-.28-.1A1.83,1.83,0,0,0,22.7,9.09ZM23,40.91a31.66,31.66,0,0,1-7.3-7.69,8.46,8.46,0,0,1,14.65,0A31.7,31.7,0,0,1,23,40.91Zm0-14.94a4,4,0,1,1,4-4A4,4,0,0,1,22.94,26ZM32,30.33A11.55,11.55,0,0,0,27.78,27a7,7,0,1,0-9.65,0,11.42,11.42,0,0,0-4.19,3.34A37.58,37.58,0,0,1,9.65,13.76,42.82,42.82,0,0,0,22.93,9.22a42.64,42.64,0,0,0,13.3,4.53A36.92,36.92,0,0,1,32,30.33Z" transform="translate(-6.65 -6.11)"/></svg>
+                <span>Subscribe</span></a>
+                                <a href=""
+           class="article-options__option article-options__option--share"><svg id="i-share" width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="fill" id="004" transform="translate(-969.000000, -721.000000)" fill="#005B9C" fill-rule="nonzero">
+            <g id="Article-Info-and-Share" transform="translate(397.000000, 677.000000)">
+                <g id="share-icon" transform="translate(572.000000, 44.000000)">
+                    <path d="M13,10 C12.2,10 11.6,10.3 11,10.8 L6,8.2 C6,8.2 6,8.1 6,8 C6,7.9 6,7.8 6,7.8 L11,5.3 C11.6,5.7 12.2,6 13,6 C14.7,6 16,4.7 16,3 C16,1.3 14.7,0 13,0 C11.3,0 10,1.3 10,3 C10,3.2 10,3.3 10,3.5 L5.2,5.9 C4.6,5.4 3.8,5 3,5 C1.3,5 0,6.3 0,8 C0,9.7 1.3,11 3,11 C3.8,11 4.6,10.6 5.2,10.1 L10.1,12.5 C10.1,12.7 10.1,12.8 10.1,13 C10.1,14.7 11.4,16 13.1,16 C14.8,16 16.1,14.7 16.1,13 C16,11.3 14.7,10 13,10 Z M13,1.5 C13.8,1.5 14.5,2.2 14.5,3 C14.5,3.8 13.8,4.5 13,4.5 C12.2,4.5 11.5,3.8 11.5,3 C11.5,2.2 12.2,1.5 13,1.5 Z M3,9.5 C2.2,9.5 1.5,8.8 1.5,8 C1.5,7.2 2.2,6.5 3,6.5 C3.8,6.5 4.5,7.2 4.5,8 C4.5,8.8 3.8,9.5 3,9.5 Z M13,14.5 C12.2,14.5 11.5,13.8 11.5,13 C11.5,12.2 12.2,11.5 13,11.5 C13.8,11.5 14.5,12.2 14.5,13 C14.5,13.8 13.8,14.5 13,14.5 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>            <span>Share</span></a>
+
+        <div class="article-options__share-options">
+                            <a data-net="twitter"  addthis:url="https://mitsmr.com/2UEAT9Z"                    addthis:title="Four Storytelling Techniques to Bring Your Data to Life"
+                   class="article-options__option--twitter addthis_button_twitter"><svg version="1.1" id="i-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 18 14.6" style="enable-background:new 0 0 18 14.6;" xml:space="preserve" width="19px" height="15px">
+<path fill="#FFFFFF" class="fill" d="M16.1,3.7c0,0.1,0,0.2,0,0.5c0,1.7-0.4,3.3-1.2,4.9c-0.8,1.7-2,3-3.6,4c-1.7,1.1-3.6,1.7-5.7,1.7
+	c-2.1,0-3.9-0.6-5.7-1.7c0.3,0,0.6,0,0.9,0c1.7,0,3.2-0.5,4.6-1.6c-0.8,0-1.5-0.2-2.2-0.7S2.3,9.6,2,8.9c0.2,0,0.5,0,0.7,0
+	c0.3,0,0.7,0,1-0.1C2.8,8.6,2.1,8.2,1.6,7.5C1,6.8,0.7,6.1,0.7,5.2V5.1c0.5,0.3,1.1,0.5,1.7,0.5C1.9,5.3,1.5,4.8,1.2,4.3
+	S0.7,3.2,0.7,2.5s0.2-1.3,0.5-1.8c0.9,1.1,2,2.1,3.4,2.7c1.3,0.7,2.7,1.1,4.2,1.1c0-0.3-0.1-0.6-0.1-0.8C8.8,3,9,2.4,9.3,1.8
+	s0.8-1,1.3-1.4S11.8,0,12.4,0c0.5,0,1,0.1,1.5,0.3s0.9,0.5,1.2,0.8C16,1,16.8,0.7,17.5,0.3c-0.3,0.9-0.8,1.5-1.6,2
+	C16.6,2.2,17.3,2,18,1.7C17.5,2.5,16.9,3.1,16.1,3.7z"/>
+</svg>
+                    <span>Twitter</span></a>
+                            <a data-net="facebook"  addthis:url="https://mitsmr.com/2UAZXyJ"                    addthis:title="Four Storytelling Techniques to Bring Your Data to Life"
+                   class="article-options__option--facebook addthis_button_facebook"><svg version="1.1" id="i-facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 9.3 18" style="enable-background:new 0 0 9.3 18;" xml:space="preserve" width="8px" height="15px">
+<path fill="#FFFFFF" class="fill" d="M2.7,18V9.9H0V6.8h2.7V4.2c0-1.3,0.4-2.4,1.1-3.1C4.6,0.4,5.6,0,6.8,0c1,0,1.8,0,2.5,0.1V3H7.6
+	C7,3,6.5,3.1,6.3,3.4C6.1,3.6,6,4,6,4.5v2.2h3L8.6,9.9H6V18H2.7z"/>
+</svg>
+                    <span>Facebook</span></a>
+                            <a data-net="linkedin"  addthis:url="https://mitsmr.com/31HZdtd"                    addthis:title="Four Storytelling Techniques to Bring Your Data to Life"
+                   class="article-options__option--linkedin addthis_button_linkedin"><svg version="1.1" id="i-linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 15.7 15.7" style="enable-background:new 0 0 15.7 15.7;" xml:space="preserve" width="15px" height="15px">
+<g>
+	<rect x="0.2" y="5.2" fill="#FFFFFF" class="fill" width="3.3" height="10.5"/>
+	<path fill="#FFFFFF" class="fill" d="M1.9,3.8c-0.5,0-1-0.2-1.3-0.6S0,2.4,0,1.9s0.2-1,0.6-1.3S1.4,0,1.9,0c0.5,0,1,0.2,1.3,0.6s0.6,0.8,0.6,1.3
+		s-0.2,1-0.6,1.3S2.4,3.8,1.9,3.8z"/>
+	<path fill="#FFFFFF" class="fill" d="M15.7,15.7h-3.3v-5.1c0-0.8-0.1-1.5-0.2-1.8c-0.3-0.6-0.8-0.9-1.5-0.9S9.5,8.1,9.2,8.7c-0.2,0.4-0.4,1-0.4,1.9
+		v5.2H5.6V5.2h3.1v1.4h0C9,6.2,9.4,5.8,9.9,5.5c0.6-0.4,1.2-0.6,2-0.6c1.5,0,2.6,0.5,3.2,1.4c0.5,0.8,0.7,2,0.7,3.6V15.7z"/>
+</g>
+</svg>
+                    <span>Linkedin</span></a>
+                        <a data-net="subscribe" href=""
+               class="article-options__option--email addthis_button_email"><svg id="i-subscribe-white" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 18 13" style="enable-background:new 0 0 18 13;" xml:space="preserve" width="21px" height="15px" >
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g id="Desktop">
+	<g transform="translate(-1255.000000, -7103.000000)">
+		<g id="FOOTER" transform="translate(0.000000, 6959.000000)">
+			<g id="Subscribe" transform="translate(958.000000, 127.390512)">
+				<g id="Group-4" transform="translate(271.000000, 0.000000)">
+					<g id="email-icon" transform="translate(26.000000, 17.106445)">
+						<path id="Shape" class="st0" d="M1.4,0C1.1,0,0.8,0.1,0.6,0.2L8.4,7c0.4,0.3,0.8,0.3,1.2,0l7.8-6.8C17.2,0.1,16.9,0,16.6,0
+							H1.4z M0.1,0.9C0,1.1,0,1.2,0,1.3v9c0,0.3,0.1,0.5,0.2,0.7l5.6-5.2L0.1,0.9z M17.9,0.9l-5.7,5l5.5,5.2
+							c0.1-0.2,0.2-0.5,0.2-0.7v-9C18,1.2,18,1.1,17.9,0.9z M6.5,6.5l-5.5,5.2c0.1,0,0.3,0.1,0.4,0.1h15.3c0.1,0,0.3,0,0.4-0.1
+							l-5.5-5.2l-1.4,1.2c-0.7,0.6-1.7,0.6-2.3,0L6.5,6.5z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+                <span>Email</span></a>
+        </div>
+
+    </div>
+</div>
+
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=mitsmr"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script> var addthis_share = {templates: {twitter: '{{title}} {{url}} via @mitsmr'}} </script>
+<script type="text/javascript">var addthis_config = {data_track_clickback: false}</script>
+
+<script>
+    jQuery(document).ready(function () {
+
+        jQuery(".article-options__option--share").on("click", function (e) {
+            jQuery(this).hide();
+            jQuery(".article-options__share-options").fadeIn(500);
+            e.preventDefault();
+        });
+
+        if ( jQuery( ".article-options__option" ).length > 2 ) {
+            jQuery(".article-options__container").addClass("article-options__container--multiple");
+        }
+
+    });
+</script>
+            
+
+<div class="best-articles best-articles--numbered">
+    <h4 class="best-articles__title">What to Read Next</h4>
+    <ol class="best-articles__list">
+                <li class="best-articles__article">
+            <a class="best-articles__article-link" href="https://sloanreview.mit.edu/projects/expanding-ais-impact-with-organizational-learning/?og=sidebar-menu">Report: Expanding AI’s Impact With Organizational Learning</a>
+            <p class="best-articles__article-deck"></p>
+        </li>
+                <li class="best-articles__article">
+            <a class="best-articles__article-link" href="https://sloanreview.mit.edu/culture500?og=sidebar-menu">Culture 500: Explore the Ultimate Culture Scorecard</a>
+            <p class="best-articles__article-deck"></p>
+        </li>
+                <li class="best-articles__article">
+            <a class="best-articles__article-link" href="https://sloanreview.mit.edu/audio/better-together-mattias-ulbrich-on-combining-coffee-business-and-technology-at-porsche/?og=sidebar-menu">Podcast: Me, Myself, and AI</a>
+            <p class="best-articles__article-deck"></p>
+        </li>
+                <li class="best-articles__article">
+            <a class="best-articles__article-link" href="https://sloanreview.mit.edu/article/the-four-competencies-every-it-workforce-needs/?og=sidebar-menu">The Four Competencies Every IT Workforce Needs</a>
+            <p class="best-articles__article-deck"></p>
+        </li>
+            </ol>
+</div>
+
+
+                        <aside class='article-ad ad-300  ad-300x250 ad-desktop'>
+				<div id='div-gpt-ad-1582853918972-0' style='height:250px; width:300px;'>
+				<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582853918972-0'); });
+				</script>
+				</div>
+				</aside><aside class='article-ad ad-300  ad-300x250 ad-mobile'>
+				<div id='div-gpt-ad-1582855116148-0' style='height:250px; width:300px;'>
+				<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582855116148-0'); });
+				</script>
+				</div>
+				</aside>
+<figure class="article-inline">
+<img src="https://sloanreview.mit.edu/wp-content/uploads/2020/01/GEN-Duarte-People-Data-Storytelling-2400-1290x860.jpg" alt="" /><br />
+</figure>
+<p>The adage that “our world runs on data” means that decisions are being based on vast amounts of statistics. Data-derived insights drive what time trains stop running, when Starbucks introduces holiday cups, and the temperature of the building you might be sitting in right now. </p>
+<p>Even though most corporate roles now work with data, it’s shockingly easy to forget that <em>people</em> generate most of it. When a user clicks a link, gets blood taken at the lab, or sets up a smartwatch, that person generates data. As people move, buy, sell, use, work, and live, their actions nudge numbers up or down and drive organizational decisions, big and small. </p>
+<p>If it’s your role to communicate data insights and persuade people to change their behavior, you’ll have more influence and promote better decision-making if you emphasize the people behind the numbers. In a story, we root for the hero as he or she maneuvers through roadblocks. To use data to steer your organization in the right direction, you need to tap into the human tale your data can tell. </p>
+<div class="news-signup news-signup--blue" id="news-signup-47405">
+    <div class="news-signup__container">
+                    <h2 class="news-signup__title title-47405"><p>Email Updates on AI, Data, &#038; Machine Learning</p>
+</h2>
+                            <p class="news-signup__copy copy-47405">Get monthly email updates on how artificial intelligence and big data are affecting the development and execution of strategy in organizations.</p>
+                <form class="news-signup__form" action="" id="esf-47405">
+            <input type="text" name="email" class="news-signup__email"
+                   placeholder="What's your email?">
+            <button class="btn btn--aqua-in-dark">
+                <svg id="i-subscribe" width="18px" height="13px"
+                     viewBox="0 0 18 13" version="1.1"
+                     xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Desktop" stroke="none" stroke-width="1" fill="none"
+                       fill-rule="evenodd">
+                        <g class="fill" id="001"
+                           transform="translate(-1255.000000, -7103.000000)"
+                           fill="#005B9C" fill-rule="nonzero">
+                            <g id="FOOTER"
+                               transform="translate(0.000000, 6959.000000)">
+                                <g id="Subscribe"
+                                   transform="translate(958.000000, 127.390512)">
+                                    <g id="Group-4"
+                                       transform="translate(271.000000, 0.000000)">
+                                        <g id="email-icon"
+                                           transform="translate(26.000000, 17.106445)">
+                                            <path d="M1.35,-2.25000005e-06 C1.086075,-2.25000005e-06 0.840375,0.07400025 0.6328125,0.20389275 L8.4234375,6.9750045 C8.777025,7.282152 9.237645,7.2821295 9.590625,6.9750045 L17.3671875,0.20389275 C17.159625,0.07400025 16.913925,-2.25000005e-06 16.65,-2.25000005e-06 L1.35,-2.25000005e-06 Z M0.077355,0.91406025 C0.0305775,1.05131025 0,1.19652525 0,1.34999775 L0,10.3500045 C0,10.621107 0.0814725,10.8702045 0.21798,11.0812545 L5.78673,5.8711095 L0.077355,0.91406025 Z M17.922645,0.91406025 L12.234375,5.864067 L17.78202,11.0812545 C17.9185275,10.8702045 18,10.621107 18,10.3500045 L18,1.34999775 C18,1.19652525 17.9694225,1.05131025 17.922645,0.91406025 Z M6.46875,6.4617345 L0.9421875,11.6367345 C1.071,11.6773245 1.20744,11.7000045 1.35,11.7000045 L16.65,11.7000045 C16.79256,11.7000045 16.929,11.6773245 17.0578125,11.6367345 L11.5453125,6.4617345 L10.18125,7.6500045 C9.50859,8.235297 8.505585,8.234442 7.8328125,7.6500045 L6.46875,6.4617345 Z"
+                                                  id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                subscribe            </button>
+            <input type="hidden" name="source"
+                   value="site-article">
+            <input type="hidden" name="list"
+                   value="artificialintelligence">
+            <input type="hidden" name="listID"
+                   value="131">
+        </form>
+        <p class="news-signup__error error-47405">Please enter a valid email address</p>
+        <p class="news-signup__success success-47405">Thank you for signing up</p>
+        <p class="news-signup__link"><a href="/privacy-policy/">Privacy Policy</a></p>
+    </div>
+</div>
+<script>
+
+    function isValidEmail47405() {
+        var pattern = /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
+        return pattern.test(jQuery('#esf-47405 input[type=text]').val());
+    };
+
+    jQuery(document).ready(function () {
+
+        jQuery('#esf-47405 button').on('click', function (e) {
+            e.preventDefault();
+            if (!isValidEmail47405()) {
+                jQuery('.error-47405').fadeIn();
+                jQuery('.success-47405').fadeOut();
+                e.preventDefault();
+            } else {
+                jQuery('.error-47405').fadeOut();
+                jQuery('.success-47405').fadeIn();
+                var $form = jQuery(this).parents('form:first');
+                jQuery.post(
+                    'https://sloanreview.mit.edu/wp-admin/admin-ajax.php',
+                    {
+                        action: 'esf_subscribe',
+                        email: jQuery("input[name='email']", $form).val(),
+                        source: jQuery("input[name='source']", $form).val(),
+                        list: jQuery("input[name='list']", $form).val(),
+                        listID: jQuery("input[name='listID']", $form).val()
+                    }
+                );
+            }
+
+            return false;
+        })
+
+    });
+
+</script>
+
+<p>By leveraging four techniques from storytelling, leaders can bring a richer, more human understanding to the problem that the data reveals and better understand the opportunities it presents. Those techniques are identifying the hero and the hero’s adversary, speaking with people generating the data, identifying and addressing conflict, and sharing context.</p>
+<h3>Search for the Hero and the Adversary in the Data</h3>
+<p>Because most organizational data is generated by humans, the first step toward insight is to <a href="https://sloanreview.mit.edu/audio/every-number-tells-a-story/">empathetically understand the people</a> whose actions generate that data and who can turn slumps around.</p>
+<p>These data-generating people are the characters in your story. In any story, myth, or movie, we get to know various characters and grow to love some and revile others. Some become heroes who overcome the obstacles in their paths and eventually defeat their adversaries. </p>
+<p>In a data story, the hero is whoever can play a role in moving the data in the desirable direction. For businesses, the heroes could be employees, customers, or partners. </p>
+<p>Consider the scenario of a CEO at a midsize software company where sales dropped 30% in the previous quarter. As she’s faced with the task of course-correcting this sharp decline, she needs to dig into the question, “What happened?” To find out, she’ll have to understand the people behind the company’s numbers and who the hero is who can reverse the sales slump. </p>
+<p>In this scenario, the CEO’s determination is that the sales team is the likely hero in the turnaround. The data shows that they have been working harder than ever, and the decline isn’t due to their lack of effort. But perhaps the team has an adversary, something or someone causing the numbers to go down. Or perhaps new inefficiencies have been introduced by a change in process or added bureaucracy.</p>
+<h3>Speak With the People Generating the Data</h3>
+<aside class='article-ad ad-300  ad-300x600 ad-desktop'>
+				<div id='div-gpt-ad-1582901433465-0' style='height:600px; width:300px;'>
+				<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582901433465-0'); });
+				</script>
+				</div>
+				</aside><aside class='article-ad ad-300  ad-300x250 ad-mobile'>
+				<div id='div-gpt-ad-1582855229074-0' style='height:250px; width:300px;'>
+				<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582855229074-0'); });
+				</script>
+				</div>
+				</aside>
+<p>Data tells you what has happened in the past, but it doesn’t always tell you <em>why</em>. Talking to the people generating the numbers can help. </p>
+<p>To help a hero get unstuck, a leader has to go straight to the source. Reading forums, conducting surveys, analyzing customer comments, and hiring consultants are all tools to help learn what is in the hero’s way. But the best way to really understand people’s issues is to speak with them directly. </p>
+<p>To do so, identify a random sampling of data heroes. Speak with them, asking about their concerns, opinions, and motivations. Empathetically listen. You’ll hear things that surveys and Salesforce data simply can’t tell you.</p>
+<p>By talking directly with a senior manager, the software CEO from our sample scenario might learn that her sales team has been struggling to fully adapt to new sales software that was designed to streamline a previously sticky process. While half of the sales team has wholeheartedly embraced the change, more senior team members are feeling frustrated. They’re fumbling to learn the new tool and still leaning on a legacy process. </p>
+<p>This is a human element of the story that may not have been revealed through data alone. But after speaking with the people behind the numbers, our CEO knows who to work with in order to reverse the trajectory. </p>
+<h3>Identify and Address Conflict</h3>
+<p>All heroes in a story face conflict. Having a hero to root for makes a tale engaging. Heroes typically face some classic encounters: discord with another character, clashes with nature, tension with a social group, war within themselves, and struggles with change. </p>
+<p>In a business context, heroes can be in conflict with a system (as some of the sales team has been with the new software in our scenario), conflict with another person (a change in leadership could be causing issues within the organization), or conflict with themselves (maybe they’re struggling with burnout or didn’t take the training they were asked to).</p>
+<p>By identifying the type of conflict people are facing, a leader gets a clearer view of how to communicate information that will help the hero get unstuck. </p>
+<h3>Share Context</h3>
+<p>Current data points, though significant, don’t exist in a vacuum. Data collected over time creates a bigger picture of victories and defeats. Sharing context can help leaders motivate their organizations and move their heroes forward and on to victory, especially after a defeat.</p>
+<aside class="callout-info">
+<h5 style="margin-top:0">More on This Topic</strong></h5>
+<p>Listen to Duarte talk about how “<a href="https://sloanreview.mit.edu/audio/every-number-tells-a-story/">Every Number Tells a Story</a>” in the <cite>Three Big Points</cite> podcast.</p>
+</aside>
+<p>In the sample scenario, if the CEO were to share just the most recent data, her team might not feel that they can recover the lost sales to date. Seeing a 30% decrease could demoralize them. But if the CEO zooms out a little and looks at a longer time frame, she might discover that sales bounced back after a similar decline five years earlier. </p>
+<p>Sharing the details about how the sales team recovered in the past demonstrates to them that if they could make a turnaround then, they can certainly do it again.</p>
+<p>We should never let our data speak for itself. With big data as pervasive as it is today, it is easily classified as noise, and that’s especially true when there is no real context to support it. Productive people help data move in a desirable direction. In every shocking statistic, hockey-stick growth curve, or line chart that hits the x-axis like a lead balloon, there’s a heroic story waiting to be revealed.</p>
+<p>Learning to curate and tell stories within an organization can become a kind of superpower for a leader. By humanizing the data, leaders bring a greater understanding to the problems that data initially reveals. When they take the time to speak with the data story’s characters, get to know the hero-in-waiting’s fears and motivations, address the conflict that the hero is facing, and put the data challenge into an appropriate context, leaders develop a deeper, more human connection to their opportunities for moving forward.</p>
+<aside class='article-ad ad-300  ad-300x250 ad-desktop'>
+				<div id='div-gpt-ad-1582854141821-0' style='height:250px; width:300px;'>
+				<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582854141821-0'); });
+				</script>
+				</div>
+				</aside><aside class='article-ad ad-300  ad-300x250 ad-mobile'>
+				<div id='div-gpt-ad-1582855371987-0' style='height:250px; width:300px;'>
+				<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582855371987-0'); });
+				</script>
+				</div>
+				</aside>
+
+            
+            <div class="article-left-col--footer">
+                <section class="article-topics">
+    <h4 class="article-topics__title">Topics</h4>
+    <ul class="article-topics__list">
+                    <li class="article-topics__item">
+                <a href="https://sloanreview.mit.edu/topic/data-ai-machine-learning/">Data, AI, &amp; Machine Learning</a>
+            </li>
+                    <li class="article-topics__item">
+                <a href="https://sloanreview.mit.edu/topic/leadership/">Leadership</a>
+            </li>
+                    <li class="article-topics__item">
+                <a href="https://sloanreview.mit.edu/topic/leadership-skills/">Leadership Skills</a>
+            </li>
+            </ul>
+</section>
+                    <section class="article-section">
+
+        <h4 class="article-section__title">Column</h4>
+        <div class="article-section__description">
+            Our expert columnists offer opinion and analysis on important issues facing modern businesses and managers.        </div>
+        
+        
+        <a href="https://sloanreview.mit.edu/series/column/"
+           class="article-section__link">See All Articles in This Series</a>
+
+    </section>
+            </div>
+
+                <div class="article-authors" id="article-authors">
+                <h4 class="article-authors__title">About the Author</h4>
+        <div class="article-authors__bio"><p>Nancy Duarte (<a href="https://twitter.com/nancyduarte">@nancyduarte</a>) is CEO of Duarte Inc., a communications firm in Silicon Valley and New York. She’s the author of <cite><a href="https://www.duarte.com/datastory/">DataStory: Explain Data and Inspire Action Through Story</a></cite> (Ideapress Publishing, 2019).</p>
+</div>
+    </div>
+
+            
+            
+                <div class="article-tags">
+        <h4 class="article-tags__title">Tags: </h4>
+        <span class="article-tags__list">
+                    <a href="https://sloanreview.mit.edu/tag/communication/" rel="tag"
+               class="article-tags__tag">Communication</a>,                    <a href="https://sloanreview.mit.edu/tag/data-management/" rel="tag"
+               class="article-tags__tag">Data Management</a>,                    <a href="https://sloanreview.mit.edu/tag/design-thinking/" rel="tag"
+               class="article-tags__tag">Design Thinking</a>,                    <a href="https://sloanreview.mit.edu/tag/internal-communication/" rel="tag"
+               class="article-tags__tag">Internal Communication</a>                </span>
+    </div>
+
+            
+        </div>
+
+    </div>
+
+
+    <div class="article-related">
+    <h4 class="article-related__title">More Like This</h4>
+    <div class="related-queryly--desktop related-queryly--footer"></div>
+</div>    <div class="article-comments">
+    <h4 class="article-comments__title"></h4>
+
+            <div id="respond" class="comment-respond">
+            <h3 id="reply-title" class="comment-reply-title">Add a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/article/four-storytelling-techniques-to-bring-your-data-to-life/#respond" style="display:none;">Cancel reply</a></small></h3><p class="article-comments__logged-out-msg">You must <a href="https://sloanreview.mit.edu/edit-profile/" class="p-login">sign in</a> to post a comment.<br /><br />First time here? <a href="https://sloanreview.mit.edu/sign-up/">Sign up for a free account</a>: Comment on articles and get access to many more articles.</p>        </div><!-- #respond -->
+        
+    
+</div>
+</article> 
+
+<script>
+    </script>
+<script> dataLayer.push({'Content Type': 'Article/blog'}); </script><script> dataLayer.push({'Topic': 'data-ai-machine-learning/leadership/leadership-skills'}); </script>
+</div> <!-- #mit-smr-content -->
+
+<footer role="contentinfo" class="site-footer no-print">
+	<div class="content">
+
+        <nav class="footer-nav" role="navigation" aria-label="Footer Navigation">
+
+            <div class="copyright">
+                <a class="smr-logo" href="https://sloanreview.mit.edu" title="MIT Sloan Management Review" rel="home">
+                    <img class="smr-logo__image" src="https://sloanreview.mit.edu/wp-content/themes/smr/assets/images/smr-logo.png" alt="MIT Sloan Management Review Logo"/>
+                </a>
+                <h6 class="vcard">
+                    Copyright &copy; <a href="http://web.mit.edu" class="org" rel="author">Massachusetts Institute of Technology</a>, 1977–2020. All rights reserved.                </h6>
+            </div>
+
+            <nav class="footer-menu">
+                <ul class="footer-menu__options"><li id="menu-item-18379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18379"><a href="https://sloanreview.mit.edu/">Home</a></li>
+<li id="menu-item-18380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18380"><a href="https://sloanreview.mit.edu/about/">About Us</a></li>
+<li id="menu-item-18381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18381"><a href="https://sloanreview.mit.edu/advertise/">Advertise</a></li>
+<li id="menu-item-18383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18383"><a href="https://sloanreview.mit.edu/authors/">Author Guidelines</a></li>
+<li id="menu-item-18384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18384"><a href="https://sloanreview.mit.edu/contact/">Contact Us</a></li>
+<li id="menu-item-33543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33543"><a href="https://sloanreview.mit.edu/help/">Help</a></li>
+<li id="menu-item-20518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20518"><a href="https://sloanreview.mit.edu/follow/">Get Updates</a></li>
+<li id="menu-item-39982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39982"><a href="https://sloanreview.mit.edu/masthead/">Masthead</a></li>
+</ul>            </nav>
+
+            <div class="news-signup">
+                <div class="news-signup__container">
+                    <div class="news-signup news-signup--black" id="news-signup-73836">
+    <div class="news-signup__container">
+                            <p class="news-signup__copy copy-73836">Get free, timely updates from <cite>MIT SMR</cite> with new ideas, research, frameworks, and more.</p>
+                <form class="news-signup__form" action="" id="esf-73836">
+            <input type="text" name="email" class="news-signup__email"
+                   placeholder="What's your email?">
+            <button class="btn btn--aqua-in-dark">
+                <svg id="i-subscribe" width="18px" height="13px"
+                     viewBox="0 0 18 13" version="1.1"
+                     xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Desktop" stroke="none" stroke-width="1" fill="none"
+                       fill-rule="evenodd">
+                        <g class="fill" id="001"
+                           transform="translate(-1255.000000, -7103.000000)"
+                           fill="#005B9C" fill-rule="nonzero">
+                            <g id="FOOTER"
+                               transform="translate(0.000000, 6959.000000)">
+                                <g id="Subscribe"
+                                   transform="translate(958.000000, 127.390512)">
+                                    <g id="Group-4"
+                                       transform="translate(271.000000, 0.000000)">
+                                        <g id="email-icon"
+                                           transform="translate(26.000000, 17.106445)">
+                                            <path d="M1.35,-2.25000005e-06 C1.086075,-2.25000005e-06 0.840375,0.07400025 0.6328125,0.20389275 L8.4234375,6.9750045 C8.777025,7.282152 9.237645,7.2821295 9.590625,6.9750045 L17.3671875,0.20389275 C17.159625,0.07400025 16.913925,-2.25000005e-06 16.65,-2.25000005e-06 L1.35,-2.25000005e-06 Z M0.077355,0.91406025 C0.0305775,1.05131025 0,1.19652525 0,1.34999775 L0,10.3500045 C0,10.621107 0.0814725,10.8702045 0.21798,11.0812545 L5.78673,5.8711095 L0.077355,0.91406025 Z M17.922645,0.91406025 L12.234375,5.864067 L17.78202,11.0812545 C17.9185275,10.8702045 18,10.621107 18,10.3500045 L18,1.34999775 C18,1.19652525 17.9694225,1.05131025 17.922645,0.91406025 Z M6.46875,6.4617345 L0.9421875,11.6367345 C1.071,11.6773245 1.20744,11.7000045 1.35,11.7000045 L16.65,11.7000045 C16.79256,11.7000045 16.929,11.6773245 17.0578125,11.6367345 L11.5453125,6.4617345 L10.18125,7.6500045 C9.50859,8.235297 8.505585,8.234442 7.8328125,7.6500045 L6.46875,6.4617345 Z"
+                                                  id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                subscribe            </button>
+            <input type="hidden" name="source"
+                   value="site-footer">
+            <input type="hidden" name="list"
+                   value="general">
+            <input type="hidden" name="listID"
+                   value="131">
+        </form>
+        <p class="news-signup__error error-73836">Please enter a valid email address</p>
+        <p class="news-signup__success success-73836">Thank you for signing up</p>
+        <p class="news-signup__link"><a href="/privacy-policy/">Privacy Policy</a></p>
+    </div>
+</div>
+<script>
+
+    function isValidEmail73836() {
+        var pattern = /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
+        return pattern.test(jQuery('#esf-73836 input[type=text]').val());
+    };
+
+    jQuery(document).ready(function () {
+
+        jQuery('#esf-73836 button').on('click', function (e) {
+            e.preventDefault();
+            if (!isValidEmail73836()) {
+                jQuery('.error-73836').fadeIn();
+                jQuery('.success-73836').fadeOut();
+                e.preventDefault();
+            } else {
+                jQuery('.error-73836').fadeOut();
+                jQuery('.success-73836').fadeIn();
+                var $form = jQuery(this).parents('form:first');
+                jQuery.post(
+                    'https://sloanreview.mit.edu/wp-admin/admin-ajax.php',
+                    {
+                        action: 'esf_subscribe',
+                        email: jQuery("input[name='email']", $form).val(),
+                        source: jQuery("input[name='source']", $form).val(),
+                        list: jQuery("input[name='list']", $form).val(),
+                        listID: jQuery("input[name='listID']", $form).val()
+                    }
+                );
+            }
+
+            return false;
+        })
+
+    });
+
+</script>
+                </div>
+            </div>
+
+            <nav class="follow-menu">
+                <h6 class="follow-menu__title">Follow Us</h6>
+                <ul class="follow-menu__options">
+                    <li class="follow-menu__option"><a href="https://www.facebook.com/MITSloanManagementReview" target="_blank"><svg version="1.1" id="i-facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 9.3 18" style="enable-background:new 0 0 9.3 18;" xml:space="preserve" width="8px" height="15px">
+<path fill="#FFFFFF" class="fill" d="M2.7,18V9.9H0V6.8h2.7V4.2c0-1.3,0.4-2.4,1.1-3.1C4.6,0.4,5.6,0,6.8,0c1,0,1.8,0,2.5,0.1V3H7.6
+	C7,3,6.5,3.1,6.3,3.4C6.1,3.6,6,4,6,4.5v2.2h3L8.6,9.9H6V18H2.7z"/>
+</svg>
+ <span>Facebook</span></a> </li>
+                    <li class="follow-menu__option"><a href="https://twitter.com/mitsmr" target="_blank"><svg version="1.1" id="i-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 18 14.6" style="enable-background:new 0 0 18 14.6;" xml:space="preserve" width="19px" height="15px">
+<path fill="#FFFFFF" class="fill" d="M16.1,3.7c0,0.1,0,0.2,0,0.5c0,1.7-0.4,3.3-1.2,4.9c-0.8,1.7-2,3-3.6,4c-1.7,1.1-3.6,1.7-5.7,1.7
+	c-2.1,0-3.9-0.6-5.7-1.7c0.3,0,0.6,0,0.9,0c1.7,0,3.2-0.5,4.6-1.6c-0.8,0-1.5-0.2-2.2-0.7S2.3,9.6,2,8.9c0.2,0,0.5,0,0.7,0
+	c0.3,0,0.7,0,1-0.1C2.8,8.6,2.1,8.2,1.6,7.5C1,6.8,0.7,6.1,0.7,5.2V5.1c0.5,0.3,1.1,0.5,1.7,0.5C1.9,5.3,1.5,4.8,1.2,4.3
+	S0.7,3.2,0.7,2.5s0.2-1.3,0.5-1.8c0.9,1.1,2,2.1,3.4,2.7c1.3,0.7,2.7,1.1,4.2,1.1c0-0.3-0.1-0.6-0.1-0.8C8.8,3,9,2.4,9.3,1.8
+	s0.8-1,1.3-1.4S11.8,0,12.4,0c0.5,0,1,0.1,1.5,0.3s0.9,0.5,1.2,0.8C16,1,16.8,0.7,17.5,0.3c-0.3,0.9-0.8,1.5-1.6,2
+	C16.6,2.2,17.3,2,18,1.7C17.5,2.5,16.9,3.1,16.1,3.7z"/>
+</svg>
+ <span>Twitter</span></a></li>
+                    <li class="follow-menu__option"><a href="https://www.linkedin.com/company/mit-sloan-management-review/" target="_blank"><svg version="1.1" id="i-linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 15.7 15.7" style="enable-background:new 0 0 15.7 15.7;" xml:space="preserve" width="15px" height="15px">
+<g>
+	<rect x="0.2" y="5.2" fill="#FFFFFF" class="fill" width="3.3" height="10.5"/>
+	<path fill="#FFFFFF" class="fill" d="M1.9,3.8c-0.5,0-1-0.2-1.3-0.6S0,2.4,0,1.9s0.2-1,0.6-1.3S1.4,0,1.9,0c0.5,0,1,0.2,1.3,0.6s0.6,0.8,0.6,1.3
+		s-0.2,1-0.6,1.3S2.4,3.8,1.9,3.8z"/>
+	<path fill="#FFFFFF" class="fill" d="M15.7,15.7h-3.3v-5.1c0-0.8-0.1-1.5-0.2-1.8c-0.3-0.6-0.8-0.9-1.5-0.9S9.5,8.1,9.2,8.7c-0.2,0.4-0.4,1-0.4,1.9
+		v5.2H5.6V5.2h3.1v1.4h0C9,6.2,9.4,5.8,9.9,5.5c0.6-0.4,1.2-0.6,2-0.6c1.5,0,2.6,0.5,3.2,1.4c0.5,0.8,0.7,2,0.7,3.6V15.7z"/>
+</g>
+</svg>
+ <span>Linkedin</span></a></li>
+                    <li class="follow-menu__option"><a href="https://www.youtube.com/MITSMR" target="_blank"><svg version="1.1" id="i-youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 19.2 13.5" style="enable-background:new 0 0 19.2 13.5;" xml:space="preserve" width="21px" height="15px">
+<path fill="#FFFFFF" class="fill" d="M19.2,5c-0.1-1.3-0.2-2.2-0.4-2.9c-0.1-0.4-0.3-0.8-0.6-1.1s-0.7-0.5-1.1-0.6c-0.6-0.2-2-0.3-4.3-0.4L9.6,0
+	L6.4,0C4.1,0.1,2.7,0.2,2.1,0.4C1.7,0.5,1.3,0.7,1,1S0.5,1.7,0.4,2.1C0.2,2.7,0.1,3.7,0,5c0,0.7,0,1.2,0,1.8l0,1.8
+	c0.1,1.3,0.2,2.3,0.4,2.9c0.1,0.4,0.3,0.8,0.6,1.1s0.7,0.5,1.1,0.6c0.6,0.2,2,0.3,4.3,0.4l3.2,0l3.2,0c2.2-0.1,3.7-0.2,4.3-0.4
+	c0.4-0.1,0.8-0.3,1.1-0.6s0.5-0.7,0.6-1.1c0.2-0.6,0.3-1.6,0.4-2.9l0-1.8L19.2,5z M7.6,9.6V3.9l5,2.8L7.6,9.6z"/>
+</svg>
+ <span>Youtube</span></a></li>
+                    <li class="follow-menu__option"><a href="https://www.instagram.com/mitsmr/" target="_blank"><svg version="1.1" id="i-instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 15.8 15.8" style="enable-background:new 0 0 15.8 15.8;" xml:space="preserve" width="15px" height="15px">
+<g>
+	<path fill="#FFFFFF" class="fill" d="M11.4,5.9C11,5.2,10.5,4.7,9.9,4.4s-1.3-0.5-2-0.5S6.5,4,5.9,4.4S4.7,5.2,4.4,5.9s-0.5,1.3-0.5,2
+		s0.2,1.4,0.5,2s0.9,1.1,1.5,1.5s1.3,0.5,2,0.5s1.4-0.2,2-0.5s1.1-0.9,1.5-1.5s0.5-1.3,0.5-2S11.7,6.5,11.4,5.9z M9.7,9.7
+		c-0.5,0.5-1.1,0.8-1.9,0.8S6.5,10.3,6,9.7S5.2,8.6,5.2,7.9S5.5,6.5,6,6s1.1-0.8,1.9-0.8S9.2,5.5,9.7,6s0.8,1.1,0.8,1.9
+		S10.3,9.2,9.7,9.7z"/>
+	<path fill="#FFFFFF" class="fill" d="M13,3.7c0,0.3-0.1,0.5-0.3,0.7s-0.4,0.3-0.7,0.3s-0.5-0.1-0.7-0.3s-0.3-0.4-0.3-0.7s0.1-0.5,0.3-0.7
+		s0.4-0.3,0.7-0.3s0.5,0.1,0.7,0.3S13,3.4,13,3.7z"/>
+	<path fill="#FFFFFF" class="fill" d="M15.7,4.6c0-0.7-0.2-1.3-0.3-1.8c-0.2-0.6-0.5-1.1-1-1.5s-0.9-0.8-1.5-1c-0.5-0.2-1.1-0.3-1.7-0.3S9.4,0,7.9,0
+		S5.3,0,4.6,0.1S3.3,0.2,2.8,0.4c-0.6,0.2-1.1,0.5-1.5,1s-0.8,0.9-1,1.5C0.2,3.3,0.1,3.9,0.1,4.6S0,6.4,0,7.9s0,2.6,0.1,3.3
+		s0.1,1.2,0.3,1.7c0.2,0.6,0.5,1.1,1,1.5s0.9,0.7,1.5,0.9c0.5,0.2,1.1,0.3,1.7,0.3s1.8,0.1,3.3,0.1s2.6,0,3.3-0.1s1.2-0.1,1.7-0.3
+		c0.6-0.2,1.1-0.5,1.5-1s0.8-0.9,1-1.5c0.2-0.5,0.3-1.1,0.3-1.7s0.1-1.8,0.1-3.3S15.7,5.3,15.7,4.6z M14.3,8.4c0,0.9,0,1.7,0,2.2
+		c0,0.9-0.1,1.5-0.3,1.9c-0.3,0.7-0.8,1.2-1.5,1.5c-0.4,0.1-1,0.2-1.9,0.3c-0.5,0-1.2,0-2.2,0H7.3c-0.9,0-1.7,0-2.2,0
+		c-0.9,0-1.5-0.1-1.9-0.3c-0.7-0.3-1.2-0.8-1.5-1.5c-0.1-0.4-0.2-1-0.3-1.9c0-0.5,0-1.2,0-2.2V7.3c0-0.9,0-1.7,0-2.2
+		c0-0.9,0.1-1.5,0.3-1.9C2,2.5,2.5,2,3.2,1.7c0.4-0.1,1-0.2,1.9-0.3c0.5,0,1.2,0,2.2,0h1.1c0.9,0,1.7,0,2.2,0c0.9,0,1.5,0.1,1.9,0.3
+		C13.2,2,13.7,2.5,14,3.2c0.1,0.4,0.2,1,0.3,1.9c0,0.5,0,1.2,0,2.2V8.4z"/>
+</g>
+</svg>
+ <span>Instagram</span></a></li>
+                </ul>
+            </nav>
+
+        </nav>     
+
+    </div><!-- .content -->
+</footer><!-- footer -->
+                <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=mitsmr"></script>
+            <script src="https://platform.twitter.com/widgets.js"></script>
+            <script> var addthis_share = {templates: { twitter: '{{title}} {{url}} via @mitsmr' }} </script>
+            <script type="text/javascript">var addthis_config = {data_track_clickback: false}</script>
+	
+    
+			<script>var welcome_ad_timeout="172800000";</script>
+			<script src="https://sloanreview.mit.edu/wp-content/themes/smr/assets/js/libs/welcome-ad.js"></script>
+			
+
+	<div id="piano-ribbon"></div><script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.15'></script>
+<script type='text/javascript'>
+window.lodash = _.noConflict();
+</script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/vendor/moment.min.js?ver=2.22.2'></script>
+<script type='text/javascript'>
+moment.locale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":0},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+</script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4'></script>
+<script type='text/javascript'>
+( 'fetch' in window ) || document.write( '<script src="https://sloanreview.mit.edu/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://sloanreview.mit.edu/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://sloanreview.mit.edu/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://sloanreview.mit.edu/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://sloanreview.mit.edu/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://sloanreview.mit.edu/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/vendor/react.min.js?ver=16.9.0'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/vendor/react-dom.min.js?ver=16.9.0'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/dom-ready.min.js?ver=91fc8f05178d5c6365aec778f840ae17'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/a11y.min.js?ver=45f739d280d1244f6cb498ed8f1bf042'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/escape-html.min.js?ver=4198c7c0e05a9f34f4126334be746ddd'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/element.min.js?ver=a7bf20cbfb0791e9fc65111e966d5592'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/is-shallow-equal.min.js?ver=a4b6079b15ec86d646a9228996f79cf7'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/compose.min.js?ver=3c7f1e5a90aa3c9e9b0f65014efccb35'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/hooks.min.js?ver=552e55b6e60db2edbd9073097f2686f7'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/deprecated.min.js?ver=cd9e35508705772fbc5e2d9736bde31b'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/dom.min.js?ver=47fe5105eb1c16e22c3970e08b1f0953'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/i18n.min.js?ver=cced130522e86c87a37cd7b8397b882c'></script>
+<script type='text/javascript'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/keycodes.min.js?ver=46e6adf844a1e989da37d39c64fca9e2'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/primitives.min.js?ver=ecfd167b66d8272c99af2b0220535f33'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/priority-queue.min.js?ver=8d7738a3dac3e69a70c11e046ecfd5ff'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/redux-routine.min.js?ver=7b7d8224ca3d5f24509583833d71c388'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/data.min.js?ver=e80048e7b309581a40e44b8bd8aaba41'></script>
+<script type='text/javascript'>
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+	wp.data.plugins.persistence.__unstableMigrate( { storageKey: storageKey } );
+} )();
+</script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/rich-text.min.js?ver=942ff14b26cac991c71bdc5fd907ea4b'></script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/warning.min.js?ver=98c469cb6d86983eb5fa9fc7a8dfa0c4'></script>
+<script type='text/javascript'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type='text/javascript' src='https://sloanreview.mit.edu/wp-includes/js/dist/components.min.js?ver=90861a4430fed183d94d6750cb7ae6f4'></script>
+<script>
+    tp = window["tp"] || [];
+    tp.push(["setTags", ["Blog","Communication","Data, AI, &amp; Machine Learning","Data Management","Design Thinking","Free","Internal Communication","Leadership","Leadership Skills","No Sale"]]);
+    tp.push(["setContentSection", ["Article"]]);
+    
+    tp.push(['setCustomVariable', 'subTopic', 'Leadership Skills']);tp.push(['setCustomVariable','subTopicURL', 'https://sloanreview.mit.edu/topic/leadership-skills/']);
+    tp.push(["init", function() {
+        tp.enableGACrossDomainLinking();
+    }]);
+</script><script>
+    tp = window["tp"] || [];
+    tp.push(["setUsePianoIdUserProvider", true ]);   
+</script>
+<script>
+    tp = window["tp"] || [];
+   tp.push(["addHandler", "customEvent", function(event, b, c, d) {
+    switch(event.eventName) {
+        case 'submit':
+            var email = '';
+            var source = '';
+            var list = '';
+            var params;
+            var iframeId;
+            params = JSON.parse(event.params.params);
+            iframeId = params.iframeId;
+            source = event.params.source;
+            list = event.params.list;
+            if ((typeof event.params.email != 'undefined') && (event.params.email.length > 0)) {
+                email = event.params.email;
+            }
+
+            var url = 'https://sloanreview.mit.edu/wp-admin/admin-ajax.php';
+
+            //Not sure if myEmma needs this but here I'm making sure I'm gettin a response
+            var userData = {
+                email: email, 
+                source: source,
+                action : 'esf_piano_subscribe',
+                list :list
+            }
+
+            jQuery.post(url, userData, function(r) {
+                tp.push(["setCustomVariable", "newsletter", "true"]);
+            });
+            break;
+    }
+}]);
+</script>
+
+<script>
+tp.push(["addHandler", "loginSuccess", function (event){
+    if(event.registration == true) {
+        var uid = tp.pianoId.getUser().uid
+        var params = { 
+            uid: uid,
+            action : 'piano_reg',
+        }
+        var url = 'https://sloanreview.mit.edu/wp-admin/admin-ajax.php';
+        jQuery.post(url, params, function(r) {});
+        
+        if( event.source == "PIANOID") { 
+            setTimeout(function(){
+              
+              tp.pianoId.logout();
+            
+              tp.pianoId.show({
+                disableSignUp: true
+              })}, 2000);
+        }
+    } else{
+        setTimeout(function() {
+            location.reload();
+        }, 2000);
+        
+    }      
+  }]);
+</script>
+<script>
+tp.push(["addHandler", "checkoutComplete", function(conversion){ 
+    var product = conversion.rid;
+    if (product == "RXLTEIX"){
+        product = "All Access Subscription";
+    }else if (product == "RV4WQEZ") {
+        product = "Digital Subscription";
+    }
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'transactionId': conversion.termConversionId,
+        'transactionAffiliation': 'SMR',
+        'transactionTotal': conversion.chargeAmount,
+        'transactionTax': 0,
+        'transactionShipping': 0,
+        'transactionProducts': [{
+            'sku': conversion.termId,
+            'name': product,
+            'category': 'Subscription',
+            'price': conversion.chargeAmount,
+            'quantity': 1
+        }],
+    'event': 'pianoCheckoutComplete'
+    });
+    var uid = tp.pianoId.getUser().uid
+    var params = { 
+        uid: uid,
+        action : 'piano_reg',
+        subscriber: 'Y'
+    }
+    var url = 'https://sloanreview.mit.edu/wp-admin/admin-ajax.php';
+    jQuery.post(url, params, function(r) {});
+}]);
+</script>
+<script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://experience.tinypass.com/xbuilder/experience/load?aid=28WtJlio6C");</script>
+			<!-- Begin Auto-Tracker Code -->
+			<script type="text/javascript">
+				tagLinkEvent('callAutoTracker');
+			</script>
+			<!-- End Auto-Tracker Code -->
+		 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"2362c7daf3","applicationID":"126516338","transactionName":"NFIBZUIFWRJTU01QVw0YIlJEDVgPHUNQV18PUk5QQhBeAl5V","queueTime":0,"applicationTime":259,"atts":"GBUCEwofShw=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,1021 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="ie8 ">
+<![endif]-->
+<!--[if IE 9]>
+<html class="ie9 ">
+<![endif]-->
+<!--[if !IE]><!-->
+<html class="">
+<!--<![endif]--><!--
+ _____________    _    _                       hbr.org _
+|/////////////|  | |  | |                             | |
+|:\/E:R|:T/\S:|  | |__| | __ _ _ ____   ____ _ _ __ __| |
+|+++++++++++++|  |  __  |/ _` | '__\ \ / / _` | '__/ _` |
+|\:+:\   /:+:/|  | |  | | (_| | |   \ V / (_| | | | (_| |
+| \:::\ /:::/ |  |_|__|_|\__,_|_| _  \_/ \__,_|_|  \__,_|
+\  \ ::+:: /  /  |  _ \          (_)
+ \ /::/ \::\ /   | |_) |_   _ ___ _ _ __   ___  ___ ___
+  \+:/   \:+/    |  _ <| | | / __| | '_ \ / _ \/ __/ __|
+   \/_____\/     | |_) | |_| \__ \ | | | |  __/\__ \__ \
+To improve the   |____/ \__,_|___/_|_| |_|\___||___/___/
+practice of      |  __ \          (_)
+management and   | |__) |_____   ___  _____      __
+its impact in a  |  _  // _ \ \ / / |/ _ \ \ /\ / /
+changing world.  | | \ \  __/\ V /| |  __/\ V  V /
+est. 1922        |_|  \_\___| \_/ |_|\___| \_/\_/
+-->
+    <head>
+        <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="msapplication-config" content="none"/>
+<title>Level 5 Leadership: The Triumph of Humility and Fierce Resolve</title>
+  <meta name="item-id" content="tag:hbr.org,1922-01-01:200507.54342-R0507M"/>
+  <meta name="issue-id" content="BR0507"/>
+  <meta name="item-name" content="Level 5 Leadership: The Triumph of Humility and Fierce Resolve"/>
+  <meta property="article:modified_time" content="2017-03-06T19:36:48Z"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="og:url" content="https://hbr.org/2005/07/level-5-leadership-the-triumph-of-humility-and-fierce-resolve"/>
+  <meta property="article:tag" content="Leadership"/>
+  <meta property="article:tag" content="Managing organizations"/>
+  <meta property="og:description" content="What catapults a company from merely good to truly great? A five-year research project searched for the answer to that question, and its discoveries ought to change the way we think about leadership."/>
+  <meta name="twitter:creator" content="@harvardbiz"/>
+  <meta property="og:site_name" content="Harvard Business Review"/>
+  <meta name="article-type" content="premium"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:section" content="Leadership"/>
+  <meta name="twitter:site" content="@harvardbiz"/>
+  <meta name="page-category-name" content="Leadership"/>
+  <meta name="description" content="What catapults a company from merely good to truly great? A five-year research project searched for the answer to that question, and its discoveries ought to change the way we think about leadership."/>
+  <meta property="article:publisher" content="https://www.facebook.com/HBR"/>
+  <meta property="og:image" content="https://hbr.org/resources/images/article_assets/2014/10/05b_Jul05_Collins_Level_5_Leadership.jpg"/>
+  <meta property="og:image" content="https://hbr.org/resources/images/article_assets/2005/07/05b_Jul05_Collins_Level_5_Leadership_t.jpg"/>
+  <meta property="og:image" content="https://hbr.org/resources/images/article_assets/2005/07/05b_Jul05_Collins_Level_5_Leadership_t-383x215.jpg"/>
+  <meta property="og:image" content="https://hbr.org/resources/images/hbr_opengraph_940x490.png"/>
+  <meta property="article:published_time" content="2005-07-01T04:00:00Z"/>
+  <meta name="twitter:image" content="https://hbr.org/resources/images/article_assets/2014/10/05b_Jul05_Collins_Level_5_Leadership.jpg"/>
+  <meta name="intromercial" content="protected"/>
+  <meta name="article-content-type" content="Magazine Article"/>
+  <meta name="viewport" content="initial-scale=1,width=device-width"/>
+  <meta name="page-category-id" content="1571"/>
+<meta name="uid" content="F886E08D3E2EF8B2334E2F02D7F3CA80"/>
+<meta name="sid" content="4760482d-aee4-49b5-a7e9-d019965f228c"/>
+<meta name="shopper-attributes" content="state:guest"/>
+<meta property="og:title" content="Level 5 Leadership: The Triumph of Humility and Fierce Resolve"/>
+  <meta name="page-type" content="ITEM"/>
+  <meta name="page-id" content="320"/>
+      <meta name="ox-group" content="537063787"/>
+
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/resources/js/support/hbr/elements.js"></script>
+<script type="text/javascript" src="/resources/js/support/foundation/foundation.js"></script>
+<![endif]-->
+<link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/resources/css/style_4e8afee17678f594.css"/>
+<script type="text/javascript">
+  if (document.cookie.match(/hbr_f=true/)) {
+    window.document.documentElement.className += " fonts-loaded";
+  }
+</script>
+<script type="text/javascript" src="//cdn.tinypass.com/api/tinypass.min.js"></script>
+<script type="text/javascript">
+
+var tp = window["tp"] || [];
+tp.push(["setDebug", true]);
+tp.push(["setAid", "mbs77qtzUz"]);
+tp.push(["setEndpoint", "https://buy.tinypass.com/api/v3"]);
+tp.push(["setUseTinypassAccounts", false]);
+tp.push(["setUsePianoIdUserProvider", false]);
+
+</script>
+
+<script type="text/javascript">
+    document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+    var setNptTechAdblockerCookie = function(adblocker) {
+        var d = new Date();
+        d.setTime(d.getTime() + 60 * 60 * 24 * 2 * 1000);
+        document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/";
+    }
+    var script = document.createElement("script");
+    script.setAttribute("async", true);
+    script.setAttribute("src", "//www.npttech.com/advertising.js");
+    script.setAttribute("onerror", "setNptTechAdblockerCookie(true);");
+    document.getElementsByTagName("head")[0].appendChild(script);
+</script>
+
+<script type="text/javascript">
+  window.digitalData = {"page":{"pageInfo":{"language":"en","contentType":"Magazine Article","pageName":"Level 5 Leadership: The Triumph of Humility and Fierce Resolve","pageCategoryID":"1571","pageCategoryName":"Leadership","pageType":"ITEM","pageDescription":"What catapults a company from merely good to truly great? A five-year research project searched for the answer to that question, and its discoveries ought to change the way we think about leadership.","onsiteSearchResults":0,"date":"11-06-2020","time":"10:09 AM"},"attributes":{"articleContentType":"Magazine Article","articleType":"Magazine Article","articleTitle":"Level 5 Leadership:&nbsp;The Triumph of Humility and Fierce Resolve","articleID":"tag:hbr.org,1922-01-01:200507.54342-R0507M","articlePrimaryTopic":"Leadership","articlePublishDate":"2005-07-01","articlePostingDate":"July - 2005","primaryAuthor":"Jim Collins","articleAuthor":[{"authorName":"Jim Collins"}],"articleSubTopic1":"Leadership","articleSubTopic2":"Managing organizations","articleSubTopic3":"HBR Bestseller","articleSubTopic4":"Magazine Article","articleTags":"Leadership|Managing organizations|HBR Bestseller|Magazine Article","articleEditorialDistinction":"HBR Bestseller"}},"users":[{"profile":{"sessionID":"4760482d-aee4-49b5-a7e9-d019965f228c","accountID":"F886E08D3E2EF8B2334E2F02D7F3CA80","dateLastVisit":"2020-11-06","quota":{"limit":2,"remaining":2},"userState":"Guest","secondsSinceLastVisit":0,"daysSinceLastVisit":0,"guid":"F886E08D3E2EF8B2334E2F02D7F3CA80"}}],"version":"2.2","siteID":"hbrprod","siteType":"Desktop","pageInstanceID":"Level 5 Leadership: The Triumph of Humility and Fierce Resolve:beanstalk-prod"};
+  if (window.digitalData && window.digitalData.page && window.digitalData.page.pageInfo) {
+    if (!window.digitalData.page.pageInfo.deviceType) {
+      !function (a) {
+        var b = /iPhone/i, c = /iPod/i, d = /iPad/i, e = /(?=.*\bAndroid\b)(?=.*\bMobile\b)/i, f = /Android/i,
+            g = /(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,
+            h = /(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,
+            i = /Windows Phone/i, j = /(?=.*\bWindows\b)(?=.*\bARM\b)/i, k = /BlackBerry/i, l = /BB10/i,
+            m = /Opera Mini/i, n = /(CriOS|Chrome)(?=.*\bMobile\b)/i, o = /(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,
+            p = new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)", "i"), q = function (a, b) {
+              return a.test(b)
+            }, r = function (a) {
+              var r = a || navigator.userAgent, s = r.split("[FBAN");
+              if ("undefined" != typeof s[1] && (r = s[0]), s = r.split("Twitter"), "undefined" != typeof s[1]
+                  && (r = s[0]), this.apple = {
+                    phone: q(b, r),
+                    ipod: q(c, r),
+                    tablet: !q(b, r) && q(d, r),
+                    device: q(b, r) || q(c, r) || q(d, r)
+                  }, this.amazon = {
+                    phone: q(g, r),
+                    tablet: !q(g, r) && q(h, r),
+                    device: q(g, r) || q(h, r)
+                  }, this.android = {
+                    phone: q(g, r) || q(e, r),
+                    tablet: !q(g, r) && !q(e, r) && (q(h, r) || q(f, r)),
+                    device: q(g, r) || q(h, r) || q(e, r) || q(f, r)
+                  }, this.windows = {
+                    phone: q(i, r),
+                    tablet: q(j, r),
+                    device: q(i, r) || q(j, r)
+                  }, this.other = {
+                    blackberry: q(k, r),
+                    blackberry10: q(l, r),
+                    opera: q(m, r),
+                    firefox: q(o, r),
+                    chrome: q(n, r),
+                    device: q(k, r) || q(l, r) || q(m, r) || q(o, r) || q(n, r)
+                  }, this.seven_inch = q(p, r), this.any = this.apple.device || this.android.device || this.windows.device
+                      || this.other.device || this.seven_inch, this.phone = this.apple.phone || this.android.phone
+                      || this.windows.phone, this.tablet = this.apple.tablet || this.android.tablet
+                      || this.windows.tablet, "undefined" == typeof window) {
+                return this
+              }
+            }, s = function () {
+              var a = new r;
+              return a.Class = r, a
+            };
+        "undefined" != typeof module && module.exports && "undefined" == typeof window ? module.exports = r
+            : "undefined" != typeof module && module.exports && "undefined" != typeof window ? module.exports = s()
+            : "function" == typeof define && define.amd ? define("isMobile", [], a.isMobile = s()) : a.isMobile = s()
+      }(this);
+      window.digitalData.page.pageInfo.sysEnv = "Desktop";
+      window.digitalData.page.pageInfo.deviceType = "Desktop";
+      if (isMobile.phone || isMobile.tablet) {
+        window.digitalData.page.pageInfo.sysEnv = "Mobile";
+        if (isMobile.phone) {
+          window.digitalData.page.pageInfo.deviceType = "Mobile";
+        }
+        if (isMobile.tablet) {
+          window.digitalData.page.pageInfo.deviceType = "Tablet";
+        }
+      }
+      window.digitalData.siteType = window.digitalData.page.pageInfo.deviceType;
+    }
+    window.digitalData.page.pageInfo.pageURL = window.location.origin + window.location.pathname;
+    if (document.referrer) {
+      window.digitalData.page.pageInfo.referringURL = document.referrer;
+    }
+  }
+
+</script>
+
+
+<script src="/resources/js/components/overlay-intromercial/gdpr_2de6398703b7e694.js"></script>
+<script src="//assets.adobedtm.com/c0857d0b892a/fccd631ba54c/launch-68b2fecf2e9e.min.js"></script>
+<script type="text/javascript" src="/resources/js/components/overlay-intromercial/intromercial_e1d88ad7973845de.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://hbr.org/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://hbr.org/search?term={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+    , "isAccessibleForFree": "False",
+    "hasPart": {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".site-paywall"
+    }
+}
+</script>
+    <script>
+        function createEvent(name, data) {
+            var event;
+
+            if (typeof window.CustomEvent === 'function') {
+                event = new CustomEvent(name, { detail: data });
+            } else {
+                event = document.createEvent('Event');
+                event.initEvent(name, false, false, data);
+            }
+
+            return event;
+        }
+
+        function captchaCallback() {
+            grecaptcha.render("captchaTarget", {
+                sitekey: "6LcpmX4UAAAAANrOrsaCHmMw5UNaCYgeE0l7Kyjl",
+                size: "invisible",
+                callback: function (captchaToken) {
+                    var captchaSuccessEvent = createEvent("captcha:success", { token: captchaToken });
+                    document.dispatchEvent(captchaSuccessEvent);
+                },
+                "expired-callback": function () {
+                    var captchaExpiredEvent = createEvent("captcha:expired");
+                    document.dispatchEvent(captchaExpiredEvent);
+                },
+                "error-callback": function () {
+                    var captchaErrorEvent = createEvent("captcha:error");
+                    document.dispatchEvent(captchaErrorEvent);
+                },
+            });
+        }
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=captchaCallback&render=explicit" async defer></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			if (typeof generateIntromercial === 'function') {
+				generateIntromercial();
+			}
+		</script>
+<!-- column -->
+	<div id="main" class="container">
+				<div id="" class="component" data-order="0" data-type="webscript" data-moveable="false" data-params="region=openx;location=leaderboard">
+		<section js-target="openx-container">
+			<div class="row">
+				<div class="small-12 column text-center ad-container-column">
+					<div class="mts mbm ad-container">
+						<div id='DFP_ARTICLE_pos1'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_ARTICLE_pos1'); });</script></div>
+					</div>
+				</div>
+			</div>
+		</section>
+				</div>
+				<div id="" class="component" data-order="1" data-type="webscript" data-moveable="false" data-params="region=header">
+
+<div class="sticky-top-header global-nav-container">
+	<header class="top-header hide-for-print global-nav-container" role="banner" tabindex="1">
+
+		<!-- first row of the global nav -->
+		<div class="top-header--bar flex-row backdrop-white top-header--row has-border-bottom">
+			<div id="top-header--panel-icon" class="flex-row top-header--menu-link">
+				<a href="#" class="link--black hamburger-icon-container" js-target="global-header--search-overlay">
+	<svg class="hamburger-icon top-header--menu-icon-open" alt="Navigation Menu" aria-labelledby="title">
+	<title>Navigation Menu</title>
+	<use xlink:href="/resources/css/images/hbr-icons.svg#hamburger"></use></svg>
+				</a>
+			</div>
+			<!-- logo -->
+			<div class="top-header--logo has-border-left">
+				<a href="/">
+					<img src="/resources/css/images/HBR_logo_black.svg" alt="Harvard Business Review Home">
+				</a>
+			</div>
+			<div class="top-header--headline-container">
+				<article-headline class="article-headline hide-medium-down">
+				</article-headline>
+			</div>
+			<!-- right aligned items -->
+			<div class="flex-row top-header--bottom-left-align">
+				<personalization-placement class="flex-row mrl top-header--subscribe hide-small" data-placement-id="topbar_subscribe_engage">
+					<a href="/subscriptions?ab=topbar-subtout" target="_blank" rel="noopener" class="baseline-shift-down-more">Subscribe</a>
+				</personalization-placement>
+				<a href="/shopping-cart" class="link--black flex-row top-header--shopping-cart mrl do-not-show"
+					js-target="global-header-menu-toggle" data-menu="cart" data-cart-badge="0">
+					<img class="cart-icon" src="/resources/css/images/cart-icon.png" alt="Cart">
+				</a>
+				<a href="#" class="link--black global-header-button flex-row mrm prl has-border-right sign-in " js-target="sign-in-register">
+					<span class="baseline-shift-down-more">Sign In</span>
+				</a>
+				<div class="top-header--user-dropdown-container link--black flex-row mrm prl mls has-border-right sign-in  do-not-show " js-target="global-header-menu-toggle" data-menu="user">
+	<svg class="unfilled-user-icon mrs" alt="Account Menu" aria-labelledby="title">
+	<title>Account Menu</title>
+	<use xlink:href="/resources/css/images/hbr-icons.svg#user-nav"></use></svg>
+				</div>
+				<a id="top-header--open-search-overlay" href="#" class="link--black flex-row top-header--search-container mls hide-small" js-target="global-header--search-overlay">
+	<svg class="search-icon size-24x24" alt="Search Menu" aria-labelledby="title">
+	<title>Search Menu</title>
+	<use xlink:href="/resources/css/images/hbr-icons.svg#search"></use></svg>
+				</a>
+			</div>
+		</div>
+
+		<!-- header search overlay -->
+		<div class="top-header--overlay do-not-show">
+			<div class="header-menu--overlay opacity-0-small-only" js-target="global-header--search-overlay"></div>
+			<div class="left close-button absolute hide-small-up">
+				<a href="#" class="link--black flex-row top-header--close-search-overlay" js-target="global-header--search-overlay">
+					<svg class="size-24x24 top-header--menu-icon-close svg-ie"><use xlink:href="/resources/css/images/hbr-icons.svg#x"></use></svg>
+				</a>
+			</div>
+			<div class="hide-small flex-row overlay--first-row">
+				<a id="top-header--close-search-overlay" href="#" class="link--black" js-target="global-header--search-overlay">
+					<svg class="size-24x24 top-header--menu-icon-close svg-ie" aria-labelledby="title">
+						<title>Close menu</title>
+						<use xlink:href="/resources/css/images/hbr-icons.svg#x"></use></svg>
+				</a>
+			</div>
+			<div class="top-header--overlay-centered mtl">
+				<div class="top-header--overlay-search opacity-0-small-only">
+					<form action="/search" method="get">
+						<div class="search-container opacity-0-medium-up">
+							<input type="hidden" name="search_type" value="search-all">
+							<input class="pts pbm search-box-desktop" autocomplete="off" name="term" data-type="search-input" placeholder="Search hbr.org"></input>
+							<input class="search-box-mobile" autocomplete="off" name="term" placeholder="Search hbr.org"></input>
+							<button>
+								<svg aria-labelledby="title"><title>Search</title><use xlink:href="/resources/css/images/hbr-icons.svg#search"></use></svg>
+							</button>
+							<a href="#" class="clear-search-box do-not-show" js-target="clear-search-box">CLEAR</a>
+						</div>
+						<div class="backdrop-white width-100pct zindex-highest hide top-header--search-suggest" data-purpose="search-auto-suggest">
+							<div class="font-gt-america">
+								<ul class="no-bullet ptm mbs" data-container="results">
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray"></li>
+									<li class="pbl pts line-height-normal font-size-15 darker-medium-gray has-border-bottom"></li>
+
+									<li class="ptl font-size-xsmall text-gray-light font-bold">SUGGESTED TOPICS</li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray no-bullet"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray no-bullet"></li>
+									<li class="pbm pts line-height-normal font-size-15 darker-medium-gray no-bullet"></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="top-header--overlay-footer">
+					<div class="flex-row-wrap flex-row justify-between">
+						<div class="flex-col hide-small opacity-0 nav--explore">
+							<span class="mbm font-bold">Explore HBR</span>
+							<ul class="no-bullet tidy-list">
+								<li><a href="/insight-center/race-equity-and-power-at-work">Diversity</a></li>
+								<li><a href="/the-latest">Latest</a></li>
+								<li><a href="/magazine">The Magazine</a></li>
+								<li><a href="/most-popular">Most Popular</a></li>
+								<li><a href="/podcasts">Podcasts</a></li>
+								<li><a href="/video">Video</a></li>
+								<li><a href="/store">Store</a></li>
+								<li><a href="/webinars">Webinars</a></li>
+								<li><a href="/email-newsletters">Newsletters</a></li>
+							</ul>
+						</div>
+					<div class="flex-col hide-small opacity-0 nav--popular">
+						<span class="mbm font-bold">Popular Topics</span>
+						<ul class="no-bullet tidy-list">
+							<li><a href="/topic/managing-yourself">Managing Yourself</a></li>
+							<li><a href="/topic/leadership">Leadership</a></li>
+							<li><a href="/topic/strategy">Strategy</a></li>
+							<li><a href="/topic/managing-people">Managing Teams</a></li>
+							<li><a href="/topic/gender">Gender</a></li>
+							<li><a href="/topic/innovation">Innovation</a></li>
+							<li><a href="/topic/work-life-balance">Work-life Balance</a></li>
+							<li><a href="/topics">All Topics</a></li>
+						</ul>
+					</div>
+					<div class="flex-col hide-small opacity-0 nav--subscribers">
+						<span class="mbm font-bold">For Subscribers</span>
+						<ul class="no-bullet tidy-list">
+							<li><a href="/big-ideas">The Big Idea</a></li>
+							<li><a href="/visual-library">Visual Library</a></li>
+							<li><a href="/reading-lists" track-target="global-nav-link--editors-choice">Reading Lists</a></li>
+							<li><a href="/case-selections" track-target="global-nav-link--case-selection">Case Selections</a></li>
+							<li>
+								<personalization-placement data-placement-id="mag_cover_engage">
+									<a href="/subscriptions?ab=leftnav-subtout" target="_blank" rel="noopener" class="subscribe-link">Subscribe</a>
+								</personalization-placement>
+							</li>
+						</ul>
+					</div>
+					<div class="flex-col hide-small opacity-0 nav--account">
+						<span class="mbm font-bold">My Account</span>
+						<ul class="no-bullet tidy-list">
+							<li><a href="/my-library" js-target="validate-user-signed">My Library</a></li>
+							<li><a href="/my-library/topics" js-target="validate-user-signed">Topic Feeds</a></li>
+							<li><a href="/my-library/orders" js-target="validate-user-signed">Orders</a></li>
+							<li><a href="/my-library/settings" js-target="validate-user-signed">Account Settings</a></li>
+							<li><a href="/my-library/preferences" js-target="validate-user-signed">Email Preferences</a></li>
+							<li><a href="/logout" js-target="logout" class="do-not-show">Log Out</a></li>
+							<li><a href="#" js-target="sign-in-register" class="">Sign In</a></li>
+						</ul>
+					</div>
+					<div class="small-flex-col hide-small opacity-0 nav--social">
+						<ul class="no-bullet tidy-list">
+							<li><a href="http://twitter.com/HarvardBiz" class="link--black" target="_blank" rel="noopener"><i class="icon icon-twitter" title="Twitter"></i></a></li>
+							<li><a href="http://www.facebook.com/HBR" class="link--black" target="_blank" rel="noopener"><i class="icon icon-facebook" title="Facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/harvard-business-review?trk=biz-companies-cym" class="link--black" target="_blank" rel="noopener"><i class="icon icon-linkedin" title="Linkedin"></i></a></li>
+							<li><a href="https://www.instagram.com/harvard_business_review/?hl=en" class="link--black" target="_blank" rel="noopener"><i class="icon icon-instagram" title="Instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="top-header--mobile-mega-menu opacity-0">
+					<personalization-placement data-placement-id="mag_cover_engage">
+						<a href="/subscriptions?ab=leftnav-subtout" target="_blank" rel="noopener" class="subscribe-link">Subscribe</a>
+					</personalization-placement>
+					<a href="/insight-center/race-equity-and-power-at-work" class="is-block">Diversity</a>
+					<a href="/the-latest" class="is-block">Latest</a>
+					<a href="/podcasts" class="is-block">Podcasts</a>
+					<a href="/video" class="is-block">Video</a>
+					<a href="/magazine" class="is-block">The Magazine</a>
+					<a href="/store" class="is-block">Store</a>
+					<a href="/webinars" class="is-block">Webinars</a>
+					<a href="/email-newsletters" class="is-block">Newsletters</a>
+					<a href="/topics" class="is-block">All Topics</a>
+					<a href="/big-ideas" class="is-block">The Big Idea</a>
+					<a href="/visual-library" class="is-block">Visual Library</a>
+					<a href="/reading-lists" class="is-block" track-target="global-nav-link--editors-choice">Reading Lists</a>
+					<a href="/case-selections" class="is-block" track-target="global-nav-link--case-selection">Case Selections</a>
+					<a href="/my-library" class="is-block" js-target="validate-user-signed">My Library</a>
+					<a href="/my-library/settings" class="is-block" js-target="validate-user-signed">Account Settings</a>
+					<a href="/logout" js-target="logout" class="do-not-show is-block last-link">Log Out</a>
+					<a href="#" js-target="sign-in-register" class=" is-block last-link">Sign In</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<div class="header-menu header-menu--cart-dropdown absolute" js-target="global-header-menu" data-menu="cart">
+			<div class="header-menu--overlay opacity-0" js-target="global-header-menu-toggle" data-menu="cart"></div>
+	<svg class="border-caret-white absolute bottom-100pct hide-small" width="24px" height="16px" js-target="global-header-menu-caret"><path stroke-width="2px" d="M 0 16 l 12 -14 l 12 14" /></svg>
+			<div class="right close-button" js-target="global-header-menu-toggle" data-menu="cart">
+				<a href="#" class="link--black">
+					<svg class="size-24x24 top-header--menu-icon-close svg-ie"><use xlink:href="/resources/css/images/hbr-icons.svg#x"></use></svg>
+				</a>
+			</div>
+			<h3 class="pbl subheader has-border-bottom flyout-title">Your Cart</h3>
+			<div class="cart-container opacity-0" js-target="global-header-cart-contents">
+					<div class="message mbs mtm">Your Shopping Cart is empty.</div>
+					<a href="/store" class="button button--tight expand mbn mtm">Visit Our Store</a>
+			</div>
+		</div>
+		<div class="header-menu header-menu--user-dropdown absolute" js-target="global-header-menu" data-menu="user">
+			<div class="header-menu--overlay opacity-0" js-target="global-header-menu-toggle" data-menu="user"></div>
+	<svg class="border-caret-white absolute bottom-100pct hide-small" width="24px" height="16px" js-target="global-header-menu-caret"><path stroke-width="2px" d="M 0 16 l 12 -14 l 12 14" /></svg>
+			<div class="right close-button" js-target="global-header-menu-toggle" data-menu="user">
+				<a href="#" class="link--black">
+					<svg class="size-24x24 top-header--menu-icon-close svg-ie"><use xlink:href="/resources/css/images/hbr-icons.svg#x"></use></svg>
+				</a>
+			</div>
+			<div class="mbl is-block has-border-bottom user-data-container">
+				<div class="font-bold flyout-title" js-target="user-menu-name">Guest User</div>
+				<div class="subscription-access do-not-show" js-target="user-menu-subscription-access">
+					<span js-target="user-menu-subscription-access-level"></span> Subscriber
+				</div>
+			</div>
+			<div class="header--user-flyout-links opacity-0">
+					<a href="/my-library/library" class="is-block"  >My Library</a>
+					<a href="/my-library/topics" class="is-block"  js-target="global-topic-feeds-anchor">Topic Feeds</a>
+					<a href="/my-library/orders" class="is-block"  >Orders</a>
+					<a href="/my-library/settings" class="is-block"  >Account Settings</a>
+					<a href="/my-library/preferences" class="is-block"  >Email Preferences</a>
+
+				<a href="/logout" js-target="logout" class="is-block">Log Out</a>
+			</div>
+		</div>
+		<div class="right trigger do-not-show">
+			<reading-list class="reading-list hide-small">
+				<div style="display: flex;" class="reading-list-top" js-target="open-reading-list-overlay">
+					<div style="text-align: center; width: 30px; height: 100%;"><i style="padding: 6px 0px 6px;" class="icon icon-caret-left font-size-default"></i></div>
+					<div style="flex-grow: 1; padding: 4px 0px 4px 6px; color: #888888;" class="font-bold font-size-large baseline-shift-up">Reading List</div>
+				</div>
+			</reading-list>
+			<reading-list-mobile class="reading-list-mobile hide-medium hide-large-up">
+				<div class="mobile-top" js-target="open-reading-list-overlay">
+					<div class="right" style="padding-right: 10px;">
+						<span style="color: #888888;" class="font-bold baseline-shift-up">Reading Lists</span>
+						<span><i class="icon icon-caret-down" style="font-size: 18px;"></i></span>
+					</div>
+				</div>
+			</reading-list-mobile>
+		</div>
+	</header>
+</div>
+
+<!-- End .header -->
+				</div>
+				<div id="" class="component" data-order="2" data-type="webscript" data-moveable="false" data-params="region=persistent-banner">
+
+	<persistent-banner>
+		<section class="persistent-banner hide-for-print deactivated do-not-show" aria-label="Article count" aria-live="polite" role="dialog" aria-hidden="true">
+			<div class="banner--inner-container">
+				<div class="banner-tile article-count-message quota-msg ">
+					You have <span class="article-count"><span js-target="quota-remaining">2</span> free</span> article<span js-target="quota-plural" class="" class="">s</span> left this month.
+					<div class="lh-decoupled-separator"></div>
+				</div>
+				<div class="banner-tile article-count-message last-article-msg do-not-show">
+					You are reading your <span class="article-count">last free article</span> for this month.
+					<div class="lh-decoupled-separator"></div>
+				</div>
+				<div class="banner-tile sign-up-message">
+					<div class="text-cta--wrapper">
+						<div class="banner-subscribe do-not-show">
+							<a href="/subscriptions?ab=redstrip-subtout" target="_blank" rel="noopener" class="sign-up-cta" role="link">Subscribe</a> for unlimited access.
+						</div>
+						<div class="banner-register ">
+							<a href="#" class="sign-up-cta" js-target="sign-in-register--register" role="button">Create an account</a> to read 2 more.
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="icon icon-times white font-size-large" js-target="close-persistent-banner" aria-label="Close" role="button"></a>
+		</section>
+	</persistent-banner>
+				</div>
+				<div id="" class="component" data-order="4" data-type="webscript" data-moveable="false" data-params="region=article;ad-placements=title-300">
+
+
+<article-content-flex2019 class="article-content-flex2019 paywall" page-subtype="premium">
+
+
+
+	<div js-target="article-content-flex2019" class="premium content-area--centered">
+
+			<div class="pre-container">
+<div class="headline-wrapper">
+	<div class="top-components article-width-wrapper">
+			<div class="slug-container">
+		<a class="slug-content" href="/topic/leadership">
+			Leadership
+		</a>
+	</div>
+
+
+		<div class="headline-container text-center">
+			<h1 class="article-hed premium">
+				Level 5 Leadership: The Triumph of Humility and Fierce Resolve
+			</h1>
+		</div>
+
+<div class="article-dek-group">
+	<div class="article-dek">What catapults a company from merely good to truly great? A five-year research project searched for the answer to that question, and its discoveries ought to change the way we think about leadership.
+		<div class="article-byline ">
+			<span class="by-prefix">by </span>
+			<ul class="article-byline-list">
+					<li class="article-author"><a href="/search?term=jim%20collins">Jim Collins</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+		<div class="article-byline detached">
+			<span class="by-prefix">by </span>
+			<ul class="article-byline-list">
+					<li class="article-author"><a href="/search?term=jim%20collins">Jim Collins</a></li>
+			</ul>
+		</div>
+
+
+<div class="pub-date">
+	From the Magazine (July–August 2005)
+		<span class="long-read is-hidden">  &centerdot;  Long read</span>
+</div>
+	</div>
+</div>
+			</div>
+
+
+
+
+<hero-image>
+	<div class="hero-image-content ">
+				<div class="image-wrapper" style="width: 1000px;">
+					<img src="/resources/images/article_assets/2014/10/05b_Jul05_Collins_Level_5_Leadership.jpg"
+							sizes="(min-width: 64em) 84vw, 100vw"
+							srcset="/resources/images/article_assets/2014/10/05b_Jul05_Collins_Level_5_Leadership-300x141.jpg 300w, /resources/images/article_assets/2014/10/05b_Jul05_Collins_Level_5_Leadership-1024x481.jpg 1024w, /resources/images/article_assets/2014/10/05b_Jul05_Collins_Level_5_Leadership.jpg 2000w"
+					/>
+
+
+
+				</div>
+	</div>
+</hero-image>
+
+
+
+			<div class="premium--container">
+
+
+				
+				<div class="article-width-wrapper">
+	<div class="article-summary" more-caption="more" close-caption="close">
+		<span class="summary-header font-bold">Summary.&nbsp;&nbsp;&nbsp;</span>
+		<span class="summary-text"><p>Boards of directors typically believe that transforming a company from good to great requires an extreme personality, an egocentric chief to lead the corporate charge. Think &#8220;Chainsaw&#8221; AI Dunlap or Lee Iacocca. But that&#8217;s not the case, says author and leadership expert Jim Collins. The essential ingredient for taking a company to greatness is having a &#8220;Level 5&#8221; leader, an executive in whom extreme personal humility blends paradoxically with intense professional will. In this 2001 article, Collins paints a compelling and counterintuitive portrait of the skills and personality traits necessary for effective leadership. He identifies the characteristics common to Level 5 leaders: humility, will, ferocious resolve, and the tendency to give credit to others while assigning blame to themselves. Collins fleshes out his Level 5 theory by telling colorful tales about 11 such leaders from recent business history. He contrasts the turnaround successes of outwardly humble, even shy, executives like Gillette&#8217;s Colman M. Mockler and Kimberly-Clark&#8217;s Darwin E. Smith with those of larger-than-life business leaders like Dunlap and Iacocca, who courted personal celebrity. Some leaders have the Level 5 seed within; some don&#8217;t. But Collins suggests using the findings from his research to strive for Level 5-for instance, by getting the right people on board and creating a culture of discipline. &#8220;Our own lives and all that we touch will be the better for making the effort,&#8221; he concludes.</p>
+</span>
+	</div>
+				</div>
+
+				<div class="article-body">
+					<div class="left-rail--container">
+	<page-utils class="article-utils--vertical hide-for-print" data-js-target="page-utils"
+		data-id="tag:hbr.org,1922-01-01:200507.54342-R0507M"
+		data-title="Level 5 Leadership: The Triumph of Humility and Fierce Resolve"
+		data-url="/2005/07/level-5-leadership-the-triumph-of-humility-and-fierce-resolve"
+		data-topic="Leadership"
+		data-authors="Jim Collins"
+		data-content-type="Magazine Article"
+		data-content-image="/resources/images/article_assets/2005/07/05b_Jul05_Collins_Level_5_Leadership_t-383x215.jpg"
+		data-summary="<p>What catapults a company from merely good to truly great? A five-year research project searched for the answer to that question, and its discoveries ought to change the way we think about leadership.</p>
+">
+		<ul>
+			<li>
+				<a href="http://twitter.com/HarvardBiz" target="_blank" rel="noopener noreferrer" js-target="twitter-share">
+					<i class="icon icon-twitter"></i>
+					<div class="utility--icon-label">Tweet</div>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/HBR" target="_blank" rel="noopener noreferrer" js-target="facebook-share">
+					<i class="icon icon-facebook"></i>
+					<div class="utility--icon-label">Post</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/company/harvard-business-review?trk=biz-companies-cym" target="_blank" rel="noopener noreferrer" js-target="linkedin-share">
+					<i class="icon icon-linkedin"></i>
+					<div class="utility--icon-label">Share</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank" rel="noopener noreferrer" js-target="save-flyout">
+					<i class="icon icon-save"></i>
+					<div class="utility--icon-label">Save</div>
+				</a>
+			</li>
+				<li class="pdf-download hide-for-non-subscriber">
+					<a target="_blank" rel="noopener noreferrer" href="#" js-target="pdf-download-link" data-reprint-product-id="R0507M-PDF-ENG">
+						<i class="icon icon-download-pdf"></i>
+						<div class="utility--icon-label">Get PDF</div>
+					</a>
+				</li>
+				<li class="buy-copies">
+					<a target="_blank" rel="noopener noreferrer" href="/product/level-5-leadership-the-triumph-of-humility-and-fierce-resolve-hbr-bestseller/R0507M-PDF-ENG" js-target="buy-reprint-link" data-reprint-product-id="R0507M-PDF-ENG">
+						<i class="icon icon-buy-copies"></i>
+						<div class="utility--icon-label">Buy Copies</div>
+					</a>
+				</li>
+			<li class="print-page">
+				<a href="javascript:window.print();" js-target="print-article">
+					<i class="icon icon-print"></i>
+					<div class="utility--icon-label">Print</div>
+				</a>
+			</li>
+		</ul>
+	</page-utils>
+					</div>
+					
+					<div class="article-width-wrapper premium-content flexed">
+							<article-ideainbrief class="article-ideainbrief"> 
+ <h4 class="ideainbrief-title"> The Idea in Brief </h4> 
+ <div class="ideainbrief-contents"> 
+  <p>Out of 1,435 Fortune 500 companies that renowned management researcher Jim Collins studied, <em>only 11</em> achieved and sustained greatness—garnering stock returns at least three times the market’s—for 15 years after a major transition period. </p> 
+  <p>What did these 11 companies have in common? Each had a “Level 5” leader at the helm. </p> 
+  <p>Level 5 leaders blend the paradoxical combination of <strong>deep personal humility</strong> with <strong>intense professional will</strong>. This rare combination also defies our assumptions about what makes a great leader. </p> 
+  <p>Celebrities like Lee Iacocca may make headlines. But mild-mannered, steely leaders like Darwin Smith of Kimberly-Clark boost their companies to greatness—and keep them there. </p> 
+  <p>Darwin Smith—CEO at paper-products maker Kimberly-Clark from 1971 to 1991—epitomizes Level 5 leadership. Shy, awkward, shunning attention, he also showed iron will, determinedly redefining the firm’s core business despite Wall Street’s skepticism. The formerly lackluster Kimberly-Clark became the worldwide leader in its industry, generating stock returns 4.1 times greater than the general market’s. </p> 
+  <p>The Idea in Practice </p> 
+  <h2>Humility + Will = Level 5 </h2> 
+  <p>How do Level 5 leaders manifest humility? They routinely credit others, external factors, and good luck for their companies’ success. But when results are poor, they blame themselves. They also act quietly, calmly, and determinedly—relying on inspired standards, not inspiring charisma, to motivate. </p> 
+  <p>Inspired standards demonstrate Level 5 leaders’ unwavering will. Utterly intolerant of mediocrity, they are stoic in their resolve to do whatever it takes to produce great results—terminating everything else. And they select superb successors, wanting their companies to become even more successful in the future. </p> 
+  <h2>Can You Develop Level 5 Leadership? </h2> 
+  <p>Level 5 leaders sit atop a hierarchy of four more common leadership levels—and possess the skills of all four. For example, Level 4 leaders catalyze commitment to and vigorous pursuit of a clear, compelling vision. Can you move from Level 4 to Level 5? Perhaps, <em>if</em> you have the Level 5 “seed” within you. </p> 
+  <p>Leaders <em>without</em> the seed tend to have monumental egos they can’t subjugate to something larger and more sustaining than themselves, i.e., their companies. But for leaders <em>with</em> the seed, the right conditions—such as self-reflection or a profoundly transformative event, such as a life-threatening illness—can stimulate the seed to sprout. </p> 
+  <h2>Growing to Level 5 </h2> 
+  <p>Grow Level 5 seeds by practicing these good-to-great disciplines of Level 5 leaders: </p> 
+  <p><strong>First who.</strong> Attend to people first, strategy second. Get the right people on the bus and the wrong people off—<em>then</em> figure out where to drive it. </p> 
+  <p><strong>Stockdale paradox.</strong> Deal with the brutal facts of your current reality—while maintaining absolute faith that you’ll prevail. </p> 
+  <p><strong>Buildup-breakthrough flywheel.</strong> Keep pushing your organizational “flywheel.” With consistent effort, momentum increases until—bang!—the wheel hits the breakthrough point. </p> 
+  <p><strong>The hedgehog concept.</strong> Think of your company as three intersecting circles: what it can be best at, how its economics work best, and what ignites its people’s passions. Eliminate <em>everything</em> else.</p> 
+ </div> 
+</article-ideainbrief><p><span class="lead-in">In 1971, a seemingly ordinary </span><span class="lead-in-large">man named </span> Darwin E. Smith was named chief executive of Kimberly-Clark, a stodgy old paper company whose stock had fallen 36% behind the general market during the previous 20 years. Smith, the company’s mild-mannered in-house lawyer, wasn’t so sure the board had made the right choice—a feeling that was reinforced when a Kimberly-Clark director pulled him aside and reminded him that he lacked some of the qualifications for the position. But CEO he was, and CEO he remained for 20 years.</p>
+					</div>
+
+					<div class="right-rail--container">
+						<div class="right-rail--inner">
+      <div class="related-topics--common related-topics--textnotmobile hide-for-print">
+        <span class="related-topics--links">Read more on <a href="/topic/leadership?ab=articlepage-topic"><strong>Leadership</strong></a>
+            or related topic
+            <a href="/topic/managing-organizations?ab=articlepage-topic"><strong>Managing organizations</strong></a>
+        </span>
+      </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		<div class="post-container">
+
+			<div class="article-width-wrapper">
+
+	<ul class="author-bio author-bio--mobile-only">
+	<li>
+		<div>
+				<author-avatar data-url data-author-name="Jim Collins" data-js-target="author-avatar">
+					JC
+				</author-avatar>
+		</div>
+		<div>
+					<span>
+						<a href="/search?term=jim%20collins&search_type=search-all">Jim Collins</a> operates a management research laboratory in Boulder, Colorado. He is the author of <em>Good to Great: Why Some Companies Make the Leap&#8230;and Others Don&#8217;t</em> (HarperBusiness, 2001), and coauthor, with Jerry I. Porras, of <em>Built to Last: Successful Habits of Visionary Companies</em> (HarperBusiness, 2002).
+					</span>
+		</div>
+	</li>
+	</ul>
+
+	<page-utils class="article-utils--horizontal hide-for-print" data-js-target="page-utils"
+		data-id="tag:hbr.org,1922-01-01:200507.54342-R0507M"
+		data-title="Level 5 Leadership: The Triumph of Humility and Fierce Resolve"
+		data-url="/2005/07/level-5-leadership-the-triumph-of-humility-and-fierce-resolve"
+		data-topic="Leadership"
+		data-authors="Jim Collins"
+		data-content-type="Magazine Article"
+		data-content-image="/resources/images/article_assets/2005/07/05b_Jul05_Collins_Level_5_Leadership_t-383x215.jpg"
+		data-summary="<p>What catapults a company from merely good to truly great? A five-year research project searched for the answer to that question, and its discoveries ought to change the way we think about leadership.</p>
+">
+		<ul>
+			<li>
+				<a href="http://twitter.com/HarvardBiz" target="_blank" rel="noopener noreferrer" js-target="twitter-share">
+					<i class="icon icon-twitter"></i>
+					<div class="utility--icon-label">Tweet</div>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com/HBR" target="_blank" rel="noopener noreferrer" js-target="facebook-share">
+					<i class="icon icon-facebook"></i>
+					<div class="utility--icon-label">Post</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/company/harvard-business-review?trk=biz-companies-cym" target="_blank" rel="noopener noreferrer" js-target="linkedin-share">
+					<i class="icon icon-linkedin"></i>
+					<div class="utility--icon-label">Share</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank" rel="noopener noreferrer" js-target="save-flyout">
+					<i class="icon icon-save"></i>
+					<div class="utility--icon-label">Save</div>
+				</a>
+			</li>
+				<li class="pdf-download hide-for-non-subscriber">
+					<a target="_blank" rel="noopener noreferrer" href="#" js-target="pdf-download-link" data-reprint-product-id="R0507M-PDF-ENG">
+						<i class="icon icon-download-pdf"></i>
+						<div class="utility--icon-label">Get PDF</div>
+					</a>
+				</li>
+				<li class="buy-copies">
+					<a target="_blank" rel="noopener noreferrer" href="/product/level-5-leadership-the-triumph-of-humility-and-fierce-resolve-hbr-bestseller/R0507M-PDF-ENG" js-target="buy-reprint-link" data-reprint-product-id="R0507M-PDF-ENG">
+						<i class="icon icon-buy-copies"></i>
+						<div class="utility--icon-label">Buy Copies</div>
+					</a>
+				</li>
+			<li class="print-page">
+				<a href="javascript:window.print();" js-target="print-article">
+					<i class="icon icon-print"></i>
+					<div class="utility--icon-label">Print</div>
+				</a>
+			</li>
+		</ul>
+	</page-utils>
+			</div>
+			
+
+			<div class="article-width-wrapper">
+      <div class="related-topics--common related-topics--textmobile hide-for-print">
+        <span class="related-topics--links">Read more on <a href="/topic/leadership?ab=articlepage-topic"><strong>Leadership</strong></a>
+            or related topic
+            <a href="/topic/managing-organizations?ab=articlepage-topic"><strong>Managing organizations</strong></a>
+        </span>
+      </div>
+
+					<div class="next-in-placement hide-for-print">
+						<personalization-placement class="personalization-placement" data-placement-id="bottom1"></personalization-placement>
+					</div>
+			</div>
+		</div>
+	</div>
+
+</article-content-flex2019>
+				</div>
+				<div id="" class="component" data-order="5" data-type="webscript" data-moveable="false" data-params="region=site-paywall">
+
+	
+
+
+
+	<site-paywall>
+		<section>
+			<div class="site-paywall width-100pct absolute is-hidden">
+				<div class="paywall-overlay" js-target="overlay"></div>
+				<div class="main-container relative width-100pct flex-row justify-center">
+					<div class="sub-container width-100pct flex-row justify-center">
+						<div id="paywall-overlay-panel" class="paywall-content text-center">
+								
+<div class="paywall-landing-screen" js-target="paywall-landing-screen">
+	<div class="hed font-heavy">
+	This is a subscriber-only article.</div>
+		<div class="content">
+			<a class="pointer" href="/subscriptions?ab=paywall-article-subtout">
+				<button class="short-button nocase font-size-14" type="button">Subscribe Now</button>
+			</a>
+				<div class="primary-color font-weight-semibold pointer font-size-14" js-target="go-to-sign-in-form">I'm already a subscriber.</div>
+		</div>
+</div>
+
+<form class="sign-in-form hide" js-target="sign-in-form">
+	<div class="hed font-heavy">Sign In.</div>
+	<div class="content">
+		<input name="emailAddress" type="text" placeholder="EMAIL" class="user-email-address" js-target="sign-in-email-address" value="" required>
+		<input name="password" type="password" placeholder="PASSWORD" js-target="sign-in-password" value="" required>
+		<button class="width-100pct" js-target="sign-in">
+			Sign In
+		</button>
+		<div class="utility-cta pointer font-size-12" js-target="go-to-forgot-password-form">Forgot Password?</div>
+	</div>
+		<div><span class="pointer font-weight-semibold primary-color" js-target="go-to-email-lookup-form">I'm a subscriber, but I don't have an HBR.org account</div>
+</form>
+
+	<div js-target="cds-shut-down" class="hide">
+<div class="hed font-heavy">Thanks for your patience.</div>
+<div>We’re upgrading our systems so we can better serve our subscribers.  Unfortunately, that means we have to temporarily suspend subscriber syncing.  We 	apologize for the inconvenience.<br>We’ll be back up and running within 48 hours.</div>
+	</div>
+<form class="email-lookup-form hide" js-target='email-lookup-form'>
+	<div class="hed font-heavy">Let’s find your subscription.</div>
+	<div class="font-size-17 font-weight-normal prompt1 text-center">Enter your subscriber email address.</div>
+	<div class="content">
+		<input type="text" name="emailAddress" placeholder="EMAIL" value="" required>
+		<button class="width-100pct mbn" js-target="email-lookup-btn">
+			Continue
+		</button>
+	</div>
+</form>
+
+<form class="account-number-form text-left hide" js-target="account-number-form" data-attempt="1">
+	<div class="hed font-heavy text-center">We need a little more information to find your subscription.</div>
+	<div class="font-size-17 font-weight-normal prompt1 text-center">Enter an account number.</div>
+	<div class="content">
+		<input type="text" name="accountNumber" placeholder="ACCOUNT NUMBER" value="" required>
+		<button class="width-100pct" js-target="account-number-lookup-btn">
+			Continue
+		</button>
+		<div class="text-center"><span class="pointer primary-color font-weight-semibold try-again font-size-14" js-target="">I want to try again with a different email address.</span></div>
+	</div>
+</form>
+<div class="contact-info-screen hide" js-target="contact-info-screen">
+	<div class="hed font-heavy">Need help getting access?</div>
+	<div class="font-size-17">Call customer service:</div>
+	<div class="contact-info line-height-normal">
+		<div class="font-size-14">US / Canada: 800-274-3214</div>
+		<div class="font-size-14">Asia / Pacific: +61 2 9158 6127</div>
+		<div class="font-size-14">All Other Countries: +44 1858 438 412</div>
+	</div>
+	<div class="font-size-14">Have questions? <a href="/subscriber-help" class="pointer primary-color font-weight-semibold">See our subscription FAQ.</a></div>
+</div>
+<form class="sync-subscription-form text-left hide" js-target='sync-subscription-form'>
+	<div class="hed font-heavy text-center">You're a subscriber! Now get access to your benefits.</div>
+	<div class="content">
+		<div class="font-size-17 font-weight-normal text-center prompt1"><span class="old-user-text">Confirm your subscriber information and enter your password.</span><span class="new-user-text">Confirm your subscriber information and create a password </span></div>
+		<div class="sub-info font-size-12 line-height-tight">
+			<div class="sub-info-name string-breaker"><span>NAME: </span><span js-target="sub-info-name"></span></div>
+			<div class="sub-info-email string-breaker"><span>EMAIL: </span><span js-target="sub-info-email"></span><span class="text-gray-light pointer" js-target="go-to-email-lookup-form"><span class="not-you-divider"></span>Not You?</span></div>
+		</div>
+		<div class="relative">
+			<img class="eye-icon pointer" js-target="eye-icon" src="/resources/css/images/eyeHidden.svg" data-eye-visible="/resources/css/images/eyeVisible.svg"
+			data-eye-hidden="/resources/css/images/eyeHidden.svg"></img>
+			<span class="tooltip-show-password text-gray-light font-size-12 hide">Show password</span>
+			<span class="tooltip-hide-password text-gray-light font-size-12 hide">Hide password</span>
+			<input type="password" name="password" placeholder="PASSWORD" value="" required>
+		</div>
+		<div class="new-user-text">
+		<div class="font-size-11 password-req text-gray-light">Passwords must have at least 8 characters, one number, one lower and
+one upper case letter, and one special character</div>
+		<div class="opt-in-message" js-target="opt-in-message"></div>
+		</div>
+		<button class="width-100pct" js-target="sync-subscription-btn">
+			<span class="old-user-text">Sync Your Subscription</span><span class="new-user-text">Create Account</span>
+		</button>
+		<div class="text-center utility-cta pointer old-user-text font-size-14" js-target="go-to-forgot-password-form">Forgot Password?</div>
+	</div>
+</form>
+<div class="sync-success-screen hide" js-target='sync-success-screen'>
+	<div class="hed font-heavy text-center">You're all set, <span class="string-breaker" js-target="user-firstname"></span>.</div>
+	<div class="content">
+		<div class="font-size-17 font-weight-normal text-center prompt1 mbl"><span class="old-user-text">You now have access to all your subscriber benefits on HBR.org.
+		</span><span class="new-user-text">
+		We've sent an email to <span js-target="user-emailaddress" class="font-weight-semibold"></span> confirming your HBR.org account.</span></div>
+		<button class="short-button nocase font-size-14" js-target="reload-btn">
+			Back To 
+		</button>
+	</div>
+</div>
+<form id="forgot-password-form-paywall" class="forgot-password-form hide" js-target='forgot-password-form'>
+	<div class="hed font-heavy">Forgot your password?</div>
+	<div class="font-size-17 font-weight-normal prompt1 text-center">Enter your email address and we'll send you a link to reset your password.</div>
+	<div class="content">
+		<input type="text" name="emailAddress" placeholder="EMAIL" value="" required>
+		<button class="width-100pct mbn" js-target="forgot-password-btn">
+			Continue
+		</button>
+	</div>
+</form>
+<form class="forgot-password-success-screen hide" js-target='forgot-password-success-screen'>
+	<div class="hed font-heavy">Forgot your password?</div>
+	<div class="content">
+		<div class="font-size-17 font-weight-normal prompt1 text-center">
+		We've sent an email to <span class="font-weight-semibold string-breaker" js-target="user-email"></span> with a link to reset your password.
+		</div>
+	</div>
+</form>
+							
+								<div class="help-message font-size-12 font-weight-normal text-gray-light" js-target="help-message">Need help getting access? Contact Customer Service: <br class="show-for-medium-up" />800.988.0886 (U.S./Canada)
+									617.783.7500 (International) <a class="pointer text-gray-light" href="mailto:customerservice@harvardbusiness.org">customerservice@harvardbusiness.org</a>
+								</div>
+								<div class="take-me-back-article darker-medium-gray font-size-12 hide" js-target="take-me-back">
+									<span>
+										<a href="" class="hide" js-target="start-over"><span class="start-over">
+										<span class="icon icon-caret-left baseline-shift-down"></span></span><strong>Take me back,</strong> I want to start over.</a>
+									</span>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</site-paywall>
+
+				</div>
+				<div id="" class="component" data-order="97" data-type="webscript" data-moveable="false" data-params="region=openx;location=partner-center">
+		<section class="partner-center row clearfix" js-target="openx-container">
+			<div class="column cushion partner-center__container">
+				<div class="row">
+					<div class="small-12 column">
+						<h4 class="section-label">Partner Center</h4>
+					</div>
+				</div>
+				<div class="partner-center__ads-container">
+						<div class="ad-container ad-230 partner-center__ad">
+							<div id='DFP_PC_pos11'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_PC_pos11'); });</script></div>
+						</div>
+						<div class="ad-container ad-230 partner-center__ad">
+							<div id='DFP_PC_pos12'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_PC_pos12'); });</script></div>
+						</div>
+						<div class="ad-container ad-230 partner-center__ad">
+							<div id='DFP_PC_pos13'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_PC_pos13'); });</script></div>
+						</div>
+						<div class="ad-container ad-230 partner-center__ad">
+							<div id='DFP_PC_pos14'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('DFP_PC_pos14'); });</script></div>
+						</div>
+				</div>
+			</div>
+		</section>
+				</div>
+				<div id="" class="component" data-order="98" data-type="webscript" data-moveable="false" data-params="region=global-nav">
+<!-- Global Navigation -->
+<global-nav class="global-nav flex-col  hide-for-print hide-medium-down" data-state="" data-page="article" role="navigation">
+	<div class="phl top-header--horizontal-list ">
+			<a href="/insight-center/race-equity-and-power-at-work" class="link--black " track-target="global-nav-link--diversity" >Diversity</a>
+			<a href="/the-latest" class="link--black " track-target="global-nav-link--the-latest" >Latest</a>
+			<a href="/magazine" class="link--black " track-target="global-nav-link--magazine" >Magazine</a>
+			<a href="/most-popular" class="link--black " track-target="global-nav-link--most-popular" >Popular</a>
+			<a href="/topics" class="link--black " track-target="global-nav-link--topics" >Topics</a>
+			<a href="/podcasts" class="link--black " track-target="global-nav-link--podcasts" >Podcasts</a>
+			<a href="/video" class="link--black " track-target="global-nav-link--video" >Video</a>
+			<a href="/store" class="link--black " track-target="global-nav-link--store" >Store</a>
+			<a href="/big-ideas" class="link--black " track-target="global-nav-link--big-idea" >The Big Idea</a>
+			<a href="/visual-library" class="link--black " track-target="global-nav-link--visual-library" >Visual Library</a>
+			<a href="/case-selections" class="link--black " track-target="global-nav-link--case-selection" >Case Selections</a>
+	</div>
+</global-nav>
+				</div>
+				<div id="" class="component" data-order="99" data-type="static-content" data-moveable="false" data-params="document=footer">
+     <!-- Begin Footer -->   <footer class="footer hide-for-print flex-row justify-center">   <div class="has-border-top footer-container">    <div class="backdrop-white hide-for-print mbs">     <div class="footer-container--top mt-large2 mb-large2">      <span class="footer-logo"><a href="/"><img src="/resources/css/images/hbr_logo.svg" alt="Harvard Business Review Home" class="logo"></a>      </span>      <div class="panel-container">       <div class="panel-inner-container">        <span class="panel nowrap flex-col text-center justify-center">         <personalization-placement class="personalization-placement is-inline-block no" data-placement-id="subscribe_now_footer_engage">          <a href="/subscriptions?ab=footer-subtout" class="link--black justify-center align-items-center flex-row nowrap font-size-large font-heavy"><b class="top-header--subscribe">Subscribe</b></a>         </personalization-placement>        </span>        <span class="placeholder">        </span>       </div>      </div>     </div>     <footer-menu>      <div class="footer-content--container flex-row-wrap justify-between flex-direction--row">       <div js-target="footer-item" class="footer-content--list flex-col">        <div class="flex-row justify-between">         <h6>Explore HBR</h6>         <span class="footer-item--arrow icon icon-caret-right font-size-medium mbm mtm"></span>        </div>        <ul class="no-bullet tidy-list--small hide-for-small--list mbn">         <li><a href="/the-latest">The Latest</a></li>         <li><a href="/most-popular">Most Popular</a></li>         <li><a href="/topics">All Topics</a></li>         <li><a href="/magazine">Magazine Archive</a></li>         <li><a href="/big-ideas">The Big Idea</a></li>         <li><a href="/reading-lists">Reading Lists</a></li>         <li><a href="/case-selections">Case Selections</a></li>         <li><a href="/video">Video</a></li>         <li><a href="/podcasts">Podcasts</a></li>         <li><a href="/webinars">Webinars</a></li>         <li><a href="/visual-library">Visual Library</a></li>         <li><a href="/my-library">My Library</a></li>         <li><a href="/email-newsletters">Newsletters</a></li>         <li><a href="/hbrpress">HBR Press</a></li>         <li><a href="/insight-center/ascend">HBR Ascend</a></li>        </ul>       </div>       <div js-target="footer-item" class="footer-content--list flex-col">        <div class="flex-row justify-between">         <h6>HBR Store</h6>         <span class="footer-item--arrow icon icon-caret-right font-size-medium mbm mtm"></span>        </div>        <ul class="no-bullet tidy-list--small hide-for-small--list mbn">         <li><a href="/store/articles">Article Reprints</a></li>         <li><a href="/store/books">Books</a></li>         <li><a href="/store/case-studies">Cases</a></li>         <li><a href="/store/collections">Collections</a></li>         <li><a href="/store/magazine-issues">Magazine Issues</a></li>         <li><a href="/store/landing/guides">HBR Guide Series</a></li>         <li><a href="/store/landing/20-minute-managers">HBR 20-Minute Managers</a></li>         <li><a href="/store/landing/emotional-intelligence-series">HBR Emotional Intelligence Series</a></li>         <li><a href="/store/landing/mustreads">HBR Must Reads</a></li>         <li><a href="/store/tools">Tools</a></li>        </ul>       </div>       <div js-target="footer-item" class="footer-content--list flex-col">        <div class="flex-row justify-between">         <h6>About HBR</h6>         <span class="footer-item--arrow icon icon-caret-right font-size-medium mbm mtm"></span>        </div>        <ul class="no-bullet tidy-list--small hide-for-small--list mbn">         <li><a href="/contact-us">Contact Us</a></li>         <li><a href="/hbr-advertising-sales">Advertise with Us</a></li>         <li><a href="/booksellers-retailers">Information for Booksellers/Retailers</a></li>         <li><a href="/about-hbr">Masthead</a></li>         <li><a href="/global-editions">Global Editions</a></li>         <li><a href="/media-inquiries">Media Inquiries</a></li>         <li><a href="/guidelines-for-authors-web">Guidelines for Authors</a></li>         <li><a href="/hbr-analytic-services">HBR Analytic Services</a></li>         <li><a href="/permissions">Copyright Permissions</a></li>        </ul>       </div>       <div js-target="footer-item" class="footer-content--list flex-col">        <div class="flex-row justify-between">         <h6>Manage My Account</h6>         <span class="footer-item--arrow icon icon-caret-right font-size-medium mbm mtm"></span>        </div>        <ul class="no-bullet tidy-list--small hide-for-small--list mbn">         <li><a href="/my-library" js-target="validate-user-signed">My Library</a></li>         <li><a href="/my-library/topics" js-target="validate-user-signed">Topic Feeds</a></li>         <li><a href="/my-library/orders" js-target="validate-user-signed">Orders</a></li>         <li><a href="/my-library/settings" js-target="validate-user-signed">Account Settings</a></li>         <li><a href="/my-library/preferences" js-target="validate-user-signed">Email Preferences</a></li>         <li><a href="/subscriber-help">Account FAQ</a></li>         <li><a href="https://hbphelp.zendesk.com/hc/en-us">Help Center</a></li>         <li><a href="/subscriber-help#contact-customer-service">Contact Customer Service</a></li>        </ul>       </div>       <div class="footer-content--list footer-content--last-list flex-col">        <div class="flex-row justify-between">         <h6>Follow HBR</h6>        </div>        <ul class="icon-ul tidy-list--small mbn">         <li><i class="icon-li icon icon-facebook"></i> <a href="http://www.facebook.com/HBR">Facebook</a></li>         <li><i class="icon-li icon icon-twitter"></i> <a href="http://twitter.com/HarvardBiz">Twitter</a></li>         <li><i class="icon-li icon icon-linkedin"></i> <a href="https://www.linkedin.com/company/harvard-business-review?trk=biz-companies-cym">LinkedIn</a></li>         <li><i class="icon-li icon icon-instagram"></i> <a href="https://www.instagram.com/harvard_business_review/?hl=en">Instagram</a></li>         <li><i class="icon-li icon line-height-very-very-tight icon-newsreader"></i> <a href="http://feeds.hbr.org/harvardbusiness/">Your Newsreader</a></li>        </ul>       </div>      </div>     </footer-menu>    <div class="flex-row mbl mt-large2">     <div class="footer-logo hide-for-small">      <figure class="mts">       <img src="/resources/images/2018/new_logo_May11.png" alt="Harvard Business Publishing" class="medium-6" />      </figure>     </div>     <div class="flex-direction--row mbl hide-for-small--list copyright-block">      <ul class="piped-inline-list is-inline mbn pbn hide-for-small flex-row flex-direction--row copyright">       <li><a href="/corporate/about" class="copyright">About Us</a></li>       <li><a href="/corporate/careers" class="copyright">Careers</a></li>       <li><a href="/privacy-policy" class="copyright">Privacy Policy</a></li>       <li><a href="/corporate/copyright" class="copyright">Copyright Information</a></li>       <li><a href="http://trademark.harvard.edu/pages/trademark-notice" class="copyright">Trademark Policy</a></li>      </ul><br />     <div class="copyright is-inline mrs hide-for-small">Harvard Business Publishing:</div>      <ul class="piped-inline-list is-inline copyright hide-for-small flex-row flex-direction--row">       <li><a href="http://hbsp.harvard.edu/" class="copyright">Higher Education</a></li>       <li><a href="http://www.harvardbusiness.org" class="copyright">Corporate Learning</a></li>       <li><a href="http://hbr.org/" class="copyright">Harvard Business Review</a></li>       <li><a href="http://www.hbs.edu" class="copyright">Harvard Business School</a></li>      </ul>      <div class="copyright flex-row flex-direction--row">Copyright &copy; 2020 Harvard Business School Publishing. All rights reserved. Harvard Business Publishing is an affiliate of Harvard Business School.</div>      </div>    </div>   </div>   </div>   </footer>   <!-- End Footer -->    
+				</div>
+	</div><!-- javascript -->
+		<script src="/resources/js/common_c4cf5d8c20f12b15.js"></script>
+			<script src="https://embed-player.newsoveraudio.com/scripts/embed-audio-player.js"></script>
+			<script src="/resources/js/pages/article_54785f360fe09568.js"></script>
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "14457509" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=14457509&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+<script type="text/javascript">_satellite.pageBottom();</script>
+    <div id="captchaTarget" class="captcha-container is-hidden"></div>
+	</body>
+</html>
