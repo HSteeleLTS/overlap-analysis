@@ -13,6 +13,8 @@ from tkinter.filedialog import askopenfilename
 import pandas as pd
 import numpy as np
 
+import urllib
+
 
 def link_check_test(link):
     print(link)
@@ -25,12 +27,20 @@ def link_check_test(link):
         print("Link check failure")
 
 def link_curl(link):
+    print(link)
 
-    curl_result = os.system('curl -s -o nul "' + link + '"')
+    #link = urllib.parse.quote_plus(link)
+    link = re.sub(r'\'', '\\"', link)
+    link = re.sub(r'([\[\]\{\}])', r'\\\1', link)
+    curl_result = os.system('curl -g -s -o nul "' + link + '"')
+    #curl_result = os.system('wget --no-check-certificate -q "' + link + '"')
+    print("\n\n" + str(curl_result) + "\n\n")
     # print(curl_result)
-    if curl_result != 0:
+    if curl_result != 0 and curl_result != 5:
+        print("Fail")
         return("Fail")
     else:
+        print("Success")
         return("Success")
 
         # print("Link: " + str(link))
@@ -64,7 +74,7 @@ reserves_filename = askopenfilename(title = "Select reserves filename")
 
 start = datetime.datetime.now()
 
-reserves_df = pd.read_excel(reserves_filename, dtype={'MMS Id': 'str', 'Publication Date': 'str', 'Title (Normalized)': 'str', 'Reading List Id': 'str', 'Citation Id': 'str'})
+reserves_df = pd.read_excel(reserves_filename, dtype={'MMS Id': 'str', 'Publication Date': 'str', 'Title (Normalized)': 'str', 'Reading List Id': 'str', 'Citation Id': 'str', 'Citation Source': 'str'})
 
 source_list = reserves_df['Citation Source'].to_list()
 
@@ -74,8 +84,8 @@ success_counter = 0
 for source in source_list:
     # if x < 10:
     #     # link_check_test(source)
-
-    result = link_curl(source)
+    print(str(type(source)))
+    result = link_curl(str(source))
 
     if result == "Fail":
         fail_counter += 1
